@@ -1,0 +1,33 @@
+{
+  "id": "haze4k-dwconv-seed42",
+  "label": "DWConv",
+  "dataset": "haze4k",
+  "arm": "dwconv",
+  "checkpoint": "weights/haze4k/dwconv/seed42/last.pth",
+  "checkpoint_sha256": "74750821d1f77d1e0b76422130708fefeaec53c4913f91b54aed30b0a3b90943",
+  "input": {
+    "path": "external/test.bin",
+    "image_id": "1000_0.73_1.8",
+    "pixel_sha256": "17e4df4862f20f62cb52d03ca1d54722df154e44e7a90f9f77d63eab974b6932"
+  },
+  "input_shape": [
+    480,
+    640
+  ],
+  "center_yx": [
+    240,
+    320
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 4",
+  "r50_px": 70.32780389006896,
+  "r90_px": 124.77579893553076,
+  "r95_px": 140.03570973148243,
+  "gradient_sum": 38.45966339111328,
+  "gradient_peak": 0.21865405142307281,
+  "seconds": 0.3940755999647081,
+  "peak_cuda_mib": 2146.1064453125
+}

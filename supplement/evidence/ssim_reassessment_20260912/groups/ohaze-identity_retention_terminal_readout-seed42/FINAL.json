@@ -1,0 +1,64 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-identity_retention_terminal_readout-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773",
+  "paper_uses": [
+    "table5"
+  ],
+  "psnr": 26.258767874546248,
+  "ssim": 0.9039252042770386,
+  "legacy_pooled_ssim": 0.9443712115287781,
+  "legacy_published": {
+    "psnr": 26.2586,
+    "ssim": 0.94436
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 28.369598587162695,
+      "ssim": 0.9458024501800537,
+      "legacy_pooled_ssim": 0.9681906700134277,
+      "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 25.27414107355153,
+      "ssim": 0.8984526991844177,
+      "legacy_pooled_ssim": 0.9458417892456055,
+      "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 28.125379268891784,
+      "ssim": 0.9428425431251526,
+      "legacy_pooled_ssim": 0.9707738757133484,
+      "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 25.838620534845845,
+      "ssim": 0.9100721478462219,
+      "legacy_pooled_ssim": 0.9485182166099548,
+      "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 23.68609990827938,
+      "ssim": 0.8224561810493469,
+      "legacy_pooled_ssim": 0.888531506061554,
+      "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773"
+    }
+  ],
+  "source_record": {
+    "id": "results/cached/ohaze-identity_retention_terminal_readout-seed42.json",
+    "sha256": "ca6e1005513f2a84461e4d640fab3b030616409683d82e327586dc124fa89b18",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0,
+  "checkpoint": "weights/ohaze/ablations/identity_retention_terminal_readout/seed42/last.pth"
+}

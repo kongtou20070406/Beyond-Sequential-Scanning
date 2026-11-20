@@ -1,0 +1,65 @@
+{
+  "arm": "full",
+  "index": 800,
+  "id": "820_0.87_1.24",
+  "checkpoint": {
+    "path": "weights/haze4k/full/seed42/last.pth",
+    "sha256": "371f29fa525aa85cf4ff77b573b97a552ad61ccf4e9b8a3c0e37f49f253b3f47"
+  },
+  "scores": [
+    {
+      "mode": "scale_0.5",
+      "output_rms_matched": false,
+      "psnr": 6.267918053579887,
+      "finite": true
+    },
+    {
+      "mode": "scale_0.8",
+      "output_rms_matched": false,
+      "psnr": 19.165462393768323,
+      "finite": true
+    },
+    {
+      "mode": "scale_1.0",
+      "output_rms_matched": false,
+      "psnr": 33.918741368837736,
+      "finite": true
+    },
+    {
+      "mode": "scale_1.05",
+      "output_rms_matched": false,
+      "psnr": 26.400168693642026,
+      "finite": true
+    },
+    {
+      "mode": "scale_1.1",
+      "output_rms_matched": false,
+      "psnr": 23.366092129216064,
+      "finite": true
+    },
+    {
+      "mode": "scale_1.2",
+      "output_rms_matched": false,
+      "psnr": 22.439560741083994,
+      "finite": true
+    },
+    {
+      "mode": "scale_1.4",
+      "output_rms_matched": false,
+      "psnr": 10.344825019296152,
+      "finite": true
+    },
+    {
+      "mode": "scale_0.8",
+      "output_rms_matched": true,
+      "psnr": 35.166261750954526,
+      "finite": true
+    },
+    {
+      "mode": "scale_1.2",
+      "output_rms_matched": true,
+      "psnr": 30.623717342984264,
+      "finite": true
+    }
+  ]
+}

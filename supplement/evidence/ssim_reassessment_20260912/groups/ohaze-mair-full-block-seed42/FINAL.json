@@ -1,0 +1,64 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-mair-full-block-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+  "paper_uses": [
+    "appendix_D1_mair_full",
+    "scale512"
+  ],
+  "psnr": 22.93543985220299,
+  "ssim": 0.7398381948471069,
+  "legacy_pooled_ssim": 0.8754711747169495,
+  "legacy_published": {
+    "psnr": 22.935440063476562,
+    "ssim": 0.8754711747169495
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 25.334267736017306,
+      "ssim": 0.85587078332901,
+      "legacy_pooled_ssim": 0.9430302977561951,
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 19.07108714140256,
+      "ssim": 0.5780424475669861,
+      "legacy_pooled_ssim": 0.783064067363739,
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 25.799943688524507,
+      "ssim": 0.8387351632118225,
+      "legacy_pooled_ssim": 0.9476056694984436,
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 22.26722742826583,
+      "ssim": 0.7968998551368713,
+      "legacy_pooled_ssim": 0.9102194905281067,
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 22.204673266804747,
+      "ssim": 0.6296427249908447,
+      "legacy_pooled_ssim": 0.7934363484382629,
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2"
+    }
+  ],
+  "source_record": {
+    "id": "results/cached/ohaze-mair-full-block-seed42.json",
+    "sha256": "ccea87156a73f743b52c6a7b647b4d033ddb3b5a732159474705c9a685a724ac",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0
+}

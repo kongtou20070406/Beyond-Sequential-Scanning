@@ -1,0 +1,36 @@
+{
+  "all_pass": true,
+  "records": [
+    {
+      "id": "gopro-full-repeat-seed42",
+      "parameters": 5807236,
+      "macs": 61473816576,
+      "match": true
+    },
+    {
+      "id": "gopro-identity-retention-seed42",
+      "parameters": 5807236,
+      "macs": 61473816576,
+      "match": true
+    },
+    {
+      "id": "gopro-terminal-readout-seed42",
+      "parameters": 5807236,
+      "macs": 61473816576,
+      "match": true
+    },
+    {
+      "id": "gopro-state-dynamic-seed42",
+      "parameters": 5807236,
+      "macs": 76540280832,
+      "match": true
+    },
+    {
+      "id": "gopro-half-delay-seed42",
+      "parameters": 5807236,
+      "macs": 61473816576,
+      "match": true
+    }
+  ],
+  "coverage": "Five component MAC and parameter profiles on CPU. No training and no CUDA inference."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "TRAINED_AND_EVALUATED",
+  "arm": "state_dynamic",
+  "seed": 42,
+  "updates": 100000,
+  "checkpoint_sha256": "12c9321cd1d9b202f56dfa1bb3a599eab60a89c30dff284dc4557289fd4ce761",
+  "checkpoint_bytes": 9114864,
+  "parameters": 2248140,
+  "macs_g_256_square": 34.03677696,
+  "propagation_macs": 2453667840,
+  "source_plan_sha256": "1900f034426f4e7df98c983dbabdf12cef286a54ac9448d39eb5436bcd5601de",
+  "source_evaluation_sha256": "32a6d8345b56bf276d7e573aa224e4030e63b57ce3fb218e8a858f9e29cbe43d",
+  "source_complete_sha256": "072d7ab79537d7fab11ac90b13564a943b664a34e2ecd175ba7fbe13809acba0",
+  "source_macs_sha256": "84dedd63a54b151d9984a1493a54f4d812226c118814882b6263c9f93026c110",
+  "source_runtime_manifest_sha256": "569023904c0f38c81a9e5776b69c35d790630ebda8ed8001713598d5af409867",
+  "stage_runtime_manifest_sha256": "603ee9d0cda7ab32656a16013e88157224361e6feaead9aefdbf002f1cdbb1c9",
+  "runtime_entries": 112,
+  "runtime_files_verified": true,
+  "data_splits_equal": true,
+  "source_data_manifest_sha256": "3757535e913e5c429b3273a768c2a8d62f53e2c6468137bffdaacbc341816cbd",
+  "stage_data_manifest_sha256": "70ed2285d9ff0267e039e6c6e5c20f702f59c4c1b5618b3396cc8b16324405f3",
+  "source_code_sha256": {
+    "common.py": "95c953c8a7ddceed5cea3176dc5b77e4aecb5ed0d58d7c1b2ea98bfaebe9d3dc",
+    "data.py": "e993e32805dceea8f821f275efab3c4e8c6353fcfab87905bbecc898ebbb4f9a",
+    "evaluate_worker.py": "56e28bcf63bc26fc7e76e658499af814e04aecf8136c9fa21b994eed064191ae",
+    "models.py": "110b0b607f4ad3ee781fd1e090f62106ef0a2cfd42f097bf2f96032bdf73ab6f",
+    "train_worker.py": "657b8c48fed8414ff6b5586f496d5cb368677396762a8c58e4c837141ea1d8ea"
+  },
+  "optimizer": "AdamW lr .001 betas .9,.9 weight_decay .001; clip global gradient .01; cosine to 1e-7",
+  "precision": "FP32, TF32 disabled",
+  "intervention": "Existing state_dynamic_transition: regenerate interaction kernels from f+h at each of K=5 steps; other controls from the fixed module input",
+  "trainable_from_portable_stage": true
+}

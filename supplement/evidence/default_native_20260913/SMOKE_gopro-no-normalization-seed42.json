@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "id": "gopro-no-normalization-seed42",
+  "image_id": "GOPR0384_11_00/000001.png",
+  "checkpoint_sha256": "52bb47967b7b727bccf3eea588cb7fcdd061ad08d69a79b685d9c81dc12fb764",
+  "psnr_db": 28.47031831741333,
+  "ssim": 0.8435164093971252,
+  "psnr_difference": 0.0,
+  "ssim_difference": 0.0,
+  "inference": {
+    "backend": "model_defined",
+    "fused_blocks": 0
+  },
+  "scope": "one-image native entry smoke"
+}

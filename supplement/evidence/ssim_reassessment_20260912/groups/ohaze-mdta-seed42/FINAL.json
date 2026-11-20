@@ -1,0 +1,64 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-mdta-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2",
+  "paper_uses": [
+    "main_table3"
+  ],
+  "psnr": 25.871174512340428,
+  "ssim": 0.9035295248031616,
+  "legacy_pooled_ssim": 0.9425816535949707,
+  "legacy_published": {
+    "psnr": 25.8712,
+    "ssim": 0.94257
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 29.089054472254503,
+      "ssim": 0.9448196291923523,
+      "legacy_pooled_ssim": 0.968428373336792,
+      "checkpoint_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 20.731818138353113,
+      "ssim": 0.8740734457969666,
+      "legacy_pooled_ssim": 0.9211365580558777,
+      "checkpoint_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 29.3993255170634,
+      "ssim": 0.9487596750259399,
+      "legacy_pooled_ssim": 0.9767274260520935,
+      "checkpoint_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 24.960783299939948,
+      "ssim": 0.9112445116043091,
+      "legacy_pooled_ssim": 0.949306845664978,
+      "checkpoint_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 25.17489113409117,
+      "ssim": 0.8387503623962402,
+      "legacy_pooled_ssim": 0.8973090648651123,
+      "checkpoint_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2"
+    }
+  ],
+  "source_record": {
+    "id": "results/affected/mdta.json",
+    "sha256": "bf7ba14b3d8067b65817a390fa64b149a7de457d87b6ef3d17f5032a0e14e888",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0,
+  "checkpoint": "weights/ohaze/mdta/seed42/last.pth"
+}

@@ -1,0 +1,986 @@
+[
+  {
+    "file": "diagnostics/erf_paper_test_20260924/run_erf.py",
+    "source_sha256": "f843c5ee8c3e46652465cc6b84373417b921bad651bc4b0b22f46701ccecfb12",
+    "published_sha256": "8175dbb73960afab95786dd83cc13bd62570931b1ef91fb9d300ab5d8e58ec1f",
+    "change": "Portable paths and output destinations; calculations are unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/plot_erf.py",
+    "source_sha256": "b6607fcadad5c5f45ad63fa0e082f1f7c52e966565653d0b2b05c967a5dbc203",
+    "published_sha256": "b6607fcadad5c5f45ad63fa0e082f1f7c52e966565653d0b2b05c967a5dbc203",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/verify_erf.py",
+    "source_sha256": "9666105fd435911bb3ea116939ec5119c7f8faad5376c720861fca5e3f495a7e",
+    "published_sha256": "8a3c907d363d27838ecf85dac8768238d5a76ef9e023383497fba46b0c8bd452",
+    "change": "Portable paths and output destinations; calculations are unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ERF_SUMMARY.csv",
+    "source_sha256": "f9ad67cd1f862a6dd40262759ecf1c5dc34bf1c5470216de70f638e79e397dec",
+    "published_sha256": "f9ad67cd1f862a6dd40262759ecf1c5dc34bf1c5470216de70f638e79e397dec",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro_main_heatmaps.png",
+    "source_sha256": "542435796769c65d9f01f35c8297f0ab81da269c52425f747b9d07116778e5f5",
+    "published_sha256": "542435796769c65d9f01f35c8297f0ab81da269c52425f747b9d07116778e5f5",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro_main_heatmaps.svg",
+    "source_sha256": "33902c3381cc97b3a63b9bfd52ce7b5a3db0ae3037c7a168e11c1d67bac19a3d",
+    "published_sha256": "33902c3381cc97b3a63b9bfd52ce7b5a3db0ae3037c7a168e11c1d67bac19a3d",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro_main_radial.png",
+    "source_sha256": "8441517990073ab8f322c5b762ad3f5cc500409ca773b5b918bc4b6ccf1bdec3",
+    "published_sha256": "8441517990073ab8f322c5b762ad3f5cc500409ca773b5b918bc4b6ccf1bdec3",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro_main_radial.svg",
+    "source_sha256": "b1c07ff6602c4681d3814833e480c0400a91da97d311772f8ec0cad0bdf5def7",
+    "published_sha256": "b1c07ff6602c4681d3814833e480c0400a91da97d311772f8ec0cad0bdf5def7",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k_main_heatmaps.png",
+    "source_sha256": "8a8383b33c90113ae2b27963d75eab4804ffd2b42bd2327f2b7e13c3b55b0d5b",
+    "published_sha256": "8a8383b33c90113ae2b27963d75eab4804ffd2b42bd2327f2b7e13c3b55b0d5b",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k_main_heatmaps.svg",
+    "source_sha256": "b54962eb6b53f0df5b21bf64e836ed5f9ae264802c1975904dd46366b7e39f81",
+    "published_sha256": "b54962eb6b53f0df5b21bf64e836ed5f9ae264802c1975904dd46366b7e39f81",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k_main_radial.png",
+    "source_sha256": "74f86ad74d6a7e911b9ea6c576b9d8cf0f9cf6caf5b394f68b756834bed03801",
+    "published_sha256": "74f86ad74d6a7e911b9ea6c576b9d8cf0f9cf6caf5b394f68b756834bed03801",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k_main_radial.svg",
+    "source_sha256": "5d89a48780327ba71581464108fad64808d0a4610192c235e4455dc63984c79f",
+    "published_sha256": "5d89a48780327ba71581464108fad64808d0a4610192c235e4455dc63984c79f",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze_appendix_heatmaps.png",
+    "source_sha256": "21ab2f402660fda6adc7c773d950ed9fea155e716eda42c275759f0eec4c0100",
+    "published_sha256": "21ab2f402660fda6adc7c773d950ed9fea155e716eda42c275759f0eec4c0100",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze_appendix_heatmaps.svg",
+    "source_sha256": "ede100f0dff590a053c053feea0d7fc9f72bb024bffceac4cf875d05cb8dc067",
+    "published_sha256": "ede100f0dff590a053c053feea0d7fc9f72bb024bffceac4cf875d05cb8dc067",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze_appendix_radial.png",
+    "source_sha256": "84dd2cf6a5d515cff887fb313b5a2d7782d08727a31a94dfeb62b2e0fc3eef3d",
+    "published_sha256": "84dd2cf6a5d515cff887fb313b5a2d7782d08727a31a94dfeb62b2e0fc3eef3d",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze_appendix_radial.svg",
+    "source_sha256": "9dc39f2484382f4575851287fc113e38687b6a87a169de26669cd778e4d21d02",
+    "published_sha256": "9dc39f2484382f4575851287fc113e38687b6a87a169de26669cd778e4d21d02",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze_main_heatmaps.png",
+    "source_sha256": "c4a4788bce978a308777bde2a25377287f8a139733b2c1d9768b1d9ee6f00081",
+    "published_sha256": "c4a4788bce978a308777bde2a25377287f8a139733b2c1d9768b1d9ee6f00081",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze_main_heatmaps.svg",
+    "source_sha256": "3f424d32dc11241471106b4fa6b7065a103269ba3ac629a4d963cd023d691baf",
+    "published_sha256": "3f424d32dc11241471106b4fa6b7065a103269ba3ac629a4d963cd023d691baf",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze_main_radial.png",
+    "source_sha256": "6cffb46b91c982b312a287817af0793a93b9971715b374fa0b69cd75dd4c9fe7",
+    "published_sha256": "6cffb46b91c982b312a287817af0793a93b9971715b374fa0b69cd75dd4c9fe7",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze_main_radial.svg",
+    "source_sha256": "8c03385f77fe75e9e356d0fb5f8565dc445594e6a6e3c24bc8e1e4cb6d0e021d",
+    "published_sha256": "8c03385f77fe75e9e356d0fb5f8565dc445594e6a6e3c24bc8e1e4cb6d0e021d",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro/cspn_style.json",
+    "source_sha256": "f60fa24cb2b8a41f3a105da1d1638157d1104cfb5b8db3f90c4ded2ed657935d",
+    "published_sha256": "9e77e0912fb0134f67fe1fdac163ccffd7f44e1bc278d20bfc5e2bea70901d30",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro/cspn_style.npz",
+    "source_sha256": "d8d7131237bdfe3b322211a413daf481a09693ee68bdd23982e8a8ee4c6f9e13",
+    "published_sha256": "d8d7131237bdfe3b322211a413daf481a09693ee68bdd23982e8a8ee4c6f9e13",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro/native.json",
+    "source_sha256": "903b5cd36cf498dbeb4e821cd83dd0b4fe8d5febf293a4015bee824583f197c0",
+    "published_sha256": "748ce5d89d94c0cd84a97bc1ad3cee8cbae59f8de8f9f1f5c7cea4c00e8ffb75",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro/native.npz",
+    "source_sha256": "80fb05b374063e3d101448e5e612606849fac962b81eabdc098dcdfdcbb7065c",
+    "published_sha256": "80fb05b374063e3d101448e5e612606849fac962b81eabdc098dcdfdcbb7065c",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro/ours.json",
+    "source_sha256": "1000c61e00e2da05769f0e3fed757bb792716db5066b67562aa58a3cb2bf8f7d",
+    "published_sha256": "12340fbe69c46f0df0b24e87518ec4ccc4e9b634f35a8a60c4231fb7726ca39c",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro/ours.npz",
+    "source_sha256": "9fc7cd85797ba0c7a0777f83ea61f291c5394c93a342f57f0efcfd4cdc700e9a",
+    "published_sha256": "9fc7cd85797ba0c7a0777f83ea61f291c5394c93a342f57f0efcfd4cdc700e9a",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro/ss2d.json",
+    "source_sha256": "4c9e9de2a6ba27949836263cf36d6cbbd3a6402da692e864e21204fe8a98dad4",
+    "published_sha256": "9f8c0fa23fe8df513dee2f843d2aa1cd71f27ad1faac99ff58d1618435c01020",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/gopro/ss2d.npz",
+    "source_sha256": "212ea9b6414dce7c4edf680bd73968c2828ca14029100bab5bec8aca26527773",
+    "published_sha256": "212ea9b6414dce7c4edf680bd73968c2828ca14029100bab5bec8aca26527773",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/cspn_style.json",
+    "source_sha256": "613e7002da41790a0227993d24fc034345358f10481e6c7d1da12442cd5c7169",
+    "published_sha256": "b52199ef558d223d6992bb3b7bc0dee39f9e1e6e9362e557d9baef8ed0fd51dc",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/cspn_style.npz",
+    "source_sha256": "32df17d72b119b1aaa233b470bdc136c6827406f426f8d1dfa0b75fcce33db97",
+    "published_sha256": "32df17d72b119b1aaa233b470bdc136c6827406f426f8d1dfa0b75fcce33db97",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/dwconv.json",
+    "source_sha256": "33dcbbb8732eb6e0d3448c5459ee74976f73987273d802e24cf013ca8c62b9db",
+    "published_sha256": "bab959e7f0bb47d5284ca1ca090c7413cc3b60b91d60307b1b25526bcbaf6f25",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/dwconv.npz",
+    "source_sha256": "db22a45dc46be02d2bc94353ba1fc4522a9887ebff65ed0146d187f90eda303b",
+    "published_sha256": "db22a45dc46be02d2bc94353ba1fc4522a9887ebff65ed0146d187f90eda303b",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/full.json",
+    "source_sha256": "0f9e96112d16f6fc68dc1098292b6cfbcfc195a465756b1fadedcf2e2c1c348b",
+    "published_sha256": "b846714637350963692ad69ca5652dcb7585d8b82173cdf04672e3f4e54b8372",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/full.npz",
+    "source_sha256": "c3eadcf866584af6bb01f64f5bd2f07758cd057d61359a46563c806ffb6d560a",
+    "published_sha256": "c3eadcf866584af6bb01f64f5bd2f07758cd057d61359a46563c806ffb6d560a",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/native.json",
+    "source_sha256": "a696676fbfa23c08f18962ddd668ce5d28279e1cd90cf67245697b648cddda61",
+    "published_sha256": "51dc406e554e5242a3bc4d47c509c45ec0a9668924441fe8f1d91a465263df15",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/native.npz",
+    "source_sha256": "9b097cf36b553f98dc52f087eeb36b77d1ad5494901b69563ce9d8b4a2588f3d",
+    "published_sha256": "9b097cf36b553f98dc52f087eeb36b77d1ad5494901b69563ce9d8b4a2588f3d",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/ss2d.json",
+    "source_sha256": "f3d2470877f05278e132fbbb47e21499026d24ab51cba7a5b0a6c30fbd4833a1",
+    "published_sha256": "643327a6f9fd1427283b6dd074cd72811312d18dbfbdb533b9ee31de30d15daa",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/ss2d.npz",
+    "source_sha256": "8f43bcc113d7998f837fd082645f98afc931f2e2365d4f2ee0d55877d9b7c28f",
+    "published_sha256": "8f43bcc113d7998f837fd082645f98afc931f2e2365d4f2ee0d55877d9b7c28f",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/swin.json",
+    "source_sha256": "16d37de799aca0541631009b83306bd7ea14e4d0cc17a46b6c93fa27ffdb05be",
+    "published_sha256": "a58b3b7421415d10064530c42a5032fc82122400a1adfa1a046d6e02c1ea5aee",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/haze4k/swin.npz",
+    "source_sha256": "e1fdb5191c78d44aabaa4d9f58accb51dcc950a7448019c3e83a480a330b0ebd",
+    "published_sha256": "e1fdb5191c78d44aabaa4d9f58accb51dcc950a7448019c3e83a480a330b0ebd",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/cspn_style.json",
+    "source_sha256": "46914d94a3ec9496631d3e8c24e9fbb26eeb9d1380bfcbed9103643f3f2a9784",
+    "published_sha256": "788d432f6dec5d964f7c3e52d89ac6e118050dc513c6fe5120eb1ebd3f94342a",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/cspn_style.npz",
+    "source_sha256": "e9dacfb604d01819e7103600522bd1d03819d63076123fe834f360c452561b57",
+    "published_sha256": "e9dacfb604d01819e7103600522bd1d03819d63076123fe834f360c452561b57",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/dwconv.json",
+    "source_sha256": "3f412e540f2c76f7cc0aca639e3844d4b8c5b73f1bc462c1ca72eff4f4da8536",
+    "published_sha256": "e465a8b2c0b92917714029265b1cb92742c7f459aae15c01ebac59000c9359da",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/dwconv.npz",
+    "source_sha256": "10491f37be0dfae769e5942bc3a6aed0cfbade145e3e836f83b833545e5f305b",
+    "published_sha256": "10491f37be0dfae769e5942bc3a6aed0cfbade145e3e836f83b833545e5f305b",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/mair.json",
+    "source_sha256": "d6cf34e21b12f372a9f4a1a773fedcaa42c272d409f543e0b92bf88a8799a945",
+    "published_sha256": "6d2b8f96ca38dcf70d16b56f1dfac85ed9ad9092e78a2d794d38864a2d6dbfb0",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/mair.npz",
+    "source_sha256": "62d38569423fa569324ef1071dae0d6a8febe2c0d38925acdec7360c4b437af3",
+    "published_sha256": "62d38569423fa569324ef1071dae0d6a8febe2c0d38925acdec7360c4b437af3",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/mair_native_blocks.json",
+    "source_sha256": "b70201219a0ef3cc5a847209e63383222d385a5e200a0fc35b757f90db2f60ab",
+    "published_sha256": "0f7de0cd32198c2c6a42334052d87078b7212b9e719e2bcbf1ed08a170ae8439",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/mair_native_blocks.npz",
+    "source_sha256": "70dbfcb8f3653d5f5aeb17dbb3e812500bdf4b0470e37f8961b3a740045b1e22",
+    "published_sha256": "70dbfcb8f3653d5f5aeb17dbb3e812500bdf4b0470e37f8961b3a740045b1e22",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/native.json",
+    "source_sha256": "eabd03b5c420b5f8f2d6daa7bff43f9240d52cd14618b317f244ce87ecbb8a7a",
+    "published_sha256": "8ad5859030fa511f7f99896d4b4aead7a102396ae17b9ba452b8c91f5d68a4a4",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/native.npz",
+    "source_sha256": "17bbadb0ca941ec36656d08fdc88c5ac8017a96d294a84390473d974719e67ed",
+    "published_sha256": "17bbadb0ca941ec36656d08fdc88c5ac8017a96d294a84390473d974719e67ed",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/ours.json",
+    "source_sha256": "ccc981785a57caae1a6e6ef571a9fae753bc92c08db3e5f06b943e88ee0ed705",
+    "published_sha256": "666c676f0e0135c5bb1ae80bb7297dc9068511e76fcbcabf28cb93effbc21146",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/ours.npz",
+    "source_sha256": "2f2291397ac27077f24e26a53ec49101027f2d6b031fce2b12d1585e015fa650",
+    "published_sha256": "2f2291397ac27077f24e26a53ec49101027f2d6b031fce2b12d1585e015fa650",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/spatial_mamba.json",
+    "source_sha256": "3fa6054902488b16f3022703b39010db22d33a708dc0718c874e13d06e623dba",
+    "published_sha256": "68a2988e43bfff401b6e420e49faec987bd7a3a5ccd151a1e5f4a82069963336",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/spatial_mamba.npz",
+    "source_sha256": "d1f05cd05cef8556cc54b08b0767f3c7139ed22708d4750652fd0ba51db3e3e1",
+    "published_sha256": "d1f05cd05cef8556cc54b08b0767f3c7139ed22708d4750652fd0ba51db3e3e1",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/spatial_native_blocks.json",
+    "source_sha256": "94ab20045396ee460bd611a10e863716b9c6df5a54fd5bf738a8502a50170ec7",
+    "published_sha256": "08e120484b7372fd0212fc0127f07148b71d6f1ff41c95502e5ed9de3cfe480b",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/spatial_native_blocks.npz",
+    "source_sha256": "76365aafdc755be27dddac579c92298a2be00821c65ed682ca778fcac1d1852f",
+    "published_sha256": "76365aafdc755be27dddac579c92298a2be00821c65ed682ca778fcac1d1852f",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/ss2d.json",
+    "source_sha256": "f129f387f7a8096d4597959b953d315049093a65f007795fde5c2b2e0cb4faa7",
+    "published_sha256": "56705648f0f567ffbef888b9616a4f347ac465452cebcead2215056f1c70eae5",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/ss2d.npz",
+    "source_sha256": "bcbc4b941b048c553e272f554655442f0680a3a4e9ca7897f0711db80687db3c",
+    "published_sha256": "bcbc4b941b048c553e272f554655442f0680a3a4e9ca7897f0711db80687db3c",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/swin.json",
+    "source_sha256": "7e1959c879886b6ea554dd2ab92a946b09a73da60fa9a90e043db637f7c1e74e",
+    "published_sha256": "2882b97ceff7c69abdd67fd424377466dc365300da4e4a599a3c0e8ec0f7b047",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/swin.npz",
+    "source_sha256": "9f857416963eb547d72e15cb735e63019603f48e22197e63febcf0bf07a9a4f6",
+    "published_sha256": "9f857416963eb547d72e15cb735e63019603f48e22197e63febcf0bf07a9a4f6",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/validation/native_uncheckpointed.json",
+    "source_sha256": "df7db9921005e4b327718bae39184749ad2909d76f993decae06b75db6ba1884",
+    "published_sha256": "ecd6b6d74c7074f61864571ff5321b86c3c6945cbb9ba3ad3cad89660b7d91fc",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/erf_paper_test_20260924/results/ohaze/validation/native_uncheckpointed.npz",
+    "source_sha256": "e6fe0c500067486a0eca9c31f1f25f073ec101ae94334b2fac0c5e672c3eee10",
+    "published_sha256": "e6fe0c500067486a0eca9c31f1f25f073ec101ae94334b2fac0c5e672c3eee10",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/module_cost_comparison_20260915/measure.py",
+    "source_sha256": "b2ce7dd23942b334a01dcde587ee6803e17cae26cd9ab17a7e7ef1635a829cbf",
+    "published_sha256": "cd165445620df26453e1a2f0a97b28cd9e0ffb56b1169e30173cb499c88a9166",
+    "change": "Portable paths and output destinations; calculations are unchanged."
+  },
+  {
+    "file": "diagnostics/module_cost_comparison_20260915/standalone_and_report.py",
+    "source_sha256": "3dbd9a268dd2156cd5118b592c82d30c7740135f54157e290662201064309d91",
+    "published_sha256": "622bfffee4e5ec5a6f656028c58c5118c6503bd02a2ca7641718d3aee2d6e02d",
+    "change": "Portable paths and output destinations; calculations are unchanged."
+  },
+  {
+    "file": "diagnostics/module_cost_comparison_20260915/RESULTS.json",
+    "source_sha256": "799e729a1bf9f499954dc3ebd8ba3718e223cca19eda4e4ec770af925f010c8d",
+    "published_sha256": "25c92f61cee07b7f66e10d81a2fc25b96ccfd1c06e5952a05881cc51ca820804",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/module_cost_comparison_20260915/single_module.csv",
+    "source_sha256": "66416bd3a0e08a95e26de4aa0d087d5baeac86286d9b0e9c575d14c305bbaf5b",
+    "published_sha256": "66416bd3a0e08a95e26de4aa0d087d5baeac86286d9b0e9c575d14c305bbaf5b",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/novelty_strengthening_20260910/reconcile_mac_counts.py",
+    "source_sha256": "2db48cd26291875fc363c4296da35d3990f2bbbba563012f88db2d8138543d38",
+    "published_sha256": "05375144c6ec87b7a3ca3daf357691173e40c5ea7bbea443bb184e55997181ad",
+    "change": "Portable paths and output destinations; calculations are unchanged."
+  },
+  {
+    "file": "diagnostics/novelty_strengthening_20260910/MAC_COUNT_CPU_RECONCILIATION.json",
+    "source_sha256": "e2dc5f6facde6335050072847515156da8b74e0abe8fa0b5c4b01a2c3b1a16a5",
+    "published_sha256": "59b9ccd1e50c6fc0c3a65850b8c784ff9f04f684afff2c8c252892f5dcc9b947",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/token_mixer_method_20260912/profile_module_macs.py",
+    "source_sha256": "65018c86f25fb10f08efe42bd7dfd90a80864098ba62c30640127b803cbe123c",
+    "published_sha256": "7b07cc28e2a1bf082c3c9d0bcafdfc664dd767a3d7220da285f9a1b9111911f7",
+    "change": "Portable paths and output destinations; calculations are unchanged."
+  },
+  {
+    "file": "diagnostics/gain_state_trajectory_20260916/run.py",
+    "source_sha256": "6cddaaf70a63f374f7535a42e5af2a496371cd4d585a335d78f5a62509e58895",
+    "published_sha256": "34e30d17672638bcc5c4ef70a4bfc347c16b09320d286a949093ce01c0889618",
+    "change": "Portable paths and output destinations; calculations are unchanged."
+  },
+  {
+    "file": "diagnostics/gain_state_trajectory_20260916/RESULTS.json",
+    "source_sha256": "2bce1c0c592e939a4901d1d66bd3254d7a1e033f858d3f1b665190a38fcc1481",
+    "published_sha256": "93350385546219f1b4476594484aac708f57f2ff97212cd3d213cf7cdbbcf4e0",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/gain_state_trajectory_20260916/MANIFEST.json",
+    "source_sha256": "00cc4c15a6b8a64f53b9d8a7ed41993d5a8f7afaf47f5e7f0587632bd048d9d9",
+    "published_sha256": "16946cac687daf5e1a1054e692ae2da931936aad91c87955a44e45d91591f3b4",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/analyze_weights.py",
+    "source_sha256": "944cd83db254d061ef500ef02d295e1478072d703bf6c41426883a6836c168c1",
+    "published_sha256": "a30af8391a7321107e26b7898ac1dc42d8b5c1cf86c00e3716fed70e63e0f570",
+    "change": "Portable paths and output destinations; calculations are unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_probe.py",
+    "source_sha256": "8ce47a6cac24da78f6a56cef4b154ac83a118807875a0411e037ba8ec6f8006b",
+    "published_sha256": "8ce47a6cac24da78f6a56cef4b154ac83a118807875a0411e037ba8ec6f8006b",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/verify_chain.py",
+    "source_sha256": "7eb8e8596208bd0266bc789b927112185ffc035092f1657e05dd8be0a0d50cc7",
+    "published_sha256": "7eb8e8596208bd0266bc789b927112185ffc035092f1657e05dd8be0a0d50cc7",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/validate_math.py",
+    "source_sha256": "6e4247843cc370c70cebaad1a31a707c2382ad20406983a4da2604247f97069c",
+    "published_sha256": "6e4247843cc370c70cebaad1a31a707c2382ad20406983a4da2604247f97069c",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/summarize.py",
+    "source_sha256": "b90d8ee020183b42eeb2ff5ed8cb881daf4e371ff2ff92caf33288aea60b4637",
+    "published_sha256": "b90d8ee020183b42eeb2ff5ed8cb881daf4e371ff2ff92caf33288aea60b4637",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/chain_validation.json",
+    "source_sha256": "d74709158a2f067a1e9d6429ec18391d07069dd24edc4251044e567181729941",
+    "published_sha256": "251ef85a02864a67d44c49c32b45d6077fe0547ec2452ff248c71ae607630388",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/checks.json",
+    "source_sha256": "d5492f01f1162a202e96196d2dece21baffbcccbed701fba0b33f06b20ee4c5a",
+    "published_sha256": "2aab9c7e471edd030be16136759b061326f5ed9be78379389657c72ed482fa44",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_free_gain_000.json",
+    "source_sha256": "605983efe38718bdb0bda84719c7f098038105f3a152cd301c9767527b7ce67b",
+    "published_sha256": "8c0f15cdcf72e27bd105d8377d7edec96bfdc33001bb077f74486a96fa3e2ac3",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_free_gain_001.json",
+    "source_sha256": "359c9e7dd3ff73857e4173d62280c2b43671d1d665ce403462417901c815ea37",
+    "published_sha256": "97139f596172243d868c6611c22c7a034a66c57b0d18571878655d29b6344ce0",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_free_gain_002.json",
+    "source_sha256": "ed108eb7122fb04b713527e93e7ff11774630ad88e44ab37f5e38a6ff5b693e5",
+    "published_sha256": "e5fa3c1473e8fa62d08f7b77bd70153e052aeb6ded7e4cf7f57199258eed518b",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_free_gain_003.json",
+    "source_sha256": "d3771588c207ad68cb4eabb68695fd7dd35927dee1fbe01ab65d2fbefa997d57",
+    "published_sha256": "f512f5aa71032f10b7dfa3b308c1d92918dc269c5918386c9ef7205bcc397763",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_free_gain_004.json",
+    "source_sha256": "ae6004edf46b7bc99597e5b12de727ff110f7ae86f0cc045de6268436c431e0b",
+    "published_sha256": "633c6e6efe4ece5f08fb93e9eb6523e4ed584903994940c5fe284929fc465762",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_full_000.json",
+    "source_sha256": "a80ddebfd278d1a7c5d5120af558c32d3d1cb74d03fa92ebe9e175f2bd668e64",
+    "published_sha256": "0335b5961c3ae6b3ba251274fcd6092f5e4e3fd62e929818c789986414776029",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_full_001.json",
+    "source_sha256": "da81eed505c5b7fb2b1a0658c2a29f002e02de775435c0ec53119d6af2e7eeef",
+    "published_sha256": "840c01c6ccf06c0c70cb31046b25f10e957c7733d4bb101a9b363b30cda8b065",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_full_002.json",
+    "source_sha256": "7f2175f0064c2ad9816d76286fcb2e2e92c5256bfb83c84c2304a5b83c501180",
+    "published_sha256": "eddeb4657b276ffbca8b250526c8eba32797bda5f0682559049f024ec0fbd369",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_full_003.json",
+    "source_sha256": "b991fa4e23609ec62c09dc0bdcb70b88a8543ffc8f6cabab3af7eeaeb2555042",
+    "published_sha256": "a2c543006632eaec047c4e830b40a581ca672a3e2d4a8730497284bcba455e8d",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_full_004.json",
+    "source_sha256": "dd49d248cf60415fd29bb7e56297d1494e472fc5ec0a24baf1a08d9acdebbba6",
+    "published_sha256": "a770b85ecfa322e44c4172ab10230ec47f0ca72af035dff4636690c29b2b1dcb",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_no_gain_000.json",
+    "source_sha256": "583e7ab3bc9ba18cf1d2854d80159daaa5ab751e841a694d53fd33e69ee1cb59",
+    "published_sha256": "771a30c5b7eaa82a46772e41f9a29b7bb86fa2934dc5310fbfbc03463ae30349",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_no_gain_001.json",
+    "source_sha256": "e3532c1329150658cbddce0765dfa6f5eb8d736c505b08459563dc28e19ba267",
+    "published_sha256": "714038a8f5a5317963e84fc058d7514c5ff2a3b20c8e6468b5379b97528632c2",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_no_gain_002.json",
+    "source_sha256": "5e4bbaca9b9012baefb5a4e1d4f9a24ac8b061781fe73d1fd9cc12bd2da04825",
+    "published_sha256": "7ea1e4cf698013e437df6648ec25e0e7b874e6cf8ff067b0b3d0f9071994dfd7",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_no_gain_003.json",
+    "source_sha256": "9750375fdf53775f593264f98182f92139ec7fbbd1db338e5c517c53365308f6",
+    "published_sha256": "f4e9fd7335ba5f08cbce3d2282e6d21b1700e2f27fd22ef49a84f9e63e00fa53",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_no_gain_004.json",
+    "source_sha256": "bd865e2917159a287e7e67e91004936c87c7a01dc5254a6b721cdbb9924eee68",
+    "published_sha256": "2780f208a6b515793cb1ddb57ce26cd2b37631d26fbff935f9223550eb925e14",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/feedback_statistics.json",
+    "source_sha256": "05c50423ae07dbcd3a43fb24d1457f9b7186574b978f0e7cb36a8542d1ab619e",
+    "published_sha256": "d24bfa1388669294e6e2da7a89101b0aff43b34d457fdebb2d3f4cb56922716e",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_000.json",
+    "source_sha256": "f088bdd051418f62310a2a330b9f789ef25d05d3646c0cb09e99de21dc73e863",
+    "published_sha256": "b90a8042dc34106cc8cbd28dda67c534c2a9184b67ee3e66fd4d6580fbeb435a",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_050.json",
+    "source_sha256": "5fbc10d6fd9a295c43362035d8ada9b23b3e302a8d8e80de6e1b6d109bd43e08",
+    "published_sha256": "0a7be14bb099962818fcd5939438cbf1603dea7267a46f3af162712261153463",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_100.json",
+    "source_sha256": "009d41e1846b4ac2f4bb6f7d156973d4dde310e1c6bef739e767d6c93eb0a595",
+    "published_sha256": "f42bb1ed8dc92cd8df987450649ba9c7e1fc2c193f1e2f209090ae212549600c",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_150.json",
+    "source_sha256": "8abe0278dba93020e8559871efefc245b6c2dffcb65bb039204b64cdb72f17f4",
+    "published_sha256": "0b71175a53df7d5969d3e4674c4ec20da8903de0400e57e83ebc8846ec8521f3",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_200.json",
+    "source_sha256": "606b910c8f9bb0ad514b1a08c119987e6581aa601b38b545551fd42b94540f8d",
+    "published_sha256": "376747eec338255e74cc6cc1074de309eed897b08ae05ef8f250becccfb2aa49",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_250.json",
+    "source_sha256": "fb605e598173662f0b52ef0b798519da1ed84d19923558ce6a6509d9ddfe6e37",
+    "published_sha256": "c696091e9c1ae36bf44dd176504334b36aff22d58a89829907da68dade828dad",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_300.json",
+    "source_sha256": "4a597c1b97d13ef95374f19b1ace62edcef9e1ca10ab5f8247784e0ed624786d",
+    "published_sha256": "ede874cd22c5ff729820eb72b3bad2db35ffd29c8d3eea95769158cf5467a8e3",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_350.json",
+    "source_sha256": "7151e4b3a9af0757ced21632b6b5181473c0583bc727f98939a2e43d522fe845",
+    "published_sha256": "f8aa9780132742a2a236526b9d0dd53f75e364033899c6148802fe3e5ead49ae",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_400.json",
+    "source_sha256": "d4fa20d4660889d3cda85eb6b958fc483fff22fbe62e6cfc75d0a8545caabc03",
+    "published_sha256": "4a629dd38b005e672039824f86c2baa315d7b4bc88fca64580fa9b212834f4f7",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_450.json",
+    "source_sha256": "eedb3559e2b0589351d98060535edfdd4f86162d65e61c554ed32a1eb4dec1dd",
+    "published_sha256": "1be8eeaba2eb61015459e96ee05eb997fea5df2a788468871f221a6add9bddb9",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_500.json",
+    "source_sha256": "4804541a4c1103a207903414a174fa96e565e8ff8e14a1b3b11eb7826508877c",
+    "published_sha256": "801c45311f6d23780d430a8155955781705ccdac36c331aee644eb81117b1a36",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_550.json",
+    "source_sha256": "8f3b44f56ca7b6af63e5424ab320f37239e3cc09ced30f71f24a1e6b01f505f5",
+    "published_sha256": "9feff3b989b9954db2ef3aa4b5fa8004ab9af40914255909f07805942304a6da",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_600.json",
+    "source_sha256": "21e53b289e4a43d8fcd919135824e955211c0a91cd38b8bde45d2d996343a298",
+    "published_sha256": "a432ec155e7718bb9b974ba7a42ef837a7f3c6befbdd4010c0f9701137443743",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_650.json",
+    "source_sha256": "32fa278612dab3019645c8487db284a5f9b13496d9ce89f6ce2d2766427a2a0f",
+    "published_sha256": "e439f4d641f09f288b66b5011084764755c890006763f9f77fdedc650ff5fc3b",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_700.json",
+    "source_sha256": "98e4d442391ca303b67d4f6a820d38fa16c495df34d5fd07849169d69ba88862",
+    "published_sha256": "ab020e401285bd543785885f35c3fa1071df4bdaf129eaa0a1851aedcb051e8a",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_750.json",
+    "source_sha256": "a7eb754c35c4b1725968043d35fe6e5fb29f93f3be5b3e67951a3729f6f14d92",
+    "published_sha256": "5d006ef586eb66c30f95914bd95877f171939e284ceedd18f3fd08edeab7fc7d",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_800.json",
+    "source_sha256": "24de49bc74622d48a9f9a5a9e2519c5a5f4e7ba291b3a59591935058fdba2858",
+    "published_sha256": "8d365793843a8ca2663333a37853dadb0dfaec7d4a12bd71426ff219765c4bd4",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_850.json",
+    "source_sha256": "b7039db822463694a451d89d0b4d8eddcc7fda17571179f5b493f66c50334905",
+    "published_sha256": "60eaf5745550cfb5eda166dbea38335b5095d4376e3d1bd92a881674aa07b62b",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_900.json",
+    "source_sha256": "b22327738fd2900bca3a7defe3cedb6e700455e2e16fb42906f5d41bfff1a0e4",
+    "published_sha256": "3259a68fc00792c6aecb390846c5959169c8282f05f5ab0998be8df307419b79",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_full_950.json",
+    "source_sha256": "06f1c604f8c8a883d24bc0ab43e71351c12d7d287ab0c8f46529a4de820c3333",
+    "published_sha256": "738bf408d610e3b24783703fc2ee97c2a90d708874eae982927d08900d4589b4",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_000.json",
+    "source_sha256": "023cd3408f58f965cd47f2714d62344689d072a06aa71ab89cd624afe547780b",
+    "published_sha256": "321071563f969e756a829401e05ebb453f1d68e6f52c6d6544d580e9a2261156",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_050.json",
+    "source_sha256": "5b822430e477c477d2ab317cbd797e0dceb676f36b28288706fdea977124738d",
+    "published_sha256": "4c243f63ec9680dc9d03af786b1ff0b53a161471830e8f689d726e94cacb3791",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_100.json",
+    "source_sha256": "92fca3e411edf51ac85d6f216fea196f1308bcb659b45c19f96cc734fa02ff25",
+    "published_sha256": "d0c789f361a0daf0028e12f8a9f8092a61f7ce5256fafcd49af736f414cbaa66",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_150.json",
+    "source_sha256": "9207396eeaccccbe38459ae8583bcb3cbc82552797eb709d3cfd007a1ff6b6b6",
+    "published_sha256": "f6a758429b816ebd0d75aaaa16d64e936f7ccea1604b35d8413f433699c64f00",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_200.json",
+    "source_sha256": "4cba6a42781e1322dd4382c616bf2d6ffc488210646441f04bb63f963d71c05f",
+    "published_sha256": "68e220532b98b96060ac2382ed20b5262dcaed2ef478396d35772fb1ebd5a716",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_250.json",
+    "source_sha256": "4e409b3baee18b06fa6955562196e4958e8efc2ff017362cac6b04271c5010da",
+    "published_sha256": "0d9984eee4d6b10e20550821afec6f2ba42d40798bbd08724100518d580006af",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_300.json",
+    "source_sha256": "8211e2d22d09b5ea88a732dbebf9e99fd347f49df0a3cd223772e25f90e98078",
+    "published_sha256": "199fca826cd7bcb606c247539888273c23f09a67482ecd121a5eadf6bf50a535",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_350.json",
+    "source_sha256": "557a0f652042b224df2585f6e590161fdb3814d7c407a38f7e7f4fadefa1d0f0",
+    "published_sha256": "365cab58a1452499aa2f9e624f7f13e88bee6c99d2d34f03143ee23b6d4d05af",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_400.json",
+    "source_sha256": "e1c4558eec0559360ddefcaf374c90eeca5c877c8f3340e0060c3dc1d6c05792",
+    "published_sha256": "1fa5ace7d91d17d7631856765c58d493f4728878ee4238b8966d3171edc57ad1",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_450.json",
+    "source_sha256": "d51356f4b99a1b7fa3b21c443339c82284e7d73c812d18a901f793376d3cc9d4",
+    "published_sha256": "9162efd5a47552b0f6dfbadb99013419ae6fbded6f8851388376749918f3d461",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_500.json",
+    "source_sha256": "ef266a0e55a838066b37235fdb6c2fc5578972c9cc479adb9ba0b6a027dff980",
+    "published_sha256": "5da91c4d37092ead6d9e05f05ca78ae5363aefe88a446849519d9e9c81e3cf92",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_550.json",
+    "source_sha256": "ac5991a77ab8f83fdb13e7d5858dbae06be2d55c8d530817f02ef1cf7764881d",
+    "published_sha256": "f479738248d136a4c67e47e0183479ea20625ceb2ba214fe50c33a53d4f586f1",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_600.json",
+    "source_sha256": "814f06a87e35ae196a4ba41112ea67e658b6aa76a0692c760083684c7f3bb04c",
+    "published_sha256": "8618c0c2e15cb8650be202830d125d006ca967de53fb6e8611c19340e6546081",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_650.json",
+    "source_sha256": "1a792e1de4b5b9b693470d007bd0b771e0a4a0e2244bcd6267b233f62a13e05b",
+    "published_sha256": "c792a5f03bd3e1be0537790f779db439178b8013bcf3908c4e8bca228e29ab77",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_700.json",
+    "source_sha256": "6591d2275726ef5f760cf6aa9880d39dc81f54c21441cfe6d998fa198fe039db",
+    "published_sha256": "e48e054c00d6b438eb0f3c9c5518862510c81691a292e94aa3f6bdb0634bef3a",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_750.json",
+    "source_sha256": "40c3a259fd542db0058dba3c80dc1d28da995b0aa2ef0459146819c38e1b87b2",
+    "published_sha256": "e6c12fb4ab6502dc3cf112fcecc20eeb35b22e2232a3620396f85ac170158b50",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_800.json",
+    "source_sha256": "737f9c80acfdd611309350a92182ded107baf8090f773c4a644f330e6d7cfbde",
+    "published_sha256": "f16f3e166eccfd8e3da7399a44e5005b9eaea01d99f7e761622400af924fea3b",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_850.json",
+    "source_sha256": "ac937c2e0e7f4b30deffa0a0999c713a53fc2890d8bb32a130854e165989ecdf",
+    "published_sha256": "ee67c249bf964bd72cf59a0c3bb5cb8d4195ebb68e8a82e1d8e19b72c5c52acb",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_900.json",
+    "source_sha256": "9009a7f1b228df3c8ba7226ac25423965ff0cbb745e73c632b5e631621bffd24",
+    "published_sha256": "8b2479d55e0ef3cd5af345566da285ea58a7d53b26e64e376733ada4e302aa9b",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervene_no_gain_950.json",
+    "source_sha256": "cfebd74999e80db9e66143c3f10aba315d02a708be3f9e2afae073e22689d096",
+    "published_sha256": "eb6761fcdcde90e2e00a3b3b51da4b793ea1e2b9e2fa7c34f6931170ebc20997",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/interventions.csv",
+    "source_sha256": "536a777adb7dba8d443a402fb455d9dea910becec7af4d3e84d39094b8eee32a",
+    "published_sha256": "536a777adb7dba8d443a402fb455d9dea910becec7af4d3e84d39094b8eee32a",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervention_results.json",
+    "source_sha256": "ecb8e1ed7869f49fe42ed9cb1646102a00ba21bf7ac80a2c0484160d989ba2f5",
+    "published_sha256": "8b6efb26b960bb45e407c010d331060587891c1b181d35a10e712a0d66bfb5d2",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/intervention_statistics.json",
+    "source_sha256": "1ff26eb00deeced8be63360d769eedfcdf5becae7acd279832787a5fed03d66a",
+    "published_sha256": "e274c237df6761561afb2b7821b13c22bca07b55f6e53ec468db42998c6db22a",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/math_validation.json",
+    "source_sha256": "4ba603708d1fc0e843a4e02a44d69e99f5c62a9da9d1a1f18c8df6c60f51c66c",
+    "published_sha256": "449e1fe286d273c562160bb11c39ef0d89cc32146061d310edc7cd4372e015c3",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profiles.csv",
+    "source_sha256": "a3f1984a01ba81a46e5c5634fa1ae5d049b3199b17561d84de220f97db35de5e",
+    "published_sha256": "a3f1984a01ba81a46e5c5634fa1ae5d049b3199b17561d84de220f97db35de5e",
+    "change": "Byte-identical copy."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_free_gain_000.json",
+    "source_sha256": "b2bf9a568c484f7382458e7557a66f6a384ee852b26dce72997d6804500843ab",
+    "published_sha256": "4550852673bc62fea7920fefe0c28d82f6786a6775d602dcc4f9f557419e5ea7",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_free_gain_001.json",
+    "source_sha256": "30f1dd1b4dee97772788518e8e0905a41f28a8b06c1490f62d0da575f59814a0",
+    "published_sha256": "7ca4e3e2cb3dc7e3a7649f7806d6e5626f012d0981d9de827494d5c4a9fdd736",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_free_gain_002.json",
+    "source_sha256": "89b5a076384c78530540a98ce2cf09dd524794e4140b3e09bd79bdbe5cf8619f",
+    "published_sha256": "1989fb9ecc92f9492664c11c4146a930f85ee4b13ce04c5f7147c6646bf07632",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_free_gain_003.json",
+    "source_sha256": "d03f2289751fa99cef7858dc0d925bb64b98b68707de78d878b02d29609d670a",
+    "published_sha256": "7feda4ba5168f57d4c8f4f0015dc9e81ee8203df6936eb8dedf287987f1189dc",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_free_gain_004.json",
+    "source_sha256": "97ff1f6919165022f0d0f5da56b84f610100851db5e09fb051f145d09ad7e09b",
+    "published_sha256": "ebdaee39b73549c746630c4be6bef94ab4b678d36aa0b35710142393d71d15ed",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_full_000.json",
+    "source_sha256": "a654130ea218d1990b3e40c26b612044ef75216dec6475a930c1bd2b95081c54",
+    "published_sha256": "9369b007f0c5e841d06a0a21f2c885058a36f99d8d22426108621c622dd29ec8",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_full_001.json",
+    "source_sha256": "7a4e284885cf643226b44f6f9a23da99168f3ed3b1f95c3968ce424a0bba7c08",
+    "published_sha256": "eb9247c2613e9ce50094f629a64ab308c8da1c23102856b6476711fa16a869b3",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_full_002.json",
+    "source_sha256": "0a12c2252ca04bad15f88b88edf729c491fd0ae84aee337aafac8986be22c45e",
+    "published_sha256": "07d6fcf5b930ab164e1cf01ec14ab6fb2c63777025f0360192c261ff5c0178b6",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_full_003.json",
+    "source_sha256": "2acb7a4dce8525b5e5634f6081182a85c1117111a4e83c204f9ff0e1feab89fd",
+    "published_sha256": "ab95e295e012f042d8d9e727ae818baf9fa9c72fecc8c25be0e78fd3bbea409b",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_full_004.json",
+    "source_sha256": "6285a69e67e112d646a4c432565a3c7a0253f190f54503cb56ca8f13408ee61c",
+    "published_sha256": "d0534c2db8aee8768475aa719bbc616fc7d1ae6c9e50fa74c248f4ba5dec7cde",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_no_gain_000.json",
+    "source_sha256": "8603fbe866fded45b1ab81b67d5460ad24c668d0ee375c37b441f12b674f1e04",
+    "published_sha256": "da30ed4fc1c9d67f8605f0f8362dba21461f83afd158497cf00810360fb4c9f3",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_no_gain_001.json",
+    "source_sha256": "29eaf3d4107c1136cee90274065ad7b4aae2065a5fbfc0be7442f10fd5319abe",
+    "published_sha256": "d8b0be9217d009ae79049d98f37accf83524ca993860c4acdc78f3705e728f77",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_no_gain_002.json",
+    "source_sha256": "900bf806f4a04339a1078de6464216629517cdd2fc7438d35483502da51b2434",
+    "published_sha256": "621c680ab545409d3292645b4c014281235d34337172ced13a1520503a014c83",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_no_gain_003.json",
+    "source_sha256": "183b99d2cfc7cbf89b52afd4eca1c9aa55babc7e9912dafc787c46c04f8c926b",
+    "published_sha256": "c658d3d4a9027e744304876962f0826eb7cb336d8a5d617435155818f287197c",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_no_gain_004.json",
+    "source_sha256": "d20c7e4fe682348dbba4261f0c3afbc1f707f97b7be1b2a11a41e6e228ce5d65",
+    "published_sha256": "0467c30b544cf2ea00b1d3b71e5923b3d339e17f2a0b8a55f12148edba73459d",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_state_dynamic_000.json",
+    "source_sha256": "d53350b12e64d6b9dfd535c73b743d6f0834f1c52096e2f2b8b7cd154512bf97",
+    "published_sha256": "0bec388bebd1bfc71126895bcb38161cd6041a5fc0a0b81f0c2f90f48790c89f",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_state_dynamic_001.json",
+    "source_sha256": "06bc874093b4441b9da8caf8db33162872dae0eff4b2f0684d24f913f1859c07",
+    "published_sha256": "e941d8ecda836ebdbc1a594e20cc015bf4c0c81e64a21bd44030c02eb796f554",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_state_dynamic_002.json",
+    "source_sha256": "e9091134e5b0b79cda5d5b8bac5e1e265afe34333c509879662a0210073f394d",
+    "published_sha256": "73aff913c803a7e82362e1bfca0a872f6a013abed465cf06889efda46072c5bf",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_state_dynamic_003.json",
+    "source_sha256": "9276129c99ac8122f5f06000ca65cdbb5a19e948b7882397395e887143002cab",
+    "published_sha256": "a22e65d50fd2bff1e00969e9de4829824247e6d4c18c33c91921343f4224da69",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_state_dynamic_004.json",
+    "source_sha256": "f892f6bb0c55ee6d7c2d647b3b048236f4f2f475a70b05b63560b804b1ee3d16",
+    "published_sha256": "cdf8f0e2c97fb8115ea2fd80f8c1cb4e73c2aa93dbf2adc244a14ad64990b436",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_statistics.json",
+    "source_sha256": "587d0383f0b454eab45cea6e4d1283792b395e7a688003858a9567e932188744",
+    "published_sha256": "8091ce945b8b387062870155ec769d9a085f162ff6d502c50e0cdb74d4763a7a",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/profile_summary.json",
+    "source_sha256": "b87d9f0aa09e1613644992438fd4fc58a12b0157d24dbfc267fa018ec2cee01d",
+    "published_sha256": "13c4ec3ddd8556099059466654df5d749b017b263d51e13d0492e13f0cf2d5e2",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/protocol.json",
+    "source_sha256": "14813041bd4233673179f04e963195969fa86f8cfeb11b69f76ac65c7055e539",
+    "published_sha256": "2c405e62d445e1c6ee699bafa687881c782edb6867293d6688fc37bf1dca20ce",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  },
+  {
+    "file": "diagnostics/contraction_performance_20260921/smoke_summary.json",
+    "source_sha256": "b87d9f0aa09e1613644992438fd4fc58a12b0157d24dbfc267fa018ec2cee01d",
+    "published_sha256": "13c4ec3ddd8556099059466654df5d749b017b263d51e13d0492e13f0cf2d5e2",
+    "change": "Local paths replaced with relative paths; numerical fields unchanged."
+  }
+]

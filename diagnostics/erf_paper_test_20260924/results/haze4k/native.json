@@ -1,0 +1,33 @@
+{
+  "id": "haze4k-native-seed42",
+  "label": "VIVNet",
+  "dataset": "haze4k",
+  "arm": "native",
+  "checkpoint": "weights/haze4k/native/seed42/last.pth",
+  "checkpoint_sha256": "4ab035d4b4977b95ff791ac24a8c78b281dc4afd77c3e82cb9ba46dc1900049c",
+  "input": {
+    "path": "external/test.bin",
+    "image_id": "1000_0.73_1.8",
+    "pixel_sha256": "17e4df4862f20f62cb52d03ca1d54722df154e44e7a90f9f77d63eab974b6932"
+  },
+  "input_shape": [
+    480,
+    640
+  ],
+  "center_yx": [
+    240,
+    320
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 4",
+  "r50_px": 233.82899734635137,
+  "r90_px": 360.82682827084795,
+  "r95_px": 370.600863463646,
+  "gradient_sum": 52.48689270019531,
+  "gradient_peak": 0.2525617480278015,
+  "seconds": 0.7082795000169426,
+  "peak_cuda_mib": 2545.36328125
+}

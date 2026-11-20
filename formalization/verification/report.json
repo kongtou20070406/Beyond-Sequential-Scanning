@@ -1,0 +1,2596 @@
+{
+  "started_utc": "2026-09-25T10:23:17.616313+00:00",
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "fresh_local_build": true,
+  "warnings_as_errors": true,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "modules": [
+    {
+      "source": "NSI/Basic.lean",
+      "sha256": "99ba9dafcf0dd23dd632d61a71b8c0a120a8561da5dbfab32c7a62ed0aa827f8",
+      "exit_code": 0,
+      "seconds": 50.82
+    },
+    {
+      "source": "NSI/Radial.lean",
+      "sha256": "9f11b123a5ec0c0831436e1b1c89fde0f8cb317db6e269b99e60141020b97553",
+      "exit_code": 0,
+      "seconds": 18.29
+    },
+    {
+      "source": "NSI/MixedNorm.lean",
+      "sha256": "f13220774e3c68d59093445336332dd939da46474a1e1e6023b0010890fa8b82",
+      "exit_code": 0,
+      "seconds": 17.56
+    },
+    {
+      "source": "NSI/Reflection.lean",
+      "sha256": "c870cb033ef5d4f09f637bedbb4d74813a06172498fd58d42e698bdf58973db2",
+      "exit_code": 0,
+      "seconds": 18.38
+    },
+    {
+      "source": "NSI/Retention.lean",
+      "sha256": "afba56f5b95fd6c479d3a3ddc2357d90d25689228354f67b71edd84d06b097e9",
+      "exit_code": 0,
+      "seconds": 19.09
+    },
+    {
+      "source": "NSI/RetentionLipschitz.lean",
+      "sha256": "20bb18df8f7703e2f0a90223039378999eed5d13279d6270a15b289f93b47ad3",
+      "exit_code": 0,
+      "seconds": 17.61
+    },
+    {
+      "source": "NSI/Kernel.lean",
+      "sha256": "c59fba5a28f082d555fdc9d62fe75952e5e33c7f13a62c4e383c9a7412f52b61",
+      "exit_code": 0,
+      "seconds": 17.93
+    },
+    {
+      "source": "NSI/Readout.lean",
+      "sha256": "d776ffe2dbb920b2db4171f32b4afe60b2a769d44f18f10a82c4191c77088f95",
+      "exit_code": 0,
+      "seconds": 17.66
+    },
+    {
+      "source": "NSI/Grid.lean",
+      "sha256": "f752e29093f3b7c5e6458fc1ee4c2f1e9869dc3db3ec93e5cb4a42ee89d6dfd0",
+      "exit_code": 0,
+      "seconds": 17.61
+    },
+    {
+      "source": "NSI/Main.lean",
+      "sha256": "3c3d20ab1a76603d91a014a78eeb273a95c70de159c15b5b497c0509a09bd0aa",
+      "exit_code": 0,
+      "seconds": 17.44
+    },
+    {
+      "source": "NSI/ReadoutIdentity.lean",
+      "sha256": "5964dd7d9c0ca495884099b3c4f104fc77d9c9f52fd8c625dadb35ecf1348fb2",
+      "exit_code": 0,
+      "seconds": 17.21
+    },
+    {
+      "source": "NSI/Extensions.lean",
+      "sha256": "fc6644b4b32f5e297dfdb1bf8328fc01ea6780c47152cac483f3fc59896fbe0b",
+      "exit_code": 0,
+      "seconds": 17.94
+    },
+    {
+      "source": "NSI/Precision.lean",
+      "sha256": "326859936cebca2326a907400b24c70b1aefada455eebef6c7a14a689adf0205",
+      "exit_code": 0,
+      "seconds": 17.38
+    },
+    {
+      "source": "NSI/Saturation.lean",
+      "sha256": "b6a7704186b444ca206def60b16680da36a12a5b79f70bdea7f6f7f41273ae30",
+      "exit_code": 0,
+      "seconds": 17.41
+    },
+    {
+      "source": "NSI/Envelope.lean",
+      "sha256": "aae51bcc50eef169e865b1ab6989e016586eb6eb264532a1de5ce8beff957f2d",
+      "exit_code": 0,
+      "seconds": 18.47
+    },
+    {
+      "source": "NSI/Sharpness.lean",
+      "sha256": "9e0bb6f54a8f68527cece769add8ccc0eea4d51c355e2833a806eb256265bca1",
+      "exit_code": 0,
+      "seconds": 18.65
+    },
+    {
+      "source": "NSI/AllGroupsSharpness.lean",
+      "sha256": "2778ce8babded99bf71f39afb93c4628d87ba1b7d2681b66cfe988e2467f1bc1",
+      "exit_code": 0,
+      "seconds": 18.55
+    },
+    {
+      "source": "NSI.lean",
+      "sha256": "645324aaad28d01ee80bb3f4d5a6ed1f0eba61263f6b98501de146b6f557107d",
+      "exit_code": 0,
+      "seconds": 16.7
+    },
+    {
+      "source": "Audit.lean",
+      "sha256": "4c258690c36b498c5dbcf168e731c990db0ed9ebfb3fc3b00b4dd0f78a63813c",
+      "exit_code": 0,
+      "seconds": 99.69
+    }
+  ],
+  "declarations": [
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.BlockSup"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.BlockSup5"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.BlockSupAll"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Reflection",
+      "name": "NSI.Blocks"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Reflection",
+      "name": "NSI.Blocks._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Grid",
+      "name": "NSI.GridState"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Kernel",
+      "name": "NSI.PairState"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualRsup"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualRsupAll"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualRsupAll_hasFDerivAt"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualRsupAll_not_one_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualRsupDeriv"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualRsupDeriv._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualRsupDerivAll"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualRsupDerivAll._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualRsupDeriv_expands"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualRsup_hasFDerivAt"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualRsup_not_one_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualV5"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualV5.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualV5_blockSup_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualVAll"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualVAll.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualVAll_blockSup_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualVAll_first"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualX5"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualX5.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualX5_hasFDerivAt"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actualX5_norm_sq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualXAll"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualXAll.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualXAll_inner"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actualXAll_norm_sq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actual_all_groups_deriv_expands"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.actual_deriv_all_first_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actual_deriv_first_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actual_five_block_deriv_expands"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.actual_inner_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternatingMinus"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternatingMinus.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternatingMinus_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternatingPlus"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternatingPlus._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternatingPlus.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternatingPlus_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternating_two_cycle"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.alternating_two_cycle_increment_nonzero"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.blockEquiv"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.blockEquiv._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.blockEquiv.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.bounded_old_state_contribution"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Basic",
+      "name": "NSI.completeUpdate_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.embedScalar5"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.embedScalar5.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.ReadoutIdentity",
+      "name": "NSI.equal_weight_readout"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.finite_precision_constant_error"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.finite_precision_constant_error_closed"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.finite_precision_constant_error_uniform"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Precision",
+      "name": "NSI.finite_precision_general_closed"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.finite_precision_le_precisionBound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.five_block_radial_jacobian_expands"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.five_block_witness_embeds"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Grid",
+      "name": "NSI.gridRetention"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.gridRetention._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.gridRetention.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Main",
+      "name": "NSI.gridRetention_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.gridRetention_norm_le"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Saturation",
+      "name": "NSI.gridRetention_saturation"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.gridRetention_scalar_envelope"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.gridRetention_zero"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.gridState_finite_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.gridState_scalar_envelope"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.gridState_uniform_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Grid",
+      "name": "NSI.gridUpdate"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Saturation",
+      "name": "NSI.gridUpdate.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.gridUpdate_first_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Main",
+      "name": "NSI.gridUpdate_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.gridUpdate_magnitude"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Saturation",
+      "name": "NSI.gridUpdate_old_contribution_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Saturation",
+      "name": "NSI.gridUpdate_saturation_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Main",
+      "name": "NSI.grid_readout_finite"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Main",
+      "name": "NSI.grid_readout_uniform"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Main",
+      "name": "NSI.grid_trajectories_contract"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Main",
+      "name": "NSI.grid_unique_fixedPoint"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Radial",
+      "name": "NSI.grouped_radial_factor_le_one"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.hasFDerivAt_radialRetention"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.hasFDerivAt_radialRetentionSup"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.hasFDerivAt_radial_generic"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Reflection",
+      "name": "NSI.householder"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Reflection",
+      "name": "NSI.householder._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Reflection",
+      "name": "NSI.householder.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Reflection",
+      "name": "NSI.householder_blockSup_le"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Reflection",
+      "name": "NSI.householder_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.identity_old_contribution_unbounded"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.identity_old_contribution_unbounded._abel_1_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Basic",
+      "name": "NSI.increment_step"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Precision",
+      "name": "NSI.inexact_orbit_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Basic",
+      "name": "NSI.inexact_step"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Reflection",
+      "name": "NSI.jacobianMix_blockSup_le"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Kernel",
+      "name": "NSI.neighborhoodAggregate"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.neighborhoodAggregate.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.neighborhoodAggregate_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.neighborhoodAggregate_norm_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.neighborhoodAggregate_point_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.neighborhoodAggregate_smul"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.neighborhoodAggregate_sub"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.norm_weighted_sum_le"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Kernel",
+      "name": "NSI.normalizeKernel"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.normalizeKernel.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.normalizedKernel_gain"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.normalizedKernel_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.normalized_gain_lt"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Main",
+      "name": "NSI.normalized_gridUpdate_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.normalized_nine_gains"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.padBlocks"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.padBlocks._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.padBlocks.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.padBlocks_inner"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.AllGroupsSharpness",
+      "name": "NSI.padBlocks_norm_sq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.padFive"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.padFive.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.padFive_first"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.padFive_norm_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.padFive_norm_eq._proof_1_2"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Kernel",
+      "name": "NSI.pairTransform"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.pairTransform._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.pairTransform.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.pairTransform_norm"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.pairTransform_norm_sq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.pairTransform_smul"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.pairTransform_sub"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.MixedNorm",
+      "name": "NSI.piLp_two_norm_le_sqrt_card_mul_pi_norm"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.positiveRetention"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Saturation",
+      "name": "NSI.positiveRetention.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.positiveRetention_den_pos"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.positiveRetention_fixedPoint_lt_geometric"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.positiveRetention_hasDerivAt"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.positiveRetention_le_inv_sqrt"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.positiveRetention_le_self"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.positiveRetention_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.positiveRetention_lt_self"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.positiveRetention_monotone"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.precisionBound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.precisionBound._f"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.precisionBound._sunfold"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.precisionBound._unsafe_rec"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.precisionBound.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.precisionBound.eq_2"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.precisionBound.eq_def"
+    },
+    {
+      "axioms": [],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.precisionBound.match_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Precision",
+      "name": "NSI.precisionBound_closed"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Precision",
+      "name": "NSI.precisionBound_closed._proof_1_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_2"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_3"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_4"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_5"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_6"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_7"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_8"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv._proof_9"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialDeriv.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetention"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetention.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le._simp_1_2"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le._simp_1_3"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le._simp_1_4"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le._simp_1_5"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le._simp_1_6"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le._simp_1_7"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le._simp_1_8"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetentionDeriv_blockSup_le._simp_1_9"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.radialRetentionSup"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.radialRetentionSup.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.radialRetentionSupDeriv"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.radialRetentionSupDeriv._proof_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.radialRetentionSupDeriv_norm_le_one"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.radialRetentionSup_nonexpansive"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetention_blockSup_magnitude_le"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.RetentionLipschitz",
+      "name": "NSI.radialRetention_blockSup_nonexpansive"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Saturation",
+      "name": "NSI.radialRetention_saturation"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Retention",
+      "name": "NSI.radialRetention_zero"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Radial",
+      "name": "NSI.radial_factor_le_one"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.scalarBlockSup"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.scalarBlockSup.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Envelope",
+      "name": "NSI.scalarEnvelope"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.scalarEnvelope.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.scalarEnvelope_fixedPoint_nonneg"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.scalarEnvelope_lipschitz"
+    },
+    {
+      "axioms": [],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.scalarEnvelope_lipschitz._simp_1_2"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.scalarEnvelope_positive_fixedPoint"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Envelope",
+      "name": "NSI.scalarEnvelope_unique_fixedPoint"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.scalarRetention"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.scalarRetention.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.scalarRetention_differentiableAt_zero"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.scaled_pair_gain"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.shared_map_increment_decay"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.shared_orbit_weighted_readout_bound"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.shared_orbit_weighted_readout_uniform"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpDot"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpDot.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpDot_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpJacobian"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpJacobian.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpJacobian_first_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpJacobian_first_gt_one"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpNormSq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpNormSq.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpNormSq_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpV"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpV.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpV_blockSup_eq"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpX"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpX._proof_1"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpX._proof_2"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpX._proof_3"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Sharpness",
+      "name": "NSI.sharpX.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.shifted_geom_sum"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Grid",
+      "name": "NSI.slice_norm_le"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernel"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernel._proof_1"
+    },
+    {
+      "axioms": [
+        "propext"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernel._proof_2"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernel.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernelUpdate"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernelUpdate_deriv_zero"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernelUpdate_hasDerivAt_zero"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernelUpdate_not_one_lipschitz"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernel_abs_lt"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "NSI.stateKernel_hasDerivAt_zero"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.state_recurrence_closed"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.state_recurrence_finite"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.state_recurrence_uniform"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Basic",
+      "name": "NSI.state_step"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.ReadoutIdentity",
+      "name": "NSI.weighted_difference_identity"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.ReadoutIdentity",
+      "name": "NSI.weighted_difference_identity._abel_1_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.weighted_geometric_le_unweighted"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.weighted_increment_readout_bound"
+    },
+    {
+      "axioms": [],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.weighted_increment_readout_bound._simp_1_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Readout",
+      "name": "NSI.weighted_increment_readout_uniform"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Kernel",
+      "name": "NSI.zeroBoundaryRead"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.zeroBoundaryRead.eq_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.zeroBoundaryRead.eq_2"
+    },
+    {
+      "axioms": [],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Kernel",
+      "name": "NSI.zeroBoundaryRead.match_1"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.zeroBoundaryRead_norm_le"
+    },
+    {
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "NSI.zeroBoundaryRead_sub"
+    },
+    {
+      "axioms": [],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "_private.NSI.Extensions.0.NSI.precisionBound.match_1.eq_1"
+    },
+    {
+      "axioms": [],
+      "kind": "theorem",
+      "module": "NSI.Extensions",
+      "name": "_private.NSI.Extensions.0.NSI.precisionBound.match_1.eq_2"
+    },
+    {
+      "axioms": [],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Extensions",
+      "name": "_private.NSI.Extensions.0.NSI.precisionBound.match_1.splitter"
+    },
+    {
+      "axioms": [],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "_private.NSI.Kernel.0.NSI.zeroBoundaryRead.match_1.eq_1"
+    },
+    {
+      "axioms": [],
+      "kind": "theorem",
+      "module": "NSI.Kernel",
+      "name": "_private.NSI.Kernel.0.NSI.zeroBoundaryRead.match_1.eq_2"
+    },
+    {
+      "axioms": [],
+      "kind": "definition_or_auxiliary",
+      "module": "NSI.Kernel",
+      "name": "_private.NSI.Kernel.0.NSI.zeroBoundaryRead.match_1.splitter"
+    }
+  ],
+  "success": true,
+  "finished_utc": "2026-09-25T10:32:22.493156+00:00"
+}

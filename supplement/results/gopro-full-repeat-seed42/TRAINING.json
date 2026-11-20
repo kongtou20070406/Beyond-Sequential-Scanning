@@ -1,0 +1,23 @@
+{
+  "arm": "full",
+  "seed": 42,
+  "torch": "2.10.0",
+  "cuda": "13.0",
+  "device": "NVIDIA GeForce RTX 5090",
+  "initial_state_sha256": "562e67c6102becded690ceebd1314863b422ea297defc6e31b6c09387573c920",
+  "config_sha256": "d5e843351bfad1d27108708d7fb87660d9ecf732b17ee4631a09a3b298d460af",
+  "source_manifest_sha256": "228c8360080903c72d79ec0b1b15b009107b9cf4f351d59f6d3aa7aa77d668d3",
+  "parameters": 5807236,
+  "cudnn_benchmark": true,
+  "matmul_tf32": false,
+  "cudnn_tf32": true,
+  "created_utc": "2026-09-06T23:54:31.740141+00:00",
+  "status": "COMPLETE",
+  "iter": 49350,
+  "attempts": 3,
+  "wall_seconds": 78247.2833097,
+  "endpoint": "net_g_49350.pth",
+  "endpoint_sha256": "4c995924bdae26bcc24cead47dc4ab2dfe6b0cd54a2620f163323ae703e2a3fc",
+  "ended_utc": "2026-09-07T20:01:04.760155+00:00",
+  "peak_allocated_mib": 22169.4716796875
+}

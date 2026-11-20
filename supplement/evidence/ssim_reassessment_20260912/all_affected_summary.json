@@ -1,0 +1,821 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "group_count": 38,
+  "per_image_count": 190,
+  "metric_protocol": "protocol.json",
+  "source_summary_sha256": "aa7dc28f791d9c31aff61580c76a0126556f846147a5733d964f1f28f26298cb",
+  "source_csv_sha256": "9e5a4e4cd554d24096e425fac11f95566a006b49aa7c96107fb0c42568ce5525",
+  "groups": {
+    "ohaze-native-seed42": {
+      "result": "groups/ohaze-native-seed42/FINAL.json",
+      "checkpoint_sha256": "9ce69648186bbfca87d5c180ac9289b089baf10468274ebaae4abf8d10d8eb36",
+      "paper_uses": [
+        "main_table3"
+      ],
+      "legacy_published": {
+        "psnr": 25.8096,
+        "ssim": 0.94483
+      },
+      "reevaluated": {
+        "psnr": 25.810390005881988,
+        "ssim_native": 0.9042839407920837,
+        "ssim_pooled_legacy": 0.9448299765586853
+      },
+      "change_vs_published": {
+        "ssim": -0.04054605920791621,
+        "psnr_replay": 0.0007900058819885203,
+        "pooled_ssim_replay": -2.3441314667138613e-08
+      }
+    },
+    "ohaze-dwconv-seed42": {
+      "result": "groups/ohaze-dwconv-seed42/FINAL.json",
+      "checkpoint_sha256": "f71f2ba0bab9530864d48d95a507597ac1b6dc49ae244c45468e2598c777d9c7",
+      "paper_uses": [
+        "main_table3"
+      ],
+      "legacy_published": {
+        "psnr": 25.9001,
+        "ssim": 0.94061
+      },
+      "reevaluated": {
+        "psnr": 25.898671293731034,
+        "ssim_native": 0.9015421390533447,
+        "ssim_pooled_legacy": 0.940604293346405
+      },
+      "change_vs_published": {
+        "ssim": -0.039067860946655264,
+        "psnr_replay": -0.001428706268963964,
+        "pooled_ssim_replay": -5.7066535948946395e-06
+      }
+    },
+    "ohaze-mdta-seed42": {
+      "result": "groups/ohaze-mdta-seed42/FINAL.json",
+      "checkpoint_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2",
+      "paper_uses": [
+        "main_table3"
+      ],
+      "legacy_published": {
+        "psnr": 25.8712,
+        "ssim": 0.94257
+      },
+      "reevaluated": {
+        "psnr": 25.871174512340428,
+        "ssim_native": 0.9035295248031616,
+        "ssim_pooled_legacy": 0.9425816535949707
+      },
+      "change_vs_published": {
+        "ssim": -0.0390404751968384,
+        "psnr_replay": -2.5487659573997234e-05,
+        "pooled_ssim_replay": 1.1653594970684189e-05
+      }
+    },
+    "ohaze-swin-seed42": {
+      "result": "groups/ohaze-swin-seed42/FINAL.json",
+      "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0",
+      "paper_uses": [
+        "main_table3"
+      ],
+      "legacy_published": {
+        "psnr": 25.5671,
+        "ssim": 0.9387
+      },
+      "reevaluated": {
+        "psnr": 25.566860085421666,
+        "ssim_native": 0.8971801400184631,
+        "ssim_pooled_legacy": 0.9386990189552307
+      },
+      "change_vs_published": {
+        "ssim": -0.041519859981536844,
+        "psnr_replay": -0.00023991457833361096,
+        "pooled_ssim_replay": -9.810447693103796e-07
+      }
+    },
+    "ohaze-ss2d-seed42": {
+      "result": "groups/ohaze-ss2d-seed42/FINAL.json",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "paper_uses": [
+        "main_table3",
+        "scale512"
+      ],
+      "legacy_published": {
+        "psnr": 25.625,
+        "ssim": 0.93949
+      },
+      "reevaluated": {
+        "psnr": 25.625873279464518,
+        "ssim_native": 0.89791841506958,
+        "ssim_pooled_legacy": 0.9394845604896546
+      },
+      "change_vs_published": {
+        "ssim": -0.041571584930420014,
+        "psnr_replay": 0.0008732794645176511,
+        "pooled_ssim_replay": -5.4395103454840665e-06
+      }
+    },
+    "ohaze-cspn_style-seed42": {
+      "result": "groups/ohaze-cspn_style-seed42/FINAL.json",
+      "checkpoint_sha256": "0a6dcb9ebeb1cb781c1ab9d5a12c5629c892b74095819cda6bf37fd47e8dd3c4",
+      "paper_uses": [
+        "main_table3",
+        "appendix_C2_generator_local"
+      ],
+      "legacy_published": {
+        "psnr": 26.2017,
+        "ssim": 0.94355
+      },
+      "reevaluated": {
+        "psnr": 26.201368346707692,
+        "ssim_native": 0.9039721369743348,
+        "ssim_pooled_legacy": 0.9435406923294067
+      },
+      "change_vs_published": {
+        "ssim": -0.03957786302566524,
+        "psnr_replay": -0.00033165329230655516,
+        "pooled_ssim_replay": -9.307670593261541e-06
+      }
+    },
+    "ohaze-ours-seed42": {
+      "result": "groups/ohaze-ours-seed42/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "main_table3",
+        "table4_K5",
+        "table5_full",
+        "appendix_C2_generator_full",
+        "scale512"
+      ],
+      "legacy_published": {
+        "psnr": 26.7755,
+        "ssim": 0.94682
+      },
+      "reevaluated": {
+        "psnr": 26.775223579571325,
+        "ssim_native": 0.9065494656562805,
+        "ssim_pooled_legacy": 0.9468218445777893
+      },
+      "change_vs_published": {
+        "ssim": -0.04027053434371952,
+        "psnr_replay": -0.0002764204286762606,
+        "pooled_ssim_replay": 1.844577789289481e-06
+      }
+    },
+    "ohaze-depth_k1-seed42": {
+      "result": "groups/ohaze-depth_k1-seed42/FINAL.json",
+      "checkpoint_sha256": "2ad969496a43fd63cf8dd9f58899445db488d07e3829b199c8756c5586d5f1fb",
+      "paper_uses": [
+        "table4"
+      ],
+      "legacy_published": {
+        "psnr": 25.8834,
+        "ssim": 0.9413
+      },
+      "reevaluated": {
+        "psnr": 25.883751265888147,
+        "ssim_native": 0.9018631458282471,
+        "ssim_pooled_legacy": 0.9412946581840516
+      },
+      "change_vs_published": {
+        "ssim": -0.03943685417175291,
+        "psnr_replay": 0.0003512658881454911,
+        "pooled_ssim_replay": -5.341815948467499e-06
+      }
+    },
+    "ohaze-depth_k3-seed42": {
+      "result": "groups/ohaze-depth_k3-seed42/FINAL.json",
+      "checkpoint_sha256": "66fc1bdc54038e6bab73c4a40e957bb588a4f96198412509d4ef625e62e05a9d",
+      "paper_uses": [
+        "table4"
+      ],
+      "legacy_published": {
+        "psnr": 26.4699,
+        "ssim": 0.94408
+      },
+      "reevaluated": {
+        "psnr": 26.4677278165025,
+        "ssim_native": 0.9045546531677247,
+        "ssim_pooled_legacy": 0.9440720200538635
+      },
+      "change_vs_published": {
+        "ssim": -0.039525346832275376,
+        "psnr_replay": -0.0021721834974997023,
+        "pooled_ssim_replay": -7.979946136549287e-06
+      }
+    },
+    "ohaze-depth_k7-seed42": {
+      "result": "groups/ohaze-depth_k7-seed42/FINAL.json",
+      "checkpoint_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee",
+      "paper_uses": [
+        "table4"
+      ],
+      "legacy_published": {
+        "psnr": 26.35,
+        "ssim": 0.94562
+      },
+      "reevaluated": {
+        "psnr": 26.351015542007158,
+        "ssim_native": 0.9069149374961853,
+        "ssim_pooled_legacy": 0.9456360459327697
+      },
+      "change_vs_published": {
+        "ssim": -0.03870506250381467,
+        "psnr_replay": 0.001015542007156256,
+        "pooled_ssim_replay": 1.6045932769714888e-05
+      }
+    },
+    "ohaze-matched_feedforward-seed42": {
+      "result": "groups/ohaze-matched_feedforward-seed42/FINAL.json",
+      "checkpoint_sha256": "08e3d6cff2af73ee52c9401052b28eb2ce8f9cacf838b4f8fadfe2715012d268",
+      "paper_uses": [
+        "table5"
+      ],
+      "legacy_published": {
+        "psnr": 26.4958,
+        "ssim": 0.94271
+      },
+      "reevaluated": {
+        "psnr": 26.49621115146751,
+        "ssim_native": 0.9039043545722961,
+        "ssim_pooled_legacy": 0.9427100777626037
+      },
+      "change_vs_published": {
+        "ssim": -0.03880564542770393,
+        "psnr_replay": 0.0004111514675102512,
+        "pooled_ssim_replay": 7.776260368963506e-08
+      }
+    },
+    "ohaze-static_rules-seed42": {
+      "result": "groups/ohaze-static_rules-seed42/FINAL.json",
+      "checkpoint_sha256": "1abfe6fad6f2b8d7ffe810724d26820e824d145ef335b899833b03c64e5950e5",
+      "paper_uses": [
+        "table5"
+      ],
+      "legacy_published": {
+        "psnr": 26.0944,
+        "ssim": 0.94255
+      },
+      "reevaluated": {
+        "psnr": 26.093827504610246,
+        "ssim_native": 0.9039426565170288,
+        "ssim_pooled_legacy": 0.9425493597984314
+      },
+      "change_vs_published": {
+        "ssim": -0.038607343482971235,
+        "psnr_replay": -0.0005724953897541241,
+        "pooled_ssim_replay": -6.402015686468587e-07
+      }
+    },
+    "ohaze-p0s_state_dynamic-seed42": {
+      "result": "groups/ohaze-p0s_state_dynamic-seed42/FINAL.json",
+      "checkpoint_sha256": "ccfbbf3eb81f6756452d6dafa1f7d487993f550472d7a05731d31e6003944665",
+      "paper_uses": [
+        "table5"
+      ],
+      "legacy_published": {
+        "psnr": 26.3328,
+        "ssim": 0.94464
+      },
+      "reevaluated": {
+        "psnr": 26.332644020594177,
+        "ssim_native": 0.9040615200996399,
+        "ssim_pooled_legacy": 0.9446419715881348
+      },
+      "change_vs_published": {
+        "ssim": -0.04057847990036012,
+        "psnr_replay": -0.00015597940582168235,
+        "pooled_ssim_replay": 1.971588134752622e-06
+      }
+    },
+    "ohaze-first_step_drive-seed42": {
+      "result": "groups/ohaze-first_step_drive-seed42/FINAL.json",
+      "checkpoint_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132",
+      "paper_uses": [
+        "table5"
+      ],
+      "legacy_published": {
+        "psnr": 26.5319,
+        "ssim": 0.94839
+      },
+      "reevaluated": {
+        "psnr": 26.53284896080069,
+        "ssim_native": 0.9117143154144287,
+        "ssim_pooled_legacy": 0.94839848279953
+      },
+      "change_vs_published": {
+        "ssim": -0.036675684585571244,
+        "psnr_replay": 0.0009489608006880701,
+        "pooled_ssim_replay": 8.482799530029617e-06
+      }
+    },
+    "ohaze-identity_retention-seed42": {
+      "result": "groups/ohaze-identity_retention-seed42/FINAL.json",
+      "checkpoint_sha256": "6152c1d22fdcb6212f0254711f531aa41a4ca626a67390522b14e64e109944a9",
+      "paper_uses": [
+        "table5"
+      ],
+      "legacy_published": {
+        "psnr": 26.4429,
+        "ssim": 0.94146
+      },
+      "reevaluated": {
+        "psnr": 26.441584731340036,
+        "ssim_native": 0.9016470789909363,
+        "ssim_pooled_legacy": 0.9414695858955383
+      },
+      "change_vs_published": {
+        "ssim": -0.03981292100906364,
+        "psnr_replay": -0.0013152686599653407,
+        "pooled_ssim_replay": 9.585895538344325e-06
+      }
+    },
+    "ohaze-terminal_readout-seed42": {
+      "result": "groups/ohaze-terminal_readout-seed42/FINAL.json",
+      "checkpoint_sha256": "4a598b18aa8354e5503c20dfb7dc5b7459d48ae619317a9d5f580d659f252665",
+      "paper_uses": [
+        "table5"
+      ],
+      "legacy_published": {
+        "psnr": 26.3239,
+        "ssim": 0.94385
+      },
+      "reevaluated": {
+        "psnr": 26.324767347962915,
+        "ssim_native": 0.9046313285827636,
+        "ssim_pooled_legacy": 0.9438494920730591
+      },
+      "change_vs_published": {
+        "ssim": -0.03921867141723634,
+        "psnr_replay": 0.0008673479629166536,
+        "pooled_ssim_replay": -5.07926940840342e-07
+      }
+    },
+    "ohaze-identity_retention_terminal_readout-seed42": {
+      "result": "groups/ohaze-identity_retention_terminal_readout-seed42/FINAL.json",
+      "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773",
+      "paper_uses": [
+        "table5"
+      ],
+      "legacy_published": {
+        "psnr": 26.2586,
+        "ssim": 0.94436
+      },
+      "reevaluated": {
+        "psnr": 26.258767874546248,
+        "ssim_native": 0.9039252042770386,
+        "ssim_pooled_legacy": 0.9443712115287781
+      },
+      "change_vs_published": {
+        "ssim": -0.04043479572296138,
+        "psnr_replay": 0.00016787454624633824,
+        "pooled_ssim_replay": 1.1211528778143354e-05
+      }
+    },
+    "ohaze-no_row_mass_projection-seed42": {
+      "result": "groups/ohaze-no_row_mass_projection-seed42/FINAL.json",
+      "checkpoint_sha256": "4fcf76ab7eb1cf323f291b4ed06ecfd69dad4166d7ffb1e744a97dd020b1d8e7",
+      "paper_uses": [
+        "table5"
+      ],
+      "legacy_published": {
+        "psnr": 24.8043,
+        "ssim": 0.93283
+      },
+      "reevaluated": {
+        "psnr": 24.805601253489456,
+        "ssim_native": 0.8931890964508057,
+        "ssim_pooled_legacy": 0.9328250288963318
+      },
+      "change_vs_published": {
+        "ssim": -0.03964090354919436,
+        "psnr_replay": 0.0013012534894549788,
+        "pooled_ssim_replay": -4.971103668260923e-06
+      }
+    },
+    "ohaze-cspn-context-seed42": {
+      "result": "groups/ohaze-cspn-context-seed42/FINAL.json",
+      "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+      "paper_uses": [
+        "appendix_C2_generator_context"
+      ],
+      "legacy_published": {
+        "psnr": 23.934258651733398,
+        "ssim": 0.9004397869110108
+      },
+      "reevaluated": {
+        "psnr": 23.934258033603747,
+        "ssim_native": 0.7845737934112549,
+        "ssim_pooled_legacy": 0.9004397749900818
+      },
+      "change_vs_published": {
+        "ssim": -0.1158659934997559,
+        "psnr_replay": -6.181296505758382e-07,
+        "pooled_ssim_replay": -1.1920929021691506e-08
+      }
+    },
+    "ohaze-mair-seed42": {
+      "result": "groups/ohaze-mair-seed42/FINAL.json",
+      "checkpoint_sha256": "f1523606b44c1515f1aeef78857e4bc77da5a731120a7798c3628087e3542f1f",
+      "paper_uses": [
+        "appendix_D1_mair_core"
+      ],
+      "legacy_published": {
+        "psnr": 22.8164,
+        "ssim": 0.89238
+      },
+      "reevaluated": {
+        "psnr": 22.815965682294713,
+        "ssim_native": 0.764535915851593,
+        "ssim_pooled_legacy": 0.8923918604850769
+      },
+      "change_vs_published": {
+        "ssim": -0.12784408414840698,
+        "psnr_replay": -0.0004343177052881231,
+        "pooled_ssim_replay": 1.1860485076953253e-05
+      }
+    },
+    "ohaze-spatial-mamba-seed42": {
+      "result": "groups/ohaze-spatial-mamba-seed42/FINAL.json",
+      "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+      "paper_uses": [
+        "appendix_D1_spatial_core"
+      ],
+      "legacy_published": {
+        "psnr": 22.731775283813477,
+        "ssim": 0.8868594765663147
+      },
+      "reevaluated": {
+        "psnr": 22.73177377116987,
+        "ssim_native": 0.7886093616485595,
+        "ssim_pooled_legacy": 0.8868594765663147
+      },
+      "change_vs_published": {
+        "ssim": -0.09825011491775515,
+        "psnr_replay": -1.5126436068158e-06,
+        "pooled_ssim_replay": 0.0
+      }
+    },
+    "ohaze-mair-full-block-seed42": {
+      "result": "groups/ohaze-mair-full-block-seed42/FINAL.json",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "paper_uses": [
+        "appendix_D1_mair_full",
+        "scale512"
+      ],
+      "legacy_published": {
+        "psnr": 22.935440063476562,
+        "ssim": 0.8754711747169495
+      },
+      "reevaluated": {
+        "psnr": 22.93543985220299,
+        "ssim_native": 0.7398381948471069,
+        "ssim_pooled_legacy": 0.8754711747169495
+      },
+      "change_vs_published": {
+        "ssim": -0.13563297986984257,
+        "psnr_replay": -2.1127357285877224e-07,
+        "pooled_ssim_replay": 0.0
+      }
+    },
+    "ohaze-spatial-full-block-seed42": {
+      "result": "groups/ohaze-spatial-full-block-seed42/FINAL.json",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "paper_uses": [
+        "appendix_D1_spatial_full",
+        "scale512"
+      ],
+      "legacy_published": {
+        "psnr": 23.287517929077147,
+        "ssim": 0.9008466362953186
+      },
+      "reevaluated": {
+        "psnr": 23.28751723837474,
+        "ssim_native": 0.8045858144760132,
+        "ssim_pooled_legacy": 0.9008466243743897
+      },
+      "change_vs_published": {
+        "ssim": -0.0962608218193054,
+        "psnr_replay": -6.907024072688728e-07,
+        "pooled_ssim_replay": -1.1920928910669204e-08
+      }
+    },
+    "ohaze-fixed-weight-reference": {
+      "result": "groups/ohaze-fixed-weight-reference/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3_reference"
+      ],
+      "legacy_published": {
+        "psnr": 26.775224685668945,
+        "ssim": 0.9468218684196472
+      },
+      "reevaluated": {
+        "psnr": 26.775223579571325,
+        "ssim_native": 0.9065494656562805,
+        "ssim_pooled_legacy": 0.9468218445777893
+      },
+      "change_vs_published": {
+        "ssim": -0.040272402763366744,
+        "psnr_replay": -1.1060976206067608e-06,
+        "pooled_ssim_replay": -2.384185793236071e-08
+      }
+    },
+    "ohaze-fixed-f0r1": {
+      "result": "groups/ohaze-fixed-f0r1/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 25.02032585144043,
+        "ssim": 0.9273122668266296
+      },
+      "reevaluated": {
+        "psnr": 25.020325094072867,
+        "ssim_native": 0.8754630446434021,
+        "ssim_pooled_legacy": 0.9273122310638428
+      },
+      "change_vs_published": {
+        "ssim": -0.05184922218322752,
+        "psnr_replay": -7.573675624428233e-07,
+        "pooled_ssim_replay": -3.5762786843029915e-08
+      }
+    },
+    "ohaze-fixed-f0r1_rms": {
+      "result": "groups/ohaze-fixed-f0r1_rms/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 26.59495964050293,
+        "ssim": 0.9451526641845703
+      },
+      "reevaluated": {
+        "psnr": 26.594959720551127,
+        "ssim_native": 0.9035387158393859,
+        "ssim_pooled_legacy": 0.9451526522636413
+      },
+      "change_vs_published": {
+        "ssim": -0.04161394834518439,
+        "psnr_replay": 8.004819918028261e-08,
+        "pooled_ssim_replay": -1.1920929021691506e-08
+      }
+    },
+    "ohaze-fixed-f1r0": {
+      "result": "groups/ohaze-fixed-f1r0/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 21.786867904663087,
+        "ssim": 0.7852874159812927
+      },
+      "reevaluated": {
+        "psnr": 21.786867450978185,
+        "ssim_native": 0.7161339044570922,
+        "ssim_pooled_legacy": 0.7852874398231506
+      },
+      "change_vs_published": {
+        "ssim": -0.06915351152420046,
+        "psnr_replay": -4.536849012026778e-07,
+        "pooled_ssim_replay": 2.384185793236071e-08
+      }
+    },
+    "ohaze-fixed-f1r0_rms": {
+      "result": "groups/ohaze-fixed-f1r0_rms/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 25.589160537719728,
+        "ssim": 0.9403061509132385
+      },
+      "reevaluated": {
+        "psnr": 25.58915932449501,
+        "ssim_native": 0.9036843419075012,
+        "ssim_pooled_legacy": 0.9403061866760254
+      },
+      "change_vs_published": {
+        "ssim": -0.036621809005737305,
+        "psnr_replay": -1.2132247171336985e-06,
+        "pooled_ssim_replay": 3.5762786843029915e-08
+      }
+    },
+    "ohaze-fixed-f0r0": {
+      "result": "groups/ohaze-fixed-f0r0/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 21.048770904541016,
+        "ssim": 0.7705651521682739
+      },
+      "reevaluated": {
+        "psnr": 21.048770642093558,
+        "ssim_native": 0.703907024860382,
+        "ssim_pooled_legacy": 0.7705651044845581
+      },
+      "change_vs_published": {
+        "ssim": -0.06665812730789189,
+        "psnr_replay": -2.624474575441127e-07,
+        "pooled_ssim_replay": -4.768371586472142e-08
+      }
+    },
+    "ohaze-fixed-f0r0_rms": {
+      "result": "groups/ohaze-fixed-f0r0_rms/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 25.62437629699707,
+        "ssim": 0.9400561928749085
+      },
+      "reevaluated": {
+        "psnr": 25.624375606679386,
+        "ssim_native": 0.9027308940887451,
+        "ssim_pooled_legacy": 0.9400562047958374
+      },
+      "change_vs_published": {
+        "ssim": -0.03732529878616342,
+        "psnr_replay": -6.903176839045955e-07,
+        "pooled_ssim_replay": 1.1920928910669204e-08
+      }
+    },
+    "ohaze-fixed-freeze_first_nonzero": {
+      "result": "groups/ohaze-fixed-freeze_first_nonzero/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 25.59941291809082,
+        "ssim": 0.9326030850410462
+      },
+      "reevaluated": {
+        "psnr": 25.59941187881718,
+        "ssim_native": 0.8829349994659423,
+        "ssim_pooled_legacy": 0.9326030611991882
+      },
+      "change_vs_published": {
+        "ssim": -0.049668085575103826,
+        "psnr_replay": -1.0392736413677994e-06,
+        "pooled_ssim_replay": -2.384185793236071e-08
+      }
+    },
+    "ohaze-fixed-freeze_first_nonzero_rms": {
+      "result": "groups/ohaze-fixed-freeze_first_nonzero_rms/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 26.711782455444336,
+        "ssim": 0.9458860039710999
+      },
+      "reevaluated": {
+        "psnr": 26.711782077897247,
+        "ssim_native": 0.9045029997825622,
+        "ssim_pooled_legacy": 0.945885956287384
+      },
+      "change_vs_published": {
+        "ssim": -0.041383004188537686,
+        "psnr_replay": -3.775470887035226e-07,
+        "pooled_ssim_replay": -4.768371586472142e-08
+      }
+    },
+    "ohaze-fixed-spatial_mean": {
+      "result": "groups/ohaze-fixed-spatial_mean/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 26.53363952636719,
+        "ssim": 0.9451872944831848
+      },
+      "reevaluated": {
+        "psnr": 26.533639132239248,
+        "ssim_native": 0.904595422744751,
+        "ssim_pooled_legacy": 0.945187258720398
+      },
+      "change_vs_published": {
+        "ssim": -0.040591871738433816,
+        "psnr_replay": -3.9412794095028403e-07,
+        "pooled_ssim_replay": -3.5762786843029915e-08
+      }
+    },
+    "ohaze-fixed-spatial_mean_rms": {
+      "result": "groups/ohaze-fixed-spatial_mean_rms/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 26.55135307312012,
+        "ssim": 0.9450078129768371
+      },
+      "reevaluated": {
+        "psnr": 26.55135217092727,
+        "ssim_native": 0.904345166683197,
+        "ssim_pooled_legacy": 0.9450077891349793
+      },
+      "change_vs_published": {
+        "ssim": -0.04066264629364014,
+        "psnr_replay": -9.0219284842874e-07,
+        "pooled_ssim_replay": -2.3841857821338408e-08
+      }
+    },
+    "ohaze-fixed-half_grid_shift": {
+      "result": "groups/ohaze-fixed-half_grid_shift/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 26.376900100708006,
+        "ssim": 0.9416048884391784
+      },
+      "reevaluated": {
+        "psnr": 26.376899188428236,
+        "ssim_native": 0.9019731402397155,
+        "ssim_pooled_legacy": 0.9416048765182495
+      },
+      "change_vs_published": {
+        "ssim": -0.03963174819946291,
+        "psnr_replay": -9.122797699490093e-07,
+        "pooled_ssim_replay": -1.1920928910669204e-08
+      }
+    },
+    "ohaze-fixed-half_grid_shift_rms": {
+      "result": "groups/ohaze-fixed-half_grid_shift_rms/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C3"
+      ],
+      "legacy_published": {
+        "psnr": 26.372948455810548,
+        "ssim": 0.9411881923675537
+      },
+      "reevaluated": {
+        "psnr": 26.372948003419094,
+        "ssim_native": 0.9014814019203186,
+        "ssim_pooled_legacy": 0.9411881685256958
+      },
+      "change_vs_published": {
+        "ssim": -0.03970679044723513,
+        "psnr_replay": -4.5239145407549586e-07,
+        "pooled_ssim_replay": -2.384185793236071e-08
+      }
+    },
+    "ohaze-cpu-timing-direct": {
+      "result": "groups/ohaze-cpu-timing-direct/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C2_half_delay"
+      ],
+      "legacy_published": {
+        "psnr": 26.775223541259766,
+        "ssim": 0.9468218803405761,
+        "seconds": 19.672085259997402
+      },
+      "reevaluated": {
+        "psnr": 26.77522295209806,
+        "ssim_native": 0.9065494656562805,
+        "ssim_pooled_legacy": 0.9468218803405761
+      },
+      "change_vs_published": {
+        "ssim": -0.040272414684295654,
+        "psnr_replay": -5.89161707864605e-07,
+        "pooled_ssim_replay": 0.0
+      }
+    },
+    "ohaze-cpu-timing-diagonal_half_stale": {
+      "result": "groups/ohaze-cpu-timing-diagonal_half_stale/FINAL.json",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "paper_uses": [
+        "appendix_C2_half_delay"
+      ],
+      "legacy_published": {
+        "psnr": 26.420680618286134,
+        "ssim": 0.9430619835853576,
+        "seconds": 19.52715927999816
+      },
+      "reevaluated": {
+        "psnr": 26.420680814269836,
+        "ssim_native": 0.9061286449432373,
+        "ssim_pooled_legacy": 0.9430619835853576
+      },
+      "change_vs_published": {
+        "ssim": -0.03693333864212034,
+        "psnr_replay": 1.9598370215589966e-07,
+        "pooled_ssim_replay": 0.0
+      }
+    }
+  },
+  "historical_psnr_rule": "Keep the published long-side-512 PSNR values. The recorded replays store the measured float64 PSNR separately.",
+  "gopro": "GoPro uses direct Gaussian-window RGB SSIM and is unchanged."
+}

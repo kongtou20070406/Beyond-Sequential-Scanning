@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "optimizer_updates": 0,
+  "test_images_read": 0,
+  "extra_gpu_forwards": 0,
+  "convention": "Conv/linear/matrix/einsum MACs, official VMamba scan estimate, and explicit 9-tap propagation; exclude normalization, pooling, interpolation, activation, gating, padding, and rearrangement.",
+  "release_counter_cpu_entry_verified": true,
+  "release_counter_sha256": "0df9b3043e357fe197d621b1cc6849616a9a5baa8ecd974ef6edef20b4346709",
+  "rows": [
+    {
+      "key": "ohaze/ss2d",
+      "parameters": 2470304,
+      "old_reported_g": 36.828,
+      "raw": 36827962448,
+      "removed": {
+        "layer_norm": 102236160,
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 36697414736,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "gopro/ss2d",
+      "parameters": 6300816,
+      "old_reported_g": 82.285,
+      "raw": 82284982624,
+      "removed": {
+        "layer_norm": 182845440,
+        "upsample_bilinear2d": 42467328
+      },
+      "unified": 82059669856,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "ohaze/native",
+      "parameters": 2859858,
+      "old_reported_g": 31.804,
+      "raw": 31804130048,
+      "removed": {
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 31775818496,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "ohaze/dwconv",
+      "parameters": 2848544,
+      "old_reported_g": 28.384,
+      "raw": 28383903744,
+      "removed": {
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 28355592192,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "ohaze/mdta",
+      "parameters": 2475988,
+      "old_reported_g": 26.576,
+      "raw": 26576158720,
+      "removed": {
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 26547847168,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "ohaze/swin",
+      "parameters": 2941716,
+      "old_reported_g": 34.546,
+      "raw": 34545753792,
+      "removed": {
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 34517442240,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "ohaze/cspn_style",
+      "parameters": 2239776,
+      "old_reported_g": 24.332,
+      "raw": 24332206080,
+      "removed": {
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 24303894528,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "ohaze/ours",
+      "parameters": 2248140,
+      "old_reported_g": 25.641,
+      "raw": 25640828928,
+      "removed": {
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 25612517376,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "gopro/native",
+      "parameters": 7421966,
+      "old_reported_g": 79.134,
+      "raw": 79133739264,
+      "removed": {
+        "upsample_bilinear2d": 42467328
+      },
+      "unified": 79091271936,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "gopro/cspn_style",
+      "parameters": 5792304,
+      "old_reported_g": 59.133,
+      "raw": 59133394944,
+      "removed": {
+        "upsample_bilinear2d": 42467328
+      },
+      "unified": 59090927616,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "gopro/ours",
+      "parameters": 5807236,
+      "old_reported_g": 61.474,
+      "raw": 61473816576,
+      "removed": {
+        "upsample_bilinear2d": 42467328
+      },
+      "unified": 61431349248,
+      "scope": "CPU accounting; no training or image evaluation"
+    },
+    {
+      "key": "ohaze/mair_official_block",
+      "parameters": 1932192,
+      "old_reported_g": null,
+      "raw": 26137820160,
+      "removed": {
+        "layer_norm": 434667520,
+        "adaptive_avg_pool2d": 129630208,
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 25545210880,
+      "scope": "Arithmetic conversion of existing frozen operator counts"
+    },
+    {
+      "key": "ohaze/spatial_official_block",
+      "parameters": 2734050,
+      "old_reported_g": null,
+      "raw": 33083621376,
+      "removed": {
+        "layer_norm": 545259520,
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 32510050304,
+      "scope": "Arithmetic conversion of existing frozen operator counts"
+    },
+    {
+      "key": "ohaze/mair_mixer_slot",
+      "parameters": 3547168,
+      "old_reported_g": 45.474,
+      "raw": 45964382208,
+      "removed": {
+        "adaptive_avg_pool2d": 218103808,
+        "layer_norm": 272629760,
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 45445337088,
+      "scope": "Arithmetic conversion of existing frozen operator counts"
+    },
+    {
+      "key": "ohaze/spatial_mixer_slot",
+      "parameters": 2946146,
+      "old_reported_g": 35.269,
+      "raw": 35268853760,
+      "removed": {
+        "layer_norm": 272629760,
+        "upsample_bilinear2d": 28311552
+      },
+      "unified": 34967912448,
+      "scope": "Arithmetic conversion of existing frozen operator counts"
+    }
+  ]
+}

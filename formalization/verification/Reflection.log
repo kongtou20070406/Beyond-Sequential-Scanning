@@ -1,0 +1,3 @@
+'NSI.householder_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.householder_blockSup_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.jacobianMix_blockSup_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "task": "ohaze",
+      "mixer_reduction_percent": 59.80200820251733,
+      "whole_reduction_percent": 30.206443317379815,
+      "core_reduction_percent": 79.3103448275862
+    },
+    {
+      "task": "gopro",
+      "mixer_reduction_percent": 56.477085553725416,
+      "whole_reduction_percent": 25.138363785345664,
+      "core_reduction_percent": 79.3103448275862
+    }
+  ],
+  "standalone_verified": [
+    {
+      "C": 32,
+      "input": [
+        1,
+        32,
+        64,
+        64
+      ],
+      "ours_macs": 30015488,
+      "ss2d_macs": 81494016,
+      "reduction_percent": 63.168476075593084,
+      "ours_parameters": 4834,
+      "ss2d_parameters": 7776,
+      "ours_core_macs": 11796480,
+      "ss2d_core_macs": 57016320
+    },
+    {
+      "C": 48,
+      "input": [
+        1,
+        48,
+        64,
+        64
+      ],
+      "ours_macs": 51314688,
+      "ss2d_macs": 130498560,
+      "reduction_percent": 60.67796610169491,
+      "ours_parameters": 8786,
+      "ss2d_parameters": 13680,
+      "ours_core_macs": 17694720,
+      "ss2d_core_macs": 85524480
+    },
+    {
+      "C": 64,
+      "input": [
+        1,
+        64,
+        64,
+        64
+      ],
+      "ours_macs": 76808192,
+      "ss2d_macs": 185008128,
+      "reduction_percent": 58.48388239461566,
+      "ours_parameters": 13762,
+      "ss2d_parameters": 20928,
+      "ours_core_macs": 23592960,
+      "ss2d_core_macs": 114032640
+    },
+    {
+      "C": 96,
+      "input": [
+        1,
+        96,
+        64,
+        64
+      ],
+      "ours_macs": 140378112,
+      "ss2d_macs": 310542336,
+      "reduction_percent": 54.795821462488135,
+      "ours_parameters": 26786,
+      "ss2d_parameters": 39456,
+      "ours_core_macs": 35389440,
+      "ss2d_core_macs": 171048960
+    },
+    {
+      "C": 128,
+      "input": [
+        1,
+        128,
+        64,
+        64
+      ],
+      "ours_macs": 220725248,
+      "ss2d_macs": 458096640,
+      "reduction_percent": 51.81688125894135,
+      "ours_parameters": 43906,
+      "ss2d_parameters": 63360,
+      "ours_core_macs": 47185920,
+      "ss2d_core_macs": 228065280
+    },
+    {
+      "C": 192,
+      "input": [
+        1,
+        192,
+        64,
+        64
+      ],
+      "ours_macs": 431751168,
+      "ss2d_macs": 819265536,
+      "reduction_percent": 47.30021598272138,
+      "ours_parameters": 90434,
+      "ss2d_parameters": 127296,
+      "ours_core_macs": 70778880,
+      "ss2d_core_macs": 342097920
+    }
+  ],
+  "scope": "CPU operator counts and analytic counts agree; no latency measurement."
+}

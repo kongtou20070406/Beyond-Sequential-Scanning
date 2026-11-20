@@ -1,0 +1,63 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-fixed-f1r0",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+  "paper_uses": [
+    "appendix_C3"
+  ],
+  "psnr": 21.786867450978185,
+  "ssim": 0.7161339044570922,
+  "legacy_pooled_ssim": 0.7852874398231506,
+  "legacy_published": {
+    "psnr": 21.786867904663087,
+    "ssim": 0.7852874159812927
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 23.451089359380827,
+      "ssim": 0.7922203540802002,
+      "legacy_pooled_ssim": 0.8408622741699219,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 18.620268981583624,
+      "ssim": 0.6643679141998291,
+      "legacy_pooled_ssim": 0.7444867491722107,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 23.67544863111254,
+      "ssim": 0.7913122177124023,
+      "legacy_pooled_ssim": 0.8587379455566406,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 23.14896757204259,
+      "ssim": 0.7776920199394226,
+      "legacy_pooled_ssim": 0.834394633769989,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 20.03856271077135,
+      "ssim": 0.5550770163536072,
+      "legacy_pooled_ssim": 0.647955596446991,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    }
+  ],
+  "source_record": {
+    "id": "results/cached/ohaze-fixed-f1r0.json",
+    "sha256": "bac9684c2a0fde73eab5ff43387bf5ac0800cbbb4fa9f70b5ab9ecda5a8773a0",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0
+}

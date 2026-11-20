@@ -1,0 +1,7 @@
+'NSI.pairTransform_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.neighborhoodAggregate_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.normalized_gain_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.neighborhoodAggregate_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.normalized_nine_gains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.normalizedKernel_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.identity_old_contribution_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]

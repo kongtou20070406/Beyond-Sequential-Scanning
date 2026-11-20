@@ -1,0 +1,2 @@
+'NSI.weighted_difference_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.equal_weight_readout' depends on axioms: [propext, Classical.choice, Quot.sound]

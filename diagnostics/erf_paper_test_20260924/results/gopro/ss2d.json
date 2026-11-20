@@ -1,0 +1,32 @@
+{
+  "id": "gopro-ss2d-seed42",
+  "label": "SS2D",
+  "dataset": "gopro",
+  "arm": "ss2d",
+  "checkpoint": "weights/gopro/ss2d/seed42/last.pth",
+  "checkpoint_sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b",
+  "input": {
+    "path": "external/GOPR0384_11_00__000001.png",
+    "sha256": "1f516e38eea7a16fd48fddc34953cb227d86d22fbcd31de0c1334bb14b96dba8"
+  },
+  "input_shape": [
+    720,
+    1280
+  ],
+  "center_yx": [
+    360,
+    640
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "none",
+  "r50_px": 176.3774361986249,
+  "r90_px": 480.1260251225713,
+  "r95_px": 556.0080934662732,
+  "gradient_sum": 400.19903564453125,
+  "gradient_peak": 0.6093037128448486,
+  "seconds": 2.9355656999978237,
+  "peak_cuda_mib": 11199.224609375
+}

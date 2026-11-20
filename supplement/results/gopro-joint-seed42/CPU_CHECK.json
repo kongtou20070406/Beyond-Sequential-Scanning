@@ -1,0 +1,19 @@
+{
+  "id": "gopro-joint-seed42",
+  "strict_load": {
+    "status": "passed",
+    "state_keys": 557
+  },
+  "parameters": 5807236,
+  "checkpoint_sha256": "00981e007389a293da45d5f0159da0cd5840ee607e841a19f8c41f90a257ad94",
+  "forward": {
+    "status": "passed",
+    "shape": [
+      1,
+      3,
+      16,
+      16
+    ],
+    "device": "cpu"
+  }
+}

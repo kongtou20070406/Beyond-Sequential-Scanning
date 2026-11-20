@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "count": 55,
+  "psnr_db": 31.38095573945479,
+  "ssim": 0.9205301273952831,
+  "per_image_sha256": "e5ccac6896b29f7e5fc120cd85efd0d074bcb0ca93098b87a39fa9fb876cf6b2",
+  "action": "verify",
+  "inference_mode": "native",
+  "selected": {
+    "ours": {
+      "checkpoint": "weights/gopro/ours/seed42/last.pth",
+      "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+      "config": "configs/restoration/gopro/ours.yml"
+    }
+  },
+  "training": false,
+  "backend": "joint_heads_direct_rollout_fp32",
+  "precision": "FP32_TF32_DISABLED",
+  "scope": "55-image panel",
+  "inference": {
+    "backend": "joint_heads_direct_rollout_fp32",
+    "fused_blocks": 26
+  },
+  "torch": "2.10.0",
+  "cuda": "13.0",
+  "device": "NVIDIA GeForce RTX 5090",
+  "cpu_threads": 4,
+  "interop_threads": 1
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-08T11:35:43.744311+00:00",
+  "user_requires": "Build official modules locally; no replacement implementation",
+  "prior_adapter": "REJECTED; files and preliminary counts moved out of active runtime",
+  "official_commit": "f72ed9b2486a5931190912dcfa8b964033c80e8c",
+  "model_python": "Official full spatialmamba.py and utils.py unchanged",
+  "kernels": "Official selective_scan_cuda_oflex_rh and dwconv2d rebuilt locally",
+  "compatibility_only": [
+    "MSVC build flags and sm_120 target",
+    "CUDA13 LaneId and CTA_SYNC native primitive names",
+    "Equivalent explicit boolean template dispatch",
+    "M_LOG2E compiler definition"
+  ],
+  "training_started": false
+}

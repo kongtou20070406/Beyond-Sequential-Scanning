@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "shape": [
+    1,
+    3,
+    720,
+    1280
+  ],
+  "backend": "joint_heads_direct_rollout_fp32",
+  "inference_mode": "native",
+  "panel_count": 55,
+  "maximum_differences": {
+    "max_abs_error": 1.2516975402832031e-06,
+    "psnr_abs_difference": 2.384185791015625e-06,
+    "ssim_abs_difference": 1.1920928955078125e-07
+  },
+  "timing_processes": {
+    "1": {
+      "crop": {
+        "ours": {
+          "cuda_ms": 126.5008659362793,
+          "wall_ms": 126.74825004069135,
+          "peak_delta_mib": 2163.89501953125
+        },
+        "ss2d": {
+          "cuda_ms": 129.70206451416016,
+          "wall_ms": 129.9288000445813,
+          "peak_delta_mib": 2163.89501953125
+        }
+      },
+      "native": {
+        "ours": {
+          "cuda_ms": 495.30662536621094,
+          "wall_ms": 495.4174499725923,
+          "peak_delta_mib": 7604.31689453125
+        },
+        "ss2d": {
+          "cuda_ms": 514.4203796386719,
+          "wall_ms": 514.7108999663033,
+          "peak_delta_mib": 7604.31689453125
+        }
+      }
+    },
+    "2": {
+      "crop": {
+        "ours": {
+          "cuda_ms": 126.7213134765625,
+          "wall_ms": 126.86704995576292,
+          "peak_delta_mib": 2163.89501953125
+        },
+        "ss2d": {
+          "cuda_ms": 129.75396728515625,
+          "wall_ms": 130.2162500214763,
+          "peak_delta_mib": 2163.89501953125
+        }
+      },
+      "native": {
+        "ours": {
+          "cuda_ms": 496.14637756347656,
+          "wall_ms": 496.2876499630511,
+          "peak_delta_mib": 7604.31689453125
+        },
+        "ss2d": {
+          "cuda_ms": 513.6487731933594,
+          "wall_ms": 513.7984499451704,
+          "peak_delta_mib": 7604.31689453125
+        }
+      }
+    },
+    "3": {
+      "crop": {
+        "ours": {
+          "cuda_ms": 126.08419418334961,
+          "wall_ms": 126.39774999115616,
+          "peak_delta_mib": 2163.89501953125
+        },
+        "ss2d": {
+          "cuda_ms": 129.9944305419922,
+          "wall_ms": 130.16435003373772,
+          "peak_delta_mib": 2163.89501953125
+        }
+      },
+      "native": {
+        "ours": {
+          "cuda_ms": 493.5362854003906,
+          "wall_ms": 493.77414997434244,
+          "peak_delta_mib": 7604.31689453125
+        },
+        "ss2d": {
+          "cuda_ms": 512.6947631835938,
+          "wall_ms": 513.1497499532998,
+          "peak_delta_mib": 7604.31689453125
+        }
+      }
+    }
+  },
+  "timing_scope": "one fixed image; three processes; 12 alternating pairs per process; not a test-set mean"
+}

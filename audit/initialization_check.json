@@ -1,0 +1,20 @@
+{
+  "id": "ohaze-cspn-context-seed42",
+  "strict_load": {
+    "status": "passed",
+    "state_keys": 429
+  },
+  "parameters": 2230624,
+  "checkpoint_sha256": "9052bab2095d0a5bd24bf18c0508767618916e0d94fe984211a7830550061d78",
+  "forward": {
+    "status": "passed",
+    "shape": [
+      1,
+      3,
+      16,
+      16
+    ],
+    "device": "cpu"
+  },
+  "index": 0
+}

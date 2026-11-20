@@ -1,0 +1,54 @@
+{
+  "checkpoint": "<RUN_DIR>/runs/cspnpp_style/experiments/ohaze-cspnpp_style-seed42/models/net_g_latest.pth",
+  "config": "<RUN_DIR>/runs/cspnpp_style/CONFIG_USED.yml",
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB PSNR; direct RGB SSIM; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03)",
+  "metric_protocol": {
+    "id": "direct_rgb_ssim_v1",
+    "color_space": "RGB",
+    "image_pre_pooling": false,
+    "window_size": 11,
+    "window_sigma": 1.5,
+    "k1": 0.01,
+    "k2": 0.03,
+    "backend": "pytorch_msssim.ssim",
+    "data_range": 1,
+    "numeric_precision": "FP32"
+  },
+  "inference": {
+    "backend": "model_defined",
+    "fused_blocks": 0
+  },
+  "count": 5,
+  "psnr": 26.12848014831543,
+  "ssim": 0.9055687308311462,
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 27.02887725830078,
+      "ssim": 0.9439553022384644
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 26.400272369384766,
+      "ssim": 0.8985779285430908
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 26.956003189086914,
+      "ssim": 0.9423891305923462
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 26.016624450683594,
+      "ssim": 0.9163667559623718
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 24.240623474121094,
+      "ssim": 0.826554536819458
+    }
+  ],
+  "method": "cspnpp_style",
+  "seed": 42,
+  "updates": 55800
+}

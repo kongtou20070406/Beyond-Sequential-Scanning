@@ -1,0 +1,29 @@
+{
+  "arm": "no_gain",
+  "index": 350,
+  "id": "415_0.56_1.96",
+  "checkpoint": {
+    "path": "weights/haze4k/no_gain/seed42/last.pth",
+    "sha256": "0e9b411cf02c43d80c2c712208b65717905b7326545f0b3bfedad4d3cef546e9"
+  },
+  "scores": [
+    {
+      "mode": "native",
+      "output_rms_matched": false,
+      "psnr": 20.013982049609595,
+      "finite": true
+    },
+    {
+      "mode": "normalize",
+      "output_rms_matched": false,
+      "psnr": 7.301232677297951,
+      "finite": true
+    },
+    {
+      "mode": "normalize",
+      "output_rms_matched": true,
+      "psnr": 12.940833269994014,
+      "finite": true
+    }
+  ]
+}

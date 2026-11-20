@@ -1,0 +1,63 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-fixed-half_grid_shift",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+  "paper_uses": [
+    "appendix_C3"
+  ],
+  "psnr": 26.376899188428236,
+  "ssim": 0.9019731402397155,
+  "legacy_pooled_ssim": 0.9416048765182495,
+  "legacy_published": {
+    "psnr": 26.376900100708006,
+    "ssim": 0.9416048884391784
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 27.851337299396345,
+      "ssim": 0.9431341290473938,
+      "legacy_pooled_ssim": 0.9630339741706848,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 25.07296250392087,
+      "ssim": 0.8805730938911438,
+      "legacy_pooled_ssim": 0.931003749370575,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 27.428104080689536,
+      "ssim": 0.9414574503898621,
+      "legacy_pooled_ssim": 0.969186007976532,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 25.88379106166616,
+      "ssim": 0.909835159778595,
+      "legacy_pooled_ssim": 0.9472627639770508,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 25.64830099646828,
+      "ssim": 0.8348658680915833,
+      "legacy_pooled_ssim": 0.897537887096405,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    }
+  ],
+  "source_record": {
+    "id": "results/cached/ohaze-fixed-half_grid_shift.json",
+    "sha256": "620c9011b2e357242f95314489fdd514ef3a659abe665974293b345e8683f8ff",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0
+}

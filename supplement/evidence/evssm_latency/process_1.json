@@ -1,0 +1,213 @@
+{
+  "process": 1,
+  "arms": {
+    "native": {
+      "parameters": 17129472,
+      "checkpoint_sha256": "d06bd3f57bf0260542cf923cb412a982f5fe4af3d484239fa2614a4166e21c9d"
+    },
+    "nsi": {
+      "parameters": 12842304,
+      "checkpoint_sha256": "80d4c505a03d0113f3738daaa42f58013db97e31b12d66dd59ad0afb90229060"
+    }
+  },
+  "max_abs_diff": 1.2814998626708984e-06,
+  "rows": [
+    {
+      "trial": 0,
+      "arm": "native",
+      "cuda_ms": 2185.367919921875,
+      "wall_ms": 2185.5492999893613,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12194938880
+    },
+    {
+      "trial": 0,
+      "arm": "nsi",
+      "cuda_ms": 2408.889892578125,
+      "wall_ms": 2409.0375999803655,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12194938880
+    },
+    {
+      "trial": 1,
+      "arm": "nsi",
+      "cuda_ms": 2419.4990234375,
+      "wall_ms": 2419.6679999877233,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12104761344
+    },
+    {
+      "trial": 1,
+      "arm": "native",
+      "cuda_ms": 2150.005859375,
+      "wall_ms": 2150.140799989458,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12194938880
+    },
+    {
+      "trial": 2,
+      "arm": "native",
+      "cuda_ms": 2184.660888671875,
+      "wall_ms": 2184.7931999946013,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 2,
+      "arm": "nsi",
+      "cuda_ms": 2623.9189453125,
+      "wall_ms": 2624.132600001758,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 3,
+      "arm": "nsi",
+      "cuda_ms": 2351.033203125,
+      "wall_ms": 2351.1702999821864,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12104761344
+    },
+    {
+      "trial": 3,
+      "arm": "native",
+      "cuda_ms": 2259.373779296875,
+      "wall_ms": 2259.5054999983404,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12194938880
+    },
+    {
+      "trial": 4,
+      "arm": "native",
+      "cuda_ms": 2268.462158203125,
+      "wall_ms": 2268.6086999892723,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 4,
+      "arm": "nsi",
+      "cuda_ms": 2461.2216796875,
+      "wall_ms": 2461.4641000225674,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 5,
+      "arm": "nsi",
+      "cuda_ms": 2548.140380859375,
+      "wall_ms": 2548.3479000104126,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12104761344
+    },
+    {
+      "trial": 5,
+      "arm": "native",
+      "cuda_ms": 2188.492919921875,
+      "wall_ms": 2188.643100002082,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12194938880
+    },
+    {
+      "trial": 6,
+      "arm": "native",
+      "cuda_ms": 2172.609130859375,
+      "wall_ms": 2172.812500008149,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 6,
+      "arm": "nsi",
+      "cuda_ms": 2313.287109375,
+      "wall_ms": 2313.498500006972,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 7,
+      "arm": "nsi",
+      "cuda_ms": 2544.20458984375,
+      "wall_ms": 2544.34379999293,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12104761344
+    },
+    {
+      "trial": 7,
+      "arm": "native",
+      "cuda_ms": 2338.186279296875,
+      "wall_ms": 2338.3478000178,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12194938880
+    },
+    {
+      "trial": 8,
+      "arm": "native",
+      "cuda_ms": 2312.50634765625,
+      "wall_ms": 2312.7148000057787,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 8,
+      "arm": "nsi",
+      "cuda_ms": 2269.559326171875,
+      "wall_ms": 2269.7674999944866,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 9,
+      "arm": "nsi",
+      "cuda_ms": 2315.37646484375,
+      "wall_ms": 2315.5234000005294,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12104761344
+    },
+    {
+      "trial": 9,
+      "arm": "native",
+      "cuda_ms": 2171.51025390625,
+      "wall_ms": 2171.7158000101335,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12194938880
+    },
+    {
+      "trial": 10,
+      "arm": "native",
+      "cuda_ms": 2136.766357421875,
+      "wall_ms": 2136.9016999960877,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 10,
+      "arm": "nsi",
+      "cuda_ms": 2312.77734375,
+      "wall_ms": 2313.283900002716,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12469665792
+    },
+    {
+      "trial": 11,
+      "arm": "nsi",
+      "cuda_ms": 2308.1435546875,
+      "wall_ms": 2308.2885000039823,
+      "peak_allocated_bytes": 8113549824,
+      "peak_reserved_bytes": 12104761344
+    },
+    {
+      "trial": 11,
+      "arm": "native",
+      "cuda_ms": 2172.376708984375,
+      "wall_ms": 2172.5156999891624,
+      "peak_allocated_bytes": 8114467328,
+      "peak_reserved_bytes": 12194938880
+    }
+  ],
+  "torch": "2.10.0",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "triton": "3.6.0",
+  "driver": "617.42"
+}

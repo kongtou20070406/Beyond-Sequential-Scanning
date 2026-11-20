@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "paired_updates_checked": 55800,
+  "sample_keys_checked": 111600,
+  "transform_cases": [
+    {
+      "image": "01.jpg",
+      "augmentation_seed": 20260910,
+      "input_bitwise": true,
+      "target_bitwise": true
+    },
+    {
+      "image": "07.jpg",
+      "augmentation_seed": 20260916,
+      "input_bitwise": true,
+      "target_bitwise": true
+    },
+    {
+      "image": "16.jpg",
+      "augmentation_seed": 20260925,
+      "input_bitwise": true,
+      "target_bitwise": true
+    },
+    {
+      "image": "23.jpg",
+      "augmentation_seed": 20260932,
+      "input_bitwise": true,
+      "target_bitwise": true
+    },
+    {
+      "image": "32.jpg",
+      "augmentation_seed": 20260941,
+      "input_bitwise": true,
+      "target_bitwise": true
+    },
+    {
+      "image": "40.jpg",
+      "augmentation_seed": 20260949,
+      "input_bitwise": true,
+      "target_bitwise": true
+    }
+  ],
+  "config_equal_after_data_paths_and_run_name_change": true,
+  "initial_checkpoint_sha256": "9052bab2095d0a5bd24bf18c0508767618916e0d94fe984211a7830550061d78",
+  "strict_initial_load": true,
+  "cpu_backward": "PASS",
+  "optimizer_updates": 0,
+  "coverage": "Frozen recipe and six augmented image pairs; no repeated training."
+}

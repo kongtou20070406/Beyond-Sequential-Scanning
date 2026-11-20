@@ -1,0 +1,1268 @@
+{
+  "status": "passed",
+  "count": 56,
+  "tests": 9,
+  "spatial_extension_note": "The Spatial-Mamba check needed the existing local extension directory. It passed after that directory was set. No compiled binary is included.",
+  "experiments": [
+    {
+      "id": "ohaze-native-seed42",
+      "checkpoint_sha256": "9ce69648186bbfca87d5c180ac9289b089baf10468274ebaae4abf8d10d8eb36",
+      "strict_load": {
+        "parameters": 2859858,
+        "state_keys": 407,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-dwconv-seed42",
+      "checkpoint_sha256": "f71f2ba0bab9530864d48d95a507597ac1b6dc49ae244c45468e2598c777d9c7",
+      "strict_load": {
+        "parameters": 2848544,
+        "state_keys": 297,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-mdta-seed42",
+      "checkpoint_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2",
+      "strict_load": {
+        "parameters": 2475988,
+        "state_keys": 253,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-swin-seed42",
+      "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0",
+      "strict_load": {
+        "parameters": 2941716,
+        "state_keys": 297,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-ss2d-seed42",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "strict_load": {
+        "parameters": 2470304,
+        "state_keys": 407,
+        "status": "passed"
+      },
+      "forward": {
+        "extensions": {
+          "checked": true,
+          "missing": [
+            "selective_scan_cuda"
+          ],
+          "required": [
+            "selective_scan_cuda",
+            "selective_scan_cuda_oflex"
+          ]
+        },
+        "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "ohaze-cspn_style-seed42",
+      "checkpoint_sha256": "0a6dcb9ebeb1cb781c1ab9d5a12c5629c892b74095819cda6bf37fd47e8dd3c4",
+      "strict_load": {
+        "parameters": 2239776,
+        "state_keys": 297,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-ours-seed42",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-mair-seed42",
+      "checkpoint_sha256": "f1523606b44c1515f1aeef78857e4bc77da5a731120a7798c3628087e3542f1f",
+      "strict_load": {
+        "parameters": 3547168,
+        "state_keys": 451,
+        "status": "passed"
+      },
+      "forward": {
+        "extensions": {
+          "checked": true,
+          "missing": [],
+          "required": [
+            "selective_scan_cuda_oflex"
+          ]
+        },
+        "reason": "strict-load-only by policy; forward requires compiled extension(s): available extensions",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "ohaze-matched_feedforward-seed42",
+      "checkpoint_sha256": "08e3d6cff2af73ee52c9401052b28eb2ce8f9cacf838b4f8fadfe2715012d268",
+      "strict_load": {
+        "parameters": 2252300,
+        "state_keys": 495,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-step_conditioned_rules-seed42",
+      "checkpoint_sha256": "d3fde656eb30526345f6fe49fc86f1099f85fde0b6964696266ee96e2dccfb3a",
+      "strict_load": {
+        "parameters": 2252300,
+        "state_keys": 495,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-first_step_drive-seed42",
+      "checkpoint_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-identity_retention-seed42",
+      "checkpoint_sha256": "6152c1d22fdcb6212f0254711f531aa41a4ca626a67390522b14e64e109944a9",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-terminal_readout-seed42",
+      "checkpoint_sha256": "4a598b18aa8354e5503c20dfb7dc5b7459d48ae619317a9d5f580d659f252665",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-identity_retention_terminal_readout-seed42",
+      "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-static_rules-seed42",
+      "checkpoint_sha256": "1abfe6fad6f2b8d7ffe810724d26820e824d145ef335b899833b03c64e5950e5",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-equal_parameter_real-seed42",
+      "checkpoint_sha256": "e9265e66c803a2f5e635856a650fa9ba8e653c130a666c0f695089be93a13f51",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-no_row_mass_projection-seed42",
+      "checkpoint_sha256": "4fcf76ab7eb1cf323f291b4ed06ecfd69dad4166d7ffb1e744a97dd020b1d8e7",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-alternative_generator-seed42",
+      "checkpoint_sha256": "d23565afe5c1ed9ee0b0ccdb861b2071a3c55b8abfe289b1b1d996479c9db91c",
+      "strict_load": {
+        "parameters": 2214860,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-conjugate_symmetric-seed42",
+      "checkpoint_sha256": "c5eb5d954d651108c6bc95e7b94470fe749a8aa34355fa9f79da5370ea014a53",
+      "strict_load": {
+        "parameters": 2210700,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-depth_k1-seed42",
+      "checkpoint_sha256": "2ad969496a43fd63cf8dd9f58899445db488d07e3829b199c8756c5586d5f1fb",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-depth_k3-seed42",
+      "checkpoint_sha256": "66fc1bdc54038e6bab73c4a40e957bb588a4f96198412509d4ef625e62e05a9d",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-depth_k7-seed42",
+      "checkpoint_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-p0t_diagonal_delay-seed42",
+      "checkpoint_sha256": "3f5a4b9e7c6ca384ea5732c604ca8cf39677a0ade89126e6fbe425206fcb6a76",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-p0s_state_dynamic-seed42",
+      "checkpoint_sha256": "ccfbbf3eb81f6756452d6dafa1f7d487993f550472d7a05731d31e6003944665",
+      "strict_load": {
+        "parameters": 2248140,
+        "state_keys": 473,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-native-seed42",
+      "checkpoint_sha256": "f167d66c6c1e1953409bf070755cf28c75e3f98291facc0ce4c12cfc4bddacf6",
+      "strict_load": {
+        "parameters": 7421966,
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-native-seed43",
+      "checkpoint_sha256": "6654f0a4c46790d9c405ff806d2f6a830fb76a7d12b2b7d0f72bed050df37246",
+      "strict_load": {
+        "parameters": 7421966,
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-native-seed44",
+      "checkpoint_sha256": "47dca232982ceaf269275588a6c88fc83b828a9e8d701202bf0c5a0230f94dd2",
+      "strict_load": {
+        "parameters": 7421966,
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-cspn_style-seed42",
+      "checkpoint_sha256": "3eb5ec8153fe17c4976d5405524222fc58e6561b2c3849e90ca093b1f79f0e29",
+      "strict_load": {
+        "parameters": 5792304,
+        "state_keys": 349,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-cspn_style-seed43",
+      "checkpoint_sha256": "b15bb7b89af341f30a65fb93c99f3497ce9c962369e3d3549d7c9d1a7432028a",
+      "strict_load": {
+        "parameters": 5792304,
+        "state_keys": 349,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-cspn_style-seed44",
+      "checkpoint_sha256": "31367a67ef41dbe3c3342c15b61a4955c55270a614f9804139191a41e1c90624",
+      "strict_load": {
+        "parameters": 5792304,
+        "state_keys": 349,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-ss2d-seed42",
+      "checkpoint_sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b",
+      "strict_load": {
+        "parameters": 6300816,
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "extensions": {
+          "checked": true,
+          "missing": [
+            "selective_scan_cuda"
+          ],
+          "required": [
+            "selective_scan_cuda",
+            "selective_scan_cuda_oflex"
+          ]
+        },
+        "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "gopro-ss2d-seed43",
+      "checkpoint_sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc",
+      "strict_load": {
+        "parameters": 6300816,
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "extensions": {
+          "checked": true,
+          "missing": [
+            "selective_scan_cuda"
+          ],
+          "required": [
+            "selective_scan_cuda",
+            "selective_scan_cuda_oflex"
+          ]
+        },
+        "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "gopro-ss2d-seed44",
+      "checkpoint_sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae",
+      "strict_load": {
+        "parameters": 6300816,
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "extensions": {
+          "checked": true,
+          "missing": [
+            "selective_scan_cuda"
+          ],
+          "required": [
+            "selective_scan_cuda",
+            "selective_scan_cuda_oflex"
+          ]
+        },
+        "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "gopro-ours-seed42",
+      "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+      "strict_load": {
+        "parameters": 5807236,
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-ours-seed43",
+      "checkpoint_sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936",
+      "strict_load": {
+        "parameters": 5807236,
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-ours-seed44",
+      "checkpoint_sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501",
+      "strict_load": {
+        "parameters": 5807236,
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "cityscapes-ours-seed304",
+      "checkpoint_sha256": "940508c0369be80cf3ad7ad1602200e0b66e09182d27109d1f9caa1675505161",
+      "strict_load": {
+        "parameters": 21667950,
+        "state_keys": 389,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "output_shape": [
+          1,
+          19,
+          128,
+          128
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "imagenet100-native-seed20270821",
+      "checkpoint_sha256": "6714b4d48273811d72c9d18a4e20309d0de28ddce05f38bff270eb98a2f569c2",
+      "strict_load": {
+        "parameters": 11430012,
+        "state_keys": 104,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          100
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "imagenet100-dwconv-seed20270821",
+      "checkpoint_sha256": "ee8a37b946c53b5c2e7588dd6c123ab70910fc081e4a6b9093706ee10816c367",
+      "strict_load": {
+        "parameters": 15132028,
+        "state_keys": 140,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          100
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "imagenet100-mdta-seed20270821",
+      "checkpoint_sha256": "d08d2595b0ac106e1114b2e418273d1e760834dc309627071b6a7b7fb5d65bc7",
+      "strict_load": {
+        "parameters": 16238506,
+        "state_keys": 152,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          100
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "imagenet100-swin-seed20270821",
+      "checkpoint_sha256": "2f0e630e58ca8de0ca0d489dc87c963958aa70d62e9d97785963e58b0dfa10fe",
+      "strict_load": {
+        "parameters": 16169690,
+        "state_keys": 176,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          100
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "imagenet100-ss2d-seed20270821",
+      "checkpoint_sha256": "ba04a4b892f1cc17fdf6c09429c0ecec216458392a0be9510e56fcb2ab8dd669",
+      "strict_load": {
+        "parameters": 15055740,
+        "state_keys": 236,
+        "status": "passed"
+      },
+      "forward": {
+        "extensions": {
+          "checked": true,
+          "missing": [
+            "selective_scan_cuda"
+          ],
+          "required": [
+            "selective_scan_cuda",
+            "selective_scan_cuda_oflex"
+          ]
+        },
+        "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "imagenet100-ours-seed20270821",
+      "checkpoint_sha256": "31beea3b5e05024736a735078ef7ddeb64a2d2601e23e621f10abf54b2e2bfca",
+      "strict_load": {
+        "parameters": 14078868,
+        "state_keys": 272,
+        "status": "passed"
+      },
+      "forward": {
+        "finite": true,
+        "input_shape": [
+          1,
+          3,
+          64,
+          64
+        ],
+        "output_shape": [
+          1,
+          100
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-identity-retention-seed42",
+      "checkpoint_sha256": "860b91fdd28aef91c43d45f8a6887ee06222a2484f69ab08cd6319bfe33c3100",
+      "strict_load": {
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-terminal-readout-seed42",
+      "checkpoint_sha256": "66f0a13bb55d31167f8af51bbe9fd265d3e634d9e35cf13bf08861c4e4cacadd",
+      "strict_load": {
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-state-dynamic-seed42",
+      "checkpoint_sha256": "7252dfaba9e2a804dfb4847f683c8fef2c58f0c6647bbee6bb219673437e4c21",
+      "strict_load": {
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-half-delay-seed42",
+      "checkpoint_sha256": "b7643dcc5af22d905cc99006505e11d58a6268eea0a2dba7ea938dc8517ccbdd",
+      "strict_load": {
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "ohaze-spatial-mamba-seed42",
+      "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+      "strict_load": {
+        "status": "passed",
+        "state_keys": 495
+      },
+      "forward": {
+        "status": "skipped",
+        "reason": "The official scan requires CUDA."
+      }
+    },
+    {
+      "id": "gopro-ours-native-seed42",
+      "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+      "strict_load": {
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-ss2d-native-seed42",
+      "checkpoint_sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b",
+      "strict_load": {
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "reason": "The official scan requires CUDA.",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "gopro-ours-native-seed43",
+      "checkpoint_sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936",
+      "strict_load": {
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-ss2d-native-seed43",
+      "checkpoint_sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc",
+      "strict_load": {
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "reason": "The official scan requires CUDA.",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "gopro-ours-native-seed44",
+      "checkpoint_sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501",
+      "strict_load": {
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-ss2d-native-seed44",
+      "checkpoint_sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae",
+      "strict_load": {
+        "state_keys": 479,
+        "status": "passed"
+      },
+      "forward": {
+        "reason": "The official scan requires CUDA.",
+        "status": "skipped"
+      }
+    },
+    {
+      "id": "ohaze-cspn-context-seed42",
+      "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+      "strict_load": {
+        "state_keys": 429,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "id": "gopro-no-normalization-seed42",
+      "checkpoint_sha256": "52bb47967b7b727bccf3eea588cb7fcdd061ad08d69a79b685d9c81dc12fb764",
+      "strict_load": {
+        "state_keys": 557,
+        "status": "passed"
+      },
+      "forward": {
+        "device": "cpu",
+        "shape": [
+          1,
+          3,
+          16,
+          16
+        ],
+        "status": "passed"
+      }
+    }
+  ]
+}

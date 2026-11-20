@@ -1,0 +1,19 @@
+{
+  "compiled_and_imported": true,
+  "utc": "2026-09-08T11:40:43.247852+00:00",
+  "binaries": {
+    "selective_scan_cuda_oflex_rh": {
+      "path": "selective_scan_cuda_oflex_rh.cp312-win_amd64.pyd",
+      "sha256": "f948c4afcb6acf462acedc874960577de556a697f8aeacc98d90c1c1e438db06"
+    },
+    "dwconv2d": {
+      "path": "dwconv2d.cp312-win_amd64.pyd",
+      "sha256": "d8a8bbed2ff8fcdb6a22e606590d62c5f55102e11992f36bc7e5a769f651599f"
+    }
+  },
+  "model_module_file": "spatialmamba.py",
+  "official_model_and_utils_unchanged": true,
+  "parameters": 2946146,
+  "gpu_preflight": "PENDING",
+  "cuda_initialized": false
+}

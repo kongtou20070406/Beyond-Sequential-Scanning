@@ -1,0 +1,32 @@
+{
+  "id": "ohaze-dwconv-seed42",
+  "label": "DWConv",
+  "dataset": "ohaze",
+  "arm": "dwconv",
+  "checkpoint": "weights/ohaze/dwconv/seed42/last.pth",
+  "checkpoint_sha256": "f71f2ba0bab9530864d48d95a507597ac1b6dc49ae244c45468e2598c777d9c7",
+  "input": {
+    "path": "external/41.jpg",
+    "sha256": "b34462547def19a5a62343cbd09bd9b35954b9bf2d2e7cd6f55a28c47658b86e"
+  },
+  "input_shape": [
+    512,
+    422
+  ],
+  "center_yx": [
+    256,
+    211
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 32",
+  "r50_px": 60.01666435249463,
+  "r90_px": 111.04053313993049,
+  "r95_px": 125.00399993600205,
+  "gradient_sum": 58.021453857421875,
+  "gradient_peak": 0.41444554924964905,
+  "seconds": 0.33817100001033396,
+  "peak_cuda_mib": 1601.5009765625
+}

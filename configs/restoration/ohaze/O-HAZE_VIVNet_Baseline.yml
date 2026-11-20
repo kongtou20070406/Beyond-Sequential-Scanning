@@ -1,0 +1,49 @@
+name: O-HAZE-VIVNet-Baseline-P256-seed42-rerun-v1
+model_type: ImageRestorationModel
+scale: 1
+num_gpu: 1
+manual_seed: 42
+
+datasets:
+  train:
+    name: TrainSet
+    type: PairedImageDataset
+    dataroot_gt: __DATA_ROOT__/train/gt
+    dataroot_lq: __DATA_ROOT__/train/hazy
+    filename_tmpl: '{}'
+    io_backend: {type: disk}
+    gt_size: 256
+    use_flip: true
+    use_rot: true
+    use_shuffle: true
+    num_worker_per_gpu: 8
+    batch_size_per_gpu: 2
+    pin_memory: true
+    dataset_enlarge_ratio: 200
+    prefetch_mode: ~
+
+network_g:
+  type: VIVNet
+  inp_channels: 3
+  out_channels: 3
+  dim: 32
+  num_blocks: [2, 3, 4]
+  num_refinement_blocks: 4
+  ffn_expansion_factor: 3
+  bias: False
+
+path: {pretrain_network_g: ~, strict_load_g: ~, resume_state: ~}
+train:
+  optim_g: {type: AdamW, lr: !!float 1e-3, weight_decay: !!float 1e-3, betas: [0.9, 0.9]}
+  scheduler: {type: TrueCosineAnnealingLR, T_max: 55800, eta_min: !!float 1e-7}
+  total_iter: 55800
+  warmup_iter: -1
+  pixel_opt: {type: L1Loss, loss_weight: 1.0, reduction: mean}
+  fft_loss_opt: {type: FFTLoss, loss_weight: 0.1, reduction: mean}
+
+logger:
+  print_freq: 200
+  save_checkpoint_freq: 5000
+  use_tb_logger: false
+  wandb: {project: ~, resume_id: ~}
+dist_params: {backend: gloo, port: 29500}

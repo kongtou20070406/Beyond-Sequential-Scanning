@@ -1,0 +1,1807 @@
+[
+  {
+    "published": "PAPER_RESULTS.md",
+    "source_sha256": "2344f430c5118fcf06b54d644f6aeb37272344d0bac463c7f9135faaeb932748",
+    "published_sha256": "d6a5363e8d883aec94ba6f0c33ea49a38c5aff69f77f5e21f818f25c0d378ef5",
+    "transform": "Restoration-only submission scope and current release instructions; model tensors are unchanged.",
+    "publication_history": [
+      {
+        "sha256": "6bff5d1b62fda595ce6e1acc3f6606208253386636f60665710aced85033986d",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      },
+      {
+        "sha256": "f55fff6db305c12416b960ca0252e292b39fb5dd9c3d8bee638caea56f867366",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      },
+      {
+        "sha256": "4ea9f1510e606faa0edea98bc3518c406609d75a3dc52dee8d4992ebc93a2195",
+        "transform": "Direct RGB SSIM integration and verified current restoration endpoint update."
+      },
+      {
+        "sha256": "8fd632b6001f765fcd3b5834dc8a50b4f781325217d9530db81d872742ade054",
+        "transform": "Verified Haze4K state-dynamic endpoint integration."
+      }
+    ],
+    "previous_published_sha256": "8fd632b6001f765fcd3b5834dc8a50b4f781325217d9530db81d872742ade054"
+  },
+  {
+    "published": "README.md",
+    "source_sha256": "6789b18ab9f84c39f89c64b0c086ea8a7ffdf4bc70680d7e37c706365cda8c93",
+    "published_sha256": "23c55ce673588ff28eb44b89ffe40409ff1f38e161f8b8708a7525029be51e67",
+    "transform": "Restoration-only submission scope and current release instructions; model tensors are unchanged.",
+    "previous_published_sha256": "bea81be915ac152975b0e5c8431564d97ac4b6dd9e0d86f0c28118a9b4d05422",
+    "publication_history": [
+      {
+        "sha256": "9d389cebd59a04b7746420ff851e475206b340be382f7a14c98c274446636531",
+        "transform": "Release update: current inference entry, result grouping, or documentation."
+      },
+      {
+        "sha256": "ab69cef7794faefbbcc6776f1466f32280679c718b0388e61fe09af5b414c208",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      },
+      {
+        "sha256": "8a660626e0a752143fe1075a1a57773c22748e0cbf86206ff2fb29f0e543f0a7",
+        "transform": "Direct RGB SSIM integration and verified current restoration endpoint update."
+      },
+      {
+        "sha256": "3c764ac8fa8223f00eb9370fa38766e81b70395ff174130946bf376bf1b47659",
+        "transform": "Verified Haze4K state-dynamic endpoint integration."
+      },
+      {
+        "sha256": "bea81be915ac152975b0e5c8431564d97ac4b6dd9e0d86f0c28118a9b4d05422",
+        "transform": "Current restoration navigation and method/proof guide, 2026-09-23."
+      }
+    ]
+  },
+  {
+    "published": "RELEASE_CHECKS.md",
+    "source_sha256": "4071f815a2b5f5c280fb828fa9637aef834dcb61be8572658e38dc2680e7732b",
+    "published_sha256": "4bc6756fd587c806709b35687675ba5111ad3f608564206890339caed0157878",
+    "transform": "Method/proof verification record, 2026-09-23.",
+    "publication_history": [
+      {
+        "sha256": "99432ba63c13669de66df46aad0c3213b1bd7360d11cadbdf3d3f4e44b4bfdd9",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      },
+      {
+        "sha256": "1aa528104eeffb6b8ecb6f32a53b21111a4951afb79890373d55f922f51fdb8f",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      },
+      {
+        "sha256": "5420ac11e1ff5da04d874219af19f432746c1f866467adf18debbb8032770387",
+        "transform": "Direct RGB SSIM integration and verified current restoration endpoint update."
+      },
+      {
+        "sha256": "c501114774cd904c865ec4fcd1199182ff990e3b2641dfc27c89ad3f42b74fad",
+        "transform": "Verified Haze4K state-dynamic endpoint integration."
+      }
+    ],
+    "previous_published_sha256": "c501114774cd904c865ec4fcd1199182ff990e3b2641dfc27c89ad3f42b74fad"
+  },
+  {
+    "published": "configs/supplement/gopro-full-repeat-seed42.yml",
+    "source_sha256": "d5e843351bfad1d27108708d7fb87660d9ecf732b17ee4631a09a3b298d460af",
+    "published_sha256": "368e818894233775014d7ee9d4dcb42ffa47c21883d48af85eede5c072810335",
+    "transform": "Replace output name and data paths. Remove distributed process port. Keep scientific settings."
+  },
+  {
+    "published": "configs/supplement/gopro-half-delay-seed42.yml",
+    "source_sha256": "ef79bb6399b9df2c3801f95c25594d5d29f0af6a5c0ceb5e5b840288b07aae8f",
+    "published_sha256": "74bf27f095299209a8550a9baf7828bfef359d4688beb8a82bd67b04d57be9df",
+    "transform": "Replace output name and data paths. Remove distributed process port. Keep scientific settings."
+  },
+  {
+    "published": "configs/supplement/gopro-identity-retention-seed42.yml",
+    "source_sha256": "ddca7732c4c9f44dfd74c9cd2f5e6fd0220cf479f11a781fbd3e704f9556e6eb",
+    "published_sha256": "b81c224bc3c1d9c165941fd6f4bed5f64728d8e03ad0b585ddecc9f47fcc05ba",
+    "transform": "Replace output name and data paths. Remove distributed process port. Keep scientific settings."
+  },
+  {
+    "published": "configs/supplement/gopro-state-dynamic-seed42.yml",
+    "source_sha256": "66b0c9236c4bac2768a9d84ef03bdbb391f25e9f72f5fe143a1cc57c7f2dec43",
+    "published_sha256": "794805969392e319d67777cf9d35fe53dbb11d112b8fa8dfa9cf898cbd336428",
+    "transform": "Replace output name and data paths. Remove distributed process port. Keep scientific settings."
+  },
+  {
+    "published": "configs/supplement/gopro-terminal-readout-seed42.yml",
+    "source_sha256": "5aff9c06ff2f95454f52bf5e9d6926d95a5f65430c0bd1093fffcdce9bf3769a",
+    "published_sha256": "2971f80eb11fc3467df90147d8cf117d7af0b5cdf655c5dc83fddbaa23aa355f",
+    "transform": "Replace output name and data paths. Remove distributed process port. Keep scientific settings."
+  },
+  {
+    "published": "configs/supplement/ohaze-cspn-context-seed42.yml",
+    "source_sha256": "7bf59e171165ddc0cb76e108874c8bbee9526c271b8f962b048122d669a4a308",
+    "published_sha256": "1fc6673af6d43646759c46088dd083ecb96018900be538ca24a0072b19aa7e9f",
+    "transform": "Use portable data paths and the release experiment name."
+  },
+  {
+    "published": "configs/supplement/ohaze-spatial-mamba-seed42.yml",
+    "source_sha256": "cb5bd18d9f7da66719dbcde4b2e2276b8bcfbaf8164fe8011da7e8a1cc4381b7",
+    "published_sha256": "30ef7d020dcc5dd12b03267c0814285e700ae98a839e1c603b64e5cf3f1e6851",
+    "transform": "Replace output name and data paths. Remove distributed process port. Keep scientific settings."
+  },
+  {
+    "published": "experiments.json",
+    "source_sha256": "41ea4fc527610993e3cf4c0beeddf3a58510c3c5768081f61bf0d02cd40150dd",
+    "published_sha256": "268bf12255e997547af8941eb6d4afa3ee31e066785d14eaeea7ce9f64a7ef84",
+    "transform": "Restoration-only submission scope and current release instructions; model tensors are unchanged.",
+    "version_history": [
+      {
+        "published": "experiments.json",
+        "source_sha256": "41ea4fc527610993e3cf4c0beeddf3a58510c3c5768081f61bf0d02cd40150dd",
+        "published_sha256": "0c7e5a40d1e66485d276ad4b37d1a16a3500266ea99739581529689e8137c981",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      }
+    ],
+    "previous_published_sha256": "238cd9be073346991992161966abf8c11c91aca9fe1d97d2ca390f60d4db494f",
+    "revision_source_sha256": {
+      "ssim_reassessment/all_affected_summary.json": "aa7dc28f791d9c31aff61580c76a0126556f846147a5733d964f1f28f26298cb",
+      "ssim_reassessment/metrics_direct.py": "93b24c60b6a34fb1ab3ae2bb4940c60cd36c05316c05329737d34f1a04a6d991"
+    },
+    "publication_history": [
+      {
+        "sha256": "61a360b4dcb2f181fbb356ed79b57386f7e7937b008b67cc27e3f3af4fbe19ee",
+        "transform": "Direct O-HAZE SSIM update on 2026-09-12. Remove image pre-pooling, export verified results, and retain historical pooled scores and PSNR values."
+      },
+      {
+        "sha256": "5c498a3ee6a5c5d622018612a719a38a7e3bfefdc984491d640a4bc22bbc8dee",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      },
+      {
+        "sha256": "1f4dda985617d283235c44201b19f764455d6181bebe15efb8e4884af34f557a",
+        "transform": "Direct RGB SSIM integration and verified current restoration endpoint update."
+      },
+      {
+        "sha256": "238cd9be073346991992161966abf8c11c91aca9fe1d97d2ca390f60d4db494f",
+        "transform": "Verified Haze4K state-dynamic endpoint integration."
+      }
+    ]
+  },
+  {
+    "published": "reproduce.py",
+    "source_sha256": "1b60115f35e28e381698a4f1c5b362b90fb2519deed42c895e5e072da98c7ff3",
+    "published_sha256": "e836d92f329e7c3867c493308f5d7fce00b5d6649a1ee74b0ca284ea85473cd9",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "requirements.txt",
+    "source_sha256": "9e6ef528c39236a25537e3eea2d1b04b945599dc3dcfb722618d1c5680712e58",
+    "published_sha256": "f7622b89befb1f09ee2b9037582754d3116d1b5cf88e90d94bf0585adc725c5e",
+    "transform": "Restoration-only submission scope and current release instructions; model tensors are unchanged.",
+    "publication_history": [
+      {
+        "sha256": "32dc45a1b4558379ac893a65caa15633d6ae659d470156e4a667b979d2096d81",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      }
+    ],
+    "previous_published_sha256": "32dc45a1b4558379ac893a65caa15633d6ae659d470156e4a667b979d2096d81"
+  },
+  {
+    "published": "supplement/README.md",
+    "source_sha256": "170c5312441474947b30731b7b2ff63c73e480aedd8c2aaa51cc94bc0d0203b6",
+    "published_sha256": "aebc6a9ae6c270e95885eb29b08005495bbdedcb7325cf66b8a756cad24a7156",
+    "transform": "Verified Haze4K state-dynamic endpoint integration.",
+    "version_history": [
+      {
+        "published": "supplement/README.md",
+        "source_sha256": "170c5312441474947b30731b7b2ff63c73e480aedd8c2aaa51cc94bc0d0203b6",
+        "published_sha256": "c961b8801601a835cc54f00a727cc1b396e33db1ab771b8fd7db37067c34c940",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      }
+    ],
+    "previous_published_sha256": "3852f343098f731e0b2c2432a3ca0878e9772438cd08047f1b8acc94f266bfed",
+    "revision_source_sha256": {
+      "ssim_reassessment/all_affected_summary.json": "aa7dc28f791d9c31aff61580c76a0126556f846147a5733d964f1f28f26298cb",
+      "ssim_reassessment/metrics_direct.py": "93b24c60b6a34fb1ab3ae2bb4940c60cd36c05316c05329737d34f1a04a6d991"
+    },
+    "publication_history": [
+      {
+        "sha256": "5da10008d131c06ec054e7ddb55194786f01789b09580318b3b0865597b837b9",
+        "transform": "Direct O-HAZE SSIM update on 2026-09-12. Remove image pre-pooling, export verified results, and retain historical pooled scores and PSNR values."
+      },
+      {
+        "sha256": "716c8d97b2ef729edf5dfb2ec9f15e590a528b7f0590c9a8d0aba9e562314e9c",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      },
+      {
+        "sha256": "3852f343098f731e0b2c2432a3ca0878e9772438cd08047f1b8acc94f266bfed",
+        "transform": "Direct RGB SSIM integration and verified current restoration endpoint update."
+      }
+    ]
+  },
+  {
+    "published": "supplement/benchmark/CURRENT_SUMMARY.json",
+    "source_sha256": "7a89177326f2e3834c29f78b341a22db9c77ff51585c9cd6eb4423372406f9dd",
+    "published_sha256": "7a89177326f2e3834c29f78b341a22db9c77ff51585c9cd6eb4423372406f9dd",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/benchmark/README.md",
+    "source_sha256": "1cfcb2efcf2a3b2e92cdd200adf430c8a848275ece07bf6eb7ba8988679f4b07",
+    "published_sha256": "e0b9015a608db653a8e3dd2bc23873df586c442405e21e314744739307b60dc9",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "1cfcb2efcf2a3b2e92cdd200adf430c8a848275ece07bf6eb7ba8988679f4b07",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      }
+    ],
+    "previous_published_sha256": "1cfcb2efcf2a3b2e92cdd200adf430c8a848275ece07bf6eb7ba8988679f4b07"
+  },
+  {
+    "published": "supplement/benchmark/recorded/HEAD_CHECKS.json",
+    "source_sha256": "7fb2c24f0c9695e7f811c41e0e5321b899db210023f90ee36514f79a808c96b1",
+    "published_sha256": "7fb2c24f0c9695e7f811c41e0e5321b899db210023f90ee36514f79a808c96b1",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/benchmark/recorded/IDENTITY.json",
+    "source_sha256": "1b38d25fe52e88928bd1a3fef1e482797c1609def9f1ee20045933e86a81f38b",
+    "published_sha256": "1b38d25fe52e88928bd1a3fef1e482797c1609def9f1ee20045933e86a81f38b",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/benchmark/recorded/PANEL.json",
+    "source_sha256": "6d949c27237ef365cac7e7e94b3cb4df1b2e09b82fc203086090fe5c53ec5815",
+    "published_sha256": "6d949c27237ef365cac7e7e94b3cb4df1b2e09b82fc203086090fe5c53ec5815",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/benchmark/recorded/PROCESS_1.json",
+    "source_sha256": "c8f7e09f26c0deaee8f2cbf0e2b1ece498ae748cafb8dbc499e381e7afbf95ee",
+    "published_sha256": "c8f7e09f26c0deaee8f2cbf0e2b1ece498ae748cafb8dbc499e381e7afbf95ee",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/benchmark/recorded/PROCESS_2.json",
+    "source_sha256": "fc031dcc6a76f9f73efe5d09e88852680215439b5e02dd76e33371b2a8ba343d",
+    "published_sha256": "fc031dcc6a76f9f73efe5d09e88852680215439b5e02dd76e33371b2a8ba343d",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/benchmark/recorded/PROCESS_3.json",
+    "source_sha256": "ee79bae7eac8858a1c8b1fd864356c0da97b200582a183cc01b0b86d7b892073",
+    "published_sha256": "ee79bae7eac8858a1c8b1fd864356c0da97b200582a183cc01b0b86d7b892073",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/benchmark/recorded/SCALAR_CHECKS.json",
+    "source_sha256": "07e47a0deb530125f7ee0a5673e318cf0731cb74754c92403dfa6890afe5665b",
+    "published_sha256": "07e47a0deb530125f7ee0a5673e318cf0731cb74754c92403dfa6890afe5665b",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/benchmark/run_fusion.py",
+    "source_sha256": "4791a1b570a2f35d66f45369f4f907c6bd920b582aeee293b19d4926e7c9af24",
+    "published_sha256": "d025ff53b26bd65beaf58eb11c6beb7dbcb38f5220dc8f5e6ae569b5a75cd0e9",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "previous_published_sha256": "ff3e9f5e5b286da2963f555c8740877544c31f3cec118af69f3bf46ab6a078db",
+    "previous_source_sha256": "82395e3f9f55485ffa2e5f8e6b60d7e848430723f234886c79384dd5da88ad73",
+    "previous_publication_preserved_in_verified_backup": true,
+    "publication_history": [
+      {
+        "sha256": "ff3e9f5e5b286da2963f555c8740877544c31f3cec118af69f3bf46ab6a078db",
+        "transform": "Release update: current inference entry, result grouping, or documentation."
+      }
+    ]
+  },
+  {
+    "published": "supplement/cspn_training.py",
+    "source_sha256": "e692e5d1d3210468610f5ddd68003bd0ab2675c426f1cd99dd87bd057c95e196",
+    "published_sha256": "e692e5d1d3210468610f5ddd68003bd0ab2675c426f1cd99dd87bd057c95e196",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/evidence/CSPN_RECIPE_PARITY.json",
+    "source_sha256": "3861f46dcb0fe0411e37a6448fadbc4cfeaaa3c0d53dbc94a71ec7c6d7c4c7b9",
+    "published_sha256": "3861f46dcb0fe0411e37a6448fadbc4cfeaaa3c0d53dbc94a71ec7c6d7c4c7b9",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/evidence/DEFAULT_FP32_ENTRY_BENCHMARK.json",
+    "source_sha256": "014b1108b46ec2f025f8cb74ccdbd4c6f5390ace609addf409ec5ee1d913ce38",
+    "published_sha256": "014b1108b46ec2f025f8cb74ccdbd4c6f5390ace609addf409ec5ee1d913ce38",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/evidence/DEFAULT_FP32_GOPRO_PER_IMAGE.jsonl",
+    "source_sha256": "29c21e8d8a22f0e45cb1e3ac88104a2a698cbc66e92bb29809709796569f3150",
+    "published_sha256": "29c21e8d8a22f0e45cb1e3ac88104a2a698cbc66e92bb29809709796569f3150",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/evidence/DEFAULT_FP32_OHAZE_AND_CONTEXT.json",
+    "source_sha256": "ef16eee572a324e358fb21b88a81de0cfd6163c843ad5b9817b225b3f57ec38e",
+    "published_sha256": "ef16eee572a324e358fb21b88a81de0cfd6163c843ad5b9817b225b3f57ec38e",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/evidence/FINAL_CAMPAIGN_VERIFIED.json",
+    "source_sha256": "11f6f78b6a7a7dae356533d689d5f8a7a1382837da6297b8624609bf7ce263b2",
+    "published_sha256": "4206d749186a7154dcb65b41aa68b25f20f82de054388604ebaae559e71d9fd1",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/FULL_GOPRO_PARITY.json",
+    "source_sha256": "3b5c725503110cd3ccaa20f434db1bea28788c1176b7fbc0a06d910d96744201",
+    "published_sha256": "3b5c725503110cd3ccaa20f434db1bea28788c1176b7fbc0a06d910d96744201",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/evidence/GLOBAL_RESULTS.json",
+    "source_sha256": "693df48fe1f89fc797397708f04f13a59faf4ee6e1e269aa680aa1384a087bd8",
+    "published_sha256": "bc89f0d0b2d735e2b212eb10eb74caf076d0ee30eddeb8b2b760690b99504f67",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/INFERENCE_MACS_REFERENCE.json",
+    "source_sha256": "2427b7fdd11615ee6c4b3fc4700601a7f3f845f8edebc65a6859c5e2e373ef0e",
+    "published_sha256": "2427b7fdd11615ee6c4b3fc4700601a7f3f845f8edebc65a6859c5e2e373ef0e",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/INFERENCE_PREFLIGHT.json",
+    "source_sha256": "bc63e5318f9e0bbfb4eab843ebfbf292ed9d1f7674aafe723b73621b04d2e664",
+    "published_sha256": "bc63e5318f9e0bbfb4eab843ebfbf292ed9d1f7674aafe723b73621b04d2e664",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/evidence/INFERENCE_RESOURCE_SUMMARY.json",
+    "source_sha256": "8aa6e6eb62369f7103b2d20af92ffdd6c163aea462c8ed51da24cae59929f123",
+    "published_sha256": "eb542a2bfa0e7e9b7472cf16bf489a57dc38dbed3a52e323c5109d01288a1204",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/MAC_COUNT_RECONCILIATION.json",
+    "source_sha256": "10ffdeab834b95ea3b50a7d818715bc232c3128bf8c93ed71508787746b94481",
+    "published_sha256": "acae33638eeac665575e176466468e68d2c5fa37f1f0775586da02fd8b925da0",
+    "transform": "Export verified accounting rows and source hash; remove absolute evidence paths"
+  },
+  {
+    "published": "supplement/evidence/ohaze_ef/FORMAL_METRICS.json",
+    "source_sha256": "c37bb39e81bd2eff8bbfa5def71cbc3b9d11abd96026c54dd11c7d2ea8aa0eda",
+    "published_sha256": "5a0e0c64dd841a42675d58af3e9251efeebb4e090924ac907e0eccccbaeef596",
+    "transform": "Paths normalized and checkpoint hash added to EF record; specification values unchanged."
+  },
+  {
+    "published": "supplement/evidence/spatial_mamba/CPU_OFFICIAL_CONTRACT.json",
+    "source_sha256": "a6d120c4e49941a0675d08fda91b1d65264bfaba8ae7190a965d2681c7fc79bf",
+    "published_sha256": "a6d120c4e49941a0675d08fda91b1d65264bfaba8ae7190a965d2681c7fc79bf",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/spatial_mamba/DATA_MANIFEST.json",
+    "source_sha256": "907eb388e6e876f36a3638556ca251b75bf1483566b28364cc6354640e562512",
+    "published_sha256": "26e8634cc66c598b6843aafa1a94735a7e961896dc9febcc01325688ebe002a8",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/spatial_mamba/GPU_PREFLIGHT.json",
+    "source_sha256": "f25ba7a283a98f9f3e879aefcb9d1b6b2da916b849281424aa00b095e1f4ef10",
+    "published_sha256": "55f54231f24f7f224d11b6a29a7604ce8e2179bd5a1995911ddd046f50aae51b",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/spatial_mamba/MACS.json",
+    "source_sha256": "9abc6e93cfbad2a5465a8eb37c82a409022259702bb7bc63bff1efa4afdce5e5",
+    "published_sha256": "9abc6e93cfbad2a5465a8eb37c82a409022259702bb7bc63bff1efa4afdce5e5",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/spatial_mamba/OFFICIAL_BUILD_POLICY.json",
+    "source_sha256": "14f0da1cc7e1be5a9628341c06457dbef2d6f7d2a596f7829a0aaa3aa8fdcf06",
+    "published_sha256": "bfdff872566957f5fa4791effe448d764ed13b5272b5e68d5037d9aa15ffbfe5",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/spatial_mamba/OFFICIAL_BUILD_VERIFIED.json",
+    "source_sha256": "896436705199286cd2f8d315b6abff4feac13bac3e00d39246968a6a90c1ff17",
+    "published_sha256": "5b105e043b44190209f68ce07d7c9704a752a4888e5e4770f9bb25e8ff150c07",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/spatial_mamba/RESULT_SUMMARY.json",
+    "source_sha256": "f93c27ad60cb42d89500c4f9d1df311074c20cb4cf2eab3f9c1761b2bcdc5b6d",
+    "published_sha256": "f255315b33a6cfbafb8bf90db5b17b2958235592ff85dcaad3ffa1cdcc399db5",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/evidence/video_readout_comparison_20260908.json",
+    "source_sha256": "c1ba47386ee49fae6747ced2d013bd7cea8f98e2a844fb5e86da9d2205663a17",
+    "published_sha256": "e7e3ff27ffc9eaf688a8fcb16005b1a835f231905e816c14109e3224a571914b",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/execution_policy.py",
+    "source_sha256": "5b98b664e99ad314a85a2c1a786853d34be4631d40a9c817da6d28f66deded63",
+    "published_sha256": "5b98b664e99ad314a85a2c1a786853d34be4631d40a9c817da6d28f66deded63",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/inference_resources.py",
+    "source_sha256": "a3d9d8d1007b1b9c8845a86583b5e501091f4868f87b6bbfc8dd9b117f676095",
+    "published_sha256": "a3d9d8d1007b1b9c8845a86583b5e501091f4868f87b6bbfc8dd9b117f676095",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/reference/random_initialization_seed42.pt",
+    "source_sha256": "d503cb0eadd00a9588df3d22a99b95d0d807d6a18e01798ba8d64c06b1762fc8",
+    "published_sha256": "d503cb0eadd00a9588df3d22a99b95d0d807d6a18e01798ba8d64c06b1762fc8",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/reference/train_order.txt",
+    "source_sha256": "c08c574bbd57e3f5ba4fe18d5fad3b9d7465839c2dfdebdd9224e3057860f511",
+    "published_sha256": "c08c574bbd57e3f5ba4fe18d5fad3b9d7465839c2dfdebdd9224e3057860f511",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/results/gopro-full-repeat-seed42/FINAL.json",
+    "source_sha256": "8f3c9c399a40a7ab2e6bda554a8a83a792a3262f3a2808cc3ea866c02908a094",
+    "published_sha256": "7a2daa8a649af90ace7c6df03512af60cfcd789fcac0f2fc211e2a44db551a20",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/gopro-full-repeat-seed42/TRAINING.json",
+    "source_sha256": "10fda202a9d75e8e548e269ffa0ecd5a07cc6d55dbfead9d6c215f5a9c33b055",
+    "published_sha256": "832fd74f23e26adc4d067c806aefe038c4615ae456521afe06bae916f6cf45dc",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-full-repeat-seed42/per_video.json",
+    "source_sha256": "1c3c494ff8db224d089bb8d7598681963415b2b28fa7fab4184e98c1a424844f",
+    "published_sha256": "1c3c494ff8db224d089bb8d7598681963415b2b28fa7fab4184e98c1a424844f",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-half-delay-seed42/FINAL.json",
+    "source_sha256": "d5bba057ebd982d7013d50d218ba9fe0f3f7976103646a8a93278646254a5702",
+    "published_sha256": "ba3329691cf5b0fa0b71e3d3711bd36104f7f69419bfade71a9eeab10ac92526",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/gopro-half-delay-seed42/TRAINING.json",
+    "source_sha256": "d9ac0550766f23fbe9b2f8a1024b78484129909f3cc350d7f2c18eca304d57fb",
+    "published_sha256": "be343e9ce0da9e7eda4ede7779a50d8d8ef3e31b1d2730d716b88b3a24b08aab",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-half-delay-seed42/per_video.json",
+    "source_sha256": "7e92ffb92ef0396350dd226b93dd026a6834fe72f6c438c74fdbb4934306129b",
+    "published_sha256": "efaf11719ff3f7fbf03fbf7c2612bd5c43d43385d1f0eada29b6e0696a86cbce",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-identity-retention-seed42/FINAL.json",
+    "source_sha256": "665e2ad173f14fdfdbe5b871f713a604bdecafbcc2586ddce4466212d4f9caab",
+    "published_sha256": "1e5bd54ca16ef89e12155ffdd636633823965802c3637b7e173fed839ccd6fa3",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/gopro-identity-retention-seed42/TRAINING.json",
+    "source_sha256": "5fbd1a0ed46a07b2fb6e373ee845069ee72aa0eb5b98599c688ec3bcbc29559c",
+    "published_sha256": "6f807d378eb64ae830fb15eab99b503739cfa5f8e7b0e926ea8d54a2495a04b0",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-identity-retention-seed42/per_video.json",
+    "source_sha256": "cbd9302d1be5d6b20f8ad2f56b6c6981f47f51a14e2e68d9e0b812f8bcb2c05c",
+    "published_sha256": "a07930337345788466ac5bf5575a7ba0c63d30019a7b2a886443e8e01bf05a6e",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-ours-native-seed42/FINAL.json",
+    "source_sha256": "3dbf6a7184f8ef17815907cf742d73b5e2f66f0091d7b542473d38c1876ab59f",
+    "published_sha256": "e4933748825d603126ce3094ed9733d14082054ddb3d72fbe1ab191a5d9cdd2f",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/gopro-ours-native-seed43/FINAL.json",
+    "source_sha256": "0c8e0d4e0cdd454d15ce3f99c3996fe577ad01feac8ff6a4544e5bc5e14a48df",
+    "published_sha256": "5ae4e8d0fed1a40de452f745aa40202903b035d2ef1c713a7457ec7d24b75030",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ours-native-seed43/per_image.jsonl",
+    "source_sha256": "c81b87221aa95fdf023843ee247e647d30606d9a8409face30c26228d020156b",
+    "published_sha256": "e1a70ab3d5cdbada97ffe2e926e5fc842b73ef7025020812e232df1ad0a351f2",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ours-native-seed43/per_video.json",
+    "source_sha256": "2a412ecca9a7d2b5f9744780248f1546163b3454e12481104c261a06ae8a0a86",
+    "published_sha256": "2a412ecca9a7d2b5f9744780248f1546163b3454e12481104c261a06ae8a0a86",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ours-native-seed44/FINAL.json",
+    "source_sha256": "840d09cf4c4d6529989c42c091a1ef2e7dcadcebf6d5ebeaac56d82eda3c470b",
+    "published_sha256": "7eb6bd8888e7c5ecc82a9cbca9e33378ae4b1aedefd96cd7b21c7a156cac6877",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ours-native-seed44/per_image.jsonl",
+    "source_sha256": "3547a0c78bcb86911da7501cdf78de58e6f1fd94ff8e9dd9c6e1d591d907a90b",
+    "published_sha256": "10a891419c242f8de1b8979809dea3973495c7f1e3953e4e36347ee211ffad74",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ours-native-seed44/per_video.json",
+    "source_sha256": "6b059b6ac5cab7d3a1c37348248cbf1e784eb154476c5f3090d7a1c33ef261f5",
+    "published_sha256": "6b059b6ac5cab7d3a1c37348248cbf1e784eb154476c5f3090d7a1c33ef261f5",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ours-seed42/FINAL.json",
+    "source_sha256": "0b20ba415c62d594d99fa3ef66769f5a92127957f7173e6bf77d3d4f94f21110",
+    "published_sha256": "d9887925ee806c4916d4859fcb96c368ddcfe512754794f09548470991e31fc0",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/gopro-ss2d-native-seed42/FINAL.json",
+    "source_sha256": "bb08aec193aef80428acf41e103c6adb91785e54db4a7ed6f1cddd85d708c6d0",
+    "published_sha256": "dd491c534f9d55e34ecffcc7c5e7fef9708a8851eb6ab859758f507230b59ef1",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/gopro-ss2d-native-seed43/FINAL.json",
+    "source_sha256": "fb0d04de593466cbc22520d46e5d7ebbc4401614e18bf182d1901a8d64a1ef39",
+    "published_sha256": "c26a7822b7ae90ced5d105adc18ce8598e50d641c23153492ae233af59095757",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ss2d-native-seed43/per_image.jsonl",
+    "source_sha256": "992f2c82ad53defa52bc25076e6b44c40007184457b160414f12349d54a1cd33",
+    "published_sha256": "330b917af362ce8564ec75cd95d7f4a2ffab54e2e3ffae6799e48751ca35c12f",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ss2d-native-seed43/per_video.json",
+    "source_sha256": "c3108a3d82d3b83aa99d1ac9087a3b643dd8baff6546ff4c0dc31fa53058e6fc",
+    "published_sha256": "c3108a3d82d3b83aa99d1ac9087a3b643dd8baff6546ff4c0dc31fa53058e6fc",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ss2d-native-seed44/FINAL.json",
+    "source_sha256": "4978bce079c1c410d9ae551b36bdcad29d75a77826b028b8c26ff37e9a00e36f",
+    "published_sha256": "2dd3de701cecaa1341c4d723a8c58cac3e6d87903f89cae3a6c9998ced0f0f8a",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ss2d-native-seed44/per_image.jsonl",
+    "source_sha256": "60ae81b1a53955f4d00cdd93d6703fb67ef76aafb047fa761a51193385363395",
+    "published_sha256": "80804b6f5c641f6c0e3ed1e8d3f7736ef839a601e7c5b8913016ca697d61e9aa",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-ss2d-native-seed44/per_video.json",
+    "source_sha256": "173cffdbbceb64f16a8fdbb20abb9dd27ebc8b70c17d301b15ef40ad458e2875",
+    "published_sha256": "173cffdbbceb64f16a8fdbb20abb9dd27ebc8b70c17d301b15ef40ad458e2875",
+    "transform": "Operational identifiers removed; JSON normalized; result hashes updated. Metrics unchanged."
+  },
+  {
+    "published": "supplement/results/gopro-state-dynamic-seed42/FINAL.json",
+    "source_sha256": "d1c8679eb42e3bd849178d3765db54e0369a194b87b6c24f918dd72640320b54",
+    "published_sha256": "7d373580168765489a1f62aebc5b632c442e3887acf3aaecde384f3311270254",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/gopro-state-dynamic-seed42/TRAINING.json",
+    "source_sha256": "d8b915c57ca971c1561ca9152ae1b989dba006238712b55ff564403b269679a5",
+    "published_sha256": "7e0ee4c75ffb95d9f75014b35a06d949a4f46822b8816706aaba50519fcf8538",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-state-dynamic-seed42/per_video.json",
+    "source_sha256": "2881314e2816ed5bde233678da0cfab36bcd6854a096ff886687f430143182d0",
+    "published_sha256": "2881314e2816ed5bde233678da0cfab36bcd6854a096ff886687f430143182d0",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-terminal-readout-seed42/FINAL.json",
+    "source_sha256": "fe9b9464ffd6cc18fc0556cd8539fd33a3ed99a8c347e8cf2ed748612e5aafc9",
+    "published_sha256": "f79746f4a9c32e66da34c78a013697de112ea0800cccaa697332dcf1f864b43f",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/gopro-terminal-readout-seed42/TRAINING.json",
+    "source_sha256": "7892c32bdbda490a9b6180ecd8e18366d0bab6f2d54ffbcf87d2f3a599f5100d",
+    "published_sha256": "d388d0e57029dd3053b88eda98df60d7a674fcd85dda5fdcc734b5a2e4be95d0",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/gopro-terminal-readout-seed42/per_video.json",
+    "source_sha256": "f46c3a46c5d18ad392d8e0551790b02d6984b08ed757f172c3e35193aa0e9a3b",
+    "published_sha256": "332d8cd2cf9eb2d9d598758f6c6a034f038b535d9d6b2e6f6828d1b817e8639f",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/results/ohaze-cspn-context-seed42/FINAL.json",
+    "source_sha256": "360d921fff5ed55da826de526e69df1ec7a5e2d09e767f690a279155f0d577bc",
+    "published_sha256": "360d921fff5ed55da826de526e69df1ec7a5e2d09e767f690a279155f0d577bc",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/results/ohaze-cspn-context-seed42/GENERATOR_COMPARISON.json",
+    "source_sha256": "f42d88695acef10575d58137aaf05dc46ae959efca87952dc46d400f1923003c",
+    "published_sha256": "f42d88695acef10575d58137aaf05dc46ae959efca87952dc46d400f1923003c",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/results/ohaze-cspn-context-seed42/per_image.jsonl",
+    "source_sha256": "2e249d819ca3cddafbb35ca1c7f25cfd4eae37e6031a05ebbc094de7757bc68e",
+    "published_sha256": "2e249d819ca3cddafbb35ca1c7f25cfd4eae37e6031a05ebbc094de7757bc68e",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/results/ohaze-spatial-mamba-seed42/FINAL.json",
+    "source_sha256": "054ba8cabf4e0b29dcabc1b9c701215788baa8f8b810678c35c23523d2eeddb7",
+    "published_sha256": "60552a6cda549f58dcde1c6ae4b1d84ec38cfa9be3b9e76f4bdb07c9964c8ad1",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/results/ohaze-spatial-mamba-seed42/TRAINING.json",
+    "source_sha256": "46b482bf892260e124329e98d75d1607012bda4461d7764b472a1237dbb9bb7a",
+    "published_sha256": "dba62b9ca73e71d8f8ad993bd03a17d921b65f939e94e94015b10722b57e2017",
+    "transform": "Remove operational identifiers and replace absolute paths with filenames."
+  },
+  {
+    "published": "supplement/run.py",
+    "source_sha256": "6ccfed1335ffbc089a652724ad1e7d7b810ef5e667ee05d78f14ef7b01c6c4a7",
+    "published_sha256": "982e926ddd11b061a635dd1c62b774012c64fd1cdacb1a25defcf78da6f81ad8",
+    "transform": "Direct RGB SSIM integration and verified current restoration endpoint update.",
+    "publication_history": [
+      {
+        "sha256": "59c3c59f94cac3d398e11d18b136f0df23c7ac31f5e22d8d0c8786bdf861839d",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      },
+      {
+        "sha256": "cfe4afcc0b4359e919f66101f0609ec645744c8f22f3069bad02c081d87be4e0",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      }
+    ],
+    "previous_published_sha256": "cfe4afcc0b4359e919f66101f0609ec645744c8f22f3069bad02c081d87be4e0"
+  },
+  {
+    "published": "supplement/runtime_manifests/context.json",
+    "source_sha256": "9c5562208519ceb8fd1ae83a3670b73c0d0e535d15838c20954990d468967ada",
+    "published_sha256": "986f8ac806bd48c9a0a675c67406e9f0888597e3a55848a6055a4515ec639125",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "9c5562208519ceb8fd1ae83a3670b73c0d0e535d15838c20954990d468967ada",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      }
+    ],
+    "previous_published_sha256": "9c5562208519ceb8fd1ae83a3670b73c0d0e535d15838c20954990d468967ada"
+  },
+  {
+    "published": "supplement/runtime_overlays/context/basicsr/models/archs/CSPNGeneratorControl_arch.py",
+    "source_sha256": "6b66065da37639a9f7ad6fcfa8d500c24989da27bedbe589d7e5fcd608eeefd5",
+    "published_sha256": "80109db8d093e56c1709729e6ef70e3e52fc94935ee8765f3e84e371829d18b0",
+    "transform": "Keep the trained architecture; remove the experiment-only registration helper."
+  },
+  {
+    "published": "supplement/runtime_overlays/context/basicsr/models/archs/__init__.py",
+    "source_sha256": "71fe483dc1b036bb96ea8be13c4c5cca7d8a9c47dbd243ff82ec4718efacfaa1",
+    "published_sha256": "71fe483dc1b036bb96ea8be13c4c5cca7d8a9c47dbd243ff82ec4718efacfaa1",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "supplement/runtime_overlays/fast/basicsr/models/archs/VIVNet_RadialProfiledAblation_arch.py",
+    "source_sha256": "5ab49471dbe58f74205f8e2c78b4cb45e3535ffda026d1be766d4579ce54ddb1",
+    "published_sha256": "5ab49471dbe58f74205f8e2c78b4cb45e3535ffda026d1be766d4579ce54ddb1",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/fast/basicsr/models/image_restoration_model.py",
+    "source_sha256": "6c33b5123bd6803dd9099c41896df476bfc0f9588856ef0f66548f8cea7be24d",
+    "published_sha256": "6c33b5123bd6803dd9099c41896df476bfc0f9588856ef0f66548f8cea7be24d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/fast/clpo2027/model.py",
+    "source_sha256": "ff2257312022c72433f64b647f7b6063442d1c5605660023ff870ff197f7465f",
+    "published_sha256": "ff2257312022c72433f64b647f7b6063442d1c5605660023ff870ff197f7465f",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/fast/clpo2027/selective_f9_backend.py",
+    "source_sha256": "6603ac6cb41c7b3c988d5fdc45fabfc2c379cd2be0e8c780d21f24d029c0865d",
+    "published_sha256": "6603ac6cb41c7b3c988d5fdc45fabfc2c379cd2be0e8c780d21f24d029c0865d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/fast/clpo2027/timing_backend.py",
+    "source_sha256": "735a43d6962866e37e80ae75d90f4e88eb039fa59f428dfe3159314c8519e4b9",
+    "published_sha256": "735a43d6962866e37e80ae75d90f4e88eb039fa59f428dfe3159314c8519e4b9",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/full/basicsr/models/image_restoration_model.py",
+    "source_sha256": "6c33b5123bd6803dd9099c41896df476bfc0f9588856ef0f66548f8cea7be24d",
+    "published_sha256": "6c33b5123bd6803dd9099c41896df476bfc0f9588856ef0f66548f8cea7be24d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/full/clpo2027/model.py",
+    "source_sha256": "ff2257312022c72433f64b647f7b6063442d1c5605660023ff870ff197f7465f",
+    "published_sha256": "ff2257312022c72433f64b647f7b6063442d1c5605660023ff870ff197f7465f",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/spatial/basicsr/models/archs/VIVNet_MatchedMixers_arch.py",
+    "source_sha256": "24c95a62df931ebcc8267fd0b371d7ca5970229bba927decd36881dfbf05a873",
+    "published_sha256": "24c95a62df931ebcc8267fd0b371d7ca5970229bba927decd36881dfbf05a873",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/spatial/clpo2027/SPATIAL_MAMBA_LICENSE",
+    "source_sha256": "7aee55c28ae16cb55cd8067c740783c32f30a3e0e96fc3cd39f5c4742e693e63",
+    "published_sha256": "7aee55c28ae16cb55cd8067c740783c32f30a3e0e96fc3cd39f5c4742e693e63",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/spatial/clpo2027/spatial_mamba_adapter.py",
+    "source_sha256": "5700339ac2dedec2b7d54f2aab381611962bd269e81eee5e3cf35e79b09709b8",
+    "published_sha256": "fd6e720ff199f2992f2ab894f94d7247a99d16456042ac2f6d28ff7f970c8c19",
+    "transform": "Machine paths and operational metadata removed; entry-point path wiring or normalized result fields updated. Scientific values retained."
+  },
+  {
+    "published": "supplement/runtime_overlays/state/basicsr/models/image_restoration_model.py",
+    "source_sha256": "6c33b5123bd6803dd9099c41896df476bfc0f9588856ef0f66548f8cea7be24d",
+    "published_sha256": "6c33b5123bd6803dd9099c41896df476bfc0f9588856ef0f66548f8cea7be24d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/state/clpo2027/model.py",
+    "source_sha256": "ff2257312022c72433f64b647f7b6063442d1c5605660023ff870ff197f7465f",
+    "published_sha256": "ff2257312022c72433f64b647f7b6063442d1c5605660023ff870ff197f7465f",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/state/clpo2027/selective_f9_backend.py",
+    "source_sha256": "6603ac6cb41c7b3c988d5fdc45fabfc2c379cd2be0e8c780d21f24d029c0865d",
+    "published_sha256": "6603ac6cb41c7b3c988d5fdc45fabfc2c379cd2be0e8c780d21f24d029c0865d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/terminal/basicsr/models/image_restoration_model.py",
+    "source_sha256": "6c33b5123bd6803dd9099c41896df476bfc0f9588856ef0f66548f8cea7be24d",
+    "published_sha256": "6c33b5123bd6803dd9099c41896df476bfc0f9588856ef0f66548f8cea7be24d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/terminal/clpo2027/model.py",
+    "source_sha256": "ff2257312022c72433f64b647f7b6063442d1c5605660023ff870ff197f7465f",
+    "published_sha256": "ff2257312022c72433f64b647f7b6063442d1c5605660023ff870ff197f7465f",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/runtime_overlays/terminal/clpo2027/selective_f9_backend.py",
+    "source_sha256": "6603ac6cb41c7b3c988d5fdc45fabfc2c379cd2be0e8c780d21f24d029c0865d",
+    "published_sha256": "6603ac6cb41c7b3c988d5fdc45fabfc2c379cd2be0e8c780d21f24d029c0865d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/WINDOWS_CUDA13_COMPATIBILITY.patch",
+    "source_sha256": "2a4e26e3d6b97f528fababfe4570ab338f5549db6739d210d921d5ddfa4aec1c",
+    "published_sha256": "2a4e26e3d6b97f528fababfe4570ab338f5549db6739d210d921d5ddfa4aec1c",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/Dwconv/dwconv_layer.py",
+    "source_sha256": "7b1de8958414d320cb4f809104f4a883f1b50be31662d6b0e94141a041ed5581",
+    "published_sha256": "7b1de8958414d320cb4f809104f4a883f1b50be31662d6b0e94141a041ed5581",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/check.py",
+    "source_sha256": "d16bed1fe0b9c3a21f96ac7bf7e0d16cd2f352947bf376ffa619f64deb86b106",
+    "published_sha256": "d16bed1fe0b9c3a21f96ac7bf7e0d16cd2f352947bf376ffa619f64deb86b106",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/depthwise_fwd/kernel.bk.cuh",
+    "source_sha256": "70a03ea1c8d19176cfbd0192ecb0ea99bf876ecb9b8a3cdf1013bca692e66ec2",
+    "published_sha256": "70a03ea1c8d19176cfbd0192ecb0ea99bf876ecb9b8a3cdf1013bca692e66ec2",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/depthwise_fwd/kernel.cuh",
+    "source_sha256": "2ecd56614000d00773ec1bbc66de62356b9ef9548e1e17c8976227f3f63d5867",
+    "published_sha256": "2ecd56614000d00773ec1bbc66de62356b9ef9548e1e17c8976227f3f63d5867",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/depthwise_fwd/kernel.sparse.cuh",
+    "source_sha256": "d385a75ef6060e09ccc1e48a7bae68c7292694cb1d53814e1d5dd20ff2b2272a",
+    "published_sha256": "d385a75ef6060e09ccc1e48a7bae68c7292694cb1d53814e1d5dd20ff2b2272a",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/depthwise_fwd/launch.cu",
+    "source_sha256": "5095dce74a7dd352efe3170a88e0f0a08950e66501e50c9869d59ea5b1f696a5",
+    "published_sha256": "5095dce74a7dd352efe3170a88e0f0a08950e66501e50c9869d59ea5b1f696a5",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/depthwise_fwd/para.cuh",
+    "source_sha256": "b169bddf7f3e998fd770924dd4c2ec7c83c25cb5d3f272c92ef84ed2a6d64232",
+    "published_sha256": "b169bddf7f3e998fd770924dd4c2ec7c83c25cb5d3f272c92ef84ed2a6d64232",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/dwconv2d.cpp",
+    "source_sha256": "d4a7694d2d89b6b1968e1213107553c6c47b64292bf71768d8f524265e9eb31a",
+    "published_sha256": "d4a7694d2d89b6b1968e1213107553c6c47b64292bf71768d8f524265e9eb31a",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/setup.py",
+    "source_sha256": "cd2309451c5d3391c222ba98c1c6a7600e532c118654219421372063da6ea61a",
+    "published_sha256": "cd2309451c5d3391c222ba98c1c6a7600e532c118654219421372063da6ea61a",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/dwconv2d/test.py",
+    "source_sha256": "0f8d08119c17037abcc4023ccca9f0f9f8a152bfbdc95479083bfd6d105eeeda",
+    "published_sha256": "0f8d08119c17037abcc4023ccca9f0f9f8a152bfbdc95479083bfd6d105eeeda",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/cub_extra.cuh",
+    "source_sha256": "ea73776f9876f2c39762fa83c33adf6f17014b7010217e46db7cace56f760b68",
+    "published_sha256": "ea73776f9876f2c39762fa83c33adf6f17014b7010217e46db7cace56f760b68",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_bwd_kernel_oflex.cuh",
+    "source_sha256": "217eb308dada5334d3eb685d439f3dbb5fe51bbf2e0c0882629eea45dd042a21",
+    "published_sha256": "217eb308dada5334d3eb685d439f3dbb5fe51bbf2e0c0882629eea45dd042a21",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_core_bwd.cu",
+    "source_sha256": "366a63ea863e011cace8a84c53a25d80e92bd870674cf01fd40a6ca703369cbc",
+    "published_sha256": "366a63ea863e011cace8a84c53a25d80e92bd870674cf01fd40a6ca703369cbc",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_core_fwd.cu",
+    "source_sha256": "52cb637db146e902b36aa868b02854d062e91e0dc6b2a430e72c2018405fe497",
+    "published_sha256": "52cb637db146e902b36aa868b02854d062e91e0dc6b2a430e72c2018405fe497",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_fwd_kernel_oflex.cuh",
+    "source_sha256": "3a58c7ec43ecd479b385186473a916b93a4422b13b1c5f7ee6a8e4e6c8fac768",
+    "published_sha256": "3a58c7ec43ecd479b385186473a916b93a4422b13b1c5f7ee6a8e4e6c8fac768",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_oflex_rh.cpp",
+    "source_sha256": "18236473502c4d9c623fad399d0551c0fe8bf7504c11c0546167eba2980b0449",
+    "published_sha256": "18236473502c4d9c623fad399d0551c0fe8bf7504c11c0546167eba2980b0449",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/reverse_scan.cuh",
+    "source_sha256": "1f523a9bee637efca33855d98659b5f092d00601c73acde63a36363e01f0e997",
+    "published_sha256": "1f523a9bee637efca33855d98659b5f092d00601c73acde63a36363e01f0e997",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/selective_scan.h",
+    "source_sha256": "4f1f8228806e2c802724391ef7902732db504cf6233981cfac6a94d2eff54c73",
+    "published_sha256": "4f1f8228806e2c802724391ef7902732db504cf6233981cfac6a94d2eff54c73",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/selective_scan_common.h",
+    "source_sha256": "bdccb0b3cc0cb83e4cea7ca3143e01d2d4ff681f5e747146d479bd05b689eb4d",
+    "published_sha256": "bdccb0b3cc0cb83e4cea7ca3143e01d2d4ff681f5e747146d479bd05b689eb4d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/static_switch.h",
+    "source_sha256": "a745756ed207d0e8bdd6eec524d99e854f98b055d0b87a4b47a9dc0bcf40799a",
+    "published_sha256": "a745756ed207d0e8bdd6eec524d99e854f98b055d0b87a4b47a9dc0bcf40799a",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/csrc/selective_scan/uninitialized_copy.cuh",
+    "source_sha256": "5be98db304d71970bece8b8014d40eb1a2f1d9a48d7abf89eb76e893f8183a78",
+    "published_sha256": "5be98db304d71970bece8b8014d40eb1a2f1d9a48d7abf89eb76e893f8183a78",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/build_source/selective_scan/setup.py",
+    "source_sha256": "92735dfa22ad5b50cee84a51dfa007c2ed295a98ee583e82e264309e8872d7a1",
+    "published_sha256": "92735dfa22ad5b50cee84a51dfa007c2ed295a98ee583e82e264309e8872d7a1",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/LICENSE",
+    "source_sha256": "7aee55c28ae16cb55cd8067c740783c32f30a3e0e96fc3cd39f5c4742e693e63",
+    "published_sha256": "7aee55c28ae16cb55cd8067c740783c32f30a3e0e96fc3cd39f5c4742e693e63",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/classification/models/spatialmamba.py",
+    "source_sha256": "7e409c828969a5338ae412af8e62a252e4b36c14b8752f37abece3b363ec9aa1",
+    "published_sha256": "7e409c828969a5338ae412af8e62a252e4b36c14b8752f37abece3b363ec9aa1",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/classification/models/utils.py",
+    "source_sha256": "93b40bebfb0235071e610c68e3ba39506e4233913d902fb0798866d7a90fea0b",
+    "published_sha256": "93b40bebfb0235071e610c68e3ba39506e4233913d902fb0798866d7a90fea0b",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/Dwconv/dwconv_layer.py",
+    "source_sha256": "7b1de8958414d320cb4f809104f4a883f1b50be31662d6b0e94141a041ed5581",
+    "published_sha256": "7b1de8958414d320cb4f809104f4a883f1b50be31662d6b0e94141a041ed5581",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/check.py",
+    "source_sha256": "d16bed1fe0b9c3a21f96ac7bf7e0d16cd2f352947bf376ffa619f64deb86b106",
+    "published_sha256": "d16bed1fe0b9c3a21f96ac7bf7e0d16cd2f352947bf376ffa619f64deb86b106",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/depthwise_fwd/kernel.bk.cuh",
+    "source_sha256": "70a03ea1c8d19176cfbd0192ecb0ea99bf876ecb9b8a3cdf1013bca692e66ec2",
+    "published_sha256": "70a03ea1c8d19176cfbd0192ecb0ea99bf876ecb9b8a3cdf1013bca692e66ec2",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/depthwise_fwd/kernel.cuh",
+    "source_sha256": "2ecd56614000d00773ec1bbc66de62356b9ef9548e1e17c8976227f3f63d5867",
+    "published_sha256": "2ecd56614000d00773ec1bbc66de62356b9ef9548e1e17c8976227f3f63d5867",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/depthwise_fwd/kernel.sparse.cuh",
+    "source_sha256": "d385a75ef6060e09ccc1e48a7bae68c7292694cb1d53814e1d5dd20ff2b2272a",
+    "published_sha256": "d385a75ef6060e09ccc1e48a7bae68c7292694cb1d53814e1d5dd20ff2b2272a",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/depthwise_fwd/launch.cu",
+    "source_sha256": "844c0fe8a645970f847026f5934ec297b287ef04121e64c601a56f6abad3a790",
+    "published_sha256": "844c0fe8a645970f847026f5934ec297b287ef04121e64c601a56f6abad3a790",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/depthwise_fwd/para.cuh",
+    "source_sha256": "b169bddf7f3e998fd770924dd4c2ec7c83c25cb5d3f272c92ef84ed2a6d64232",
+    "published_sha256": "b169bddf7f3e998fd770924dd4c2ec7c83c25cb5d3f272c92ef84ed2a6d64232",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/dwconv2d.cpp",
+    "source_sha256": "d4a7694d2d89b6b1968e1213107553c6c47b64292bf71768d8f524265e9eb31a",
+    "published_sha256": "d4a7694d2d89b6b1968e1213107553c6c47b64292bf71768d8f524265e9eb31a",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/setup.py",
+    "source_sha256": "cd2309451c5d3391c222ba98c1c6a7600e532c118654219421372063da6ea61a",
+    "published_sha256": "cd2309451c5d3391c222ba98c1c6a7600e532c118654219421372063da6ea61a",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/dwconv2d/test.py",
+    "source_sha256": "0f8d08119c17037abcc4023ccca9f0f9f8a152bfbdc95479083bfd6d105eeeda",
+    "published_sha256": "0f8d08119c17037abcc4023ccca9f0f9f8a152bfbdc95479083bfd6d105eeeda",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/cub_extra.cuh",
+    "source_sha256": "ea73776f9876f2c39762fa83c33adf6f17014b7010217e46db7cace56f760b68",
+    "published_sha256": "ea73776f9876f2c39762fa83c33adf6f17014b7010217e46db7cace56f760b68",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_bwd_kernel_oflex.cuh",
+    "source_sha256": "45889a9264c6151bc590df202e4d6884552744508d05a670dee3c67d48228f00",
+    "published_sha256": "45889a9264c6151bc590df202e4d6884552744508d05a670dee3c67d48228f00",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_core_bwd.cu",
+    "source_sha256": "366a63ea863e011cace8a84c53a25d80e92bd870674cf01fd40a6ca703369cbc",
+    "published_sha256": "366a63ea863e011cace8a84c53a25d80e92bd870674cf01fd40a6ca703369cbc",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_core_fwd.cu",
+    "source_sha256": "52cb637db146e902b36aa868b02854d062e91e0dc6b2a430e72c2018405fe497",
+    "published_sha256": "52cb637db146e902b36aa868b02854d062e91e0dc6b2a430e72c2018405fe497",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_fwd_kernel_oflex.cuh",
+    "source_sha256": "7d11ea2e139b7981210a7b50e3f46c3e75ddd63388a53544c13539b380f9e2b7",
+    "published_sha256": "7d11ea2e139b7981210a7b50e3f46c3e75ddd63388a53544c13539b380f9e2b7",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/cusoflexrh/selective_scan_oflex_rh.cpp",
+    "source_sha256": "18236473502c4d9c623fad399d0551c0fe8bf7504c11c0546167eba2980b0449",
+    "published_sha256": "18236473502c4d9c623fad399d0551c0fe8bf7504c11c0546167eba2980b0449",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/reverse_scan.cuh",
+    "source_sha256": "3f0059c65949cb2b46f6a42fa5e8de46595dff7f324fe5c875795474d5ed542b",
+    "published_sha256": "3f0059c65949cb2b46f6a42fa5e8de46595dff7f324fe5c875795474d5ed542b",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/selective_scan.h",
+    "source_sha256": "4f1f8228806e2c802724391ef7902732db504cf6233981cfac6a94d2eff54c73",
+    "published_sha256": "4f1f8228806e2c802724391ef7902732db504cf6233981cfac6a94d2eff54c73",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/selective_scan_common.h",
+    "source_sha256": "bdccb0b3cc0cb83e4cea7ca3143e01d2d4ff681f5e747146d479bd05b689eb4d",
+    "published_sha256": "bdccb0b3cc0cb83e4cea7ca3143e01d2d4ff681f5e747146d479bd05b689eb4d",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/static_switch.h",
+    "source_sha256": "a745756ed207d0e8bdd6eec524d99e854f98b055d0b87a4b47a9dc0bcf40799a",
+    "published_sha256": "a745756ed207d0e8bdd6eec524d99e854f98b055d0b87a4b47a9dc0bcf40799a",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/csrc/selective_scan/uninitialized_copy.cuh",
+    "source_sha256": "5be98db304d71970bece8b8014d40eb1a2f1d9a48d7abf89eb76e893f8183a78",
+    "published_sha256": "5be98db304d71970bece8b8014d40eb1a2f1d9a48d7abf89eb76e893f8183a78",
+    "transform": "none"
+  },
+  {
+    "published": "supplement/third_party/SpatialMamba/official/kernels/selective_scan/setup.py",
+    "source_sha256": "92735dfa22ad5b50cee84a51dfa007c2ed295a98ee583e82e264309e8872d7a1",
+    "published_sha256": "92735dfa22ad5b50cee84a51dfa007c2ed295a98ee583e82e264309e8872d7a1",
+    "transform": "none"
+  },
+  {
+    "published": "tasks/restoration/evaluate_gopro.py",
+    "source_sha256": "f826d9a0c2fb4d73e22dcef137a2cdad5042db31dd18f5eede657e6cb9501762",
+    "published_sha256": "5b939874a8ede61d6f198dc463a862c9be1fa9c556c431aeda58d6566bb5de34",
+    "transform": "Direct RGB SSIM integration and verified current restoration endpoint update.",
+    "publication_history": [
+      {
+        "sha256": "6b8df4330fee256c84fefebe7bf2b50f1bf6f26ec099899d361a1feadf08061a",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      },
+      {
+        "sha256": "b25497607b40ec66f4cc5710472a1c4003320a0a91a9a57c00b8607441234190",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      }
+    ],
+    "previous_published_sha256": "b25497607b40ec66f4cc5710472a1c4003320a0a91a9a57c00b8607441234190"
+  },
+  {
+    "published": "tasks/restoration/evaluate_ohaze.py",
+    "source_sha256": "c0599f17507c5c70d538cce452d4e41c0a33b51e63a77cf04496701d46adde81",
+    "published_sha256": "7821f8c2b74eaf68d5ed25d1f9932b5ffda900bbdd72816bd983ab377f240a2b",
+    "transform": "Direct RGB SSIM integration and verified current restoration endpoint update.",
+    "version_history": [
+      {
+        "published": "tasks/restoration/evaluate_ohaze.py",
+        "source_sha256": "c0599f17507c5c70d538cce452d4e41c0a33b51e63a77cf04496701d46adde81",
+        "published_sha256": "b714435dd9b7b83002dc5e763b545a72f8f53c111c109f2a3fa24d8addb16548",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      }
+    ],
+    "previous_published_sha256": "01559cbaff2d5e364f7762f626f216177a1121ad7d759f2ce84b6c8a7af873f2",
+    "revision_source_sha256": {
+      "ssim_reassessment/all_affected_summary.json": "aa7dc28f791d9c31aff61580c76a0126556f846147a5733d964f1f28f26298cb",
+      "ssim_reassessment/metrics_direct.py": "93b24c60b6a34fb1ab3ae2bb4940c60cd36c05316c05329737d34f1a04a6d991"
+    },
+    "publication_history": [
+      {
+        "sha256": "01559cbaff2d5e364f7762f626f216177a1121ad7d759f2ce84b6c8a7af873f2",
+        "transform": "Direct O-HAZE SSIM update on 2026-09-12. Remove image pre-pooling, export verified results, and retain historical pooled scores and PSNR values."
+      }
+    ]
+  },
+  {
+    "published": "tasks/restoration/runtime/clpo2027/fp32_heads.py",
+    "source_sha256": "2eefdd6f4cb469122f87f394a86dc23bf6d6fe71fd9b915eb7149a078b269cb2",
+    "published_sha256": "bc8d3b69965459e4997cebfb640584f5780f9f377846df67ebbd5712cd3f891d",
+    "transform": "Extract the verified joint-head definitions without their experiment wrappers."
+  },
+  {
+    "published": "tasks/restoration/runtime/clpo2027/fp32_inference.py",
+    "source_sha256": "623f67ec93aa8cf4d6d23f4faa165878b208fbd3163a8558a29e65d960c46910",
+    "published_sha256": "ef31e5771d7b8b2bfeaf46106c18edd71f17aa096a024ef0f1b26dbc96dcaa0b",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "previous_published_sha256": "1f2e0bc226f88faf4648324dd85a1243271e4d86091b0c7205587ae3f2c2a37b",
+    "publication_history": [
+      {
+        "sha256": "1f2e0bc226f88faf4648324dd85a1243271e4d86091b0c7205587ae3f2c2a37b",
+        "transform": "Integrate the equivalent real two-channel state layout and keep the recorded interfaces."
+      }
+    ]
+  },
+  {
+    "published": "tasks/restoration/runtime/clpo2027/fp32_rollout.py",
+    "source_sha256": "8727baa5f13beeed7ec69eb853d489a00a050f7510b9271526bbbd892a1c9d34",
+    "published_sha256": "1f2e37bf3d88c7ec1c7e5d9efd6fcb1b7899f3593d79fa5a5e3c3e071d063166",
+    "transform": "Integrate the equivalent real two-channel state layout and keep the recorded interfaces.",
+    "previous_published_sha256": "8727baa5f13beeed7ec69eb853d489a00a050f7510b9271526bbbd892a1c9d34"
+  },
+  {
+    "published": "tools/check_release.py",
+    "source_sha256": "b147d0ec479b91b8e2c6eeaa1c5a662eff2bd383347db20aa4c43ff6979d07aa",
+    "published_sha256": "6770b2f3e806045763b259422939b8a942ce508cffce0282dbefc1d3127aa74c",
+    "transform": "Direct RGB SSIM integration and verified current restoration endpoint update.",
+    "publication_history": [
+      {
+        "sha256": "03b21baa6ab6980f19dba8a8d4272e7e3412e7d96afd4ecf8a96b46a38500dc2",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      },
+      {
+        "sha256": "b147d0ec479b91b8e2c6eeaa1c5a662eff2bd383347db20aa4c43ff6979d07aa",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      }
+    ],
+    "previous_published_sha256": "b147d0ec479b91b8e2c6eeaa1c5a662eff2bd383347db20aa4c43ff6979d07aa"
+  },
+  {
+    "published": "weights/checksums.json",
+    "source_sha256": "1597cb42d064a6a53c4a5c153156af2f1b36679aeaf2d123d2f816da99df23be",
+    "published_sha256": "f5d768246b8924730e167c697a5615e5c37a1789e988368db146831ed898cc16",
+    "transform": "Restoration-only submission scope and current release instructions; model tensors are unchanged.",
+    "publication_history": [
+      {
+        "sha256": "b248124a465e973268a44c7bf5fb65f0d35295ea7c1868a89b4b4a2643fe7492",
+        "transform": "Release integration of the verified default inference and context-generator control."
+      },
+      {
+        "sha256": "05bc04fc8414a86b25b576b46a875626588e64d14debd6de47e9a302e2380d32",
+        "transform": "Verified integration: native default inference, current native paper records, and portable release documentation."
+      },
+      {
+        "sha256": "cdb2d5b52fa5383fd7c98d314037682d0a3ac419e9fc70cbb9022b241eacd32a",
+        "transform": "Direct RGB SSIM integration and verified current restoration endpoint update."
+      },
+      {
+        "sha256": "62c1b1de213bff59b25e18bb7c42b7f8a168f86b8c25f5e0bc46770159bf5ba2",
+        "transform": "Verified Haze4K state-dynamic endpoint integration."
+      }
+    ],
+    "previous_published_sha256": "62c1b1de213bff59b25e18bb7c42b7f8a168f86b8c25f5e0bc46770159bf5ba2"
+  },
+  {
+    "published": "weights/ohaze/cspn_context/seed42/initial.pth",
+    "source_sha256": "9052bab2095d0a5bd24bf18c0508767618916e0d94fe984211a7830550061d78",
+    "published_sha256": "9052bab2095d0a5bd24bf18c0508767618916e0d94fe984211a7830550061d78",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "weights/ohaze/cspn_context/seed42/last.pth",
+    "source_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+    "published_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+    "transform": "Release integration of the verified default inference and context-generator control."
+  },
+  {
+    "published": "weights/supplement/gopro-half-delay-seed42/last.pth",
+    "source_sha256": "b7643dcc5af22d905cc99006505e11d58a6268eea0a2dba7ea938dc8517ccbdd",
+    "published_sha256": "b7643dcc5af22d905cc99006505e11d58a6268eea0a2dba7ea938dc8517ccbdd",
+    "transform": "none"
+  },
+  {
+    "published": "weights/supplement/gopro-identity-retention-seed42/last.pth",
+    "source_sha256": "860b91fdd28aef91c43d45f8a6887ee06222a2484f69ab08cd6319bfe33c3100",
+    "published_sha256": "860b91fdd28aef91c43d45f8a6887ee06222a2484f69ab08cd6319bfe33c3100",
+    "transform": "none"
+  },
+  {
+    "published": "weights/supplement/gopro-state-dynamic-seed42/last.pth",
+    "source_sha256": "7252dfaba9e2a804dfb4847f683c8fef2c58f0c6647bbee6bb219673437e4c21",
+    "published_sha256": "7252dfaba9e2a804dfb4847f683c8fef2c58f0c6647bbee6bb219673437e4c21",
+    "transform": "none"
+  },
+  {
+    "published": "weights/supplement/gopro-terminal-readout-seed42/last.pth",
+    "source_sha256": "66f0a13bb55d31167f8af51bbe9fd265d3e634d9e35cf13bf08861c4e4cacadd",
+    "published_sha256": "66f0a13bb55d31167f8af51bbe9fd265d3e634d9e35cf13bf08861c4e4cacadd",
+    "transform": "none"
+  },
+  {
+    "published": "weights/supplement/ohaze-spatial-mamba-seed42/last.pth",
+    "source_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+    "published_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+    "transform": "none"
+  },
+  {
+    "published": "tools/diagnose_ohaze.py",
+    "source_sha256": "9f484160a6d2cd1d538bdb31f75ffc6096b5950d815de02aeb544ecfae0a4fc3",
+    "published_sha256": "9f484160a6d2cd1d538bdb31f75ffc6096b5950d815de02aeb544ecfae0a4fc3",
+    "transform": "Integrate the verified real state path."
+  },
+  {
+    "published": "tools/diagnose_trajectory.py",
+    "source_sha256": "c4a03856be51c6f677c1a0f4c37a40509f23121df45699d6ad8e2701be1f40a5",
+    "published_sha256": "c4a03856be51c6f677c1a0f4c37a40509f23121df45699d6ad8e2701be1f40a5",
+    "transform": "Integrate the verified real state path."
+  },
+  {
+    "published": "tools/profile_model.py",
+    "source_sha256": "b27c35556455d50a4d962f0dbe3c557d90e6b3fa15030ed174eb04b35b2a1466",
+    "published_sha256": "b27c35556455d50a4d962f0dbe3c557d90e6b3fa15030ed174eb04b35b2a1466",
+    "transform": "Integrate the verified real state path."
+  },
+  {
+    "published": "supplement/runtime_overlays/context/clpo2027/fp32_inference.py",
+    "source_sha256": "623f67ec93aa8cf4d6d23f4faa165878b208fbd3163a8558a29e65d960c46910",
+    "published_sha256": "623f67ec93aa8cf4d6d23f4faa165878b208fbd3163a8558a29e65d960c46910",
+    "transform": "Keep the original source used by this recorded supplementary condition."
+  },
+  {
+    "published": "supplement/runtime_overlays/context/clpo2027/fp32_rollout.py",
+    "source_sha256": "8727baa5f13beeed7ec69eb853d489a00a050f7510b9271526bbbd892a1c9d34",
+    "published_sha256": "8727baa5f13beeed7ec69eb853d489a00a050f7510b9271526bbbd892a1c9d34",
+    "transform": "Keep the original source used by this recorded supplementary condition."
+  },
+  {
+    "published": "supplement/runtime_overlays/context/basicsr/models/base_model.py",
+    "source_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "published_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "transform": "Keep the original source used by this recorded supplementary condition."
+  },
+  {
+    "published": "supplement/runtime_overlays/context/basicsr/models/archs/VIVNet_ProfiledCLPO_arch.py",
+    "source_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+    "published_sha256": "6edcc1beed199be193432a9311ab08d705969a6edc12ceb105244a9427107b09",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+        "transform": "Keep the original source used by this recorded supplementary condition."
+      }
+    ],
+    "previous_published_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4"
+  },
+  {
+    "published": "supplement/runtime_overlays/fast/basicsr/models/base_model.py",
+    "source_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "published_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "transform": "Keep the original source used by this recorded supplementary condition."
+  },
+  {
+    "published": "supplement/runtime_overlays/fast/basicsr/models/archs/VIVNet_ProfiledCLPO_arch.py",
+    "source_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+    "published_sha256": "6edcc1beed199be193432a9311ab08d705969a6edc12ceb105244a9427107b09",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+        "transform": "Keep the original source used by this recorded supplementary condition."
+      }
+    ],
+    "previous_published_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4"
+  },
+  {
+    "published": "supplement/runtime_overlays/full/basicsr/models/base_model.py",
+    "source_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "published_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "transform": "Keep the original source used by this recorded supplementary condition."
+  },
+  {
+    "published": "supplement/runtime_overlays/full/basicsr/models/archs/VIVNet_ProfiledCLPO_arch.py",
+    "source_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+    "published_sha256": "6edcc1beed199be193432a9311ab08d705969a6edc12ceb105244a9427107b09",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+        "transform": "Keep the original source used by this recorded supplementary condition."
+      }
+    ],
+    "previous_published_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4"
+  },
+  {
+    "published": "supplement/runtime_overlays/spatial/basicsr/models/base_model.py",
+    "source_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "published_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "transform": "Keep the original source used by this recorded supplementary condition."
+  },
+  {
+    "published": "supplement/runtime_overlays/spatial/basicsr/models/archs/VIVNet_ProfiledCLPO_arch.py",
+    "source_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+    "published_sha256": "6edcc1beed199be193432a9311ab08d705969a6edc12ceb105244a9427107b09",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+        "transform": "Keep the original source used by this recorded supplementary condition."
+      }
+    ],
+    "previous_published_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4"
+  },
+  {
+    "published": "supplement/runtime_overlays/state/basicsr/models/base_model.py",
+    "source_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "published_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "transform": "Keep the original source used by this recorded supplementary condition."
+  },
+  {
+    "published": "supplement/runtime_overlays/state/basicsr/models/archs/VIVNet_ProfiledCLPO_arch.py",
+    "source_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+    "published_sha256": "6edcc1beed199be193432a9311ab08d705969a6edc12ceb105244a9427107b09",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+        "transform": "Keep the original source used by this recorded supplementary condition."
+      }
+    ],
+    "previous_published_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4"
+  },
+  {
+    "published": "supplement/runtime_overlays/terminal/basicsr/models/base_model.py",
+    "source_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "published_sha256": "9eac0122c72c8d64b5b5e56e447546ec392b725e75d7468d3f8e011c68358312",
+    "transform": "Keep the original source used by this recorded supplementary condition."
+  },
+  {
+    "published": "supplement/runtime_overlays/terminal/basicsr/models/archs/VIVNet_ProfiledCLPO_arch.py",
+    "source_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+    "published_sha256": "6edcc1beed199be193432a9311ab08d705969a6edc12ceb105244a9427107b09",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+        "transform": "Keep the original source used by this recorded supplementary condition."
+      }
+    ],
+    "previous_published_sha256": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4"
+  },
+  {
+    "published": "tasks/restoration/runtime/clpo2027/real_pair_propagation.py",
+    "source_sha256": "4808bc555049b81473c00a0026eabe6ba8a2782bf18683a1d4469371a4c02d3a",
+    "published_sha256": "5cd60532f1876186b313096ea29d959288be54e53c3e4a933b04d2f025ff17e1",
+    "transform": "Integrate the verified real state path."
+  },
+  {
+    "published": "tasks/restoration/runtime/basicsr/models/base_model.py",
+    "source_sha256": "db4523b58e3a52abdf628cf855745f71364ec836a5993cc7055ba44b9b11d963",
+    "published_sha256": "db4523b58e3a52abdf628cf855745f71364ec836a5993cc7055ba44b9b11d963",
+    "transform": "Integrate the verified real state path."
+  },
+  {
+    "published": "tasks/restoration/runtime/basicsr/models/archs/VIVNet_ProfiledCLPO_arch.py",
+    "source_sha256": "d693a3cb7aec922aa7c449cf7a0c3dd228780b4d3e407e4fbd4199af8f423bff",
+    "published_sha256": "f350155b140cd0f8bac90ae92ae82cf04f2820e53c807d505ea63b6d2edf2ee2",
+    "transform": "Verified integration: native default inference, current native paper records, and portable release documentation.",
+    "publication_history": [
+      {
+        "sha256": "d693a3cb7aec922aa7c449cf7a0c3dd228780b4d3e407e4fbd4199af8f423bff",
+        "transform": "Integrate the verified real state path."
+      }
+    ],
+    "previous_published_sha256": "d693a3cb7aec922aa7c449cf7a0c3dd228780b4d3e407e4fbd4199af8f423bff"
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/all_affected_per_image.csv",
+    "source_sha256": "9e5a4e4cd554d24096e425fac11f95566a006b49aa7c96107fb0c42568ce5525",
+    "source_record_id": "analysis/all_affected_per_image.csv",
+    "published_sha256": "00016447bc9ca2484998babcbae9684ff367cab8d69462b1b934df0e96a5901a",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/all_affected_summary.json",
+    "source_sha256": "aa7dc28f791d9c31aff61580c76a0126556f846147a5733d964f1f28f26298cb",
+    "source_record_id": "analysis/all_affected_summary.json",
+    "published_sha256": "58444dac50bedd67d4a23629b851d2d1777babcc5ff308418c3274373ea834a2",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-cpu-timing-diagonal_half_stale/FINAL.json",
+    "source_sha256": "3e69a82a7e8f076b8f86ef7899257df21bc2b39da0f8c5a598b019d6ae72fe2f",
+    "source_record_id": "results/timing/result.json",
+    "published_sha256": "47bce2cbb02e01be8b5000571b133cf7c010f8289600e8b6e5430a5ae70eb7d5",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-cpu-timing-direct/FINAL.json",
+    "source_sha256": "3e69a82a7e8f076b8f86ef7899257df21bc2b39da0f8c5a598b019d6ae72fe2f",
+    "source_record_id": "results/timing/result.json",
+    "published_sha256": "f4d2b45f7607b802613a46cb7345ad5eabde17663061bf060a891139e713fbed",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-cspn-context-seed42/FINAL.json",
+    "source_sha256": "8fd7a006c6e8e567a8390b960826213653f5c025abe334636b6e8169fda57739",
+    "source_record_id": "results/cached/ohaze-cspn-context-seed42.json",
+    "published_sha256": "c677c15103a01d65efab6a1c30be87397200a23d9252ab9dc045c0fb80a3b482",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-cspn_style-seed42/FINAL.json",
+    "source_sha256": "2afeefc42abb25b05b8cd8e1e5cd6073ca15f954a234d6f2d5b8819e7e9bb821",
+    "source_record_id": "results/cached/ohaze-cspn_style-seed42.json",
+    "published_sha256": "58f2996ece1c229b0f019b0668d8d5e32701dd097aa05f200c3e2696be204688",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-depth_k1-seed42/FINAL.json",
+    "source_sha256": "1fda7b7e078f9bd1112c95172dcb14c9655ffa36f89dc08f922f55445174259f",
+    "source_record_id": "results/affected/depth_k1.json",
+    "published_sha256": "4a9deb21315bd382d0450857f0fb5eb101c4f1c8a947b66e6263eb21ed2b1061",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-depth_k3-seed42/FINAL.json",
+    "source_sha256": "995b9dc7caa6061c9ed333a78bcee65c3fe12a5b8067f0936012a8a03c57ea35",
+    "source_record_id": "results/affected/depth_k3.json",
+    "published_sha256": "8b15f6cbdf764857870ea43d64f6d3797bb86d64d0978e3a975c14164768a418",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-depth_k7-seed42/FINAL.json",
+    "source_sha256": "d6c075fdb4cc41ff6269db5b2d3ffb606ed49af0902d7397346a06c3d56a63c9",
+    "source_record_id": "results/affected/depth_k7.json",
+    "published_sha256": "77530c79141e7999acfe8953dfeed55650041a9527b946e2f4c2d20bc449e9c8",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-dwconv-seed42/FINAL.json",
+    "source_sha256": "18f98aa6372a7958fc210e83c4a33b9bb0a7586900082a9650a4dc6c24a18f5e",
+    "source_record_id": "results/affected/dwconv.json",
+    "published_sha256": "97587376cdab5652becaef14471ace73f59a708995fbce1f09fc574bfccb32a5",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-first_step_drive-seed42/FINAL.json",
+    "source_sha256": "0ad0cfddade13d2ed63ccfa27556bb2778a9f626df591b4ba49a2f6d9515e23f",
+    "source_record_id": "results/affected/first_step_drive.json",
+    "published_sha256": "c360e5bc40d036fffa02694da57e2d96ddaa7c4fe6be64e33303942249c55ef1",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-f0r0/FINAL.json",
+    "source_sha256": "e79bd2b8a5acf3ac69cabd9f9053d723e962296447bb7a51280ba82a266c2f96",
+    "source_record_id": "results/cached/ohaze-fixed-f0r0.json",
+    "published_sha256": "64bfc3d39b427f3b855aa6bd6d1775ab48b03304329c65e22f6335113a40a781",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-f0r0_rms/FINAL.json",
+    "source_sha256": "d2bbd23612bf297dc078fe2ece703035f92beeeb4f334255998ae7950b2dff36",
+    "source_record_id": "results/cached/ohaze-fixed-f0r0_rms.json",
+    "published_sha256": "27bad4dcb3577fe14418ed02828fe57bf0534f0f4cbf8619cef53442dcc51f17",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-f0r1/FINAL.json",
+    "source_sha256": "2107ffc5daac80277cb1b56f85b9ee4c01db4a485d8d694e560ba7bbaf0be2ad",
+    "source_record_id": "results/cached/ohaze-fixed-f0r1.json",
+    "published_sha256": "14cfef8238b0913e01fa0eff58d421b015767e939507036ca236179c790e081a",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-f0r1_rms/FINAL.json",
+    "source_sha256": "54c11d3f7aafd8b8741a6cae4476c4d6e6ce1cc5d3112ab430aa9a8aa8c6c7b1",
+    "source_record_id": "results/cached/ohaze-fixed-f0r1_rms.json",
+    "published_sha256": "f077cf2b0913dbc1b6dd269f65e59230ea7304b5f85dc48836520795cbf4cb57",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-f1r0/FINAL.json",
+    "source_sha256": "bac9684c2a0fde73eab5ff43387bf5ac0800cbbb4fa9f70b5ab9ecda5a8773a0",
+    "source_record_id": "results/cached/ohaze-fixed-f1r0.json",
+    "published_sha256": "132c11c9911699137002e8d5de8879b0ae0b4cd61126256a44607f36f70967eb",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-f1r0_rms/FINAL.json",
+    "source_sha256": "24a5613b13f98235996b0554f36ade8423e05f5220c035ca0e291d20bfc63222",
+    "source_record_id": "results/cached/ohaze-fixed-f1r0_rms.json",
+    "published_sha256": "c3b651578cd5ee4b95cd58f7df96db09c9210356d95e8eda5cc0c9da8e00f17d",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-freeze_first_nonzero/FINAL.json",
+    "source_sha256": "9534cfeea48ea2ad25da958c2263761f98eb206dbe5879d7f747445241df69dd",
+    "source_record_id": "results/cached/ohaze-fixed-freeze_first_nonzero.json",
+    "published_sha256": "991ff3714ffdf09e04cb47018fe4bcbcb153b1ce8010b5f37ce87b4bf8459641",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-freeze_first_nonzero_rms/FINAL.json",
+    "source_sha256": "595c0eaaba14453c86bf7fa189a9752a91348824caed2dab97718b644b15e23b",
+    "source_record_id": "results/cached/ohaze-fixed-freeze_first_nonzero_rms.json",
+    "published_sha256": "be17692104519fd0990873cd279870b9101d6f4fd195aad6f49dfacfbd5b8a5c",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-half_grid_shift/FINAL.json",
+    "source_sha256": "620c9011b2e357242f95314489fdd514ef3a659abe665974293b345e8683f8ff",
+    "source_record_id": "results/cached/ohaze-fixed-half_grid_shift.json",
+    "published_sha256": "32ab5fe4ace355c7722efab9ae1b8449b87aa10bb7ba79ca2f9e00dde1c76f5d",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-half_grid_shift_rms/FINAL.json",
+    "source_sha256": "1c2e52ee7cdfb03f98d5103814e314c7b2a06cf29b7b0404ce31a032f207007c",
+    "source_record_id": "results/cached/ohaze-fixed-half_grid_shift_rms.json",
+    "published_sha256": "0cc6b32223b225bae341ce96aeff4e2062f43ef5dd5e26f3480dd9e6adb762e9",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-spatial_mean/FINAL.json",
+    "source_sha256": "7b54b36ed8294c2a1dbc3489a6ec32a00199e7f439241c99832d57b07538622e",
+    "source_record_id": "results/cached/ohaze-fixed-spatial_mean.json",
+    "published_sha256": "8432edb34479471642ec366eb93f3d524818eff3b0aa0fdcee7fac11a73b5f03",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-spatial_mean_rms/FINAL.json",
+    "source_sha256": "b55679ceb27e6292e697ce1158fec2164afca9e6530b221036aca317b4e07fe0",
+    "source_record_id": "results/cached/ohaze-fixed-spatial_mean_rms.json",
+    "published_sha256": "20a7ab12a67210eb21978167b3c78317ba5bf332d6915052d49b1fc7dda5e48e",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-fixed-weight-reference/FINAL.json",
+    "source_sha256": "479760c9c921d4fb7ef9fccae7a3349be91813e52559fe491ddc7f30000d7cd6",
+    "source_record_id": "results/cached/ohaze-fixed-weight-reference.json",
+    "published_sha256": "2dc198a565217e43790150a2c9abb8b516f5723b2b9fef35f24f525e6c1cf766",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-identity_retention-seed42/FINAL.json",
+    "source_sha256": "cc6d64f32aa05785bf824b90492fc55016185af1f4de9bb2291c638fb88cfd04",
+    "source_record_id": "results/cached/ohaze-identity_retention-seed42.json",
+    "published_sha256": "dc6717b22b5d15d46d002b52b8fc31d110a7f9abbaf8ab03649f99f92a2f3795",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-identity_retention_terminal_readout-seed42/FINAL.json",
+    "source_sha256": "ca6e1005513f2a84461e4d640fab3b030616409683d82e327586dc124fa89b18",
+    "source_record_id": "results/cached/ohaze-identity_retention_terminal_readout-seed42.json",
+    "published_sha256": "ec5335285a5c2fba0a3a488c1551ddc6f36901fb8999b450aa72eecf9daffc90",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-mair-full-block-seed42/FINAL.json",
+    "source_sha256": "ccea87156a73f743b52c6a7b647b4d033ddb3b5a732159474705c9a685a724ac",
+    "source_record_id": "results/cached/ohaze-mair-full-block-seed42.json",
+    "published_sha256": "2696d8416b04729c40b8720a218efee822a75988b89a687ebf560a8151f2eb9e",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-mair-seed42/FINAL.json",
+    "source_sha256": "a940dc767e83188d7e04f7442f33278435b8b876d5627938fe2ec57eb70e4db5",
+    "source_record_id": "results/affected/mair_core.json",
+    "published_sha256": "6f1575ca7ec0fbe74395747978c64f2a125b7840503a5d5f2f265c17c21e7777",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-matched_feedforward-seed42/FINAL.json",
+    "source_sha256": "ecc17c068b4dfd80ea070c0f30f7190c5a907b98c9aa6f809a47bf46aad302be",
+    "source_record_id": "results/affected/matched_feedforward.json",
+    "published_sha256": "6542ae908a7ac7104e33f8954221db64d88b70824287e6015d5eb1278c3d52c4",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-mdta-seed42/FINAL.json",
+    "source_sha256": "bf7ba14b3d8067b65817a390fa64b149a7de457d87b6ef3d17f5032a0e14e888",
+    "source_record_id": "results/affected/mdta.json",
+    "published_sha256": "563bedc130fcb40c752a559bf55b736355e3199eaa0328acbeaca0c3db99f14a",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-native-seed42/FINAL.json",
+    "source_sha256": "871b4cb73f31abedf20a6db03c8acc0d567971339e2cbcf83e639fe88a36f3c3",
+    "source_record_id": "results/affected/native.json",
+    "published_sha256": "e68382a5da2a0f35e8022a20c91e98ec9ca13fee38b67a79ccb9e7267a7f29a1",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-no_row_mass_projection-seed42/FINAL.json",
+    "source_sha256": "65f449179a40e7edab6e1d45ed3aa379d0c726416252f3862a510d4177faa91d",
+    "source_record_id": "results/cached/ohaze-no_row_mass_projection-seed42.json",
+    "published_sha256": "8f93f9cde18c6e04fe89b8a051099ef9a06fd36b7ca466670933c52a816d31a0",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-ours-seed42/FINAL.json",
+    "source_sha256": "4390422dfa631f329c04e07194eb63a0e877305ded90718e327df6dbfc2cdfdb",
+    "source_record_id": "results/cached/ohaze-ours-seed42.json",
+    "published_sha256": "d4aa13f337aed5136e9ec66259c9cdf7e49be7be87214e2f37baae34913512a3",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-p0s_state_dynamic-seed42/FINAL.json",
+    "source_sha256": "e9de17232ef7987a165398ef669066581d22e9a2d10f9ea11c1a34eca6e20077",
+    "source_record_id": "results/affected/p0s_state_dynamic.json",
+    "published_sha256": "3be015f79aa7d95569606e61a9111ad00817651e689fe80a38f8eca30e071059",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-spatial-full-block-seed42/FINAL.json",
+    "source_sha256": "6cf9ed5aed82d7d4c6388b07231ce81d0b9a4fe35a7e2fab5327c13b2ae8e5d3",
+    "source_record_id": "results/cached/ohaze-spatial-full-block-seed42.json",
+    "published_sha256": "79f978d7228550625ced66a5235cf5f32df00521f73a962d140efc1dea59d89f",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-spatial-mamba-seed42/FINAL.json",
+    "source_sha256": "a6a4d495b0199e0b323036aeeb79917fef4c7a5e6acf2268f83b08cd570d1970",
+    "source_record_id": "results/affected/spatial_core.json",
+    "published_sha256": "7830817f8b79890fb19c4b34d30715ae613984f3c772aa8b91eda6d166d5da51",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-ss2d-seed42/FINAL.json",
+    "source_sha256": "bd7124a86247b2162c45c58a2cbaa2b24c9a869aaccc0fcf664eda37a6e8c8cd",
+    "source_record_id": "results/cached/ohaze-ss2d-seed42.json",
+    "published_sha256": "f0806e744f39b4100cfb9d70f1913e39a56c12c12dbe4545e46aa9d1f678d23b",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-static_rules-seed42/FINAL.json",
+    "source_sha256": "a969b127fb5c72ab062ee69ab57161a9f8db1edbb636096c1e83ce3c9c70ae3c",
+    "source_record_id": "results/affected/static_rules.json",
+    "published_sha256": "b13d6c3f3dbc8af97f5411f9a71c2a34baa67edd255c7347b9c4665df8357a9f",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-swin-seed42/FINAL.json",
+    "source_sha256": "3b7a9e609a62c6600cb89a696a428fff3a8338114c26170942249600d68d4d6f",
+    "source_record_id": "results/affected/swin.json",
+    "published_sha256": "a4594baa429b2eb0e8bb15f8e64078ac57c4da3b5bce6dedb0ce3350d7aaa835",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-terminal_readout-seed42/FINAL.json",
+    "source_sha256": "3f393b1770948d08751b2f51d05bc08c02a7d2eb02383ec47bfa889b4efa18df",
+    "source_record_id": "results/cached/ohaze-terminal_readout-seed42.json",
+    "published_sha256": "fb15633a54519061babab9045fdaad3372d54f3216cfecdb2a3d68a66a576cc1",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/metric_validation.json",
+    "source_sha256": "01559cbaff2d5e364f7762f626f216177a1121ad7d759f2ce84b6c8a7af873f2",
+    "source_record_id": "tasks/restoration/evaluate_ohaze.py",
+    "published_sha256": "166698d6e97d90f249a4908421f7a8fe6bb0d1d9b21556a77c7b6d9bcf9f04a9",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/native_scale_per_image.csv",
+    "source_sha256": "0d24822f9499365809b0ea9be6d6cc1e285e757dff451903b14f2114b5cd960b",
+    "source_record_id": "analysis/native_scale_per_image.csv",
+    "published_sha256": "4cb6bd5f29948de61d149c30811cf1d03544b24289f3cfe1609f0da35454ba97",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/native_scale_per_image.json",
+    "source_sha256": "0d24822f9499365809b0ea9be6d6cc1e285e757dff451903b14f2114b5cd960b",
+    "source_record_id": "analysis/native_scale_per_image.csv",
+    "published_sha256": "241ee7cdf5e8eb6b63a9a5d67eb8f97821d517499d42d908dae882d3a9f2c7a8",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/native_scale_summary.json",
+    "source_sha256": "2b3ceefd2fc36604a09981b72cfaa76e3241655eed5f7bcdd0f8be5b95b641ce",
+    "source_record_id": "analysis/native_scale_summary.json",
+    "published_sha256": "eb7de9b0b4befb290a46c40ef2811b4e2101917914fddfc3b2bea15c820336d1",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/protocol.json",
+    "source_sha256": "93b24c60b6a34fb1ab3ae2bb4940c60cd36c05316c05329737d34f1a04a6d991",
+    "source_record_id": "ssim_reassessment/metrics_direct.py",
+    "published_sha256": "9ea67d5ee77a7d9eca0b044bd0b179526153a19958bc82dd7b62f4106a30ebee",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/evidence/ssim_reassessment_20260912/README.md",
+    "source_sha256": "93b24c60b6a34fb1ab3ae2bb4940c60cd36c05316c05329737d34f1a04a6d991",
+    "source_record_id": "ssim_reassessment/metrics_direct.py",
+    "published_sha256": "99476fcbf61bf5eeda57cdce6c3fcca4cf5e2a81759479ffae6f383f8f3f7351",
+    "transform": "Portable direct-SSIM evidence export. Keep image metrics and artifact hashes. Omit private paths, model binaries, and dataset images."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-full-seed42/FINAL.json",
+    "source_sha256": "f7840e0e52bed6e19799ac78faa5467347118ca3a08f9604231445fa304684ea",
+    "published_sha256": "9b7ffe413badaa1a34b94520b0574183598aa9346d4a8bd5afbaabdf6cb4edb6",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-ss2d-seed42/FINAL.json",
+    "source_sha256": "a113f44409075f7924814b2333bd1d75951be498335527f104a18d01d040ca06",
+    "published_sha256": "9ff0c77b6f716044593a061b0e1e503be20fe38977dbc9829b9f3052d76563d8",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-simple-seed42/FINAL.json",
+    "source_sha256": "b3d9468bfa4100f36593391acbd79d5e22e0b1c1e44c16a40073fcfad668f323",
+    "published_sha256": "8e5d17d3caaaaaa3b776ea313736278f5eb98424110cfeca6ab91962f8ff2f74",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-gate_only-seed42/FINAL.json",
+    "source_sha256": "0af3aed43b1f925d7181ae38445aace33c60d3c2ecd52317e88f8f73da834a44",
+    "published_sha256": "77b3bb9aa20a38c1a262006782c1403f8c2cf45042f83a95f2348e05599c85e5",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-readout_only-seed42/FINAL.json",
+    "source_sha256": "1df948b8a4c19114b8a0b32ada72e1baa2abeb56c70a471ff83791399c0b695b",
+    "published_sha256": "9a296f8a904d76b9a4318c05c4bdf21761e60927c986d7a1e3bb1ce905c664e4",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-convex_readout-seed42/FINAL.json",
+    "source_sha256": "dd0fba9a00b573f93564487846ce3141a4a26b612b61cc9acdd08e863229e7b0",
+    "published_sha256": "a10646350ad527ead6b2de54e27a81e821618353915d5328e8bf5c1c0b66d73e",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-free_gain-seed42/FINAL.json",
+    "source_sha256": "2653ed0d36da6934591b9a32ee7e2fb7a00ae398901a9950db41cf102b5aea01",
+    "published_sha256": "a80e620cdf95faf00b3cab33b9a3bf3145942771a3a1b7c200b6968eaa108a57",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-cspn-seed42/FINAL.json",
+    "source_sha256": "a1a541c5ef9ac84027d7bf603155a239af77344b514d68273497600017e2db0c",
+    "published_sha256": "24f898c52a2950cf7af791baff3aaf9d64889e26f89d5367e222c3912f9d62c8",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-native-seed42/FINAL.json",
+    "source_sha256": "b3ecba36c83ecaa5020cac92eb2484640f66faa5c62f528d7cace446791c365f",
+    "published_sha256": "c43d04803fcfb55a47663a42e43867683806409a7e30898986c8ad73d278a776",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-cspn_style-seed42/FINAL.json",
+    "source_sha256": "11bc9b2d911e332fb48f97c7fd5a3a752cffededdf9a5bdb8b0ba44446af9e70",
+    "published_sha256": "00c55918f557012e7c87c287dd40ffa387d3a7ba364e53c38ad33eb8ab7eb17c",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-dwconv-seed42/FINAL.json",
+    "source_sha256": "6ca68644763f8bde6cbe671c49bc4292f54d7f77dfbfd4080aec9b22c2c2a9b0",
+    "published_sha256": "9fee33cb31ac09eae655309ee91e3fe86498a9fe0dfd2b766e272da51b46489f",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-swin-seed42/FINAL.json",
+    "source_sha256": "4389262dd9e8f0172a0c60355859910e0699a93e143224e9d5f3c7fe39fc24aa",
+    "published_sha256": "36842a1254dfd840b8f5a77811201e371146db80240d462ae270fbda21457556",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-no_gain-seed42/FINAL.json",
+    "source_sha256": "86ac6027b2bbe340c77a70c0dc499a1593eabb992172a39dd15974cc66859687",
+    "published_sha256": "603e8558bf13c4781f300e618a3f84507510afcd9ee6010ad4d9a0526cdc1758",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-state_dynamic-seed42/FINAL.json",
+    "source_sha256": "32a6d8345b56bf276d7e573aa224e4030e63b57ce3fb218e8a858f9e29cbe43d",
+    "published_sha256": "65d5db88916d4b54c780cd1afb5be73b348bc1cfac1052ccf2add851aa960802",
+    "transform": "Portable canonical direct-SSIM record; all original per-image values preserved."
+  },
+  {
+    "published": "supplement/results/haze4k/haze4k-state_dynamic-seed42/RUN_PROVENANCE.json",
+    "source_sha256": "1900f034426f4e7df98c983dbabdf12cef286a54ac9448d39eb5436bcd5601de",
+    "published_sha256": "70f9375adb97980664879f366160a7661488002d9419a5fe09013fbeaf8051e5",
+    "transform": "Portable run provenance from the frozen training plan and completed endpoint records."
+  }
+]

@@ -1,0 +1,2070 @@
+{
+  "paper_source": "Beyond Sequential Scanning: Rethinking Visual State Propagation with Neighborhood State Interaction; restoration submission, 2026-09-25.",
+  "restoration_ssim_contract": {
+    "id": "direct_rgb_ssim_v1",
+    "canonical_result_field": "ssim",
+    "color_space": "RGB",
+    "image_pre_pooling": false,
+    "window_size": 11,
+    "window_sigma": 1.5,
+    "k1": 0.01,
+    "k2": 0.03,
+    "note": "Backends and numeric precision can differ. The active collector accepts only the canonical direct SSIM field. Historical pooled values remain under legacy_pooled_ssim."
+  },
+  "gopro_paper_sample_statistics": {
+    "ours": {
+      "psnr": [
+        30.868690567548807,
+        0.04817100104325188
+      ],
+      "ssim": [
+        0.9129596486343409,
+        0.0006453089070462394
+      ]
+    },
+    "ss2d": {
+      "psnr": [
+        30.36737974649287,
+        0.06849974028095038
+      ],
+      "ssim": [
+        0.9046074095839607,
+        0.0012146616851053935
+      ]
+    },
+    "native": {
+      "psnr": [
+        29.902357486429565,
+        0.12053944567633129
+      ],
+      "ssim": [
+        0.8960646667388906,
+        0.002583684847278449
+      ]
+    },
+    "cspn_style": {
+      "psnr": [
+        30.202278264678352,
+        0.09103677832246937
+      ],
+      "ssim": [
+        0.901085818722339,
+        0.0017024746239808345
+      ]
+    }
+  },
+  "experiments": [
+    {
+      "id": "ohaze-native-seed42",
+      "label": "VIVNet native",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/native/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-main",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 25.8096,
+        "ssim": 0.9042839407920837
+      },
+      "legacy_pooled_ssim": 0.94483,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-native-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-dwconv-seed42",
+      "label": "DWConv",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "dwconv",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/dwconv/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-main",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 25.9001,
+        "ssim": 0.9015421390533447
+      },
+      "legacy_pooled_ssim": 0.94061,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-dwconv-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-mdta-seed42",
+      "label": "MDTA",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "mdta",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/mdta/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-main",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 25.8712,
+        "ssim": 0.9035295248031616
+      },
+      "legacy_pooled_ssim": 0.94257,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-mdta-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-swin-seed42",
+      "label": "Swin",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "swin",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/swin/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-main",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 25.5671,
+        "ssim": 0.8971801400184631
+      },
+      "legacy_pooled_ssim": 0.9387,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-swin-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-ss2d-seed42",
+      "label": "SS2D",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/ss2d/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-main",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 25.625,
+        "ssim": 0.89791841506958
+      },
+      "legacy_pooled_ssim": 0.93949,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-ss2d-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-cspn_style-seed42",
+      "label": "CSPN-style",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/cspn_style/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "cspn-propagation",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.2017,
+        "ssim": 0.9039721369743348
+      },
+      "legacy_pooled_ssim": 0.94355,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-cspn_style-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-ours-seed42",
+      "label": "Ours",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/ours/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-main",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.7755,
+        "ssim": 0.9065494656562805
+      },
+      "legacy_pooled_ssim": 0.94682,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-ours-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-mair-seed42",
+      "label": "MaIR-VMM (matched slot)",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "mair",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/mair/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-main",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 22.8164,
+        "ssim": 0.764535915851593
+      },
+      "legacy_pooled_ssim": 0.89238,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-mair-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-matched_feedforward-seed42",
+      "label": "matched_feedforward",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "matched_feedforward",
+      "checkpoint": "weights/ohaze/ablations/matched_feedforward/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.4958,
+        "ssim": 0.9039043545722961
+      },
+      "legacy_pooled_ssim": 0.94271,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-matched_feedforward-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-step_conditioned_rules-seed42",
+      "label": "step_conditioned_rules",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "step_conditioned_rules",
+      "checkpoint": "weights/ohaze/ablations/step_conditioned_rules/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations"
+      ],
+      "expected": {
+        "psnr": 26.6525
+      },
+      "legacy_pooled_ssim": 0.94534,
+      "metric_status": "historical_pooled_only",
+      "reporting_status": "historical_outside_current_paper",
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "NOT_REASSESSED",
+        "scope": "Historical condition outside the current paper. No direct SSIM was measured in this update.",
+        "legacy_protocol": "Image pre-pooling before Gaussian-window SSIM. This value is not directly comparable with the updated SSIM."
+      }
+    },
+    {
+      "id": "ohaze-first_step_drive-seed42",
+      "label": "first_step_drive",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "first_step_drive",
+      "checkpoint": "weights/ohaze/ablations/first_step_drive/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.5319,
+        "ssim": 0.9117143154144287
+      },
+      "legacy_pooled_ssim": 0.94839,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-first_step_drive-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-identity_retention-seed42",
+      "label": "identity_retention",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "identity_retention",
+      "checkpoint": "weights/ohaze/ablations/identity_retention/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.4429,
+        "ssim": 0.9016470789909363
+      },
+      "legacy_pooled_ssim": 0.94146,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-identity_retention-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-terminal_readout-seed42",
+      "label": "terminal_readout",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "terminal_readout",
+      "checkpoint": "weights/ohaze/ablations/terminal_readout/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.3239,
+        "ssim": 0.9046313285827636
+      },
+      "legacy_pooled_ssim": 0.94385,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-terminal_readout-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-identity_retention_terminal_readout-seed42",
+      "label": "identity_retention_terminal_readout",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "identity_retention_terminal_readout",
+      "checkpoint": "weights/ohaze/ablations/identity_retention_terminal_readout/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.2586,
+        "ssim": 0.9039252042770386
+      },
+      "legacy_pooled_ssim": 0.94436,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-identity_retention_terminal_readout-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-static_rules-seed42",
+      "label": "static_rules",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "static_rules",
+      "checkpoint": "weights/ohaze/ablations/static_rules/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.0944,
+        "ssim": 0.9039426565170288
+      },
+      "legacy_pooled_ssim": 0.94255,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-static_rules-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-equal_parameter_real-seed42",
+      "label": "equal_parameter_real",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "equal_parameter_real",
+      "checkpoint": "weights/ohaze/ablations/equal_parameter_real/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations"
+      ],
+      "expected": {
+        "psnr": 26.4999
+      },
+      "legacy_pooled_ssim": 0.94415,
+      "metric_status": "historical_pooled_only",
+      "reporting_status": "historical_outside_current_paper",
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "NOT_REASSESSED",
+        "scope": "Historical condition outside the current paper. No direct SSIM was measured in this update.",
+        "legacy_protocol": "Image pre-pooling before Gaussian-window SSIM. This value is not directly comparable with the updated SSIM."
+      }
+    },
+    {
+      "id": "ohaze-no_row_mass_projection-seed42",
+      "label": "no_row_mass_projection",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "no_row_mass_projection",
+      "checkpoint": "weights/ohaze/ablations/no_row_mass_projection/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 24.8043,
+        "ssim": 0.8931890964508057
+      },
+      "legacy_pooled_ssim": 0.93283,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-no_row_mass_projection-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-alternative_generator-seed42",
+      "label": "alternative_generator",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "alternative_generator",
+      "checkpoint": "weights/ohaze/ablations/alternative_generator/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations"
+      ],
+      "expected": {
+        "psnr": 25.9505
+      },
+      "legacy_pooled_ssim": 0.94092,
+      "metric_status": "historical_pooled_only",
+      "reporting_status": "historical_outside_current_paper",
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "NOT_REASSESSED",
+        "scope": "Historical condition outside the current paper. No direct SSIM was measured in this update.",
+        "legacy_protocol": "Image pre-pooling before Gaussian-window SSIM. This value is not directly comparable with the updated SSIM."
+      }
+    },
+    {
+      "id": "ohaze-conjugate_symmetric-seed42",
+      "label": "conjugate_symmetric",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "conjugate_symmetric",
+      "checkpoint": "weights/ohaze/ablations/conjugate_symmetric/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations"
+      ],
+      "expected": {
+        "psnr": 26.487
+      },
+      "legacy_pooled_ssim": 0.94427,
+      "metric_status": "historical_pooled_only",
+      "reporting_status": "historical_outside_current_paper",
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "NOT_REASSESSED",
+        "scope": "Historical condition outside the current paper. No direct SSIM was measured in this update.",
+        "legacy_protocol": "Image pre-pooling before Gaussian-window SSIM. This value is not directly comparable with the updated SSIM."
+      }
+    },
+    {
+      "id": "ohaze-depth_k1-seed42",
+      "label": "depth_k1",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "depth_k1",
+      "checkpoint": "weights/ohaze/ablations/depth_k1/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 25.8834,
+        "ssim": 0.9018631458282471
+      },
+      "legacy_pooled_ssim": 0.9413,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-depth_k1-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-depth_k3-seed42",
+      "label": "depth_k3",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "depth_k3",
+      "checkpoint": "weights/ohaze/ablations/depth_k3/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.4699,
+        "ssim": 0.9045546531677247
+      },
+      "legacy_pooled_ssim": 0.94408,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-depth_k3-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-depth_k7-seed42",
+      "label": "depth_k7",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "depth_k7",
+      "checkpoint": "weights/ohaze/ablations/depth_k7/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.35,
+        "ssim": 0.9069149374961853
+      },
+      "legacy_pooled_ssim": 0.94562,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-depth_k7-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "ohaze-p0t_diagonal_delay-seed42",
+      "label": "p0t_diagonal_delay",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "p0t_diagonal_delay",
+      "checkpoint": "weights/ohaze/ablations/p0t_diagonal_delay/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations"
+      ],
+      "expected": {
+        "psnr": 26.4166
+      },
+      "legacy_pooled_ssim": 0.94339,
+      "metric_status": "historical_pooled_only",
+      "reporting_status": "historical_outside_current_paper",
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "NOT_REASSESSED",
+        "scope": "Historical condition outside the current paper. No direct SSIM was measured in this update.",
+        "legacy_protocol": "Image pre-pooling before Gaussian-window SSIM. This value is not directly comparable with the updated SSIM."
+      }
+    },
+    {
+      "id": "ohaze-p0s_state_dynamic-seed42",
+      "label": "p0s_state_dynamic",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "p0s_state_dynamic",
+      "checkpoint": "weights/ohaze/ablations/p0s_state_dynamic/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "ohaze-ablations",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.3328,
+        "ssim": 0.9040615200996399
+      },
+      "legacy_pooled_ssim": 0.94464,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-p0s_state_dynamic-seed42/FINAL.json"
+      }
+    },
+    {
+      "id": "gopro-native-seed42",
+      "label": "VIVNet native",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/native/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.99250238162778,
+        "ssim": 0.8977481198675669
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-native-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-native-seed43",
+      "label": "VIVNet native",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 43,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/native/seed43/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.949128282274028,
+        "ssim": 0.8973559935172327
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-native-seed43/FINAL.json"
+    },
+    {
+      "id": "gopro-native-seed44",
+      "label": "VIVNet native",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 44,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/native/seed44/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.76544179538689,
+        "ssim": 0.8930898868318724
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-native-seed44/FINAL.json"
+    },
+    {
+      "id": "gopro-cspn_style-seed42",
+      "label": "CSPN-style",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/cspn_style/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "cspn-propagation",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.287298917984984,
+        "ssim": 0.9028120528031426
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-cspn_style-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-cspn_style-seed43",
+      "label": "CSPN-style",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 43,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/cspn_style/seed43/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "cspn-propagation",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.106229994556692,
+        "ssim": 0.89940814243363
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-cspn_style-seed43/FINAL.json"
+    },
+    {
+      "id": "gopro-cspn_style-seed44",
+      "label": "CSPN-style",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 44,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/cspn_style/seed44/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "cspn-propagation",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.213305881493376,
+        "ssim": 0.9010372609302442
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-cspn_style-seed44/FINAL.json"
+    },
+    {
+      "id": "gopro-ss2d-seed42",
+      "label": "SS2D",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.37353738807108,
+        "ssim": 0.904630001067686
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-ss2d-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-ss2d-seed43",
+      "label": "SS2D",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 43,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed43/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.432592777386105,
+        "ssim": 0.9058106179499176
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-ss2d-seed43/FINAL.json"
+    },
+    {
+      "id": "gopro-ss2d-seed44",
+      "label": "SS2D",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 44,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed44/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.296009074021416,
+        "ssim": 0.9033816097342786
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-ss2d-seed44/FINAL.json"
+    },
+    {
+      "id": "gopro-ours-seed42",
+      "label": "Ours",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "gopro-components",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.89175208638532,
+        "ssim": 0.9131994171790665
+      },
+      "recorded_result": "supplement/results/native_main/gopro-ours-seed42/FINAL.json",
+      "historical_tiled_result": "supplement/results/gopro-ours-seed42/FINAL.json",
+      "protocol": "native"
+    },
+    {
+      "id": "gopro-ours-seed43",
+      "label": "Ours",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 43,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed43/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.900995525339507,
+        "ssim": 0.9134507527982298
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-ours-seed43/FINAL.json"
+    },
+    {
+      "id": "gopro-ours-seed44",
+      "label": "Ours",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 44,
+      "seed_override": true,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed44/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "gopro",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.81332409092159,
+        "ssim": 0.9122287759257264
+      },
+      "protocol": "native",
+      "recorded_result": "supplement/results/native_main/gopro-ours-seed44/FINAL.json"
+    },
+    {
+      "id": "gopro-identity-retention-seed42",
+      "label": "Identity retention",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "arm": "identity_retention",
+      "kind": "independent training",
+      "suites": [
+        "gopro-components",
+        "current-restoration"
+      ],
+      "checkpoint": "weights/supplement/gopro-identity-retention-seed42/last.pth",
+      "config": "configs/supplement/gopro-identity-retention-seed42.yml",
+      "runtime": "fast",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": true,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.90250656263556,
+        "ssim": 0.9132820268024956
+      },
+      "recorded_result": "supplement/results/native_main/gopro-identity-retention-seed42/FINAL.json",
+      "historical_tiled_result": "supplement/results/gopro-identity-retention-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-terminal-readout-seed42",
+      "label": "Terminal readout",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "arm": "terminal_readout",
+      "kind": "independent training",
+      "suites": [
+        "gopro-components",
+        "current-restoration"
+      ],
+      "checkpoint": "weights/supplement/gopro-terminal-readout-seed42/last.pth",
+      "config": "configs/supplement/gopro-terminal-readout-seed42.yml",
+      "runtime": "terminal",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": true,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.91264428156759,
+        "ssim": 0.9131685156311461
+      },
+      "recorded_result": "supplement/results/native_main/gopro-terminal-readout-seed42/FINAL.json",
+      "historical_tiled_result": "supplement/results/gopro-terminal-readout-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-state-dynamic-seed42",
+      "label": "State dynamic",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "arm": "state_dynamic",
+      "kind": "independent training",
+      "suites": [
+        "gopro-components",
+        "current-restoration"
+      ],
+      "checkpoint": "weights/supplement/gopro-state-dynamic-seed42/last.pth",
+      "config": "configs/supplement/gopro-state-dynamic-seed42.yml",
+      "runtime": "state",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": true,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.948048105763487,
+        "ssim": 0.9141235667021826
+      },
+      "recorded_result": "supplement/results/native_main/gopro-state-dynamic-seed42/FINAL.json",
+      "historical_tiled_result": "supplement/results/gopro-state-dynamic-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-half-delay-seed42",
+      "label": "Half delay",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "arm": "half_delay",
+      "kind": "independent training",
+      "suites": [
+        "gopro-components",
+        "current-restoration"
+      ],
+      "checkpoint": "weights/supplement/gopro-half-delay-seed42/last.pth",
+      "config": "configs/supplement/gopro-half-delay-seed42.yml",
+      "runtime": "fast",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": true,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.896984181030714,
+        "ssim": 0.9131930908246904
+      },
+      "recorded_result": "supplement/results/native_main/gopro-half-delay-seed42/FINAL.json",
+      "historical_tiled_result": "supplement/results/gopro-half-delay-seed42/FINAL.json"
+    },
+    {
+      "id": "ohaze-spatial-mamba-seed42",
+      "label": "Spatial-Mamba matched slot",
+      "task": "restoration",
+      "dataset": "ohaze",
+      "mixer": "spatial_mamba",
+      "seed": 42,
+      "ablation": null,
+      "arm": "spatial_mamba",
+      "kind": "independent training",
+      "suites": [
+        "spatial-mamba",
+        "current-restoration"
+      ],
+      "checkpoint": "weights/supplement/ohaze-spatial-mamba-seed42/last.pth",
+      "config": "configs/supplement/ohaze-spatial-mamba-seed42.yml",
+      "runtime": "spatial",
+      "entrypoint": "supplement/run.py",
+      "protocol": "ohaze",
+      "trainable": true,
+      "updates": 55800,
+      "expected": {
+        "psnr": 22.731775283813477,
+        "ssim": 0.7886093616485595
+      },
+      "recorded_result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-spatial-mamba-seed42/FINAL.json",
+      "legacy_pooled_ssim": 0.8868594765663147,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-spatial-mamba-seed42/FINAL.json"
+      },
+      "legacy_recorded_result": "supplement/results/ohaze-spatial-mamba-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-ours-native-seed42",
+      "label": "ours native protocol",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "arm": "ours",
+      "kind": "fixed-weight protocol evaluation",
+      "suites": [
+        "gopro-native"
+      ],
+      "checkpoint": "weights/gopro/ours/seed42/last.pth",
+      "config": "configs/restoration/gopro/ours.yml",
+      "runtime": "fast",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": false,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.89175208638532,
+        "ssim": 0.9131994171790665
+      },
+      "recorded_result": "supplement/results/gopro-ours-native-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-ss2d-native-seed42",
+      "label": "ss2d native protocol",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ss2d",
+      "seed": 42,
+      "ablation": null,
+      "arm": "ss2d",
+      "kind": "fixed-weight protocol evaluation",
+      "suites": [
+        "gopro-native"
+      ],
+      "checkpoint": "weights/gopro/ss2d/seed42/last.pth",
+      "config": "configs/restoration/gopro/ss2d.yml",
+      "runtime": "fast",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": false,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.37353738807108,
+        "ssim": 0.904630001067686
+      },
+      "recorded_result": "supplement/results/gopro-ss2d-native-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-ours-native-seed43",
+      "label": "ours native protocol",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 43,
+      "ablation": null,
+      "arm": "ours",
+      "kind": "fixed-weight protocol evaluation",
+      "suites": [
+        "gopro-native"
+      ],
+      "checkpoint": "weights/gopro/ours/seed43/last.pth",
+      "config": "configs/restoration/gopro/ours.yml",
+      "runtime": "fast",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": false,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.900995525339507,
+        "ssim": 0.9134507527982298
+      },
+      "recorded_result": "supplement/results/gopro-ours-native-seed43/FINAL.json"
+    },
+    {
+      "id": "gopro-ss2d-native-seed43",
+      "label": "ss2d native protocol",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ss2d",
+      "seed": 43,
+      "ablation": null,
+      "arm": "ss2d",
+      "kind": "fixed-weight protocol evaluation",
+      "suites": [
+        "gopro-native"
+      ],
+      "checkpoint": "weights/gopro/ss2d/seed43/last.pth",
+      "config": "configs/restoration/gopro/ss2d.yml",
+      "runtime": "fast",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": false,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.432592777386105,
+        "ssim": 0.9058106179499176
+      },
+      "recorded_result": "supplement/results/gopro-ss2d-native-seed43/FINAL.json"
+    },
+    {
+      "id": "gopro-ours-native-seed44",
+      "label": "ours native protocol",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 44,
+      "ablation": null,
+      "arm": "ours",
+      "kind": "fixed-weight protocol evaluation",
+      "suites": [
+        "gopro-native"
+      ],
+      "checkpoint": "weights/gopro/ours/seed44/last.pth",
+      "config": "configs/restoration/gopro/ours.yml",
+      "runtime": "fast",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": false,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.81332409092159,
+        "ssim": 0.9122287759257264
+      },
+      "recorded_result": "supplement/results/gopro-ours-native-seed44/FINAL.json"
+    },
+    {
+      "id": "gopro-ss2d-native-seed44",
+      "label": "ss2d native protocol",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ss2d",
+      "seed": 44,
+      "ablation": null,
+      "arm": "ss2d",
+      "kind": "fixed-weight protocol evaluation",
+      "suites": [
+        "gopro-native"
+      ],
+      "checkpoint": "weights/gopro/ss2d/seed44/last.pth",
+      "config": "configs/restoration/gopro/ss2d.yml",
+      "runtime": "fast",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": false,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.296009074021416,
+        "ssim": 0.9033816097342786
+      },
+      "recorded_result": "supplement/results/gopro-ss2d-native-seed44/FINAL.json"
+    },
+    {
+      "id": "ohaze-cspn-context-seed42",
+      "label": "CSPN-style context generator",
+      "task": "restoration",
+      "dataset": "ohaze",
+      "mixer": "cspn_context",
+      "seed": 42,
+      "ablation": null,
+      "arm": "cspn_context",
+      "kind": "independent training",
+      "suites": [
+        "cspn-propagation",
+        "current-restoration"
+      ],
+      "checkpoint": "weights/ohaze/cspn_context/seed42/last.pth",
+      "initialization_checkpoint": "weights/ohaze/cspn_context/seed42/initial.pth",
+      "config": "configs/supplement/ohaze-cspn-context-seed42.yml",
+      "runtime": "context",
+      "entrypoint": "supplement/run.py",
+      "protocol": "ohaze",
+      "trainable": true,
+      "updates": 55800,
+      "expected": {
+        "psnr": 23.934258651733398,
+        "ssim": 0.7845737934112549
+      },
+      "recorded_result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-cspn-context-seed42/FINAL.json",
+      "legacy_pooled_ssim": 0.9004397869110108,
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-cspn-context-seed42/FINAL.json"
+      },
+      "legacy_recorded_result": "supplement/results/ohaze-cspn-context-seed42/FINAL.json"
+    },
+    {
+      "id": "gopro-no-normalization-seed42",
+      "label": "No normalization",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "arm": "no_projection",
+      "kind": "existing trained endpoint",
+      "suites": [
+        "gopro-components",
+        "current-restoration"
+      ],
+      "checkpoint": "weights/supplement/gopro-no-normalization-seed42/last.pth",
+      "config": "configs/supplement/gopro-no-normalization-seed42.yml",
+      "runtime": "no_projection",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": false,
+      "updates": 49350,
+      "expected": {
+        "psnr": 28.61482928831442,
+        "ssim": 0.8638560862073374
+      },
+      "recorded_result": "supplement/results/native_main/gopro-no-normalization-seed42/FINAL.json"
+    },
+    {
+      "id": "haze4k-full-seed42",
+      "label": "NSI",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "full",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/full/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-main",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.11470201229876,
+        "ssim": 0.98261161922697
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-full-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-ss2d-seed42",
+      "label": "SS2D",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/ss2d/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-main",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 28.74096623352873,
+        "ssim": 0.972696707672413
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-ss2d-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-simple-seed42",
+      "label": "Identity retention + final-state readout",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "simple",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/simple/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-components",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.922573398446108,
+        "ssim": 0.9821318085371882
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-simple-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-gate_only-seed42",
+      "label": "Final-state readout",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "gate_only",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/gate_only/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-components",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.33489174486808,
+        "ssim": 0.980951566057463
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-gate_only-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-readout_only-seed42",
+      "label": "Identity retention",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "readout_only",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/readout_only/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-components",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.047911255259585,
+        "ssim": 0.9827639972287682
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-readout_only-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-convex_readout-seed42",
+      "label": "Weighted-state readout",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "convex_readout",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/convex_readout/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-components",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.839847320995304,
+        "ssim": 0.9820063549785406
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-convex_readout-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-free_gain-seed42",
+      "label": "Learnable propagation scaling",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "free_gain",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/free_gain/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-components",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 30.302641789202262,
+        "ssim": 0.983199844237012
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-free_gain-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-cspn-seed42",
+      "label": "CSPN-style: replaced generator",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "cspn",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/cspn/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-components",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 27.652015077734337,
+        "ssim": 0.974878705294838
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-cspn-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-native-seed42",
+      "label": "VIVNet native",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/native/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-main",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.80877662530468,
+        "ssim": 0.9808319462102381
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-native-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-cspn_style-seed42",
+      "label": "CSPN-style",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/cspn_style/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-main",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 27.249301589498465,
+        "ssim": 0.9736027107442629
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-cspn_style-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-dwconv-seed42",
+      "label": "DWConv",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "dwconv",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/dwconv/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-main",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.603076715663338,
+        "ssim": 0.9813822029464311
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-dwconv-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-swin-seed42",
+      "label": "Swin",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "swin",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/swin/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-main",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 28.03319181481915,
+        "ssim": 0.9755548699497977
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-swin-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "haze4k-no_gain-seed42",
+      "label": "Without propagation gain control",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "no_gain",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/no_gain/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-components",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 26.374701228676223,
+        "ssim": 0.9688416863734706
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-no_gain-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "trainable": true
+    },
+    {
+      "id": "gopro-joint-seed42",
+      "label": "Identity retention + final-state readout",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "seed_override": true,
+      "ablation": "identity_memory_uniform_readout",
+      "arm": "joint",
+      "kind": "independent training",
+      "suites": [
+        "gopro-components",
+        "current-restoration"
+      ],
+      "checkpoint": "weights/supplement/gopro-joint-seed42/last.pth",
+      "config": "configs/supplement/gopro-joint-seed42.yml",
+      "runtime": "joint",
+      "entrypoint": "supplement/run.py",
+      "protocol": "native",
+      "trainable": true,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.87720270525969,
+        "ssim": 0.9125754498448273
+      },
+      "recorded_result": "supplement/results/gopro-joint-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 1,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "torch.conv2d.valid",
+        "numeric_precision": "FP32"
+      }
+    },
+    {
+      "id": "ohaze-mair-full-block-seed42",
+      "label": "MaIR full block",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "mair_native_blocks",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/ohaze-mair-full-block-seed42/last.pth",
+      "config": "configs/supplement/ohaze-mair-full-block-seed42.yml",
+      "runtime": "native_blocks",
+      "entrypoint": "supplement/run.py",
+      "protocol": "ohaze",
+      "kind": "completed independent training; evaluation-only release entry",
+      "suites": [
+        "ohaze-full-blocks",
+        "current-restoration"
+      ],
+      "trainable": false,
+      "training_recipe_available": true,
+      "updates": 55800,
+      "expected": {
+        "psnr": 22.935440063476562,
+        "ssim": 0.7398381948471069
+      },
+      "recorded_result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-mair-full-block-seed42/FINAL.json",
+      "legacy_pooled_ssim": 0.8754711747169495,
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 1,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "pytorch_msssim.ssim",
+        "numeric_precision": "FP32"
+      },
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-mair-full-block-seed42/FINAL.json"
+      },
+      "source_endpoint": {
+        "iteration": 55800,
+        "sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2"
+      }
+    },
+    {
+      "id": "ohaze-spatial-full-block-seed42",
+      "label": "Spatial-Mamba full block",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "spatial_native_blocks",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/ohaze-spatial-full-block-seed42/last.pth",
+      "config": "configs/supplement/ohaze-spatial-full-block-seed42.yml",
+      "runtime": "native_blocks",
+      "entrypoint": "supplement/run.py",
+      "protocol": "ohaze",
+      "kind": "completed independent training; evaluation-only release entry",
+      "suites": [
+        "ohaze-full-blocks",
+        "current-restoration"
+      ],
+      "trainable": false,
+      "training_recipe_available": true,
+      "updates": 55800,
+      "expected": {
+        "psnr": 23.287517929077147,
+        "ssim": 0.8045858144760132
+      },
+      "recorded_result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-spatial-full-block-seed42/FINAL.json",
+      "legacy_pooled_ssim": 0.9008466362953186,
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 1,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "pytorch_msssim.ssim",
+        "numeric_precision": "FP32"
+      },
+      "ssim_reassessment": {
+        "date": "2026-09-12",
+        "status": "COMPLETE",
+        "protocol": "direct Gaussian-window RGB SSIM; no image pre-pooling",
+        "result": "supplement/evidence/ssim_reassessment_20260912/groups/ohaze-spatial-full-block-seed42/FINAL.json"
+      },
+      "source_endpoint": {
+        "iteration": 55800,
+        "sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb"
+      }
+    },
+    {
+      "id": "haze4k-state_dynamic-seed42",
+      "label": "Per-step kernel regeneration",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "state_dynamic",
+      "seed": 42,
+      "ablation": "state_dynamic_transition",
+      "checkpoint": "weights/haze4k/state_dynamic/seed42/last.pth",
+      "kind": "independent training",
+      "suites": [
+        "haze4k-components",
+        "haze4k",
+        "current-restoration"
+      ],
+      "expected": {
+        "psnr": 29.13782217159472,
+        "ssim": 0.9793454562969626
+      },
+      "updates": 100000,
+      "entrypoint": "tasks/restoration/haze4k/entry.py",
+      "recorded_result": "supplement/results/haze4k/haze4k-state_dynamic-seed42/FINAL.json",
+      "metric_protocol": {
+        "id": "direct_rgb_ssim_v1",
+        "color_space": "RGB",
+        "image_pre_pooling": false,
+        "window_size": 11,
+        "window_sigma": 1.5,
+        "data_range": 255,
+        "k1": 0.01,
+        "k2": 0.03,
+        "backend": "NumPy/OpenCV valid Gaussian window",
+        "numeric_precision": "float64"
+      },
+      "parameters": 2248140,
+      "macs_g_256_square": 34.03677696,
+      "trainable": true
+    }
+  ],
+  "supplement_source": "Supplementary appendices G and H; original main results are unchanged.",
+  "retired_experiments": [
+    {
+      "id": "gopro-full-repeat-seed42",
+      "label": "New full",
+      "task": "restoration",
+      "dataset": "gopro",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "arm": "full",
+      "kind": "independent training",
+      "suites": [
+        "gopro-components"
+      ],
+      "checkpoint": "weights/supplement/gopro-full-repeat-seed42/last.pth",
+      "config": "configs/supplement/gopro-full-repeat-seed42.yml",
+      "runtime": "full",
+      "entrypoint": "supplement/run.py",
+      "protocol": "tiled",
+      "trainable": true,
+      "updates": 49350,
+      "expected": {
+        "psnr": 30.59483312251437,
+        "ssim": 0.9098884498718942
+      },
+      "recorded_result": "supplement/results/gopro-full-repeat-seed42/FINAL.json",
+      "retirement": {
+        "date": "2026-09-09",
+        "actor": "author",
+        "action": "checkpoint manually deleted by author",
+        "checkpoint_available": false,
+        "checkpoint_sha256": "4c995924bdae26bcc24cead47dc4ab2dfe6b0cd54a2620f163323ae703e2a3fc",
+        "reason": "Author fixed the formal GoPro ours seed42 checkpoint for new diagnostics; this independent repeat retains its original historical identity and metrics.",
+        "source_provenance": {
+          "published": "weights/supplement/gopro-full-repeat-seed42/last.pth",
+          "source_sha256": "4c995924bdae26bcc24cead47dc4ab2dfe6b0cd54a2620f163323ae703e2a3fc",
+          "published_sha256": "4c995924bdae26bcc24cead47dc4ab2dfe6b0cd54a2620f163323ae703e2a3fc",
+          "transform": "none"
+        }
+      }
+    }
+  ],
+  "gopro_historical_tiled_sample_statistics": {
+    "native": {
+      "psnr": [
+        30.3541,
+        0.0811
+      ],
+      "ssim": [
+        0.906027,
+        0.001491
+      ]
+    },
+    "cspn_style": {
+      "psnr": [
+        29.8606,
+        0.1159
+      ],
+      "ssim": [
+        0.895816,
+        0.002263
+      ]
+    },
+    "ss2d": {
+      "psnr": [
+        30.3319,
+        0.1441
+      ],
+      "ssim": [
+        0.904092,
+        0.002588
+      ]
+    },
+    "ours": {
+      "psnr": [
+        30.5575,
+        0.0619
+      ],
+      "ssim": [
+        0.909491,
+        0.000881
+      ]
+    }
+  },
+  "release_scope": "55 current restoration entries; historical restoration controls and native-evaluation aliases are retained for audit. Classification and segmentation are excluded."
+}

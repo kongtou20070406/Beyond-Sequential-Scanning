@@ -1,0 +1,16 @@
+{
+  "created_local": "2026-09-16T14:12:16.9584022+08:00",
+  "purpose": "Compare full and no-gain fixed checkpoints per propagation step",
+  "statistics": [
+    "state RMS",
+    "state P95",
+    "state P99",
+    "state max",
+    "increment RMS",
+    "increment P95",
+    "increment P99",
+    "increment max"
+  ],
+  "source": "run.py",
+  "source_sha256": "6cddaaf70a63f374f7535a42e5af2a496371cd4d585a335d78f5a62509e58895"
+}

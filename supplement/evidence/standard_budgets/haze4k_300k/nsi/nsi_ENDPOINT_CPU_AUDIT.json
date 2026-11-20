@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "all_checks_passed": true,
+  "arm": "nsi",
+  "checked_at_aio": "2026-10-19T10:24:25.938804+08:00",
+  "purpose": "independent_fresh_300000_endpoint_cpu_audit",
+  "loop_iterations": 300000,
+  "optimizer": {
+    "parameter_states": 473,
+    "parameter_elements": 2248140,
+    "minimum_step": 300000,
+    "maximum_step": 300000,
+    "all_steps_integer": true,
+    "actual_optimizer_calls": 300000,
+    "amp_skips": 0
+  },
+  "training_precision": "FP32",
+  "amp": false,
+  "tf32": false,
+  "state_all_finite": true,
+  "optimizer_all_finite": true,
+  "weights_all_finite": true,
+  "rng_all_finite": true,
+  "numbered_latest_parameters_equal": true,
+  "resumed": false,
+  "package_manifest_sha256": "5f7cd1f98e6a293b5b5eefcd4c175e7d00017e1b5d7a52248b0bf0e7c9e60214",
+  "config_sha256": "992d60144486e46956c806af579149b6c5aa8ef67931c614b50514b321bc0ade",
+  "test_manifest_sha256": "70ed2285d9ff0267e039e6c6e5c20f702f59c4c1b5618b3396cc8b16324405f3",
+  "checkpoint_sha256": "2548012afc584b170984d89c1fdc4b395011f2aa811e8e28649a2978069c88f8",
+  "training_started_at_epoch": 1792124726.193865,
+  "training_finished_at_epoch": 1792376657.9218822,
+  "training_wall_seconds": 251931.72801709175,
+  "training_phase_seconds": 251940.32402992249,
+  "preflight_phase_seconds": 50.161316871643066,
+  "gpu_uuid": "756bc744-8e8e-82bd-c879-d2e805ddf855",
+  "torch_version": "2.10.0+cu126",
+  "training_torch_version": "2.10.0+cu126",
+  "observed_final_training_counters": {
+    "loop_iteration": 300000,
+    "optimizer_calls_this_launch": 300000,
+    "optimizer_calls_this_launch_before": 299999,
+    "optimizer_call_delta": 1,
+    "last_successful_update": 300000,
+    "raised": false,
+    "time": "2026-10-19T10:24:15.516527+08:00",
+    "epoch": 1792376655.5165424
+  },
+  "training_kernel_calls": {
+    "nsi_state": 132000000,
+    "nsi_normalizer": 26400000,
+    "rs8_oflex": 0,
+    "nsi_inference_heads": 0,
+    "nsi_inference_rollout": 0
+  },
+  "files": {
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/Haze4K_S_3arms_FP32/configs/haze4k_s_nsi.yml": {
+      "sha256": "992d60144486e46956c806af579149b6c5aa8ef67931c614b50514b321bc0ade",
+      "bytes": 1948
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/RUN.json": {
+      "sha256": "e1a400ac41da52d37314af6e4ec7d5cbf2427db8d956e4feda3748f051b82494",
+      "bytes": 1399
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/TRAIN_COMPLETE.json": {
+      "sha256": "ccde7bc17fb74bf3e6521d0e230491b078db5fa3cc08a01800a185d00d0e6800",
+      "bytes": 970
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/resolved.yml": {
+      "sha256": "8a03707776f08e4a3b5e2499cf28d37fa7a01807177b9f9a20f2c79c9414f195",
+      "bytes": 1718
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/ENDPOINT_AUDIT.json": {
+      "sha256": "cc6372c63481daa2e87e749affc50aca09d6aaaf5d98dc5e5c644ff8ac9fa8f0",
+      "bytes": 146
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/KERNEL_RECEIPT.json": {
+      "sha256": "7097276868431d62cacdb6380ce78c1e0804d3d5f40057c3100010ceb74e8f54",
+      "bytes": 1232
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/KERNEL_EXECUTION.json": {
+      "sha256": "45221085182029c6c09f81b401417d0a0964a25b2a774ef9ba4fbaee245a3281",
+      "bytes": 191
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/phase_receipts/nsi_check.json": {
+      "sha256": "709573820055cc2ad7b346f4618aeb84d5dc527cdc8a6c985708a526acf0e3f7",
+      "bytes": 2853
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/phase_receipts/nsi_train.json": {
+      "sha256": "b3389eeebc8a8c175113b7028ae35ecfa111c3dad7c0aba43a451b88cfbc7268",
+      "bytes": 3148
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/preflights/nsi/PREFLIGHT.json": {
+      "sha256": "97dd9a5f05e1168e553a34dfd8b7c49d323e7d3e840e00f88ad4228319aebc20",
+      "bytes": 1849
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/experiments/haze4k-S-nsi-b8-mb2-fp32-300k-seed42/training_states/300000.state": {
+      "sha256": "114b80d887b6c72ee75216d01257ee89923f7cf50697ae6556097bca844fbf1e",
+      "bytes": 18386188
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/experiments/haze4k-S-nsi-b8-mb2-fp32-300k-seed42/training_states/300000.rng.pth": {
+      "sha256": "8e3ccc76d3102b67f64a93abf633dd9d490ca828d12b742ac25481a67fbd4f27",
+      "bytes": 14629
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/experiments/haze4k-S-nsi-b8-mb2-fp32-300k-seed42/training_states/300000.receipt.json": {
+      "sha256": "4dc75dc920c5af8e6c3ff328f761613052e3713c56f708d163fd595f8eedc8f2",
+      "bytes": 310
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/experiments/haze4k-S-nsi-b8-mb2-fp32-300k-seed42/models/net_g_300000.pth": {
+      "sha256": "421c68188e85e23d73295859ceee51af236aeb0adf710a6c968722f725595d13",
+      "bytes": 9172449
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/experiments/haze4k-S-nsi-b8-mb2-fp32-300k-seed42/models/net_g_latest.pth": {
+      "sha256": "421c68188e85e23d73295859ceee51af236aeb0adf710a6c968722f725595d13",
+      "bytes": 9172449
+    },
+    "<DATA_ROOT>/experiments/haze4k_7mix_b8_fp16_20260929/data/STRONG_DATA.json": {
+      "sha256": "4e1168f794fa8fd12b6c64cac52ec9b69b68d200b434ef521ef19a0aa36abcd4",
+      "bytes": 1698744
+    },
+    "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/CONTROLLER_DEPLOYMENT.json": {
+      "sha256": "27489377246ab8db9d91e9f9d850d57fdaa9a9aaa62e76cb62023e6dbc676b07",
+      "bytes": 1146
+    }
+  },
+  "audit_source_sha256": "c9720c17ae5c361130a930a143f173945945394452b768b6e1914fd586565ac3",
+  "cuda_initialized": false,
+  "cpu_threads": 1,
+  "data_validation": "Pinned prepared receipt, split path/hash mappings and actual test IDs; image bytes hashed by formal entry"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "haze4k-full-seed42",
+  "label": "NSI",
+  "dataset": "haze4k",
+  "arm": "full",
+  "checkpoint": "weights/haze4k/full/seed42/last.pth",
+  "checkpoint_sha256": "371f29fa525aa85cf4ff77b573b97a552ad61ccf4e9b8a3c0e37f49f253b3f47",
+  "input": {
+    "path": "external/test.bin",
+    "image_id": "1000_0.73_1.8",
+    "pixel_sha256": "17e4df4862f20f62cb52d03ca1d54722df154e44e7a90f9f77d63eab974b6932"
+  },
+  "input_shape": [
+    480,
+    640
+  ],
+  "center_yx": [
+    240,
+    320
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "spatial_fusion_autograd": null,
+  "spatial_fusion_forward_max_relative_error": null,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 4",
+  "r50_px": 88.81441324469807,
+  "r90_px": 159.69971822141704,
+  "r95_px": 178.12635964393365,
+  "gradient_sum": 41.79287338256836,
+  "gradient_peak": 0.19285394251346588,
+  "eval_forward_max_abs": 3.5762786865234375e-07,
+  "eval_forward_relative_max": 3.4500548213711114e-07,
+  "seconds": 1.1861541999969631,
+  "peak_cuda_mib": 3480.63232421875
+}

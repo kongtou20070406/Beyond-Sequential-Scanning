@@ -1,0 +1,3598 @@
+{
+  "status": "PASS",
+  "torch": "2.10.0",
+  "cuda_initialized": false,
+  "input": [
+    1,
+    3,
+    256,
+    256
+  ],
+  "records": [
+    {
+      "task": "ohaze",
+      "arm": "ours",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_RadialProfiled_K5_P256.yml",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "whole_model_macs": 25612517376,
+      "mixer_sum_macs": 7451181056,
+      "carrier_macs": 18161336320,
+      "mixer_parameters": 472492,
+      "whole_parameters": 2248140,
+      "slots": [
+        {
+          "name": "encoder_level1.0.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 4834,
+          "projection_generation_conv_macs": 291504128,
+          "core_propagation_macs": 188743680,
+          "module_macs": 480247808,
+          "by_operator": {
+            "conv": 291504128
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 32,
+            "channel_pairs": 16
+          }
+        },
+        {
+          "name": "encoder_level1.1.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 4834,
+          "projection_generation_conv_macs": 291504128,
+          "core_propagation_macs": 188743680,
+          "module_macs": 480247808,
+          "by_operator": {
+            "conv": 291504128
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 32,
+            "channel_pairs": 16
+          }
+        },
+        {
+          "name": "encoder_level2.0.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 13762,
+          "projection_generation_conv_macs": 212860928,
+          "core_propagation_macs": 94371840,
+          "module_macs": 307232768,
+          "by_operator": {
+            "conv": 212860928
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 64,
+            "channel_pairs": 32
+          }
+        },
+        {
+          "name": "encoder_level2.1.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 13762,
+          "projection_generation_conv_macs": 212860928,
+          "core_propagation_macs": 94371840,
+          "module_macs": 307232768,
+          "by_operator": {
+            "conv": 212860928
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 64,
+            "channel_pairs": 32
+          }
+        },
+        {
+          "name": "encoder_level2.2.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 13762,
+          "projection_generation_conv_macs": 212860928,
+          "core_propagation_macs": 94371840,
+          "module_macs": 307232768,
+          "by_operator": {
+            "conv": 212860928
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 64,
+            "channel_pairs": 32
+          }
+        },
+        {
+          "name": "encoder_level3.0.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 43906,
+          "projection_generation_conv_macs": 173539328,
+          "core_propagation_macs": 47185920,
+          "module_macs": 220725248,
+          "by_operator": {
+            "conv": 173539328
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 128,
+            "channel_pairs": 64
+          }
+        },
+        {
+          "name": "encoder_level3.1.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 43906,
+          "projection_generation_conv_macs": 173539328,
+          "core_propagation_macs": 47185920,
+          "module_macs": 220725248,
+          "by_operator": {
+            "conv": 173539328
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 128,
+            "channel_pairs": 64
+          }
+        },
+        {
+          "name": "encoder_level3.2.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 43906,
+          "projection_generation_conv_macs": 173539328,
+          "core_propagation_macs": 47185920,
+          "module_macs": 220725248,
+          "by_operator": {
+            "conv": 173539328
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 128,
+            "channel_pairs": 64
+          }
+        },
+        {
+          "name": "encoder_level3.3.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 43906,
+          "projection_generation_conv_macs": 173539328,
+          "core_propagation_macs": 47185920,
+          "module_macs": 220725248,
+          "by_operator": {
+            "conv": 173539328
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 128,
+            "channel_pairs": 64
+          }
+        },
+        {
+          "name": "decoder_level3.0.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 43906,
+          "projection_generation_conv_macs": 173539328,
+          "core_propagation_macs": 47185920,
+          "module_macs": 220725248,
+          "by_operator": {
+            "conv": 173539328
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 128,
+            "channel_pairs": 64
+          }
+        },
+        {
+          "name": "decoder_level3.1.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 43906,
+          "projection_generation_conv_macs": 173539328,
+          "core_propagation_macs": 47185920,
+          "module_macs": 220725248,
+          "by_operator": {
+            "conv": 173539328
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 128,
+            "channel_pairs": 64
+          }
+        },
+        {
+          "name": "decoder_level3.2.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 43906,
+          "projection_generation_conv_macs": 173539328,
+          "core_propagation_macs": 47185920,
+          "module_macs": 220725248,
+          "by_operator": {
+            "conv": 173539328
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 128,
+            "channel_pairs": 64
+          }
+        },
+        {
+          "name": "decoder_level3.3.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 43906,
+          "projection_generation_conv_macs": 173539328,
+          "core_propagation_macs": 47185920,
+          "module_macs": 220725248,
+          "by_operator": {
+            "conv": 173539328
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 128,
+            "channel_pairs": 64
+          }
+        },
+        {
+          "name": "decoder_level2.0.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 13762,
+          "projection_generation_conv_macs": 212860928,
+          "core_propagation_macs": 94371840,
+          "module_macs": 307232768,
+          "by_operator": {
+            "conv": 212860928
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 64,
+            "channel_pairs": 32
+          }
+        },
+        {
+          "name": "decoder_level2.1.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 13762,
+          "projection_generation_conv_macs": 212860928,
+          "core_propagation_macs": 94371840,
+          "module_macs": 307232768,
+          "by_operator": {
+            "conv": 212860928
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 64,
+            "channel_pairs": 32
+          }
+        },
+        {
+          "name": "decoder_level2.2.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 13762,
+          "projection_generation_conv_macs": 212860928,
+          "core_propagation_macs": 94371840,
+          "module_macs": 307232768,
+          "by_operator": {
+            "conv": 212860928
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 64,
+            "channel_pairs": 32
+          }
+        },
+        {
+          "name": "decoder_level1.0.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 4834,
+          "projection_generation_conv_macs": 291504128,
+          "core_propagation_macs": 188743680,
+          "module_macs": 480247808,
+          "by_operator": {
+            "conv": 291504128
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 32,
+            "channel_pairs": 16
+          }
+        },
+        {
+          "name": "decoder_level1.1.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 4834,
+          "projection_generation_conv_macs": 291504128,
+          "core_propagation_macs": 188743680,
+          "module_macs": 480247808,
+          "by_operator": {
+            "conv": 291504128
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 32,
+            "channel_pairs": 16
+          }
+        },
+        {
+          "name": "refinement.0.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 4834,
+          "projection_generation_conv_macs": 291504128,
+          "core_propagation_macs": 188743680,
+          "module_macs": 480247808,
+          "by_operator": {
+            "conv": 291504128
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 32,
+            "channel_pairs": 16
+          }
+        },
+        {
+          "name": "refinement.1.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 4834,
+          "projection_generation_conv_macs": 291504128,
+          "core_propagation_macs": 188743680,
+          "module_macs": 480247808,
+          "by_operator": {
+            "conv": 291504128
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 32,
+            "channel_pairs": 16
+          }
+        },
+        {
+          "name": "refinement.2.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 4834,
+          "projection_generation_conv_macs": 291504128,
+          "core_propagation_macs": 188743680,
+          "module_macs": 480247808,
+          "by_operator": {
+            "conv": 291504128
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 32,
+            "channel_pairs": 16
+          }
+        },
+        {
+          "name": "refinement.3.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 4834,
+          "projection_generation_conv_macs": 291504128,
+          "core_propagation_macs": 188743680,
+          "module_macs": 480247808,
+          "by_operator": {
+            "conv": 291504128
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 32,
+            "channel_pairs": 16
+          }
+        }
+      ]
+    },
+    {
+      "task": "ohaze",
+      "arm": "ss2d",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_Matched_SS2D_P256.yml",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "whole_model_macs": 36697538560,
+      "mixer_sum_macs": 18536202240,
+      "carrier_macs": 18161336320,
+      "mixer_parameters": 694656,
+      "whole_parameters": 2470304,
+      "slots": [
+        {
+          "name": "encoder_level1.0.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 7776,
+          "projection_generation_conv_macs": 391643136,
+          "core_propagation_macs": 912261120,
+          "module_macs": 1303904256,
+          "by_operator": {
+            "conv": 165150720,
+            "einsum": 226492416
+          },
+          "settings": {
+            "d_inner": 24,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 2
+          }
+        },
+        {
+          "name": "encoder_level1.1.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 7776,
+          "projection_generation_conv_macs": 391643136,
+          "core_propagation_macs": 912261120,
+          "module_macs": 1303904256,
+          "by_operator": {
+            "conv": 165150720,
+            "einsum": 226492416
+          },
+          "settings": {
+            "d_inner": 24,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 2
+          }
+        },
+        {
+          "name": "encoder_level2.0.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 20928,
+          "projection_generation_conv_macs": 283901952,
+          "core_propagation_macs": 456130560,
+          "module_macs": 740032512,
+          "by_operator": {
+            "conv": 158072832,
+            "einsum": 125829120
+          },
+          "settings": {
+            "d_inner": 48,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 4
+          }
+        },
+        {
+          "name": "encoder_level2.1.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 20928,
+          "projection_generation_conv_macs": 283901952,
+          "core_propagation_macs": 456130560,
+          "module_macs": 740032512,
+          "by_operator": {
+            "conv": 158072832,
+            "einsum": 125829120
+          },
+          "settings": {
+            "d_inner": 48,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 4
+          }
+        },
+        {
+          "name": "encoder_level2.2.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 20928,
+          "projection_generation_conv_macs": 283901952,
+          "core_propagation_macs": 456130560,
+          "module_macs": 740032512,
+          "by_operator": {
+            "conv": 158072832,
+            "einsum": 125829120
+          },
+          "settings": {
+            "d_inner": 48,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 4
+          }
+        },
+        {
+          "name": "encoder_level3.0.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 63360,
+          "projection_generation_conv_macs": 230031360,
+          "core_propagation_macs": 228065280,
+          "module_macs": 458096640,
+          "by_operator": {
+            "conv": 154533888,
+            "einsum": 75497472
+          },
+          "settings": {
+            "d_inner": 96,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 8
+          }
+        },
+        {
+          "name": "encoder_level3.1.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 63360,
+          "projection_generation_conv_macs": 230031360,
+          "core_propagation_macs": 228065280,
+          "module_macs": 458096640,
+          "by_operator": {
+            "conv": 154533888,
+            "einsum": 75497472
+          },
+          "settings": {
+            "d_inner": 96,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 8
+          }
+        },
+        {
+          "name": "encoder_level3.2.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 63360,
+          "projection_generation_conv_macs": 230031360,
+          "core_propagation_macs": 228065280,
+          "module_macs": 458096640,
+          "by_operator": {
+            "conv": 154533888,
+            "einsum": 75497472
+          },
+          "settings": {
+            "d_inner": 96,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 8
+          }
+        },
+        {
+          "name": "encoder_level3.3.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 63360,
+          "projection_generation_conv_macs": 230031360,
+          "core_propagation_macs": 228065280,
+          "module_macs": 458096640,
+          "by_operator": {
+            "conv": 154533888,
+            "einsum": 75497472
+          },
+          "settings": {
+            "d_inner": 96,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 8
+          }
+        },
+        {
+          "name": "decoder_level3.0.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 63360,
+          "projection_generation_conv_macs": 230031360,
+          "core_propagation_macs": 228065280,
+          "module_macs": 458096640,
+          "by_operator": {
+            "conv": 154533888,
+            "einsum": 75497472
+          },
+          "settings": {
+            "d_inner": 96,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 8
+          }
+        },
+        {
+          "name": "decoder_level3.1.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 63360,
+          "projection_generation_conv_macs": 230031360,
+          "core_propagation_macs": 228065280,
+          "module_macs": 458096640,
+          "by_operator": {
+            "conv": 154533888,
+            "einsum": 75497472
+          },
+          "settings": {
+            "d_inner": 96,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 8
+          }
+        },
+        {
+          "name": "decoder_level3.2.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 63360,
+          "projection_generation_conv_macs": 230031360,
+          "core_propagation_macs": 228065280,
+          "module_macs": 458096640,
+          "by_operator": {
+            "conv": 154533888,
+            "einsum": 75497472
+          },
+          "settings": {
+            "d_inner": 96,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 8
+          }
+        },
+        {
+          "name": "decoder_level3.3.attn",
+          "shape": [
+            1,
+            128,
+            64,
+            64
+          ],
+          "parameters": 63360,
+          "projection_generation_conv_macs": 230031360,
+          "core_propagation_macs": 228065280,
+          "module_macs": 458096640,
+          "by_operator": {
+            "conv": 154533888,
+            "einsum": 75497472
+          },
+          "settings": {
+            "d_inner": 96,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 8
+          }
+        },
+        {
+          "name": "decoder_level2.0.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 20928,
+          "projection_generation_conv_macs": 283901952,
+          "core_propagation_macs": 456130560,
+          "module_macs": 740032512,
+          "by_operator": {
+            "conv": 158072832,
+            "einsum": 125829120
+          },
+          "settings": {
+            "d_inner": 48,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 4
+          }
+        },
+        {
+          "name": "decoder_level2.1.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 20928,
+          "projection_generation_conv_macs": 283901952,
+          "core_propagation_macs": 456130560,
+          "module_macs": 740032512,
+          "by_operator": {
+            "conv": 158072832,
+            "einsum": 125829120
+          },
+          "settings": {
+            "d_inner": 48,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 4
+          }
+        },
+        {
+          "name": "decoder_level2.2.attn",
+          "shape": [
+            1,
+            64,
+            128,
+            128
+          ],
+          "parameters": 20928,
+          "projection_generation_conv_macs": 283901952,
+          "core_propagation_macs": 456130560,
+          "module_macs": 740032512,
+          "by_operator": {
+            "conv": 158072832,
+            "einsum": 125829120
+          },
+          "settings": {
+            "d_inner": 48,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 4
+          }
+        },
+        {
+          "name": "decoder_level1.0.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 7776,
+          "projection_generation_conv_macs": 391643136,
+          "core_propagation_macs": 912261120,
+          "module_macs": 1303904256,
+          "by_operator": {
+            "conv": 165150720,
+            "einsum": 226492416
+          },
+          "settings": {
+            "d_inner": 24,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 2
+          }
+        },
+        {
+          "name": "decoder_level1.1.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 7776,
+          "projection_generation_conv_macs": 391643136,
+          "core_propagation_macs": 912261120,
+          "module_macs": 1303904256,
+          "by_operator": {
+            "conv": 165150720,
+            "einsum": 226492416
+          },
+          "settings": {
+            "d_inner": 24,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 2
+          }
+        },
+        {
+          "name": "refinement.0.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 7776,
+          "projection_generation_conv_macs": 391643136,
+          "core_propagation_macs": 912261120,
+          "module_macs": 1303904256,
+          "by_operator": {
+            "conv": 165150720,
+            "einsum": 226492416
+          },
+          "settings": {
+            "d_inner": 24,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 2
+          }
+        },
+        {
+          "name": "refinement.1.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 7776,
+          "projection_generation_conv_macs": 391643136,
+          "core_propagation_macs": 912261120,
+          "module_macs": 1303904256,
+          "by_operator": {
+            "conv": 165150720,
+            "einsum": 226492416
+          },
+          "settings": {
+            "d_inner": 24,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 2
+          }
+        },
+        {
+          "name": "refinement.2.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 7776,
+          "projection_generation_conv_macs": 391643136,
+          "core_propagation_macs": 912261120,
+          "module_macs": 1303904256,
+          "by_operator": {
+            "conv": 165150720,
+            "einsum": 226492416
+          },
+          "settings": {
+            "d_inner": 24,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 2
+          }
+        },
+        {
+          "name": "refinement.3.attn",
+          "shape": [
+            1,
+            32,
+            256,
+            256
+          ],
+          "parameters": 7776,
+          "projection_generation_conv_macs": 391643136,
+          "core_propagation_macs": 912261120,
+          "module_macs": 1303904256,
+          "by_operator": {
+            "conv": 165150720,
+            "einsum": 226492416
+          },
+          "settings": {
+            "d_inner": 24,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 2
+          }
+        }
+      ]
+    },
+    {
+      "task": "gopro",
+      "arm": "ours",
+      "config": "configs/restoration/gopro/ours.yml",
+      "config_sha256": "9f0d6727b9a465821525dd6113445357ae1db2d0975546f8c554f9654f9715c7",
+      "whole_model_macs": 61431349248,
+      "mixer_sum_macs": 15896936448,
+      "carrier_macs": 45534412800,
+      "mixer_parameters": 1152916,
+      "whole_parameters": 5807236,
+      "slots": [
+        {
+          "name": "encoder_level1.0.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "encoder_level1.1.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "encoder_level1.2.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "encoder_level2.0.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 26786,
+          "projection_generation_conv_macs": 419954688,
+          "core_propagation_macs": 141557760,
+          "module_macs": 561512448,
+          "by_operator": {
+            "conv": 419954688
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 96,
+            "channel_pairs": 48
+          }
+        },
+        {
+          "name": "encoder_level2.1.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 26786,
+          "projection_generation_conv_macs": 419954688,
+          "core_propagation_macs": 141557760,
+          "module_macs": 561512448,
+          "by_operator": {
+            "conv": 419954688
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 96,
+            "channel_pairs": 48
+          }
+        },
+        {
+          "name": "encoder_level2.2.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 26786,
+          "projection_generation_conv_macs": 419954688,
+          "core_propagation_macs": 141557760,
+          "module_macs": 561512448,
+          "by_operator": {
+            "conv": 419954688
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 96,
+            "channel_pairs": 48
+          }
+        },
+        {
+          "name": "encoder_level3.0.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "encoder_level3.1.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "encoder_level3.2.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "encoder_level3.3.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "encoder_level3.4.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "decoder_level3.0.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "decoder_level3.1.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "decoder_level3.2.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "decoder_level3.3.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "decoder_level3.4.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 90434,
+          "projection_generation_conv_macs": 360972288,
+          "core_propagation_macs": 70778880,
+          "module_macs": 431751168,
+          "by_operator": {
+            "conv": 360972288
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 192,
+            "channel_pairs": 96
+          }
+        },
+        {
+          "name": "decoder_level2.0.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 26786,
+          "projection_generation_conv_macs": 419954688,
+          "core_propagation_macs": 141557760,
+          "module_macs": 561512448,
+          "by_operator": {
+            "conv": 419954688
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 96,
+            "channel_pairs": 48
+          }
+        },
+        {
+          "name": "decoder_level2.1.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 26786,
+          "projection_generation_conv_macs": 419954688,
+          "core_propagation_macs": 141557760,
+          "module_macs": 561512448,
+          "by_operator": {
+            "conv": 419954688
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 96,
+            "channel_pairs": 48
+          }
+        },
+        {
+          "name": "decoder_level2.2.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 26786,
+          "projection_generation_conv_macs": 419954688,
+          "core_propagation_macs": 141557760,
+          "module_macs": 561512448,
+          "by_operator": {
+            "conv": 419954688
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 96,
+            "channel_pairs": 48
+          }
+        },
+        {
+          "name": "decoder_level1.0.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "decoder_level1.1.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "decoder_level1.2.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "refinement.0.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "refinement.1.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "refinement.2.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        },
+        {
+          "name": "refinement.3.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 8786,
+          "projection_generation_conv_macs": 537919488,
+          "core_propagation_macs": 283115520,
+          "module_macs": 821035008,
+          "by_operator": {
+            "conv": 537919488
+          },
+          "settings": {
+            "K": 5,
+            "real_channels": 48,
+            "channel_pairs": 24
+          }
+        }
+      ]
+    },
+    {
+      "task": "gopro",
+      "arm": "ss2d",
+      "config": "configs/restoration/gopro/ss2d.yml",
+      "config_sha256": "36e6f0a35f9c82c4c29b0b149dc297e322985448a7a16254c7484423a518fba1",
+      "whole_model_macs": 82059853824,
+      "mixer_sum_macs": 36525441024,
+      "carrier_macs": 45534412800,
+      "mixer_parameters": 1646496,
+      "whole_parameters": 6300816,
+      "slots": [
+        {
+          "name": "encoder_level1.0.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "encoder_level1.1.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "encoder_level1.2.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "encoder_level2.0.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 39456,
+          "projection_generation_conv_macs": 557973504,
+          "core_propagation_macs": 684195840,
+          "module_macs": 1242169344,
+          "by_operator": {
+            "conv": 350355456,
+            "einsum": 207618048
+          },
+          "settings": {
+            "d_inner": 72,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 6
+          }
+        },
+        {
+          "name": "encoder_level2.1.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 39456,
+          "projection_generation_conv_macs": 557973504,
+          "core_propagation_macs": 684195840,
+          "module_macs": 1242169344,
+          "by_operator": {
+            "conv": 350355456,
+            "einsum": 207618048
+          },
+          "settings": {
+            "d_inner": 72,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 6
+          }
+        },
+        {
+          "name": "encoder_level2.2.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 39456,
+          "projection_generation_conv_macs": 557973504,
+          "core_propagation_macs": 684195840,
+          "module_macs": 1242169344,
+          "by_operator": {
+            "conv": 350355456,
+            "einsum": 207618048
+          },
+          "settings": {
+            "d_inner": 72,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 6
+          }
+        },
+        {
+          "name": "encoder_level3.0.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "encoder_level3.1.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "encoder_level3.2.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "encoder_level3.3.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "encoder_level3.4.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "decoder_level3.0.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "decoder_level3.1.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "decoder_level3.2.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "decoder_level3.3.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "decoder_level3.4.attn",
+          "shape": [
+            1,
+            192,
+            64,
+            64
+          ],
+          "parameters": 127296,
+          "projection_generation_conv_macs": 477167616,
+          "core_propagation_macs": 342097920,
+          "module_macs": 819265536,
+          "by_operator": {
+            "conv": 345047040,
+            "einsum": 132120576
+          },
+          "settings": {
+            "d_inner": 144,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 12
+          }
+        },
+        {
+          "name": "decoder_level2.0.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 39456,
+          "projection_generation_conv_macs": 557973504,
+          "core_propagation_macs": 684195840,
+          "module_macs": 1242169344,
+          "by_operator": {
+            "conv": 350355456,
+            "einsum": 207618048
+          },
+          "settings": {
+            "d_inner": 72,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 6
+          }
+        },
+        {
+          "name": "decoder_level2.1.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 39456,
+          "projection_generation_conv_macs": 557973504,
+          "core_propagation_macs": 684195840,
+          "module_macs": 1242169344,
+          "by_operator": {
+            "conv": 350355456,
+            "einsum": 207618048
+          },
+          "settings": {
+            "d_inner": 72,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 6
+          }
+        },
+        {
+          "name": "decoder_level2.2.attn",
+          "shape": [
+            1,
+            96,
+            128,
+            128
+          ],
+          "parameters": 39456,
+          "projection_generation_conv_macs": 557973504,
+          "core_propagation_macs": 684195840,
+          "module_macs": 1242169344,
+          "by_operator": {
+            "conv": 350355456,
+            "einsum": 207618048
+          },
+          "settings": {
+            "d_inner": 72,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 6
+          }
+        },
+        {
+          "name": "decoder_level1.0.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "decoder_level1.1.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "decoder_level1.2.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "refinement.0.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "refinement.1.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "refinement.2.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        },
+        {
+          "name": "refinement.3.attn",
+          "shape": [
+            1,
+            48,
+            256,
+            256
+          ],
+          "parameters": 13680,
+          "projection_generation_conv_macs": 719585280,
+          "core_propagation_macs": 1368391680,
+          "module_macs": 2087976960,
+          "by_operator": {
+            "conv": 360972288,
+            "einsum": 358612992
+          },
+          "settings": {
+            "d_inner": 36,
+            "directions": 4,
+            "d_state": 16,
+            "dt_rank": 3
+          }
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "task": "ohaze",
+      "mixer_reduction_percent": 59.80200820251733,
+      "whole_reduction_percent": 30.206443317379815,
+      "core_reduction_percent": 79.3103448275862
+    },
+    {
+      "task": "gopro",
+      "mixer_reduction_percent": 56.477085553725416,
+      "whole_reduction_percent": 25.138363785345664,
+      "core_reduction_percent": 79.3103448275862
+    }
+  ],
+  "independent_ours_operator_checks": [
+    {
+      "N": 64,
+      "C": 32,
+      "K": 5,
+      "H": 8,
+      "W": 8,
+      "parameters": 4834,
+      "convolution_macs": 284672,
+      "propagation_macs": 184320,
+      "total_macs": 468992,
+      "conv_calls": 7,
+      "propagation_calls": 5,
+      "propagation_product_calls": 180,
+      "elapsed_counting_seconds": 0.008559900103136897,
+      "conv_records": [
+        {
+          "weight": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "macs": 65536
+        },
+        {
+          "weight": [
+            16,
+            8,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            16,
+            8,
+            8
+          ],
+          "macs": 8192
+        },
+        {
+          "weight": [
+            16,
+            1,
+            3,
+            3
+          ],
+          "output": [
+            1,
+            16,
+            8,
+            8
+          ],
+          "macs": 9216
+        },
+        {
+          "weight": [
+            16,
+            1,
+            7,
+            7
+          ],
+          "output": [
+            1,
+            16,
+            8,
+            8
+          ],
+          "macs": 50176
+        },
+        {
+          "weight": [
+            288,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            288,
+            8,
+            8
+          ],
+          "macs": 73728
+        },
+        {
+          "weight": [
+            48,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "macs": 12288
+        },
+        {
+          "weight": [
+            32,
+            32,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "macs": 65536
+        }
+      ],
+      "propagation_records": [
+        {
+          "input": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            16,
+            2,
+            8,
+            8
+          ],
+          "macs": 36864
+        },
+        {
+          "input": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            16,
+            2,
+            8,
+            8
+          ],
+          "macs": 36864
+        },
+        {
+          "input": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            16,
+            2,
+            8,
+            8
+          ],
+          "macs": 36864
+        },
+        {
+          "input": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            16,
+            2,
+            8,
+            8
+          ],
+          "macs": 36864
+        },
+        {
+          "input": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            16,
+            2,
+            8,
+            8
+          ],
+          "macs": 36864
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "C": 48,
+      "K": 5,
+      "H": 8,
+      "W": 8,
+      "parameters": 8786,
+      "convolution_macs": 525312,
+      "propagation_macs": 276480,
+      "total_macs": 801792,
+      "conv_calls": 7,
+      "propagation_calls": 5,
+      "propagation_product_calls": 180,
+      "elapsed_counting_seconds": 0.0061150999972596765,
+      "conv_records": [
+        {
+          "weight": [
+            48,
+            48,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "macs": 147456
+        },
+        {
+          "weight": [
+            24,
+            8,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            24,
+            8,
+            8
+          ],
+          "macs": 12288
+        },
+        {
+          "weight": [
+            24,
+            1,
+            3,
+            3
+          ],
+          "output": [
+            1,
+            24,
+            8,
+            8
+          ],
+          "macs": 13824
+        },
+        {
+          "weight": [
+            24,
+            1,
+            7,
+            7
+          ],
+          "output": [
+            1,
+            24,
+            8,
+            8
+          ],
+          "macs": 75264
+        },
+        {
+          "weight": [
+            432,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            432,
+            8,
+            8
+          ],
+          "macs": 110592
+        },
+        {
+          "weight": [
+            72,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            72,
+            8,
+            8
+          ],
+          "macs": 18432
+        },
+        {
+          "weight": [
+            48,
+            48,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "macs": 147456
+        }
+      ],
+      "propagation_records": [
+        {
+          "input": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            24,
+            2,
+            8,
+            8
+          ],
+          "macs": 55296
+        },
+        {
+          "input": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            24,
+            2,
+            8,
+            8
+          ],
+          "macs": 55296
+        },
+        {
+          "input": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            24,
+            2,
+            8,
+            8
+          ],
+          "macs": 55296
+        },
+        {
+          "input": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            24,
+            2,
+            8,
+            8
+          ],
+          "macs": 55296
+        },
+        {
+          "input": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            24,
+            2,
+            8,
+            8
+          ],
+          "macs": 55296
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "C": 64,
+      "K": 5,
+      "H": 8,
+      "W": 8,
+      "parameters": 13762,
+      "convolution_macs": 831488,
+      "propagation_macs": 368640,
+      "total_macs": 1200128,
+      "conv_calls": 7,
+      "propagation_calls": 5,
+      "propagation_product_calls": 180,
+      "elapsed_counting_seconds": 0.006676299963146448,
+      "conv_records": [
+        {
+          "weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "macs": 262144
+        },
+        {
+          "weight": [
+            32,
+            8,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "macs": 16384
+        },
+        {
+          "weight": [
+            32,
+            1,
+            3,
+            3
+          ],
+          "output": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "macs": 18432
+        },
+        {
+          "weight": [
+            32,
+            1,
+            7,
+            7
+          ],
+          "output": [
+            1,
+            32,
+            8,
+            8
+          ],
+          "macs": 100352
+        },
+        {
+          "weight": [
+            576,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            576,
+            8,
+            8
+          ],
+          "macs": 147456
+        },
+        {
+          "weight": [
+            96,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "macs": 24576
+        },
+        {
+          "weight": [
+            64,
+            64,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "macs": 262144
+        }
+      ],
+      "propagation_records": [
+        {
+          "input": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            32,
+            2,
+            8,
+            8
+          ],
+          "macs": 73728
+        },
+        {
+          "input": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            32,
+            2,
+            8,
+            8
+          ],
+          "macs": 73728
+        },
+        {
+          "input": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            32,
+            2,
+            8,
+            8
+          ],
+          "macs": 73728
+        },
+        {
+          "input": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            32,
+            2,
+            8,
+            8
+          ],
+          "macs": 73728
+        },
+        {
+          "input": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            32,
+            2,
+            8,
+            8
+          ],
+          "macs": 73728
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "C": 96,
+      "K": 5,
+      "H": 8,
+      "W": 8,
+      "parameters": 26786,
+      "convolution_macs": 1640448,
+      "propagation_macs": 552960,
+      "total_macs": 2193408,
+      "conv_calls": 7,
+      "propagation_calls": 5,
+      "propagation_product_calls": 180,
+      "elapsed_counting_seconds": 0.006624499917961657,
+      "conv_records": [
+        {
+          "weight": [
+            96,
+            96,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "macs": 589824
+        },
+        {
+          "weight": [
+            48,
+            8,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "macs": 24576
+        },
+        {
+          "weight": [
+            48,
+            1,
+            3,
+            3
+          ],
+          "output": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "macs": 27648
+        },
+        {
+          "weight": [
+            48,
+            1,
+            7,
+            7
+          ],
+          "output": [
+            1,
+            48,
+            8,
+            8
+          ],
+          "macs": 150528
+        },
+        {
+          "weight": [
+            864,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            864,
+            8,
+            8
+          ],
+          "macs": 221184
+        },
+        {
+          "weight": [
+            144,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            144,
+            8,
+            8
+          ],
+          "macs": 36864
+        },
+        {
+          "weight": [
+            96,
+            96,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "macs": 589824
+        }
+      ],
+      "propagation_records": [
+        {
+          "input": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            48,
+            2,
+            8,
+            8
+          ],
+          "macs": 110592
+        },
+        {
+          "input": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            48,
+            2,
+            8,
+            8
+          ],
+          "macs": 110592
+        },
+        {
+          "input": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            48,
+            2,
+            8,
+            8
+          ],
+          "macs": 110592
+        },
+        {
+          "input": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            48,
+            2,
+            8,
+            8
+          ],
+          "macs": 110592
+        },
+        {
+          "input": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            48,
+            2,
+            8,
+            8
+          ],
+          "macs": 110592
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "C": 128,
+      "K": 5,
+      "H": 8,
+      "W": 8,
+      "parameters": 43906,
+      "convolution_macs": 2711552,
+      "propagation_macs": 737280,
+      "total_macs": 3448832,
+      "conv_calls": 7,
+      "propagation_calls": 5,
+      "propagation_product_calls": 180,
+      "elapsed_counting_seconds": 0.007878500036895275,
+      "conv_records": [
+        {
+          "weight": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "macs": 1048576
+        },
+        {
+          "weight": [
+            64,
+            8,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "macs": 32768
+        },
+        {
+          "weight": [
+            64,
+            1,
+            3,
+            3
+          ],
+          "output": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "macs": 36864
+        },
+        {
+          "weight": [
+            64,
+            1,
+            7,
+            7
+          ],
+          "output": [
+            1,
+            64,
+            8,
+            8
+          ],
+          "macs": 200704
+        },
+        {
+          "weight": [
+            1152,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            1152,
+            8,
+            8
+          ],
+          "macs": 294912
+        },
+        {
+          "weight": [
+            192,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            192,
+            8,
+            8
+          ],
+          "macs": 49152
+        },
+        {
+          "weight": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "macs": 1048576
+        }
+      ],
+      "propagation_records": [
+        {
+          "input": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            64,
+            2,
+            8,
+            8
+          ],
+          "macs": 147456
+        },
+        {
+          "input": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            64,
+            2,
+            8,
+            8
+          ],
+          "macs": 147456
+        },
+        {
+          "input": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            64,
+            2,
+            8,
+            8
+          ],
+          "macs": 147456
+        },
+        {
+          "input": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            64,
+            2,
+            8,
+            8
+          ],
+          "macs": 147456
+        },
+        {
+          "input": [
+            1,
+            128,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            64,
+            2,
+            8,
+            8
+          ],
+          "macs": 147456
+        }
+      ]
+    },
+    {
+      "N": 64,
+      "C": 192,
+      "K": 5,
+      "H": 8,
+      "W": 8,
+      "parameters": 90434,
+      "convolution_macs": 5640192,
+      "propagation_macs": 1105920,
+      "total_macs": 6746112,
+      "conv_calls": 7,
+      "propagation_calls": 5,
+      "propagation_product_calls": 180,
+      "elapsed_counting_seconds": 0.007967000012286007,
+      "conv_records": [
+        {
+          "weight": [
+            192,
+            192,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            192,
+            8,
+            8
+          ],
+          "macs": 2359296
+        },
+        {
+          "weight": [
+            96,
+            8,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "macs": 49152
+        },
+        {
+          "weight": [
+            96,
+            1,
+            3,
+            3
+          ],
+          "output": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "macs": 55296
+        },
+        {
+          "weight": [
+            96,
+            1,
+            7,
+            7
+          ],
+          "output": [
+            1,
+            96,
+            8,
+            8
+          ],
+          "macs": 301056
+        },
+        {
+          "weight": [
+            1728,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            1728,
+            8,
+            8
+          ],
+          "macs": 442368
+        },
+        {
+          "weight": [
+            288,
+            4,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            288,
+            8,
+            8
+          ],
+          "macs": 73728
+        },
+        {
+          "weight": [
+            192,
+            192,
+            1,
+            1
+          ],
+          "output": [
+            1,
+            192,
+            8,
+            8
+          ],
+          "macs": 2359296
+        }
+      ],
+      "propagation_records": [
+        {
+          "input": [
+            1,
+            192,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            96,
+            2,
+            8,
+            8
+          ],
+          "macs": 221184
+        },
+        {
+          "input": [
+            1,
+            192,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            96,
+            2,
+            8,
+            8
+          ],
+          "macs": 221184
+        },
+        {
+          "input": [
+            1,
+            192,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            96,
+            2,
+            8,
+            8
+          ],
+          "macs": 221184
+        },
+        {
+          "input": [
+            1,
+            192,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            96,
+            2,
+            8,
+            8
+          ],
+          "macs": 221184
+        },
+        {
+          "input": [
+            1,
+            192,
+            8,
+            8
+          ],
+          "kernel": [
+            1,
+            9,
+            96,
+            2,
+            8,
+            8
+          ],
+          "macs": 221184
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "diagnostics/module_cost_comparison_20260915/measure.py": "b2ce7dd23942b334a01dcde587ee6803e17cae26cd9ab17a7e7ef1635a829cbf",
+    "tasks/restoration/runtime/clpo2027/real_pair_propagation.py": "5cd60532f1876186b313096ea29d959288be54e53c3e4a933b04d2f025ff17e1",
+    "tasks/restoration/runtime/clpo2027/vmamba_ss2d_adapter.py": "5b7d13c384407ca12a338b7e8b62ff75a7eca8e33c1e26bb7c2531c64470fed5",
+    "tasks/restoration/runtime/third_party/VMamba/classification/models/vmamba.py": "1385e7b704c62937ebaea02da0d6578c82518dbf205fcf3698a56808c3bd823a",
+    "tasks/restoration/runtime/third_party/VMamba/classification/models/csms6s.py": "7671a74f07e98742fc743d933bcb6025906f1a73f940afd1f55262a17104a4a7",
+    "tools/profile_model.py": "b27c35556455d50a4d962f0dbe3c557d90e6b3fa15030ed174eb04b35b2a1466",
+    "diagnostics/module_cost_comparison_20260915/standalone_and_report.py": "3dbd9a268dd2156cd5118b592c82d30c7740135f54157e290662201064309d91"
+  },
+  "rounding_note": "SS2D projection einsums are counted exactly from traced tensor dimensions, avoiding numpy.einsum_path three-significant-digit rounding in the legacy fvcore handler.",
+  "convention": "Paper MAC convention: conv/linear/matmul/einsum plus explicit propagation. Excludes normalization, activations, pooling, resizing, gates, readout elementwise operations, and layout operations. SS2D core uses official prefixsum estimate; CPU count-only core preserves projection shapes, not numerical output. No GPU timing or inference quality measured.",
+  "module_scope": "Entire AttBlock.attn replacement, including its input/output projection and coefficient generation; excludes carrier FFN and other backbone operations.",
+  "formulas_per_spatial_position": {
+    "ours_module": "2*C^2+75*C+18*K*C (K=5)",
+    "ss2d_module": "3*C*D+9*D+4*D*(2*r+2*N)+4*D*(9*N+1); D=int(.75*C), r=ceil(C/16), N=16",
+    "ours_core": "18*K*C",
+    "ss2d_core": "4*D*(9*N+1)"
+  },
+  "haze4k": "Same dehazing model structure as O-HAZE; same counts at the same input shape.",
+  "standalone_verified": [
+    {
+      "C": 32,
+      "input": [
+        1,
+        32,
+        64,
+        64
+      ],
+      "ours_macs": 30015488,
+      "ss2d_macs": 81494016,
+      "reduction_percent": 63.168476075593084,
+      "ours_parameters": 4834,
+      "ss2d_parameters": 7776,
+      "ours_core_macs": 11796480,
+      "ss2d_core_macs": 57016320
+    },
+    {
+      "C": 48,
+      "input": [
+        1,
+        48,
+        64,
+        64
+      ],
+      "ours_macs": 51314688,
+      "ss2d_macs": 130498560,
+      "reduction_percent": 60.67796610169491,
+      "ours_parameters": 8786,
+      "ss2d_parameters": 13680,
+      "ours_core_macs": 17694720,
+      "ss2d_core_macs": 85524480
+    },
+    {
+      "C": 64,
+      "input": [
+        1,
+        64,
+        64,
+        64
+      ],
+      "ours_macs": 76808192,
+      "ss2d_macs": 185008128,
+      "reduction_percent": 58.48388239461566,
+      "ours_parameters": 13762,
+      "ss2d_parameters": 20928,
+      "ours_core_macs": 23592960,
+      "ss2d_core_macs": 114032640
+    },
+    {
+      "C": 96,
+      "input": [
+        1,
+        96,
+        64,
+        64
+      ],
+      "ours_macs": 140378112,
+      "ss2d_macs": 310542336,
+      "reduction_percent": 54.795821462488135,
+      "ours_parameters": 26786,
+      "ss2d_parameters": 39456,
+      "ours_core_macs": 35389440,
+      "ss2d_core_macs": 171048960
+    },
+    {
+      "C": 128,
+      "input": [
+        1,
+        128,
+        64,
+        64
+      ],
+      "ours_macs": 220725248,
+      "ss2d_macs": 458096640,
+      "reduction_percent": 51.81688125894135,
+      "ours_parameters": 43906,
+      "ss2d_parameters": 63360,
+      "ours_core_macs": 47185920,
+      "ss2d_core_macs": 228065280
+    },
+    {
+      "C": 192,
+      "input": [
+        1,
+        192,
+        64,
+        64
+      ],
+      "ours_macs": 431751168,
+      "ss2d_macs": 819265536,
+      "reduction_percent": 47.30021598272138,
+      "ours_parameters": 90434,
+      "ss2d_parameters": 127296,
+      "ours_core_macs": 70778880,
+      "ss2d_core_macs": 342097920
+    }
+  ],
+  "legacy_rounding_reconciliation": [
+    {
+      "task": "ohaze",
+      "arm": "ours",
+      "old_paper_macs": 25612517376,
+      "new_exact_projection_macs": 25612517376,
+      "difference": 0,
+      "relative_difference_percent": 0.0
+    },
+    {
+      "task": "ohaze",
+      "arm": "ss2d",
+      "old_paper_macs": 36697414736,
+      "new_exact_projection_macs": 36697538560,
+      "difference": 123824,
+      "relative_difference_percent": 0.00033741886421914403
+    },
+    {
+      "task": "gopro",
+      "arm": "ours",
+      "old_paper_macs": 61431349248,
+      "new_exact_projection_macs": 61431349248,
+      "difference": 0,
+      "relative_difference_percent": 0.0
+    },
+    {
+      "task": "gopro",
+      "arm": "ss2d",
+      "old_paper_macs": 82059669856,
+      "new_exact_projection_macs": 82059853824,
+      "difference": 183968,
+      "relative_difference_percent": 0.00022418808206617311
+    }
+  ]
+}

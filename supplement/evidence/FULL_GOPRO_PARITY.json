@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "count": 1111,
+  "matching_ordered_image_ids": true,
+  "reference_per_image_sha256": "c8c9a9656cb64f666a7912706a1a8ea20f3f054046ef821d8ea446d1c454685a",
+  "default_per_image_sha256": "29c21e8d8a22f0e45cb1e3ac88104a2a698cbc66e92bb29809709796569f3150",
+  "max_absolute_per_image_difference": {
+    "psnr_db": 4.76837158203125e-06,
+    "ssim": 2.384185791015625e-07
+  },
+  "mean_difference": {
+    "psnr_db": -6.223347249275709e-08,
+    "ssim": 9.120422692904056e-10
+  },
+  "default_mean": {
+    "psnr_db": 30.58132044374138,
+    "ssim": 0.9099009138415463
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE",
+  "implementation": "joint_heads_direct_rollout_fp32",
+  "processes": [
+    {
+      "process": 1,
+      "ours_seconds": 1.26964599609375,
+      "ss2d_seconds": 1.3048093872070312,
+      "latency_reduction_percent": 2.6949063562877185,
+      "record": "recorded/PROCESS_1.json",
+      "record_sha256": "c8f7e09f26c0deaee8f2cbf0e2b1ece498ae748cafb8dbc499e381e7afbf95ee"
+    },
+    {
+      "process": 2,
+      "ours_seconds": 1.2709429931640626,
+      "ss2d_seconds": 1.3025497436523437,
+      "latency_reduction_percent": 2.426529247140763,
+      "record": "recorded/PROCESS_2.json",
+      "record_sha256": "fc031dcc6a76f9f73efe5d09e88852680215439b5e02dd76e33371b2a8ba343d"
+    },
+    {
+      "process": 3,
+      "ours_seconds": 1.2684630126953125,
+      "ss2d_seconds": 1.3020081787109374,
+      "latency_reduction_percent": 2.576417457595126,
+      "record": "recorded/PROCESS_3.json",
+      "record_sha256": "ee79bae7eac8858a1c8b1fd864356c0da97b200582a183cc01b0b86d7b892073"
+    }
+  ],
+  "scope": "One fixed test image on the shared RTX 5090 host, FP32, TF32 off.",
+  "selection": "All three original final-implementation measurement processes are included.",
+  "original_timing_methods": 3,
+  "current_display_methods": 2,
+  "full_original_timing_rows": 216,
+  "numerical_panel_images": 55
+}

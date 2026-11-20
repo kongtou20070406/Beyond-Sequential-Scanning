@@ -1,0 +1,1442 @@
+{
+  "arm": "full",
+  "index": 4,
+  "id": "103_0.94_0.98",
+  "psnr": 23.819021769325307,
+  "checkpoint": {
+    "path": "weights/haze4k/full/seed42/last.pth",
+    "sha256": "371f29fa525aa85cf4ff77b573b97a552ad61ccf4e9b8a3c0e37f49f253b3f47"
+  },
+  "records": [
+    {
+      "module": "encoder_level1.0.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 0.9999999403953552,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.5957637429237366,
+          "weighted_increment_rms": 0.11920634657144547
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9987431168556213,
+          "eta_cubed_mean": 0.996239423751831,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5349656343460083,
+          "retained_vs_drive_norm": 0.5956422686576843,
+          "random_h1_to_hk_direction_gain": 0.3317331373691559,
+          "radial_h1_to_hk_direction_gain": 0.7333917617797852,
+          "constant_drive_direction_gain": 0.8514664173126221,
+          "weighted_increment_rms": 0.09171035885810852
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9966235160827637,
+          "eta_cubed_mean": 0.9899446964263916,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.869810938835144,
+          "retained_vs_drive_norm": 0.8512741923332214,
+          "random_h1_to_hk_direction_gain": 0.15312576293945312,
+          "radial_h1_to_hk_direction_gain": 0.5645316243171692,
+          "constant_drive_direction_gain": 0.8091639280319214,
+          "weighted_increment_rms": 0.07420168071985245
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9946240186691284,
+          "eta_cubed_mean": 0.9840700626373291,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 1.0879770517349243,
+          "retained_vs_drive_norm": 0.809310793876648,
+          "random_h1_to_hk_direction_gain": 0.1105419248342514,
+          "radial_h1_to_hk_direction_gain": 0.43820086121559143,
+          "constant_drive_direction_gain": 0.5942612886428833,
+          "weighted_increment_rms": 0.06101692467927933
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9930102229118347,
+          "eta_cubed_mean": 0.9793802499771118,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 1.2320243120193481,
+          "retained_vs_drive_norm": 0.594099223613739,
+          "random_h1_to_hk_direction_gain": 0.08245819061994553,
+          "radial_h1_to_hk_direction_gain": 0.34116971492767334,
+          "constant_drive_direction_gain": 0.5776069760322571,
+          "weighted_increment_rms": 0.05067746341228485
+        }
+      ]
+    },
+    {
+      "module": "encoder_level1.1.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 0.9999999403953552,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.7800837755203247,
+          "weighted_increment_rms": 0.35756975412368774
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9903592467308044,
+          "eta_cubed_mean": 0.9731990098953247,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7247164845466614,
+          "retained_vs_drive_norm": 0.7585205435752869,
+          "random_h1_to_hk_direction_gain": 0.29790401458740234,
+          "radial_h1_to_hk_direction_gain": 0.7276168465614319,
+          "constant_drive_direction_gain": 1.3428738117218018,
+          "weighted_increment_rms": 0.31056347489356995
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9793670773506165,
+          "eta_cubed_mean": 0.9427317976951599,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 1.2078349590301514,
+          "retained_vs_drive_norm": 1.2660572528839111,
+          "random_h1_to_hk_direction_gain": 0.16017940640449524,
+          "radial_h1_to_hk_direction_gain": 0.4487151503562927,
+          "constant_drive_direction_gain": 1.606689214706421,
+          "weighted_increment_rms": 0.24351739883422852
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9686765670776367,
+          "eta_cubed_mean": 0.9164419770240784,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 1.4906299114227295,
+          "retained_vs_drive_norm": 1.560347318649292,
+          "random_h1_to_hk_direction_gain": 0.11531136929988861,
+          "radial_h1_to_hk_direction_gain": 0.2538575530052185,
+          "constant_drive_direction_gain": 1.6513943672180176,
+          "weighted_increment_rms": 0.16738398373126984
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9619402885437012,
+          "eta_cubed_mean": 0.901001513004303,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 1.6377111673355103,
+          "retained_vs_drive_norm": 1.7120455503463745,
+          "random_h1_to_hk_direction_gain": 0.08749710023403168,
+          "radial_h1_to_hk_direction_gain": 0.16117136180400848,
+          "constant_drive_direction_gain": 1.6098285913467407,
+          "weighted_increment_rms": 0.10505559295415878
+        }
+      ]
+    },
+    {
+      "module": "encoder_level2.0.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 0.9999999403953552,
+          "constant_drive_direction_gain": 0.3295733332633972,
+          "weighted_increment_rms": 0.06737154722213745
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9751841425895691,
+          "eta_cubed_mean": 0.9447575807571411,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.3347512483596802,
+          "retained_vs_drive_norm": 0.2832788825035095,
+          "random_h1_to_hk_direction_gain": 0.3276228606700897,
+          "radial_h1_to_hk_direction_gain": 0.4564657509326935,
+          "constant_drive_direction_gain": 0.38358956575393677,
+          "weighted_increment_rms": 0.04029717668890953
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.982430636882782,
+          "eta_cubed_mean": 0.9591320157051086,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.33114686608314514,
+          "retained_vs_drive_norm": 0.36328405141830444,
+          "random_h1_to_hk_direction_gain": 0.1760518103837967,
+          "radial_h1_to_hk_direction_gain": 0.2744159400463104,
+          "constant_drive_direction_gain": 0.4115924835205078,
+          "weighted_increment_rms": 0.029234638437628746
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9809344410896301,
+          "eta_cubed_mean": 0.9552580714225769,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.34243595600128174,
+          "retained_vs_drive_norm": 0.41126811504364014,
+          "random_h1_to_hk_direction_gain": 0.11068350821733475,
+          "radial_h1_to_hk_direction_gain": 0.16517776250839233,
+          "constant_drive_direction_gain": 0.44837769865989685,
+          "weighted_increment_rms": 0.02647276781499386
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9805566072463989,
+          "eta_cubed_mean": 0.9544565081596375,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.34790536761283875,
+          "retained_vs_drive_norm": 0.4508637487888336,
+          "random_h1_to_hk_direction_gain": 0.08005987852811813,
+          "radial_h1_to_hk_direction_gain": 0.10998018085956573,
+          "constant_drive_direction_gain": 0.46410271525382996,
+          "weighted_increment_rms": 0.028091657906770706
+        }
+      ]
+    },
+    {
+      "module": "encoder_level2.1.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.5778034925460815,
+          "weighted_increment_rms": 0.13718971610069275
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9923995733261108,
+          "eta_cubed_mean": 0.9776275157928467,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.40746575593948364,
+          "retained_vs_drive_norm": 0.5240176916122437,
+          "random_h1_to_hk_direction_gain": 0.29667869210243225,
+          "radial_h1_to_hk_direction_gain": 0.6481032371520996,
+          "constant_drive_direction_gain": 0.8509286642074585,
+          "weighted_increment_rms": 0.09437599778175354
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9894845485687256,
+          "eta_cubed_mean": 0.9692013263702393,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4982440769672394,
+          "retained_vs_drive_norm": 0.7417731881141663,
+          "random_h1_to_hk_direction_gain": 0.15787917375564575,
+          "radial_h1_to_hk_direction_gain": 0.511828601360321,
+          "constant_drive_direction_gain": 0.9087998867034912,
+          "weighted_increment_rms": 0.07509847730398178
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9883007407188416,
+          "eta_cubed_mean": 0.9658937454223633,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5295740962028503,
+          "retained_vs_drive_norm": 0.8301007747650146,
+          "random_h1_to_hk_direction_gain": 0.0991211012005806,
+          "radial_h1_to_hk_direction_gain": 0.3988477289676666,
+          "constant_drive_direction_gain": 0.8915089964866638,
+          "weighted_increment_rms": 0.06815005838871002
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9878435134887695,
+          "eta_cubed_mean": 0.9645974636077881,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5416573882102966,
+          "retained_vs_drive_norm": 0.8643481135368347,
+          "random_h1_to_hk_direction_gain": 0.06912192702293396,
+          "radial_h1_to_hk_direction_gain": 0.3063952326774597,
+          "constant_drive_direction_gain": 0.8701980113983154,
+          "weighted_increment_rms": 0.07067958265542984
+        }
+      ]
+    },
+    {
+      "module": "encoder_level2.2.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.5426223874092102,
+          "weighted_increment_rms": 0.08454681932926178
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.990024209022522,
+          "eta_cubed_mean": 0.972612202167511,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4096880555152893,
+          "retained_vs_drive_norm": 0.5177796483039856,
+          "random_h1_to_hk_direction_gain": 0.3013963997364044,
+          "radial_h1_to_hk_direction_gain": 0.6609522104263306,
+          "constant_drive_direction_gain": 0.8881617188453674,
+          "weighted_increment_rms": 0.07374919205904007
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9897600412368774,
+          "eta_cubed_mean": 0.9702808260917664,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5157092213630676,
+          "retained_vs_drive_norm": 0.8449170589447021,
+          "random_h1_to_hk_direction_gain": 0.1384710818529129,
+          "radial_h1_to_hk_direction_gain": 0.4264954924583435,
+          "constant_drive_direction_gain": 1.0756877660751343,
+          "weighted_increment_rms": 0.0790129005908966
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.988178014755249,
+          "eta_cubed_mean": 0.9657206535339355,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.575410783290863,
+          "retained_vs_drive_norm": 1.0398340225219727,
+          "random_h1_to_hk_direction_gain": 0.09365812689065933,
+          "radial_h1_to_hk_direction_gain": 0.25638869404792786,
+          "constant_drive_direction_gain": 1.1348686218261719,
+          "weighted_increment_rms": 0.10295194387435913
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9872036576271057,
+          "eta_cubed_mean": 0.9629707932472229,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6046230792999268,
+          "retained_vs_drive_norm": 1.1522160768508911,
+          "random_h1_to_hk_direction_gain": 0.06674504280090332,
+          "radial_h1_to_hk_direction_gain": 0.18614527583122253,
+          "constant_drive_direction_gain": 1.126432180404663,
+          "weighted_increment_rms": 0.15597479045391083
+        }
+      ]
+    },
+    {
+      "module": "encoder_level3.0.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 0.9999999403953552,
+          "constant_drive_direction_gain": 0.6131407022476196,
+          "weighted_increment_rms": 0.20091091096401215
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.974541187286377,
+          "eta_cubed_mean": 0.9314315915107727,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5635428428649902,
+          "retained_vs_drive_norm": 0.6130979657173157,
+          "random_h1_to_hk_direction_gain": 0.37331345677375793,
+          "radial_h1_to_hk_direction_gain": 0.5879418849945068,
+          "constant_drive_direction_gain": 0.8269948363304138,
+          "weighted_increment_rms": 0.20834411680698395
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9601662755012512,
+          "eta_cubed_mean": 0.8928564190864563,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7534137964248657,
+          "retained_vs_drive_norm": 0.8225976228713989,
+          "random_h1_to_hk_direction_gain": 0.22167782485485077,
+          "radial_h1_to_hk_direction_gain": 0.43083590269088745,
+          "constant_drive_direction_gain": 0.9416571259498596,
+          "weighted_increment_rms": 0.2430272251367569
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.956356406211853,
+          "eta_cubed_mean": 0.8834325671195984,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8050121068954468,
+          "retained_vs_drive_norm": 0.9775894284248352,
+          "random_h1_to_hk_direction_gain": 0.1463605761528015,
+          "radial_h1_to_hk_direction_gain": 0.3213726282119751,
+          "constant_drive_direction_gain": 1.0222480297088623,
+          "weighted_increment_rms": 0.3313528001308441
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9556975364685059,
+          "eta_cubed_mean": 0.8820990920066833,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8125097155570984,
+          "retained_vs_drive_norm": 1.03158700466156,
+          "random_h1_to_hk_direction_gain": 0.10470448434352875,
+          "radial_h1_to_hk_direction_gain": 0.25701966881752014,
+          "constant_drive_direction_gain": 1.0953692197799683,
+          "weighted_increment_rms": 0.521777868270874
+        }
+      ]
+    },
+    {
+      "module": "encoder_level3.1.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.6504876017570496,
+          "weighted_increment_rms": 0.2562151253223419
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9607905745506287,
+          "eta_cubed_mean": 0.9159657955169678,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5225672721862793,
+          "retained_vs_drive_norm": 0.6468198895454407,
+          "random_h1_to_hk_direction_gain": 0.5324899554252625,
+          "radial_h1_to_hk_direction_gain": 0.844026505947113,
+          "constant_drive_direction_gain": 0.8583267331123352,
+          "weighted_increment_rms": 0.24383407831192017
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9530408978462219,
+          "eta_cubed_mean": 0.8917374014854431,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6392974853515625,
+          "retained_vs_drive_norm": 0.8107104301452637,
+          "random_h1_to_hk_direction_gain": 0.318925142288208,
+          "radial_h1_to_hk_direction_gain": 0.7173812389373779,
+          "constant_drive_direction_gain": 0.8786802291870117,
+          "weighted_increment_rms": 0.27053725719451904
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9475972652435303,
+          "eta_cubed_mean": 0.877998411655426,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7107377648353577,
+          "retained_vs_drive_norm": 0.8356513977050781,
+          "random_h1_to_hk_direction_gain": 0.24279238283634186,
+          "radial_h1_to_hk_direction_gain": 0.5974512696266174,
+          "constant_drive_direction_gain": 0.8399851322174072,
+          "weighted_increment_rms": 0.35377663373947144
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9451845288276672,
+          "eta_cubed_mean": 0.8723468780517578,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7265530824661255,
+          "retained_vs_drive_norm": 0.8270261883735657,
+          "random_h1_to_hk_direction_gain": 0.19064964354038239,
+          "radial_h1_to_hk_direction_gain": 0.5259336233139038,
+          "constant_drive_direction_gain": 0.8354950547218323,
+          "weighted_increment_rms": 0.5383166074752808
+        }
+      ]
+    },
+    {
+      "module": "encoder_level3.2.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.6012586355209351,
+          "weighted_increment_rms": 0.04586026072502136
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9856616854667664,
+          "eta_cubed_mean": 0.958189845085144,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5230351090431213,
+          "retained_vs_drive_norm": 0.5485655665397644,
+          "random_h1_to_hk_direction_gain": 0.44753506779670715,
+          "radial_h1_to_hk_direction_gain": 0.7042203545570374,
+          "constant_drive_direction_gain": 0.9580095410346985,
+          "weighted_increment_rms": 0.0617225356400013
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9706916809082031,
+          "eta_cubed_mean": 0.9169590473175049,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7613118290901184,
+          "retained_vs_drive_norm": 0.8928502202033997,
+          "random_h1_to_hk_direction_gain": 0.31055355072021484,
+          "radial_h1_to_hk_direction_gain": 0.5665572881698608,
+          "constant_drive_direction_gain": 1.0822041034698486,
+          "weighted_increment_rms": 0.1023491770029068
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9630231261253357,
+          "eta_cubed_mean": 0.8968038558959961,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8608718514442444,
+          "retained_vs_drive_norm": 1.0864194631576538,
+          "random_h1_to_hk_direction_gain": 0.20632362365722656,
+          "radial_h1_to_hk_direction_gain": 0.35765790939331055,
+          "constant_drive_direction_gain": 1.1274657249450684,
+          "weighted_increment_rms": 0.2106580138206482
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9600805640220642,
+          "eta_cubed_mean": 0.8893114924430847,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.897120475769043,
+          "retained_vs_drive_norm": 1.1916050910949707,
+          "random_h1_to_hk_direction_gain": 0.15124277770519257,
+          "radial_h1_to_hk_direction_gain": 0.25602078437805176,
+          "constant_drive_direction_gain": 1.1333591938018799,
+          "weighted_increment_rms": 0.5442931652069092
+        }
+      ]
+    },
+    {
+      "module": "encoder_level3.3.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.6734121441841125,
+          "weighted_increment_rms": 0.06010529771447182
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9804773926734924,
+          "eta_cubed_mean": 0.9480476379394531,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4747971296310425,
+          "retained_vs_drive_norm": 0.6688041687011719,
+          "random_h1_to_hk_direction_gain": 0.4781213402748108,
+          "radial_h1_to_hk_direction_gain": 0.6459416747093201,
+          "constant_drive_direction_gain": 1.0252799987792969,
+          "weighted_increment_rms": 0.07488361746072769
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9719892144203186,
+          "eta_cubed_mean": 0.9236388206481934,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6782305836677551,
+          "retained_vs_drive_norm": 1.0111730098724365,
+          "random_h1_to_hk_direction_gain": 0.29475265741348267,
+          "radial_h1_to_hk_direction_gain": 0.4383384883403778,
+          "constant_drive_direction_gain": 1.133857250213623,
+          "weighted_increment_rms": 0.1150118038058281
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9664639234542847,
+          "eta_cubed_mean": 0.9086558222770691,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7783719301223755,
+          "retained_vs_drive_norm": 1.117206335067749,
+          "random_h1_to_hk_direction_gain": 0.22285096347332,
+          "radial_h1_to_hk_direction_gain": 0.32285818457603455,
+          "constant_drive_direction_gain": 1.2368611097335815,
+          "weighted_increment_rms": 0.21448980271816254
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9633243083953857,
+          "eta_cubed_mean": 0.9004071950912476,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8293470144271851,
+          "retained_vs_drive_norm": 1.2212693691253662,
+          "random_h1_to_hk_direction_gain": 0.16537146270275116,
+          "radial_h1_to_hk_direction_gain": 0.26240554451942444,
+          "constant_drive_direction_gain": 1.299727439880371,
+          "weighted_increment_rms": 0.4944027364253998
+        }
+      ]
+    },
+    {
+      "module": "decoder_level3.0.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.6236488223075867,
+          "weighted_increment_rms": 0.05430968105792999
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9718576073646545,
+          "eta_cubed_mean": 0.9350494146347046,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4797673523426056,
+          "retained_vs_drive_norm": 0.6207309365272522,
+          "random_h1_to_hk_direction_gain": 0.5613412857055664,
+          "radial_h1_to_hk_direction_gain": 0.7605606317520142,
+          "constant_drive_direction_gain": 0.9790096282958984,
+          "weighted_increment_rms": 0.07182598859071732
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9634824991226196,
+          "eta_cubed_mean": 0.9089577794075012,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6959971189498901,
+          "retained_vs_drive_norm": 0.9718524813652039,
+          "random_h1_to_hk_direction_gain": 0.4220435321331024,
+          "radial_h1_to_hk_direction_gain": 0.562145471572876,
+          "constant_drive_direction_gain": 1.0701335668563843,
+          "weighted_increment_rms": 0.12369000911712646
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9568583965301514,
+          "eta_cubed_mean": 0.8909866809844971,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8105634450912476,
+          "retained_vs_drive_norm": 1.0644458532333374,
+          "random_h1_to_hk_direction_gain": 0.3195941746234894,
+          "radial_h1_to_hk_direction_gain": 0.4102731943130493,
+          "constant_drive_direction_gain": 1.122010588645935,
+          "weighted_increment_rms": 0.26726484298706055
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.95285564661026,
+          "eta_cubed_mean": 0.8803815245628357,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8733582496643066,
+          "retained_vs_drive_norm": 1.1194791793823242,
+          "random_h1_to_hk_direction_gain": 0.23987174034118652,
+          "radial_h1_to_hk_direction_gain": 0.29587510228157043,
+          "constant_drive_direction_gain": 1.1341818571090698,
+          "weighted_increment_rms": 0.7207850217819214
+        }
+      ]
+    },
+    {
+      "module": "decoder_level3.1.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.7032498121261597,
+          "weighted_increment_rms": 0.1510232836008072
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9844787120819092,
+          "eta_cubed_mean": 0.9569537043571472,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5166770219802856,
+          "retained_vs_drive_norm": 0.703158974647522,
+          "random_h1_to_hk_direction_gain": 0.5452444553375244,
+          "radial_h1_to_hk_direction_gain": 0.6908952593803406,
+          "constant_drive_direction_gain": 1.027010440826416,
+          "weighted_increment_rms": 0.1756296008825302
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.972244918346405,
+          "eta_cubed_mean": 0.9228335618972778,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7260093688964844,
+          "retained_vs_drive_norm": 1.0268526077270508,
+          "random_h1_to_hk_direction_gain": 0.3536556363105774,
+          "radial_h1_to_hk_direction_gain": 0.5075324177742004,
+          "constant_drive_direction_gain": 1.156136155128479,
+          "weighted_increment_rms": 0.24310262501239777
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9649667739868164,
+          "eta_cubed_mean": 0.9041234850883484,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8170983791351318,
+          "retained_vs_drive_norm": 1.150627851486206,
+          "random_h1_to_hk_direction_gain": 0.2429862767457962,
+          "radial_h1_to_hk_direction_gain": 0.37985414266586304,
+          "constant_drive_direction_gain": 1.2812070846557617,
+          "weighted_increment_rms": 0.3957105576992035
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9613222479820251,
+          "eta_cubed_mean": 0.8949759602546692,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8621166348457336,
+          "retained_vs_drive_norm": 1.2980984449386597,
+          "random_h1_to_hk_direction_gain": 0.18937592208385468,
+          "radial_h1_to_hk_direction_gain": 0.2729814648628235,
+          "constant_drive_direction_gain": 1.3690593242645264,
+          "weighted_increment_rms": 0.7728608846664429
+        }
+      ]
+    },
+    {
+      "module": "decoder_level3.2.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.7694083452224731,
+          "weighted_increment_rms": 0.09843907505273819
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9859645962715149,
+          "eta_cubed_mean": 0.9602401256561279,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4883378744125366,
+          "retained_vs_drive_norm": 0.7364854216575623,
+          "random_h1_to_hk_direction_gain": 0.4587422311306,
+          "radial_h1_to_hk_direction_gain": 0.7103452682495117,
+          "constant_drive_direction_gain": 1.187270998954773,
+          "weighted_increment_rms": 0.11810889840126038
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9749999046325684,
+          "eta_cubed_mean": 0.9296808242797852,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.706895112991333,
+          "retained_vs_drive_norm": 1.122423768043518,
+          "random_h1_to_hk_direction_gain": 0.29006925225257874,
+          "radial_h1_to_hk_direction_gain": 0.48043516278266907,
+          "constant_drive_direction_gain": 1.3641438484191895,
+          "weighted_increment_rms": 0.17876920104026794
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9683312177658081,
+          "eta_cubed_mean": 0.9118160009384155,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8126933574676514,
+          "retained_vs_drive_norm": 1.344720482826233,
+          "random_h1_to_hk_direction_gain": 0.21158041059970856,
+          "radial_h1_to_hk_direction_gain": 0.3444203734397888,
+          "constant_drive_direction_gain": 1.3714501857757568,
+          "weighted_increment_rms": 0.3339554965496063
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9645527005195618,
+          "eta_cubed_mean": 0.9018914699554443,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8688338994979858,
+          "retained_vs_drive_norm": 1.4258601665496826,
+          "random_h1_to_hk_direction_gain": 0.16217143833637238,
+          "radial_h1_to_hk_direction_gain": 0.1953730434179306,
+          "constant_drive_direction_gain": 1.3396886587142944,
+          "weighted_increment_rms": 0.7731565833091736
+        }
+      ]
+    },
+    {
+      "module": "decoder_level3.3.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.6842394471168518,
+          "weighted_increment_rms": 0.22620226442813873
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9838927388191223,
+          "eta_cubed_mean": 0.9539400339126587,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5347908735275269,
+          "retained_vs_drive_norm": 0.6834840774536133,
+          "random_h1_to_hk_direction_gain": 0.6846306324005127,
+          "radial_h1_to_hk_direction_gain": 0.7164008617401123,
+          "constant_drive_direction_gain": 1.0272932052612305,
+          "weighted_increment_rms": 0.2564007043838501
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9649823904037476,
+          "eta_cubed_mean": 0.9049265384674072,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7695848345756531,
+          "retained_vs_drive_norm": 1.0272634029388428,
+          "random_h1_to_hk_direction_gain": 0.5102241039276123,
+          "radial_h1_to_hk_direction_gain": 0.5771070718765259,
+          "constant_drive_direction_gain": 1.0491863489151,
+          "weighted_increment_rms": 0.3392139673233032
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.953931450843811,
+          "eta_cubed_mean": 0.8780531287193298,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8815577626228333,
+          "retained_vs_drive_norm": 1.0195574760437012,
+          "random_h1_to_hk_direction_gain": 0.4092380702495575,
+          "radial_h1_to_hk_direction_gain": 0.45008209347724915,
+          "constant_drive_direction_gain": 1.1001652479171753,
+          "weighted_increment_rms": 0.5343974232673645
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9481837749481201,
+          "eta_cubed_mean": 0.8642522096633911,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.9455844759941101,
+          "retained_vs_drive_norm": 1.1399648189544678,
+          "random_h1_to_hk_direction_gain": 0.32612815499305725,
+          "radial_h1_to_hk_direction_gain": 0.34402769804000854,
+          "constant_drive_direction_gain": 1.1822052001953125,
+          "weighted_increment_rms": 1.015866756439209
+        }
+      ]
+    },
+    {
+      "module": "decoder_level2.0.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.6233448386192322,
+          "weighted_increment_rms": 0.2918086051940918
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9764037728309631,
+          "eta_cubed_mean": 0.9317278861999512,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5881998538970947,
+          "retained_vs_drive_norm": 0.5660861730575562,
+          "random_h1_to_hk_direction_gain": 0.3642134964466095,
+          "radial_h1_to_hk_direction_gain": 0.5685774683952332,
+          "constant_drive_direction_gain": 0.9646223783493042,
+          "weighted_increment_rms": 0.2546699345111847
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9421789050102234,
+          "eta_cubed_mean": 0.8412304520606995,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.9079338312149048,
+          "retained_vs_drive_norm": 0.8193557262420654,
+          "random_h1_to_hk_direction_gain": 0.20728445053100586,
+          "radial_h1_to_hk_direction_gain": 0.29509401321411133,
+          "constant_drive_direction_gain": 0.9876437187194824,
+          "weighted_increment_rms": 0.21364080905914307
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9194973111152649,
+          "eta_cubed_mean": 0.7859697937965393,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 1.0623921155929565,
+          "retained_vs_drive_norm": 0.9057598114013672,
+          "random_h1_to_hk_direction_gain": 0.13658779859542847,
+          "radial_h1_to_hk_direction_gain": 0.2099917232990265,
+          "constant_drive_direction_gain": 0.9626023173332214,
+          "weighted_increment_rms": 0.17722879350185394
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9078060388565063,
+          "eta_cubed_mean": 0.7585116028785706,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 1.1325942277908325,
+          "retained_vs_drive_norm": 0.9317759871482849,
+          "random_h1_to_hk_direction_gain": 0.09307970106601715,
+          "radial_h1_to_hk_direction_gain": 0.14614750444889069,
+          "constant_drive_direction_gain": 0.9540443420410156,
+          "weighted_increment_rms": 0.16006126999855042
+        }
+      ]
+    },
+    {
+      "module": "decoder_level2.1.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.647402286529541,
+          "weighted_increment_rms": 0.1758153885602951
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9872406125068665,
+          "eta_cubed_mean": 0.962397038936615,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5297870635986328,
+          "retained_vs_drive_norm": 0.6393783092498779,
+          "random_h1_to_hk_direction_gain": 0.3875235915184021,
+          "radial_h1_to_hk_direction_gain": 0.6645427942276001,
+          "constant_drive_direction_gain": 1.0077508687973022,
+          "weighted_increment_rms": 0.1544032096862793
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9703218340873718,
+          "eta_cubed_mean": 0.9145938158035278,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7983772158622742,
+          "retained_vs_drive_norm": 1.0004122257232666,
+          "random_h1_to_hk_direction_gain": 0.2588295042514801,
+          "radial_h1_to_hk_direction_gain": 0.44723865389823914,
+          "constant_drive_direction_gain": 1.1510370969772339,
+          "weighted_increment_rms": 0.14952918887138367
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9590374827384949,
+          "eta_cubed_mean": 0.8839821815490723,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.9288961887359619,
+          "retained_vs_drive_norm": 1.1803076267242432,
+          "random_h1_to_hk_direction_gain": 0.1923995316028595,
+          "radial_h1_to_hk_direction_gain": 0.3155415654182434,
+          "constant_drive_direction_gain": 1.2143570184707642,
+          "weighted_increment_rms": 0.1599850058555603
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9525772929191589,
+          "eta_cubed_mean": 0.8668861985206604,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.9933972954750061,
+          "retained_vs_drive_norm": 1.2205959558486938,
+          "random_h1_to_hk_direction_gain": 0.1422322541475296,
+          "radial_h1_to_hk_direction_gain": 0.21811196208000183,
+          "constant_drive_direction_gain": 1.2120542526245117,
+          "weighted_increment_rms": 0.1919565051794052
+        }
+      ]
+    },
+    {
+      "module": "decoder_level2.2.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 1.0,
+          "radial_h1_to_hk_direction_gain": 0.9999998807907104,
+          "constant_drive_direction_gain": 0.5715284943580627,
+          "weighted_increment_rms": 0.4294391870498657
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9857621788978577,
+          "eta_cubed_mean": 0.9581546783447266,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.48512133955955505,
+          "retained_vs_drive_norm": 0.5678354501724243,
+          "random_h1_to_hk_direction_gain": 0.5270010232925415,
+          "radial_h1_to_hk_direction_gain": 0.768324613571167,
+          "constant_drive_direction_gain": 0.9008142352104187,
+          "weighted_increment_rms": 0.26072922348976135
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9688407182693481,
+          "eta_cubed_mean": 0.9106329679489136,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7191908359527588,
+          "retained_vs_drive_norm": 0.8295381665229797,
+          "random_h1_to_hk_direction_gain": 0.3094770312309265,
+          "radial_h1_to_hk_direction_gain": 0.614236056804657,
+          "constant_drive_direction_gain": 0.99480801820755,
+          "weighted_increment_rms": 0.16776220500469208
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9588398933410645,
+          "eta_cubed_mean": 0.8836173415184021,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8289387226104736,
+          "retained_vs_drive_norm": 0.9363844394683838,
+          "random_h1_to_hk_direction_gain": 0.22683076560497284,
+          "radial_h1_to_hk_direction_gain": 0.5126978158950806,
+          "constant_drive_direction_gain": 1.0223957300186157,
+          "weighted_increment_rms": 0.1176954060792923
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9538949131965637,
+          "eta_cubed_mean": 0.8705233335494995,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8814077973365784,
+          "retained_vs_drive_norm": 1.027252197265625,
+          "random_h1_to_hk_direction_gain": 0.1741732507944107,
+          "radial_h1_to_hk_direction_gain": 0.42689308524131775,
+          "constant_drive_direction_gain": 1.0879184007644653,
+          "weighted_increment_rms": 0.09326566010713577
+        }
+      ]
+    },
+    {
+      "module": "decoder_level1.0.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 0.9999999403953552,
+          "radial_h1_to_hk_direction_gain": 0.9999999403953552,
+          "constant_drive_direction_gain": 0.35702478885650635,
+          "weighted_increment_rms": 0.025197230279445648
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9997970461845398,
+          "eta_cubed_mean": 0.9993912577629089,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4046497046947479,
+          "retained_vs_drive_norm": 0.35651931166648865,
+          "random_h1_to_hk_direction_gain": 0.29855576157569885,
+          "radial_h1_to_hk_direction_gain": 0.5144559144973755,
+          "constant_drive_direction_gain": 0.5303308367729187,
+          "weighted_increment_rms": 0.015322878956794739
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.999586284160614,
+          "eta_cubed_mean": 0.9987595677375793,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5777827501296997,
+          "retained_vs_drive_norm": 0.5292797088623047,
+          "random_h1_to_hk_direction_gain": 0.12714074552059174,
+          "radial_h1_to_hk_direction_gain": 0.3008788824081421,
+          "constant_drive_direction_gain": 0.6200433373451233,
+          "weighted_increment_rms": 0.010545716620981693
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9994708895683289,
+          "eta_cubed_mean": 0.9984140396118164,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6534005999565125,
+          "retained_vs_drive_norm": 0.6193681955337524,
+          "random_h1_to_hk_direction_gain": 0.06647814810276031,
+          "radial_h1_to_hk_direction_gain": 0.17534826695919037,
+          "constant_drive_direction_gain": 0.6643353700637817,
+          "weighted_increment_rms": 0.00816995557397604
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9994158148765564,
+          "eta_cubed_mean": 0.998248815536499,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6866374015808105,
+          "retained_vs_drive_norm": 0.6646410226821899,
+          "random_h1_to_hk_direction_gain": 0.037057824432849884,
+          "radial_h1_to_hk_direction_gain": 0.10209667682647705,
+          "constant_drive_direction_gain": 0.6910414099693298,
+          "weighted_increment_rms": 0.007121875416487455
+        }
+      ]
+    },
+    {
+      "module": "decoder_level1.1.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 0.9999999403953552,
+          "radial_h1_to_hk_direction_gain": 0.9999999403953552,
+          "constant_drive_direction_gain": 0.44992250204086304,
+          "weighted_increment_rms": 0.02666628547012806
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9994112253189087,
+          "eta_cubed_mean": 0.9982351064682007,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.43924036622047424,
+          "retained_vs_drive_norm": 0.44834062457084656,
+          "random_h1_to_hk_direction_gain": 0.3438705801963806,
+          "radial_h1_to_hk_direction_gain": 0.4432746171951294,
+          "constant_drive_direction_gain": 0.6338875889778137,
+          "weighted_increment_rms": 0.019124604761600494
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9987655878067017,
+          "eta_cubed_mean": 0.996304452419281,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6356252431869507,
+          "retained_vs_drive_norm": 0.6307228207588196,
+          "random_h1_to_hk_direction_gain": 0.17445559799671173,
+          "radial_h1_to_hk_direction_gain": 0.20711740851402283,
+          "constant_drive_direction_gain": 0.7025285363197327,
+          "weighted_increment_rms": 0.016051217913627625
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9983978271484375,
+          "eta_cubed_mean": 0.9952062368392944,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7238379716873169,
+          "retained_vs_drive_norm": 0.6999626755714417,
+          "random_h1_to_hk_direction_gain": 0.09345969557762146,
+          "radial_h1_to_hk_direction_gain": 0.11585942655801773,
+          "constant_drive_direction_gain": 0.7271949052810669,
+          "weighted_increment_rms": 0.015731558203697205
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.998216986656189,
+          "eta_cubed_mean": 0.9946666955947876,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7633534073829651,
+          "retained_vs_drive_norm": 0.7256214618682861,
+          "random_h1_to_hk_direction_gain": 0.052306242287158966,
+          "radial_h1_to_hk_direction_gain": 0.06613975018262863,
+          "constant_drive_direction_gain": 0.7355165481567383,
+          "weighted_increment_rms": 0.01802336424589157
+        }
+      ]
+    },
+    {
+      "module": "refinement.0.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 0.9999999403953552,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.5070379376411438,
+          "weighted_increment_rms": 0.01758619025349617
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9997566342353821,
+          "eta_cubed_mean": 0.9992700815200806,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4094401001930237,
+          "retained_vs_drive_norm": 0.5048025250434875,
+          "random_h1_to_hk_direction_gain": 0.4248063564300537,
+          "radial_h1_to_hk_direction_gain": 0.510441780090332,
+          "constant_drive_direction_gain": 0.7592058777809143,
+          "weighted_increment_rms": 0.012120741419494152
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9995017051696777,
+          "eta_cubed_mean": 0.9985064268112183,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.5843109488487244,
+          "retained_vs_drive_norm": 0.7538738250732422,
+          "random_h1_to_hk_direction_gain": 0.18872800469398499,
+          "radial_h1_to_hk_direction_gain": 0.2585409879684448,
+          "constant_drive_direction_gain": 0.8840508460998535,
+          "weighted_increment_rms": 0.009942116215825081
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9993597269058228,
+          "eta_cubed_mean": 0.9980818033218384,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6611382961273193,
+          "retained_vs_drive_norm": 0.8806861042976379,
+          "random_h1_to_hk_direction_gain": 0.09071797877550125,
+          "radial_h1_to_hk_direction_gain": 0.13061264157295227,
+          "constant_drive_direction_gain": 0.9414134621620178,
+          "weighted_increment_rms": 0.009632689878344536
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9992901086807251,
+          "eta_cubed_mean": 0.9978733062744141,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6955145597457886,
+          "retained_vs_drive_norm": 0.9427539110183716,
+          "random_h1_to_hk_direction_gain": 0.05404410883784294,
+          "radial_h1_to_hk_direction_gain": 0.06612704694271088,
+          "constant_drive_direction_gain": 0.9664596915245056,
+          "weighted_increment_rms": 0.010998673737049103
+        }
+      ]
+    },
+    {
+      "module": "refinement.1.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 0.9999999403953552,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.43759283423423767,
+          "weighted_increment_rms": 0.008434769697487354
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9997682571411133,
+          "eta_cubed_mean": 0.9993050694465637,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.44215789437294006,
+          "retained_vs_drive_norm": 0.43558642268180847,
+          "random_h1_to_hk_direction_gain": 0.3860158920288086,
+          "radial_h1_to_hk_direction_gain": 0.590280294418335,
+          "constant_drive_direction_gain": 0.6325278878211975,
+          "weighted_increment_rms": 0.007276234216988087
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9994882345199585,
+          "eta_cubed_mean": 0.9984672665596008,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6522678136825562,
+          "retained_vs_drive_norm": 0.6278461813926697,
+          "random_h1_to_hk_direction_gain": 0.18034811317920685,
+          "radial_h1_to_hk_direction_gain": 0.28854677081108093,
+          "constant_drive_direction_gain": 0.7242764830589294,
+          "weighted_increment_rms": 0.007789025083184242
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9993078708648682,
+          "eta_cubed_mean": 0.997927725315094,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7554932236671448,
+          "retained_vs_drive_norm": 0.7204033136367798,
+          "random_h1_to_hk_direction_gain": 0.10001002252101898,
+          "radial_h1_to_hk_direction_gain": 0.15731976926326752,
+          "constant_drive_direction_gain": 0.7686953544616699,
+          "weighted_increment_rms": 0.010124925523996353
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9992074966430664,
+          "eta_cubed_mean": 0.9976276159286499,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8066397905349731,
+          "retained_vs_drive_norm": 0.7670301795005798,
+          "random_h1_to_hk_direction_gain": 0.05552011355757713,
+          "radial_h1_to_hk_direction_gain": 0.08595217019319534,
+          "constant_drive_direction_gain": 0.787211000919342,
+          "weighted_increment_rms": 0.01580802910029888
+        }
+      ]
+    },
+    {
+      "module": "refinement.2.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 0.9999999403953552,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.47038498520851135,
+          "weighted_increment_rms": 0.014165195636451244
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9999108910560608,
+          "eta_cubed_mean": 0.9997326731681824,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4617771804332733,
+          "retained_vs_drive_norm": 0.46969279646873474,
+          "random_h1_to_hk_direction_gain": 0.3721292316913605,
+          "radial_h1_to_hk_direction_gain": 0.5978421568870544,
+          "constant_drive_direction_gain": 0.607569694519043,
+          "weighted_increment_rms": 0.010192238725721836
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.9998091459274292,
+          "eta_cubed_mean": 0.9994277358055115,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.67620450258255,
+          "retained_vs_drive_norm": 0.6060710549354553,
+          "random_h1_to_hk_direction_gain": 0.18544960021972656,
+          "radial_h1_to_hk_direction_gain": 0.3567959666252136,
+          "constant_drive_direction_gain": 0.6965615153312683,
+          "weighted_increment_rms": 0.008409607224166393
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.999748706817627,
+          "eta_cubed_mean": 0.9992464780807495,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.7763035893440247,
+          "retained_vs_drive_norm": 0.6952880620956421,
+          "random_h1_to_hk_direction_gain": 0.11903189867734909,
+          "radial_h1_to_hk_direction_gain": 0.21905517578125,
+          "constant_drive_direction_gain": 0.7295867204666138,
+          "weighted_increment_rms": 0.007927131839096546
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9997174739837646,
+          "eta_cubed_mean": 0.9991528987884521,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.823340654373169,
+          "retained_vs_drive_norm": 0.7287606000900269,
+          "random_h1_to_hk_direction_gain": 0.07138634473085403,
+          "radial_h1_to_hk_direction_gain": 0.13320986926555634,
+          "constant_drive_direction_gain": 0.7422178387641907,
+          "weighted_increment_rms": 0.008502882905304432
+        }
+      ]
+    },
+    {
+      "module": "refinement.3.attn.operator",
+      "steps": [
+        {
+          "step": 1,
+          "eta_mean": 1.0,
+          "eta_cubed_mean": 1.0,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.0,
+          "retained_vs_drive_norm": 0.0,
+          "random_h1_to_hk_direction_gain": 0.9999999403953552,
+          "radial_h1_to_hk_direction_gain": 1.0,
+          "constant_drive_direction_gain": 0.37635594606399536,
+          "weighted_increment_rms": 0.018950849771499634
+        },
+        {
+          "step": 2,
+          "eta_mean": 0.9998791813850403,
+          "eta_cubed_mean": 0.9996374845504761,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.4596470296382904,
+          "retained_vs_drive_norm": 0.3760871887207031,
+          "random_h1_to_hk_direction_gain": 0.3632054924964905,
+          "radial_h1_to_hk_direction_gain": 0.540482223033905,
+          "constant_drive_direction_gain": 0.5255861282348633,
+          "weighted_increment_rms": 0.014180585741996765
+        },
+        {
+          "step": 3,
+          "eta_mean": 0.999716579914093,
+          "eta_cubed_mean": 0.9991503357887268,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.6993951201438904,
+          "retained_vs_drive_norm": 0.524994432926178,
+          "random_h1_to_hk_direction_gain": 0.1600484549999237,
+          "radial_h1_to_hk_direction_gain": 0.3145560920238495,
+          "constant_drive_direction_gain": 0.6291877627372742,
+          "weighted_increment_rms": 0.012301396578550339
+        },
+        {
+          "step": 4,
+          "eta_mean": 0.9995954036712646,
+          "eta_cubed_mean": 0.9987871050834656,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.8321430087089539,
+          "retained_vs_drive_norm": 0.6287366151809692,
+          "random_h1_to_hk_direction_gain": 0.09080921858549118,
+          "radial_h1_to_hk_direction_gain": 0.19381123781204224,
+          "constant_drive_direction_gain": 0.6862474083900452,
+          "weighted_increment_rms": 0.011972329579293728
+        },
+        {
+          "step": 5,
+          "eta_mean": 0.9995160102844238,
+          "eta_cubed_mean": 0.9985489845275879,
+          "fraction_eta_below_point1": 0.0,
+          "retained_vs_drive_rms": 0.9075653553009033,
+          "retained_vs_drive_norm": 0.6864103674888611,
+          "random_h1_to_hk_direction_gain": 0.050322774797677994,
+          "radial_h1_to_hk_direction_gain": 0.11969288438558578,
+          "constant_drive_direction_gain": 0.7184472680091858,
+          "weighted_increment_rms": 0.012938231229782104
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ohaze-native-seed42",
+  "label": "VIVNet",
+  "dataset": "ohaze",
+  "arm": "native",
+  "checkpoint": "weights/ohaze/native/seed42/last.pth",
+  "checkpoint_sha256": "9ce69648186bbfca87d5c180ac9289b089baf10468274ebaae4abf8d10d8eb36",
+  "input": {
+    "path": "external/41.jpg",
+    "sha256": "b34462547def19a5a62343cbd09bd9b35954b9bf2d2e7cd6f55a28c47658b86e"
+  },
+  "input_shape": [
+    512,
+    422
+  ],
+  "center_yx": [
+    256,
+    211
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 32",
+  "r50_px": 54.00925846556311,
+  "r90_px": 222.78464938141497,
+  "r95_px": 252.7231687044146,
+  "gradient_sum": 83.61886596679688,
+  "gradient_peak": 0.5430834889411926,
+  "seconds": 0.6461805999861099,
+  "peak_cuda_mib": 15364.6494140625
+}

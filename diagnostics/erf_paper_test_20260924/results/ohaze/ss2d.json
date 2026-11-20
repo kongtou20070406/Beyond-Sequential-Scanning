@@ -1,0 +1,32 @@
+{
+  "id": "ohaze-ss2d-seed42",
+  "label": "SS2D",
+  "dataset": "ohaze",
+  "arm": "ss2d",
+  "checkpoint": "weights/ohaze/ss2d/seed42/last.pth",
+  "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+  "input": {
+    "path": "external/41.jpg",
+    "sha256": "b34462547def19a5a62343cbd09bd9b35954b9bf2d2e7cd6f55a28c47658b86e"
+  },
+  "input_shape": [
+    512,
+    422
+  ],
+  "center_yx": [
+    256,
+    211
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 32",
+  "r50_px": 134.16407864998737,
+  "r90_px": 215.96759016111653,
+  "r95_px": 242.6849809938802,
+  "gradient_sum": 97.26335906982422,
+  "gradient_peak": 0.46758562326431274,
+  "seconds": 0.7885583000024781,
+  "peak_cuda_mib": 1854.0439453125
+}

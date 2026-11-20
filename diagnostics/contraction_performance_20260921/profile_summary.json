@@ -1,0 +1,42 @@
+[
+  {
+    "arm": "full",
+    "checkpoint": {
+      "path": "weights/haze4k/full/seed42/last.pth",
+      "sha256": "371f29fa525aa85cf4ff77b573b97a552ad61ccf4e9b8a3c0e37f49f253b3f47"
+    },
+    "parity_max_abs": 0.0,
+    "psnr": 28.816644983764515,
+    "parameters": 2248140
+  },
+  {
+    "arm": "no_gain",
+    "checkpoint": {
+      "path": "weights/haze4k/no_gain/seed42/last.pth",
+      "sha256": "0e9b411cf02c43d80c2c712208b65717905b7326545f0b3bfedad4d3cef546e9"
+    },
+    "parity_max_abs": 3.5762786865234375e-06,
+    "psnr": 24.30953994068227,
+    "parameters": 2248140
+  },
+  {
+    "arm": "free_gain",
+    "checkpoint": {
+      "path": "weights/haze4k/free_gain/seed42/last.pth",
+      "sha256": "3c421ceed742af102226aeecf2a19f62c071bde0f5115bc2c04d0e46dad483ba"
+    },
+    "parity_max_abs": 0.0,
+    "psnr": 28.57043898699134,
+    "parameters": 2248162
+  },
+  {
+    "arm": "state_dynamic",
+    "checkpoint": {
+      "path": "weights/haze4k/state_dynamic/seed42/last.pth",
+      "sha256": "12c9321cd1d9b202f56dfa1bb3a599eab60a89c30dff284dc4557289fd4ce761"
+    },
+    "parity_max_abs": 1.2516975402832031e-06,
+    "psnr": 28.061270471327013,
+    "parameters": 2248140
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "ar": {
+    "max_abs": 3.7544271136447094e-08,
+    "close": true
+  },
+  "ai": {
+    "max_abs": 2.0578668047388504e-08,
+    "close": true
+  },
+  "write": {
+    "max_abs": 6.494609805507423e-08,
+    "close": true
+  },
+  "read": {
+    "max_abs": 6.80889882254121e-08,
+    "close": true
+  },
+  "strength": {
+    "max_abs": 1.279821126853875e-08,
+    "close": true
+  }
+}

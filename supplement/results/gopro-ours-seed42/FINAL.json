@@ -1,0 +1,19 @@
+{
+  "checkpoint": "weights/gopro/ours/seed42/last.pth",
+  "config": "dasp_k6_seed42.yml",
+  "pair_count": 1111,
+  "peak_allocated_mib": 2137.6494140625,
+  "precision": "FP32_TF32_DISABLED",
+  "psnr_db": 30.58132050597485,
+  "schema": "\u0065qop2027.vivnet_gopro_endpoint.v1",
+  "ssim": 0.909900912929504,
+  "status": "COMPLETE",
+  "tiling": {
+    "core": 384,
+    "halo": 64,
+    "overlap": 64
+  },
+  "wall_seconds": 4318.727860536426,
+  "archived_per_image_sha256": "3bda94bd22c590179746acbf45588f8f32d2b0896f766a461cd3fb6a735bd198",
+  "per_image_sha256": "c8c9a9656cb64f666a7912706a1a8ea20f3f054046ef821d8ea446d1c454685a"
+}

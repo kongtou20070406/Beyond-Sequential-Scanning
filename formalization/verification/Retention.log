@@ -1,0 +1,4 @@
+'NSI.radialRetention_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.radialRetention_blockSup_magnitude_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.hasFDerivAt_radialRetention' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.radialRetentionDeriv_blockSup_le' depends on axioms: [propext, Classical.choice, Quot.sound]

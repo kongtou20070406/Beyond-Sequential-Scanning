@@ -1,0 +1,37 @@
+{
+  "status": "FROZEN",
+  "dataset": "Haze4K",
+  "seed": 42,
+  "arms": [
+    "full",
+    "ss2d",
+    "simple",
+    "gate_only",
+    "readout_only",
+    "convex_readout",
+    "free_gain",
+    "cspn",
+    "native",
+    "dwconv",
+    "swin",
+    "cspn_style",
+    "no_gain",
+    "state_dynamic"
+  ],
+  "updates": 100000,
+  "batch": 2,
+  "crop": 256,
+  "data_manifest_sha256": "70ed2285d9ff0267e039e6c6e5c20f702f59c4c1b5618b3396cc8b16324405f3",
+  "cache_files": {},
+  "source_sha256": {
+    "common.py": "a9d7b5c169ec244b8a1d38f2de2ca0aa80456c79b2a61c568c3e451b74680715",
+    "compiled_heads.py": "10724f1224c00df88d64572517497f1639b16146a4163b1cf3c2fc60096ae51e",
+    "context_cspn.py": "6b66065da37639a9f7ad6fcfa8d500c24989da27bedbe589d7e5fcd608eeefd5",
+    "data.py": "e993e32805dceea8f821f275efab3c4e8c6353fcfab87905bbecc898ebbb4f9a",
+    "entry.py": "9a9426ee52a753520a5e7415c750aa88132ae9c477a51f14ec077231e912fb77",
+    "fast_training.py": "2d92f54bab4d415e909477b3ec5d1bdd9dceeb2d89063d68e7055f720717013f",
+    "fused_state.py": "690c2924a3d6ec5204c22c227fbb5d808803c29b71cecef1e41a977d51313142",
+    "models.py": "41f5624ea9af857a133a6153af3bbe47edcc55e00b544f5555537e62e5599b4a",
+    "train_worker.py": "dd0bc83eec83feae86b5306df7de216a90fb22ee7f362cd22b3905eea937bc14"
+  }
+}

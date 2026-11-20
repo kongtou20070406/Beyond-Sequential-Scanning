@@ -1,0 +1,242 @@
+{
+  "status": "COMPLETE",
+  "utc": "2026-09-08T19:36:29.966503+00:00",
+  "seed": 42,
+  "iter": 55800,
+  "checkpoint": "weights/supplement/ohaze-spatial-mamba-seed42/last.pth",
+  "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+  "config_sha256": "cb5bd18d9f7da66719dbcde4b2e2276b8bcfbaf8164fe8011da7e8a1cc4381b7",
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB PSNR; pooled SSIM; fixed training endpoint",
+  "count": 5,
+  "psnr": 22.731775283813477,
+  "ssim": 0.8868594765663147,
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 25.089805603027344,
+      "ssim": 0.9444375038146973,
+      "inference_resources": {
+        "forward_wall_seconds": 0.31380750000244007,
+        "image_load_transfer_forward_metrics_seconds": 0.5985457999631763,
+        "forward_peak_allocated_mib": 805.5224609375,
+        "evaluation_peak_allocated_mib": 805.5224609375,
+        "evaluation_peak_reserved_mib": 996.0,
+        "model_call_shapes": [
+          [
+            1,
+            3,
+            512,
+            448
+          ]
+        ],
+        "model_call_count": 1,
+        "first_image_of_process": true,
+        "gpu_name": "NVIDIA GeForce RTX 5090",
+        "torch": "2.10.0",
+        "cuda": "13.0",
+        "precision": "FP32_TF32_DISABLED"
+      }
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 23.402427673339844,
+      "ssim": 0.8771317005157471,
+      "inference_resources": {
+        "forward_wall_seconds": 0.039922299969475716,
+        "image_load_transfer_forward_metrics_seconds": 0.44865880004363135,
+        "forward_peak_allocated_mib": 808.2529296875,
+        "evaluation_peak_allocated_mib": 808.2529296875,
+        "evaluation_peak_reserved_mib": 996.0,
+        "model_call_shapes": [
+          [
+            1,
+            3,
+            448,
+            512
+          ]
+        ],
+        "model_call_count": 1,
+        "first_image_of_process": false,
+        "gpu_name": "NVIDIA GeForce RTX 5090",
+        "torch": "2.10.0",
+        "cuda": "13.0",
+        "precision": "FP32_TF32_DISABLED"
+      }
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 23.577743530273438,
+      "ssim": 0.9421126246452332,
+      "inference_resources": {
+        "forward_wall_seconds": 0.03451819997280836,
+        "image_load_transfer_forward_metrics_seconds": 0.506796800007578,
+        "forward_peak_allocated_mib": 696.2021484375,
+        "evaluation_peak_allocated_mib": 696.2021484375,
+        "evaluation_peak_reserved_mib": 996.0,
+        "model_call_shapes": [
+          [
+            1,
+            3,
+            384,
+            512
+          ]
+        ],
+        "model_call_count": 1,
+        "first_image_of_process": false,
+        "gpu_name": "NVIDIA GeForce RTX 5090",
+        "torch": "2.10.0",
+        "cuda": "13.0",
+        "precision": "FP32_TF32_DISABLED"
+      }
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 20.582029342651367,
+      "ssim": 0.8987760543823242,
+      "inference_resources": {
+        "forward_wall_seconds": 0.03733929997542873,
+        "image_load_transfer_forward_metrics_seconds": 0.2983371999580413,
+        "forward_peak_allocated_mib": 752.2724609375,
+        "evaluation_peak_allocated_mib": 752.2724609375,
+        "evaluation_peak_reserved_mib": 996.0,
+        "model_call_shapes": [
+          [
+            1,
+            3,
+            512,
+            416
+          ]
+        ],
+        "model_call_count": 1,
+        "first_image_of_process": false,
+        "gpu_name": "NVIDIA GeForce RTX 5090",
+        "torch": "2.10.0",
+        "cuda": "13.0",
+        "precision": "FP32_TF32_DISABLED"
+      }
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 21.00687026977539,
+      "ssim": 0.7718394994735718,
+      "inference_resources": {
+        "forward_wall_seconds": 0.034110400010831654,
+        "image_load_transfer_forward_metrics_seconds": 0.28435689996695146,
+        "forward_peak_allocated_mib": 696.0068359375,
+        "evaluation_peak_allocated_mib": 696.0068359375,
+        "evaluation_peak_reserved_mib": 996.0,
+        "model_call_shapes": [
+          [
+            1,
+            3,
+            384,
+            512
+          ]
+        ],
+        "model_call_count": 1,
+        "first_image_of_process": false,
+        "gpu_name": "NVIDIA GeForce RTX 5090",
+        "torch": "2.10.0",
+        "cuda": "13.0",
+        "precision": "FP32_TF32_DISABLED"
+      }
+    }
+  ],
+  "per_image_sha256": "4d456eddc75620a6b5d9c704eec213bd551d255c2245a56ce033fd23db11454e",
+  "evaluation_wall_seconds": 2.179057900037151,
+  "inference_resources": {
+    "recorded_images": 5,
+    "total_result_images": 5,
+    "macs_reference": {
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 2946146,
+      "reported_macs": 35268853760,
+      "reported_macs_g": 35.26885376,
+      "by_operator": {
+        "conv": 18652069888,
+        "linear": 8858370048,
+        "matmul": 478150656,
+        "PythonOp.SelectiveScanStateFn": 381681664,
+        "PythonOp.DepthwiseFunction": 6597640192,
+        "layer_norm": 272629760,
+        "upsample_bilinear2d": 28311552
+      },
+      "unsupported_ops": {
+        "aten::mul": 352,
+        "aten::mul_": 66,
+        "aten::mean": 44,
+        "aten::var": 44,
+        "aten::sub": 44,
+        "aten::add": 155,
+        "aten::sqrt": 44,
+        "aten::div": 44,
+        "aten::silu": 44,
+        "aten::exp": 22,
+        "aten::neg": 22,
+        "aten::gelu": 22
+      },
+      "convention": "Fvcore MAC convention plus official state scan estimate 7*B*D*L*N, matching the paper convention of adding official scan operation estimates. Official merged depthwise 11x11 execution counts 121 MACs per channel/pixel. Scalar activations, gating and padding are not counted. Static operation count, not hardware time."
+    },
+    "forward_wall_seconds_sum": 0.4596976999309845,
+    "forward_wall_seconds_mean": 0.0919395399861969,
+    "forward_wall_seconds_median": 0.03733929997542873,
+    "forward_wall_seconds_p90": 0.31380750000244007,
+    "excluding_first_process_image_mean_seconds": 0.036472549982136115,
+    "first_process_image_forward_seconds": [
+      0.31380750000244007
+    ],
+    "forward_peak_allocated_mib": 808.2529296875,
+    "evaluation_peak_allocated_mib": 808.2529296875,
+    "evaluation_peak_reserved_mib": 996.0,
+    "model_call_shapes_and_counts": [
+      {
+        "shape": [
+          1,
+          3,
+          384,
+          512
+        ],
+        "calls": 2
+      },
+      {
+        "shape": [
+          1,
+          3,
+          448,
+          512
+        ],
+        "calls": 1
+      },
+      {
+        "shape": [
+          1,
+          3,
+          512,
+          416
+        ],
+        "calls": 1
+      },
+      {
+        "shape": [
+          1,
+          3,
+          512,
+          448
+        ],
+        "calls": 1
+      }
+    ],
+    "gpu_names": [
+      "NVIDIA GeForce RTX 5090"
+    ],
+    "timing_scope": "CUDA-synchronized wall time around existing forward including tile assembly/clamp for tiled evaluation; excludes image decoding, H2D and quality metrics. Dataset evaluation wall time remains separate. No extra warmup/repeated images. Shared host contention and first-call overhead retained.",
+    "memory_scope": "PyTorch process allocated/reserved peaks in MiB; forward includes resident model and input/target tensors. Evaluation peak also includes metric workspace. Not whole-device NVML usage; reserved may include allocator cache from earlier calls.",
+    "macs_scope": "Reference batch1 RGB256x256 model MACs using recorded convention; per-image/tile call shapes also recorded. Do not treat reference MACs as a whole tiled evaluation count or measured hardware work."
+  },
+  "archived_per_image_sha256": "3ca6941bf1082aff27dbea254293e4d45f164b1b285cbd9ac833acab1731c760"
+}

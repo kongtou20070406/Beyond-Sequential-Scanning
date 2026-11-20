@@ -1,0 +1,3 @@
+'NSI.gridRetention_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.gridState_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.gridState_finite_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

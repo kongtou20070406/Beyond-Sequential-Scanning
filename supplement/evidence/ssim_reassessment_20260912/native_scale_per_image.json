@@ -1,0 +1,4168 @@
+{
+  "status": "COMPLETE",
+  "count": 160,
+  "metric_protocol": "protocol.json",
+  "rows": [
+    {
+      "psnr": 28.338512708088388,
+      "ssim_native": 0.9489917159080505,
+      "ssim_pooled_legacy": 0.9623141288757324,
+      "mse": 0.001466049820790965,
+      "dc_mse": 0.00027003368123868773,
+      "spatial_residual_mse": 0.0011960161395522771,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 28.338512708088388,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "41.jpg",
+      "scale": 256,
+      "input_hw": [
+        256,
+        211
+      ],
+      "target_hw": [
+        256,
+        211
+      ],
+      "prediction_sha256": "74b1c2f1a9ae8f6734ac2af5e2d30b2998fc2636abe2c6a652317a60a52c272e",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 28.253122440750293,
+      "ssim_native": 0.9480142593383789,
+      "ssim_pooled_legacy": 0.9623632431030273,
+      "mse": 0.0014951602963317642,
+      "dc_mse": 0.00010874790882162002,
+      "spatial_residual_mse": 0.001386412387510144,
+      "clip_fraction": 5.476691057992866e-06,
+      "old_native_psnr": 28.253122440750293,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "41.jpg",
+      "scale": 384,
+      "input_hw": [
+        384,
+        317
+      ],
+      "target_hw": [
+        384,
+        317
+      ],
+      "prediction_sha256": "e95f4ee46c08a7cd41b31e59994166f75e60af3c7e636b2f8be45dd0527fd908",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.91819859900659,
+      "ssim_native": 0.9444552659988403,
+      "ssim_pooled_legacy": 0.9643031358718872,
+      "mse": 0.001615028312127652,
+      "dc_mse": 2.9160070124254855e-05,
+      "spatial_residual_mse": 0.0015858682420033974,
+      "clip_fraction": 1.3884774489270058e-05,
+      "old_native_psnr": 27.91819859900659,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "41.jpg",
+      "scale": 512,
+      "input_hw": [
+        512,
+        422
+      ],
+      "target_hw": [
+        512,
+        422
+      ],
+      "prediction_sha256": "45939ba778416717a1086e1416c59b49d36517b5c8e04972cf5b722fd5c0922b",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "cache512"
+    },
+    {
+      "psnr": 27.902287696786754,
+      "ssim_native": 0.9367880821228027,
+      "ssim_pooled_legacy": 0.9633443355560303,
+      "mse": 0.001620956014961739,
+      "dc_mse": 9.04219291322344e-06,
+      "spatial_residual_mse": 0.0016119138220485156,
+      "clip_fraction": 9.599350960343145e-06,
+      "old_native_psnr": 27.902287696786754,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "41.jpg",
+      "scale": 768,
+      "input_hw": [
+        768,
+        633
+      ],
+      "target_hw": [
+        768,
+        633
+      ],
+      "prediction_sha256": "06f27a1bf8f125d657d9a0995de7dd21d25a222a65d0bc5e3d42b5050cefc3fd",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.37482532426425,
+      "ssim_native": 0.9245166182518005,
+      "ssim_pooled_legacy": 0.9613722562789917,
+      "mse": 0.001830279719732527,
+      "dc_mse": 5.3392393502803936e-05,
+      "spatial_residual_mse": 0.0017768873262297234,
+      "clip_fraction": 3.856881903629983e-06,
+      "old_native_psnr": 27.37482532426425,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "41.jpg",
+      "scale": 1024,
+      "input_hw": [
+        1024,
+        844
+      ],
+      "target_hw": [
+        1024,
+        844
+      ],
+      "prediction_sha256": "f05e2694f8be510dc454b6e526a66ba4732577c65a8754f8c6e7ee48aff4d9f8",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.811353969429305,
+      "ssim_native": 0.9107868671417236,
+      "ssim_pooled_legacy": 0.9582504630088806,
+      "mse": 0.002083841117294455,
+      "dc_mse": 0.00011273718922214844,
+      "spatial_residual_mse": 0.001971103928072307,
+      "clip_fraction": 2.468404318278772e-06,
+      "old_native_psnr": 26.811353969429305,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "41.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1280,
+        1055
+      ],
+      "target_hw": [
+        1280,
+        1055
+      ],
+      "prediction_sha256": "6ada579e46aea8720b3a1df7020ae13c8425ccd23dafff1e804a7592fde83587",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.486516933034544,
+      "ssim_native": 0.8981611728668213,
+      "ssim_pooled_legacy": 0.9559584856033325,
+      "mse": 0.002245682251956763,
+      "dc_mse": 0.00014310000362245253,
+      "spatial_residual_mse": 0.0021025822483343106,
+      "clip_fraction": 1.8840985376300523e-06,
+      "old_native_psnr": 26.486516933034544,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "41.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1536,
+        1267
+      ],
+      "target_hw": [
+        1536,
+        1267
+      ],
+      "prediction_sha256": "308be4abb66763eff202060fd7a9375b689833f07731713c8ca7400073bdefd9",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.04094259381737,
+      "ssim_native": 0.8753725290298462,
+      "ssim_pooled_legacy": 0.9530822038650513,
+      "mse": 0.002488317194691029,
+      "dc_mse": 0.00012325704812852467,
+      "spatial_residual_mse": 0.0023650601465625043,
+      "clip_fraction": 4.818247703042289e-07,
+      "old_native_psnr": 26.04094259381737,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "41.jpg",
+      "scale": 2048,
+      "input_hw": [
+        2048,
+        1689
+      ],
+      "target_hw": [
+        2048,
+        1689
+      ],
+      "prediction_sha256": "ad68c8a5660e19cb6cad1ca8fc19d62538840c9298a69f5a98b1b5b01f77081e",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.613584620168115,
+      "ssim_native": 0.8589491844177246,
+      "ssim_pooled_legacy": 0.9000978469848633,
+      "mse": 0.0034565396097270204,
+      "dc_mse": 0.00028173794240132625,
+      "spatial_residual_mse": 0.003174801667325694,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.613584620168115,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "42.jpg",
+      "scale": 256,
+      "input_hw": [
+        215,
+        256
+      ],
+      "target_hw": [
+        215,
+        256
+      ],
+      "prediction_sha256": "df6d3fbad578eecb32ccd80d73d27761eb84db9d0d2ebfdba1787cb0f56402cc",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.06168240380523,
+      "ssim_native": 0.8882893919944763,
+      "ssim_pooled_legacy": 0.92454993724823,
+      "mse": 0.0024764625204404503,
+      "dc_mse": 0.00016670752656672855,
+      "spatial_residual_mse": 0.002309754993873722,
+      "clip_fraction": 9.943670738721266e-05,
+      "old_native_psnr": 26.06168240380523,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "42.jpg",
+      "scale": 384,
+      "input_hw": [
+        323,
+        384
+      ],
+      "target_hw": [
+        323,
+        384
+      ],
+      "prediction_sha256": "3ff6be7adc73234c83ef0b286c525cf5a926079da4720d4310257d129564fe2a",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.090776380993166,
+      "ssim_native": 0.8923213481903076,
+      "ssim_pooled_legacy": 0.9439681768417358,
+      "mse": 0.0024599278076515296,
+      "dc_mse": 0.00015336260514226007,
+      "spatial_residual_mse": 0.0023065652025092693,
+      "clip_fraction": 0.0001752223470248282,
+      "old_native_psnr": 26.090776380993166,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "42.jpg",
+      "scale": 512,
+      "input_hw": [
+        431,
+        512
+      ],
+      "target_hw": [
+        431,
+        512
+      ],
+      "prediction_sha256": "6adbccc6ae29454c4af4f9cd9a33634d69e522b7e38414fe168e7b2a200b21f2",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "cache512"
+    },
+    {
+      "psnr": 25.653466829506183,
+      "ssim_native": 0.88065505027771,
+      "ssim_pooled_legacy": 0.9490165710449219,
+      "mse": 0.002720528732751869,
+      "dc_mse": 0.00020929372900621278,
+      "spatial_residual_mse": 0.002511235003745656,
+      "clip_fraction": 0.00028218523948453367,
+      "old_native_psnr": 25.653466829506183,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "42.jpg",
+      "scale": 768,
+      "input_hw": [
+        646,
+        768
+      ],
+      "target_hw": [
+        646,
+        768
+      ],
+      "prediction_sha256": "25b9101115c8da8269b3dc9102356e8f600652fe9e215d29a908a6f9b9aee552",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.713470159793232,
+      "ssim_native": 0.8561854362487793,
+      "ssim_pooled_legacy": 0.9388996362686157,
+      "mse": 0.003377948188590177,
+      "dc_mse": 0.0004091110106552198,
+      "spatial_residual_mse": 0.002968837177934957,
+      "clip_fraction": 0.0002548211778048426,
+      "old_native_psnr": 24.713470159793232,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "42.jpg",
+      "scale": 1024,
+      "input_hw": [
+        861,
+        1024
+      ],
+      "target_hw": [
+        861,
+        1024
+      ],
+      "prediction_sha256": "1760bfffbb262a5ea05e7483699b22d8dd6bb6cb136f7af40561cf5deefbf9a8",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.771132829519573,
+      "ssim_native": 0.8292979598045349,
+      "ssim_pooled_legacy": 0.9318283796310425,
+      "mse": 0.00419649506810017,
+      "dc_mse": 0.000613772345808139,
+      "spatial_residual_mse": 0.0035827227222920313,
+      "clip_fraction": 0.00018425023881718516,
+      "old_native_psnr": 23.771132829519573,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "42.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1077,
+        1280
+      ],
+      "target_hw": [
+        1077,
+        1280
+      ],
+      "prediction_sha256": "3d791d4e4138899a285d033507e7bbc9bb61d818fd5b01a596878c7af7a4dac1",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.15742783210103,
+      "ssim_native": 0.8043286204338074,
+      "ssim_pooled_legacy": 0.9261687994003296,
+      "mse": 0.004833449848983083,
+      "dc_mse": 0.0007394138636729824,
+      "spatial_residual_mse": 0.004094035985310101,
+      "clip_fraction": 0.0001026280879159458,
+      "old_native_psnr": 23.15742783210103,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "42.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1292,
+        1536
+      ],
+      "target_hw": [
+        1292,
+        1536
+      ],
+      "prediction_sha256": "fd57a14a1f0017560b48356b5d2edf369818dedcc76eb165df2b1fd89acacfda",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.47706295324867,
+      "ssim_native": 0.7589826583862305,
+      "ssim_pooled_legacy": 0.9183677434921265,
+      "mse": 0.00565319159610819,
+      "dc_mse": 0.0008966126109717816,
+      "spatial_residual_mse": 0.004756578985136408,
+      "clip_fraction": 3.306218422949314e-05,
+      "old_native_psnr": 22.47706295324867,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "42.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1723,
+        2048
+      ],
+      "target_hw": [
+        1723,
+        2048
+      ],
+      "prediction_sha256": "d175605e3f1c4f2518e473a0faebe810ed6226600d84008300a899acaba85190",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.77232786722161,
+      "ssim_native": 0.9477734565734863,
+      "ssim_pooled_legacy": 0.9649655222892761,
+      "mse": 0.0016701951309805736,
+      "dc_mse": 0.0002760407891302525,
+      "spatial_residual_mse": 0.0013941543418503212,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 27.77232786722161,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "43.jpg",
+      "scale": 256,
+      "input_hw": [
+        177,
+        256
+      ],
+      "target_hw": [
+        177,
+        256
+      ],
+      "prediction_sha256": "dbd8f63894140bac3ad779107e67915ad4dc6429ea69813aa7b3019e98a12281",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.808388562304025,
+      "ssim_native": 0.9455304145812988,
+      "ssim_pooled_legacy": 0.9638293981552124,
+      "mse": 0.0016563844463414088,
+      "dc_mse": 0.00023321714073738895,
+      "spatial_residual_mse": 0.0014231673056040199,
+      "clip_fraction": 3.263366807004786e-06,
+      "old_native_psnr": 27.808388562304025,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "43.jpg",
+      "scale": 384,
+      "input_hw": [
+        266,
+        384
+      ],
+      "target_hw": [
+        266,
+        384
+      ],
+      "prediction_sha256": "172ad146fe5dfc95c19f889f3fc4d52bdd0b0a2eeaa770b1254379ce47b897e3",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.942504281384117,
+      "ssim_native": 0.943282961845398,
+      "ssim_pooled_legacy": 0.9705469608306885,
+      "mse": 0.0016060149062125085,
+      "dc_mse": 0.0002419697035210093,
+      "spatial_residual_mse": 0.0013640452026914991,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 27.942504281384117,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "43.jpg",
+      "scale": 512,
+      "input_hw": [
+        354,
+        512
+      ],
+      "target_hw": [
+        354,
+        512
+      ],
+      "prediction_sha256": "bdfb0114e4a2d25e0738347691fb7ca264243300dd5cd45d2fcb60699495137e",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "cache512"
+    },
+    {
+      "psnr": 28.10352814379792,
+      "ssim_native": 0.9361454844474792,
+      "ssim_pooled_legacy": 0.9678792953491211,
+      "mse": 0.0015475588942674247,
+      "dc_mse": 0.0002365967481648992,
+      "spatial_residual_mse": 0.0013109621461025256,
+      "clip_fraction": 1.3078049960313365e-05,
+      "old_native_psnr": 28.10352814379792,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "43.jpg",
+      "scale": 768,
+      "input_hw": [
+        531,
+        768
+      ],
+      "target_hw": [
+        531,
+        768
+      ],
+      "prediction_sha256": "7e1248dcb791485fc2169e5fbdbcf14c8db62ccdeaab7d64f0f6d63d9d65fd0a",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.673582264895224,
+      "ssim_native": 0.9269341826438904,
+      "ssim_pooled_legacy": 0.9676562547683716,
+      "mse": 0.0017086053956947749,
+      "dc_mse": 0.0002749016509118835,
+      "spatial_residual_mse": 0.0014337037447828915,
+      "clip_fraction": 1.1494379577925429e-05,
+      "old_native_psnr": 27.673582264895224,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "43.jpg",
+      "scale": 1024,
+      "input_hw": [
+        708,
+        1024
+      ],
+      "target_hw": [
+        708,
+        1024
+      ],
+      "prediction_sha256": "e8f0b8e32aea2252250792c01f96fdc43cbf197e3ddf5137a4393f676f418bdc",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.69185235140348,
+      "ssim_native": 0.9179791808128357,
+      "ssim_pooled_legacy": 0.9685769081115723,
+      "mse": 0.0017014326591102919,
+      "dc_mse": 0.00030510225739032376,
+      "spatial_residual_mse": 0.001396330401719968,
+      "clip_fraction": 1.4712805750605185e-05,
+      "old_native_psnr": 27.69185235140348,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "43.jpg",
+      "scale": 1280,
+      "input_hw": [
+        885,
+        1280
+      ],
+      "target_hw": [
+        885,
+        1280
+      ],
+      "prediction_sha256": "b1948773ac18ca08f9d4c0fcb7868d2758a6dbe3052d88f74f1551b324447b05",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.60937032524462,
+      "ssim_native": 0.9081218242645264,
+      "ssim_pooled_legacy": 0.9653746485710144,
+      "mse": 0.001734055396701519,
+      "dc_mse": 0.00030274134354855645,
+      "spatial_residual_mse": 0.0014313140531529627,
+      "clip_fraction": 1.1034604540327564e-05,
+      "old_native_psnr": 27.60937032524462,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "43.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1062,
+        1536
+      ],
+      "target_hw": [
+        1062,
+        1536
+      ],
+      "prediction_sha256": "27f67ac43d991af7eb57520274608494169ed13157a98ab3b217327150a31044",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.559359830741226,
+      "ssim_native": 0.8893358707427979,
+      "ssim_pooled_legacy": 0.9668543338775635,
+      "mse": 0.001754139050633673,
+      "dc_mse": 0.0002695839673425027,
+      "spatial_residual_mse": 0.0014845550832911707,
+      "clip_fraction": 8.84442670212593e-06,
+      "old_native_psnr": 27.559359830741226,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "43.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1417,
+        2048
+      ],
+      "target_hw": [
+        1417,
+        2048
+      ],
+      "prediction_sha256": "e3c9961a3ebe25919fc134fd18fe653316ec20159b1fb946baa03029ea5ed898",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.90732745086526,
+      "ssim_native": 0.9182751178741455,
+      "ssim_pooled_legacy": 0.9408994913101196,
+      "mse": 0.002566062647142398,
+      "dc_mse": 4.513642352876774e-05,
+      "spatial_residual_mse": 0.00252092622361363,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.90732745086526,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "44.jpg",
+      "scale": 256,
+      "input_hw": [
+        256,
+        194
+      ],
+      "target_hw": [
+        256,
+        194
+      ],
+      "prediction_sha256": "090f86c51dafa1b7d69e612ec9b0c79e317394a4704f662e09340a56978790d1",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.84460183415282,
+      "ssim_native": 0.9149703979492188,
+      "ssim_pooled_legacy": 0.9419592618942261,
+      "mse": 0.0026033935023466576,
+      "dc_mse": 0.00017925669028518698,
+      "spatial_residual_mse": 0.002424136812061471,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.84460183415282,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "44.jpg",
+      "scale": 384,
+      "input_hw": [
+        384,
+        291
+      ],
+      "target_hw": [
+        384,
+        291
+      ],
+      "prediction_sha256": "7c2bdb6c0b283f841528ccca9c741c3dc1cada833fe40dcc137c5341abe7ed82",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.071252013353178,
+      "ssim_native": 0.911481499671936,
+      "ssim_pooled_legacy": 0.9497894644737244,
+      "mse": 0.0024710116824507265,
+      "dc_mse": 0.0001614131430950442,
+      "spatial_residual_mse": 0.0023095985393556825,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.071252013353178,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "44.jpg",
+      "scale": 512,
+      "input_hw": [
+        512,
+        388
+      ],
+      "target_hw": [
+        512,
+        388
+      ],
+      "prediction_sha256": "b8a382cc3729ce47fcd5e5ed677b97003c213221938de48487b340f28e2c0e48",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "cache512"
+    },
+    {
+      "psnr": 25.98723923085589,
+      "ssim_native": 0.9035865068435669,
+      "ssim_pooled_legacy": 0.9495396614074707,
+      "mse": 0.0025192779000921643,
+      "dc_mse": 0.00027243553247659414,
+      "spatial_residual_mse": 0.0022468423676155706,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.98723923085589,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "44.jpg",
+      "scale": 768,
+      "input_hw": [
+        768,
+        581
+      ],
+      "target_hw": [
+        768,
+        581
+      ],
+      "prediction_sha256": "6ec0baa6332a0034ffd6a9d88a8cd30b9550ccc3baa81348af86fc4d38bd6fb2",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.970472230458718,
+      "ssim_native": 0.8947834372520447,
+      "ssim_pooled_legacy": 0.9519867897033691,
+      "mse": 0.0025290229879742446,
+      "dc_mse": 0.0003713140164282268,
+      "spatial_residual_mse": 0.0021577089715460185,
+      "clip_fraction": 4.200268904241966e-06,
+      "old_native_psnr": 25.970472230458718,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "44.jpg",
+      "scale": 1024,
+      "input_hw": [
+        1024,
+        775
+      ],
+      "target_hw": [
+        1024,
+        775
+      ],
+      "prediction_sha256": "8341de90a996520e84c10cd5c38c256469b50b42deefc8cad6efbe01f2aa16f6",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.142452905661692,
+      "ssim_native": 0.883607029914856,
+      "ssim_pooled_legacy": 0.9528191089630127,
+      "mse": 0.0024308306822751363,
+      "dc_mse": 0.0002331794230403804,
+      "spatial_residual_mse": 0.0021976512592347557,
+      "clip_fraction": 8.331183380505536e-06,
+      "old_native_psnr": 26.142452905661692,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "44.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1280,
+        969
+      ],
+      "target_hw": [
+        1280,
+        969
+      ],
+      "prediction_sha256": "dc3a49b0667946ba95b5fd3bbe501c003d9a7378635e2611dee30fd8215b4718",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.879103466155293,
+      "ssim_native": 0.8703575134277344,
+      "ssim_pooled_legacy": 0.9517256617546082,
+      "mse": 0.002582793313371885,
+      "dc_mse": 0.0001522809022363115,
+      "spatial_residual_mse": 0.0024305124111355736,
+      "clip_fraction": 5.784549102827441e-06,
+      "old_native_psnr": 25.879103466155293,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "44.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1536,
+        1163
+      ],
+      "target_hw": [
+        1536,
+        1163
+      ],
+      "prediction_sha256": "8bc5d8bfbb347021c18589e6688ab39eb1d61a66a1406f7afb62e381346cec77",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.72177472453849,
+      "ssim_native": 0.8416184782981873,
+      "ssim_pooled_legacy": 0.9443904161453247,
+      "mse": 0.0033714950590086916,
+      "dc_mse": 2.1538631212354357e-05,
+      "spatial_residual_mse": 0.0033499564277963373,
+      "clip_fraction": 2.310147920070449e-06,
+      "old_native_psnr": 24.72177472453849,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "44.jpg",
+      "scale": 2048,
+      "input_hw": [
+        2048,
+        1550
+      ],
+      "target_hw": [
+        2048,
+        1550
+      ],
+      "prediction_sha256": "c5e109e81a257523748e7c9b064f65b6809fbfbbab8004ddafd6207d619a310c",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.252860807020475,
+      "ssim_native": 0.8211752772331238,
+      "ssim_pooled_legacy": 0.8675748705863953,
+      "mse": 0.0029834167198395443,
+      "dc_mse": 0.0005178527348686777,
+      "spatial_residual_mse": 0.0024655639849708666,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.252860807020475,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "45.jpg",
+      "scale": 256,
+      "input_hw": [
+        180,
+        256
+      ],
+      "target_hw": [
+        180,
+        256
+      ],
+      "prediction_sha256": "053b6ad39d65a4472b33a494f5760a7b8308589d19e90915ab5438c97ad503c4",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.696661670574944,
+      "ssim_native": 0.8350834846496582,
+      "ssim_pooled_legacy": 0.8826102018356323,
+      "mse": 0.0026936045249276947,
+      "dc_mse": 0.0004096234896164802,
+      "spatial_residual_mse": 0.002283981035311214,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.696661670574944,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "45.jpg",
+      "scale": 384,
+      "input_hw": [
+        270,
+        384
+      ],
+      "target_hw": [
+        270,
+        384
+      ],
+      "prediction_sha256": "a157b8e974aa2f79ccf571bbcb6f889508554cd8b2cac8e64d2eebf198402312",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.85338662311958,
+      "ssim_native": 0.8412064909934998,
+      "ssim_pooled_legacy": 0.9055016040802002,
+      "mse": 0.0025981327522363812,
+      "dc_mse": 0.0004216238422095503,
+      "spatial_residual_mse": 0.0021765089100268314,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.85338662311958,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "45.jpg",
+      "scale": 512,
+      "input_hw": [
+        360,
+        512
+      ],
+      "target_hw": [
+        360,
+        512
+      ],
+      "prediction_sha256": "ef342ec13309a847b21fe219792ade0fa1e5aa69895a3c5cdd8165520fdd3803",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "cache512"
+    },
+    {
+      "psnr": 24.964417609576234,
+      "ssim_native": 0.8418914079666138,
+      "ssim_pooled_legacy": 0.9057533144950867,
+      "mse": 0.0031882930982527454,
+      "dc_mse": 0.0008055631583615817,
+      "spatial_residual_mse": 0.0023827299398911633,
+      "clip_fraction": 2.4068083348538494e-06,
+      "old_native_psnr": 24.964417609576234,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "45.jpg",
+      "scale": 768,
+      "input_hw": [
+        541,
+        768
+      ],
+      "target_hw": [
+        541,
+        768
+      ],
+      "prediction_sha256": "eab02b524675184f14bb192c4b5f247f9bdfd5d36bc45065d3c336d6c2377552",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.27868832243788,
+      "ssim_native": 0.840667188167572,
+      "ssim_pooled_legacy": 0.9113134145736694,
+      "mse": 0.003733629056702965,
+      "dc_mse": 0.001234123554300905,
+      "spatial_residual_mse": 0.0024995055024020604,
+      "clip_fraction": 4.5148519234317064e-07,
+      "old_native_psnr": 24.27868832243788,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "45.jpg",
+      "scale": 1024,
+      "input_hw": [
+        721,
+        1024
+      ],
+      "target_hw": [
+        721,
+        1024
+      ],
+      "prediction_sha256": "dfdcfd3678d9855c5c3c0df7679c95d978d7e7279d925a31f4f5ca7fda0de64d",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.65345969133868,
+      "ssim_native": 0.8341690897941589,
+      "ssim_pooled_legacy": 0.910601019859314,
+      "mse": 0.004311754555329918,
+      "dc_mse": 0.0016642643241170845,
+      "spatial_residual_mse": 0.0026474902312128333,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.65345969133868,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "45.jpg",
+      "scale": 1280,
+      "input_hw": [
+        901,
+        1280
+      ],
+      "target_hw": [
+        901,
+        1280
+      ],
+      "prediction_sha256": "08380a48850d6380d707cb3d8288074fd004bb78b84d021ce5250798fc80d3b1",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.043046989840732,
+      "ssim_native": 0.8237506747245789,
+      "ssim_pooled_legacy": 0.902413547039032,
+      "mse": 0.004962440367841688,
+      "dc_mse": 0.0020380851825041618,
+      "spatial_residual_mse": 0.0029243551853375257,
+      "clip_fraction": 4.015058152617712e-07,
+      "old_native_psnr": 23.043046989840732,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "45.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1081,
+        1536
+      ],
+      "target_hw": [
+        1081,
+        1536
+      ],
+      "prediction_sha256": "5caa0294914c88090eea39095fc5d078f95a8a2be20d0694972b120bf6b05ff2",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 21.580305004343284,
+      "ssim_native": 0.8000962734222412,
+      "ssim_pooled_legacy": 0.889045238494873,
+      "mse": 0.006949755078523836,
+      "dc_mse": 0.002882180983555667,
+      "spatial_residual_mse": 0.00406757409496817,
+      "clip_fraction": 9.029703846863413e-07,
+      "old_native_psnr": 21.580305004343284,
+      "replay_delta": 0.0,
+      "method": "ours",
+      "image": "45.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1442,
+        2048
+      ],
+      "target_hw": [
+        1442,
+        2048
+      ],
+      "prediction_sha256": "0af4b5698b9540441a4a1066e9625716ba7414329dcef258eab0b4655b7d08c1",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.881567583463863,
+      "ssim_native": 0.9418465495109558,
+      "ssim_pooled_legacy": 0.9582945704460144,
+      "mse": 0.0020504219466042535,
+      "dc_mse": 0.0007803221501488742,
+      "spatial_residual_mse": 0.001270099796455379,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.881567583463863,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "41.jpg",
+      "scale": 256,
+      "input_hw": [
+        256,
+        211
+      ],
+      "target_hw": [
+        256,
+        211
+      ],
+      "prediction_sha256": "700995873802f1626cce2104418628530902e16d57b5d746fadf11ea3f57a706",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.642249933885275,
+      "ssim_native": 0.944884717464447,
+      "ssim_pooled_legacy": 0.9619705080986023,
+      "mse": 0.0017209767637221245,
+      "dc_mse": 0.00042159657669025983,
+      "spatial_residual_mse": 0.001299380187031865,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 27.642249933885275,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "41.jpg",
+      "scale": 384,
+      "input_hw": [
+        384,
+        317
+      ],
+      "target_hw": [
+        384,
+        317
+      ],
+      "prediction_sha256": "e8f389edf4023a4f3fad0d0ab1ab59c107fecb1ca00965f228dcd1a19ec9d68c",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.031168864434182,
+      "ssim_native": 0.9425141215324402,
+      "ssim_pooled_legacy": 0.9664995074272156,
+      "mse": 0.0019809937874365096,
+      "dc_mse": 0.0004894549785404361,
+      "spatial_residual_mse": 0.0014915388088960735,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 27.031168864434182,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "41.jpg",
+      "scale": 512,
+      "input_hw": [
+        512,
+        422
+      ],
+      "target_hw": [
+        512,
+        422
+      ],
+      "prediction_sha256": "336811583754a3fcae909142cf17d7d54f889608c18533040c726dd89c3d4b2c",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "cache512"
+    },
+    {
+      "psnr": 25.036656727655256,
+      "ssim_native": 0.9325441718101501,
+      "ssim_pooled_legacy": 0.961266040802002,
+      "mse": 0.0031356987092975284,
+      "dc_mse": 0.00137067478330096,
+      "spatial_residual_mse": 0.0017650239259965677,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.036656727655256,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "41.jpg",
+      "scale": 768,
+      "input_hw": [
+        768,
+        633
+      ],
+      "target_hw": [
+        768,
+        633
+      ],
+      "prediction_sha256": "a00de5df3d7136714c4fd3d4cb1889f579eedb6ddb712db191b5dde4f48b20c9",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.58216910908588,
+      "ssim_native": 0.9185172319412231,
+      "ssim_pooled_legacy": 0.9566378593444824,
+      "mse": 0.004383117257516849,
+      "dc_mse": 0.002369306579893339,
+      "spatial_residual_mse": 0.0020138106776235094,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.58216910908588,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "41.jpg",
+      "scale": 1024,
+      "input_hw": [
+        1024,
+        844
+      ],
+      "target_hw": [
+        1024,
+        844
+      ],
+      "prediction_sha256": "925c1048662147516dbb2d2fd5f9f160ade18c485904b2a27645f10dcf3947ec",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.162636324480395,
+      "ssim_native": 0.9052329063415527,
+      "ssim_pooled_legacy": 0.9534602165222168,
+      "mse": 0.004827656568706882,
+      "dc_mse": 0.002640285767007668,
+      "spatial_residual_mse": 0.002187370801699216,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.162636324480395,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "41.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1280,
+        1055
+      ],
+      "target_hw": [
+        1280,
+        1055
+      ],
+      "prediction_sha256": "a82cda691d19c3f0a75d5022569c49902c30549d587076374269df514a5b7982",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.060638835349533,
+      "ssim_native": 0.8930419683456421,
+      "ssim_pooled_legacy": 0.9514185786247253,
+      "mse": 0.004942379805792306,
+      "dc_mse": 0.0026847816281608053,
+      "spatial_residual_mse": 0.0022575981776315,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.060638835349533,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "41.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1536,
+        1267
+      ],
+      "target_hw": [
+        1536,
+        1267
+      ],
+      "prediction_sha256": "3b18c1c62ccc13020cc5def22e1deaf914e1daa277383d467448eb0bec870fe6",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.069336742464,
+      "ssim_native": 0.8712931871414185,
+      "ssim_pooled_legacy": 0.9472730159759521,
+      "mse": 0.004932491275509054,
+      "dc_mse": 0.002649655598684239,
+      "spatial_residual_mse": 0.002282835676824815,
+      "clip_fraction": 1.9272991380603344e-07,
+      "old_native_psnr": 23.069336742464,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "41.jpg",
+      "scale": 2048,
+      "input_hw": [
+        2048,
+        1689
+      ],
+      "target_hw": [
+        2048,
+        1689
+      ],
+      "prediction_sha256": "8a7fddc72f7e474b45830f7b2629b8085a694f7b2b91eb72b128cfc101b8f301",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 21.91882796547055,
+      "ssim_native": 0.8183609247207642,
+      "ssim_pooled_legacy": 0.8602890968322754,
+      "mse": 0.006428611834505582,
+      "dc_mse": 0.002003130351141464,
+      "spatial_residual_mse": 0.004425481483364116,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 21.91882796547055,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "42.jpg",
+      "scale": 256,
+      "input_hw": [
+        215,
+        256
+      ],
+      "target_hw": [
+        215,
+        256
+      ],
+      "prediction_sha256": "6b75de96edca3c4865d68bf52c7ce29d02a1ebe922e1ff9a2090242c9e99eabd",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.96064176772881,
+      "ssim_native": 0.8439580798149109,
+      "ssim_pooled_legacy": 0.8854019045829773,
+      "mse": 0.004017314416108359,
+      "dc_mse": 0.0003997896559193696,
+      "spatial_residual_mse": 0.003617524760188988,
+      "clip_fraction": 1.343739222647855e-05,
+      "old_native_psnr": 23.96064176772881,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "42.jpg",
+      "scale": 384,
+      "input_hw": [
+        323,
+        384
+      ],
+      "target_hw": [
+        323,
+        384
+      ],
+      "prediction_sha256": "c232dfd5451aa799c2439f95891476b03e3276d85b7c4aa5bd97a4395b02e25a",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.007126630294415,
+      "ssim_native": 0.855932891368866,
+      "ssim_pooled_legacy": 0.9139938354492188,
+      "mse": 0.003157092721356896,
+      "dc_mse": 0.000198246164446516,
+      "spatial_residual_mse": 0.0029588465569103804,
+      "clip_fraction": 6.042150198481977e-05,
+      "old_native_psnr": 25.007126630294415,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "42.jpg",
+      "scale": 512,
+      "input_hw": [
+        431,
+        512
+      ],
+      "target_hw": [
+        431,
+        512
+      ],
+      "prediction_sha256": "f328efaa608032ab0cc4feef976dc7ddd9b8640e39f785c67b280771d014f1dd",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "cache512"
+    },
+    {
+      "psnr": 25.21970530862482,
+      "ssim_native": 0.8482300043106079,
+      "ssim_pooled_legacy": 0.925250232219696,
+      "mse": 0.003006280287447835,
+      "dc_mse": 0.00041066748749446095,
+      "spatial_residual_mse": 0.002595612799953374,
+      "clip_fraction": 0.0002149982756236568,
+      "old_native_psnr": 25.21970530862482,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "42.jpg",
+      "scale": 768,
+      "input_hw": [
+        646,
+        768
+      ],
+      "target_hw": [
+        646,
+        768
+      ],
+      "prediction_sha256": "9e04d8c733a2baaffb7e68496145beac139bb4f84ecb6f35e9c37c933d9aa4c1",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.772985475926355,
+      "ssim_native": 0.8256969451904297,
+      "ssim_pooled_legacy": 0.919022262096405,
+      "mse": 0.0033319728379630448,
+      "dc_mse": 0.0006868635602643668,
+      "spatial_residual_mse": 0.002645109277698678,
+      "clip_fraction": 0.00029565306613221765,
+      "old_native_psnr": 24.772985475926355,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "42.jpg",
+      "scale": 1024,
+      "input_hw": [
+        861,
+        1024
+      ],
+      "target_hw": [
+        861,
+        1024
+      ],
+      "prediction_sha256": "454834b40153a59f944f91bec0c4a72c3e04d2b010a3545877b6fae80ab9a6c3",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.62502100461194,
+      "ssim_native": 0.803978443145752,
+      "ssim_pooled_legacy": 0.9196493029594421,
+      "mse": 0.003447449392134475,
+      "dc_mse": 0.0006340747520536239,
+      "spatial_residual_mse": 0.002813374640080851,
+      "clip_fraction": 0.0002446997968945652,
+      "old_native_psnr": 24.62502100461194,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "42.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1077,
+        1280
+      ],
+      "target_hw": [
+        1077,
+        1280
+      ],
+      "prediction_sha256": "7102dc4a27ac3591205dac66663a66022df52254b788d331ab19397cfd6c1ed1",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.470250590851023,
+      "ssim_native": 0.7825735807418823,
+      "ssim_pooled_legacy": 0.9180209636688232,
+      "mse": 0.0035725222386245757,
+      "dc_mse": 0.0004898800621051402,
+      "spatial_residual_mse": 0.003082642176519436,
+      "clip_fraction": 0.000177877489477396,
+      "old_native_psnr": 24.470250590851023,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "42.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1292,
+        1536
+      ],
+      "target_hw": [
+        1292,
+        1536
+      ],
+      "prediction_sha256": "f11690e3da646217d7ae5ca6b124a961344433b2c9e0da3d46b508e21a994b16",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.169440672599727,
+      "ssim_native": 0.7469062805175781,
+      "ssim_pooled_legacy": 0.9137141704559326,
+      "mse": 0.0038287405044976613,
+      "dc_mse": 0.00017884954995798922,
+      "spatial_residual_mse": 0.003649890954539671,
+      "clip_fraction": 8.586722105974331e-05,
+      "old_native_psnr": 24.169440672599727,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "42.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1723,
+        2048
+      ],
+      "target_hw": [
+        1723,
+        2048
+      ],
+      "prediction_sha256": "5b01848984b58c645510618dd2b0ea7f2437feba535244b076ced51a910252a0",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 28.050601445217413,
+      "ssim_native": 0.942803144454956,
+      "ssim_pooled_legacy": 0.9619417190551758,
+      "mse": 0.0015665341090988184,
+      "dc_mse": 7.548006826827852e-05,
+      "spatial_residual_mse": 0.0014910540408305398,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 28.050601445217413,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "43.jpg",
+      "scale": 256,
+      "input_hw": [
+        177,
+        256
+      ],
+      "target_hw": [
+        177,
+        256
+      ],
+      "prediction_sha256": "8a242f59eae2a1be3ac39d70053b492b5d4bf8f01bc05bc94fa904cf236d3207",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.437785948490667,
+      "ssim_native": 0.9426411390304565,
+      "ssim_pooled_legacy": 0.9635839462280273,
+      "mse": 0.0018039371612188929,
+      "dc_mse": 0.00036392487484088794,
+      "spatial_residual_mse": 0.001440012286378005,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 27.437785948490667,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "43.jpg",
+      "scale": 384,
+      "input_hw": [
+        266,
+        384
+      ],
+      "target_hw": [
+        266,
+        384
+      ],
+      "prediction_sha256": "ee526d5a563983f297c9c4ca710f9bee8470b0294e2908a464d0af6e424c2b43",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.165488365957028,
+      "ssim_native": 0.942713737487793,
+      "ssim_pooled_legacy": 0.9722391366958618,
+      "mse": 0.0019206629702556589,
+      "dc_mse": 0.0006223571439809756,
+      "spatial_residual_mse": 0.001298305826274683,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 27.165488365957028,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "43.jpg",
+      "scale": 512,
+      "input_hw": [
+        354,
+        512
+      ],
+      "target_hw": [
+        354,
+        512
+      ],
+      "prediction_sha256": "a3f429ae5d5e819c1b7cd82d819ee2071faec1b3a4534d5b6fd4df3f044c3d79",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "cache512"
+    },
+    {
+      "psnr": 26.90714667068577,
+      "ssim_native": 0.9369239211082458,
+      "ssim_pooled_legacy": 0.9712175726890564,
+      "mse": 0.002038380860928272,
+      "dc_mse": 0.000842890253595611,
+      "spatial_residual_mse": 0.001195490607332661,
+      "clip_fraction": 1.6347562450391706e-06,
+      "old_native_psnr": 26.90714667068577,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "43.jpg",
+      "scale": 768,
+      "input_hw": [
+        531,
+        768
+      ],
+      "target_hw": [
+        531,
+        768
+      ],
+      "prediction_sha256": "3a1e2eef5de216f0faece01aec72134c236c395a9c7fbe793f07dd8851258145",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.383720186196232,
+      "ssim_native": 0.927024245262146,
+      "ssim_pooled_legacy": 0.9713658690452576,
+      "mse": 0.0022994712360520624,
+      "dc_mse": 0.0011751370833098897,
+      "spatial_residual_mse": 0.0011243341527421725,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.383720186196232,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "43.jpg",
+      "scale": 1024,
+      "input_hw": [
+        708,
+        1024
+      ],
+      "target_hw": [
+        708,
+        1024
+      ],
+      "prediction_sha256": "a28a826c1b62d989519f56d6e124c6384899d1c848ae2b8cd4914c1fcda6e53e",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.11529869040947,
+      "ssim_native": 0.9169937968254089,
+      "ssim_pooled_legacy": 0.9713361263275146,
+      "mse": 0.0024460770388509663,
+      "dc_mse": 0.0012908542536788936,
+      "spatial_residual_mse": 0.0011552227851720732,
+      "clip_fraction": 2.942561252439191e-07,
+      "old_native_psnr": 26.11529869040947,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "43.jpg",
+      "scale": 1280,
+      "input_hw": [
+        885,
+        1280
+      ],
+      "target_hw": [
+        885,
+        1280
+      ],
+      "prediction_sha256": "6d649497bdf4d61778a7928efc329ce4ad7f856ccae780fcce9ac9ab29bf6376",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.8760298825003,
+      "ssim_native": 0.9066904783248901,
+      "ssim_pooled_legacy": 0.9681499004364014,
+      "mse": 0.0025846218517011532,
+      "dc_mse": 0.0013882527489528253,
+      "spatial_residual_mse": 0.0011963691027483284,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.8760298825003,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "43.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1062,
+        1536
+      ],
+      "target_hw": [
+        1062,
+        1536
+      ],
+      "prediction_sha256": "35a0dd1a78916017212ac8cbc7878d74faa96059c8387488ac341528993c5f61",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.298719211466782,
+      "ssim_native": 0.8883420825004578,
+      "ssim_pooled_legacy": 0.9698809385299683,
+      "mse": 0.002344920259555617,
+      "dc_mse": 0.0011049790089885305,
+      "spatial_residual_mse": 0.0012399412505670862,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.298719211466782,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "43.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1417,
+        2048
+      ],
+      "target_hw": [
+        1417,
+        2048
+      ],
+      "prediction_sha256": "caa7fbdc790da737cd0477b39a27932abb5dac1f4f990b5b71c2c4cf26d15589",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.063744335851265,
+      "ssim_native": 0.913589358329773,
+      "ssim_pooled_legacy": 0.9375985860824585,
+      "mse": 0.003923065564939253,
+      "dc_mse": 0.0012399945686484097,
+      "spatial_residual_mse": 0.0026830709962908433,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.063744335851265,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "44.jpg",
+      "scale": 256,
+      "input_hw": [
+        256,
+        194
+      ],
+      "target_hw": [
+        256,
+        194
+      ],
+      "prediction_sha256": "275c5def2637eb26ebd2f93f63eb389a99c56608686f1e74d6a0d6e566daff80",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.798230812065896,
+      "ssim_native": 0.9105972051620483,
+      "ssim_pooled_legacy": 0.9386553764343262,
+      "mse": 0.004170392383859523,
+      "dc_mse": 0.0018587529814784731,
+      "spatial_residual_mse": 0.0023116394023810502,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.798230812065896,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "44.jpg",
+      "scale": 384,
+      "input_hw": [
+        384,
+        291
+      ],
+      "target_hw": [
+        384,
+        291
+      ],
+      "prediction_sha256": "bc9b7f7f09a3f300014ffaa1abebc42bf4a7e556bd94241256862c4a70c132ee",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.471823329813553,
+      "ssim_native": 0.909981369972229,
+      "ssim_pooled_legacy": 0.9482342004776001,
+      "mse": 0.003571228732048326,
+      "dc_mse": 0.0015844376141478176,
+      "spatial_residual_mse": 0.001986791117900508,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.471823329813553,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "44.jpg",
+      "scale": 512,
+      "input_hw": [
+        512,
+        388
+      ],
+      "target_hw": [
+        512,
+        388
+      ],
+      "prediction_sha256": "e67b9db9a7ae25e64edce094a97452c9142adace5515b3130ddd2e05b69e3ac8",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "cache512"
+    },
+    {
+      "psnr": 24.22834423274338,
+      "ssim_native": 0.8989571332931519,
+      "ssim_pooled_legacy": 0.9455158710479736,
+      "mse": 0.0037771616946686752,
+      "dc_mse": 0.001826311721152873,
+      "spatial_residual_mse": 0.0019508499735158022,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.22834423274338,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "44.jpg",
+      "scale": 768,
+      "input_hw": [
+        768,
+        581
+      ],
+      "target_hw": [
+        768,
+        581
+      ],
+      "prediction_sha256": "65cdd48c3f4f38974033a2845c7a47331206a3de363defa5b86cf961594ef6c1",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.738766208362843,
+      "ssim_native": 0.8864092826843262,
+      "ssim_pooled_legacy": 0.9451264142990112,
+      "mse": 0.004227887076826096,
+      "dc_mse": 0.002150019558182001,
+      "spatial_residual_mse": 0.002077867518644096,
+      "clip_fraction": 8.400537581110257e-07,
+      "old_native_psnr": 23.738766208362843,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "44.jpg",
+      "scale": 1024,
+      "input_hw": [
+        1024,
+        775
+      ],
+      "target_hw": [
+        1024,
+        775
+      ],
+      "prediction_sha256": "4c3f640079c95ab1cc5f537c94ee21ded7940046b55f1004d7db0b4a51e0923a",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.279799284633885,
+      "ssim_native": 0.8728197813034058,
+      "ssim_pooled_legacy": 0.9439744353294373,
+      "mse": 0.004699158259310066,
+      "dc_mse": 0.0024955299302298196,
+      "spatial_residual_mse": 0.002203628329080247,
+      "clip_fraction": 1.07499135992839e-06,
+      "old_native_psnr": 23.279799284633885,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "44.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1280,
+        969
+      ],
+      "target_hw": [
+        1280,
+        969
+      ],
+      "prediction_sha256": "ffea86bf925d4fa2eaa656dd16c583d2047f4497061709e75aab2b2e23ecd052",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.04673241114051,
+      "ssim_native": 0.8596608638763428,
+      "ssim_pooled_legacy": 0.942809522151947,
+      "mse": 0.004958231029132134,
+      "dc_mse": 0.0026854176510162087,
+      "spatial_residual_mse": 0.0022728133781159247,
+      "clip_fraction": 1.1195901379323914e-06,
+      "old_native_psnr": 23.04673241114051,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "44.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1536,
+        1163
+      ],
+      "target_hw": [
+        1536,
+        1163
+      ],
+      "prediction_sha256": "19698707694c28f0c16a11972873f527056009312aa141afc71f13a81c1c48c4",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.63112776131309,
+      "ssim_native": 0.8380842208862305,
+      "ssim_pooled_legacy": 0.9413184523582458,
+      "mse": 0.004333983203547257,
+      "dc_mse": 0.001941400336460945,
+      "spatial_residual_mse": 0.0023925828670863128,
+      "clip_fraction": 4.2002687905551284e-07,
+      "old_native_psnr": 23.63112776131309,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "44.jpg",
+      "scale": 2048,
+      "input_hw": [
+        2048,
+        1550
+      ],
+      "target_hw": [
+        2048,
+        1550
+      ],
+      "prediction_sha256": "f730b25c0684d3fa7f9c9ec566c10c0ed09211fc1a16fb4c8793f3922a410323",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.75780541498792,
+      "ssim_native": 0.8241801261901855,
+      "ssim_pooled_legacy": 0.8694464564323425,
+      "mse": 0.0026559473312154093,
+      "dc_mse": 0.00021556419547009994,
+      "spatial_residual_mse": 0.002440383135745309,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.75780541498792,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "45.jpg",
+      "scale": 256,
+      "input_hw": [
+        180,
+        256
+      ],
+      "target_hw": [
+        180,
+        256
+      ],
+      "prediction_sha256": "a74b7c426b5bd23b838297efb48c528b09535270eefb50a9149bb93e2b68d6d5",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.957327714329768,
+      "ssim_native": 0.8304321765899658,
+      "ssim_pooled_legacy": 0.8765449523925781,
+      "mse": 0.0031935022653558293,
+      "dc_mse": 0.0007084563065153511,
+      "spatial_residual_mse": 0.002485045958840479,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.957327714329768,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "45.jpg",
+      "scale": 384,
+      "input_hw": [
+        270,
+        384
+      ],
+      "target_hw": [
+        270,
+        384
+      ],
+      "prediction_sha256": "d24544148ec0576ad1905c152938385b00728a919d61b34975458ede0366a11a",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.453759206823417,
+      "ssim_native": 0.8384499549865723,
+      "ssim_pooled_legacy": 0.896456241607666,
+      "mse": 0.0035861139005898836,
+      "dc_mse": 0.0009474905733597248,
+      "spatial_residual_mse": 0.002638623327230159,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.453759206823417,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "45.jpg",
+      "scale": 512,
+      "input_hw": [
+        360,
+        512
+      ],
+      "target_hw": [
+        360,
+        512
+      ],
+      "prediction_sha256": "1ef3870cd81a0cbc7e03fbbebbf03d3b96a890b3a7adb7ce7b2990e65548f9e2",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "cache512"
+    },
+    {
+      "psnr": 23.67872753733615,
+      "ssim_native": 0.8421893119812012,
+      "ssim_pooled_legacy": 0.8989037275314331,
+      "mse": 0.004286741015202313,
+      "dc_mse": 0.0012513493393768776,
+      "spatial_residual_mse": 0.003035391675825435,
+      "clip_fraction": 8.022694828468957e-07,
+      "old_native_psnr": 23.67872753733615,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "45.jpg",
+      "scale": 768,
+      "input_hw": [
+        541,
+        768
+      ],
+      "target_hw": [
+        541,
+        768
+      ],
+      "prediction_sha256": "dcb184a799d1817139e3537413fdfd5ae78d114da6b9bae1a61dbe480ea329b7",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.672721314522782,
+      "ssim_native": 0.8426297903060913,
+      "ssim_pooled_legacy": 0.9067463874816895,
+      "mse": 0.0042926736104555345,
+      "dc_mse": 0.0010468430802616174,
+      "spatial_residual_mse": 0.003245830530193916,
+      "clip_fraction": 9.029703846863413e-07,
+      "old_native_psnr": 23.672721314522782,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "45.jpg",
+      "scale": 1024,
+      "input_hw": [
+        721,
+        1024
+      ],
+      "target_hw": [
+        721,
+        1024
+      ],
+      "prediction_sha256": "2baeec39f886175071c6f2e55f6d757bc7a788ba796924cdf7ed4de8e423bae7",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.120181091707785,
+      "ssim_native": 0.8338273763656616,
+      "ssim_pooled_legacy": 0.9053540229797363,
+      "mse": 0.0048750816160973275,
+      "dc_mse": 0.0012392508709530355,
+      "spatial_residual_mse": 0.0036358307451442927,
+      "clip_fraction": 1.445153543500055e-06,
+      "old_native_psnr": 23.120181091707785,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "45.jpg",
+      "scale": 1280,
+      "input_hw": [
+        901,
+        1280
+      ],
+      "target_hw": [
+        901,
+        1280
+      ],
+      "prediction_sha256": "110cc0626f920e8a5a22e2049b63023775ec8fe877efa889f371eaa367584acf",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.445322278990325,
+      "ssim_native": 0.8190782070159912,
+      "ssim_pooled_legacy": 0.893960177898407,
+      "mse": 0.0056946596392587175,
+      "dc_mse": 0.0017850221616763403,
+      "spatial_residual_mse": 0.003909637477582378,
+      "clip_fraction": 2.6097877707798034e-06,
+      "old_native_psnr": 22.445322278990325,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "45.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1081,
+        1536
+      ],
+      "target_hw": [
+        1081,
+        1536
+      ],
+      "prediction_sha256": "704790bc843773d14cdd696f154bccfdb56248841eb42f64793556e2b2d298fe",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 21.27260034514765,
+      "ssim_native": 0.7851139903068542,
+      "ssim_pooled_legacy": 0.8730480670928955,
+      "mse": 0.007460019547991564,
+      "dc_mse": 0.003501134497816973,
+      "spatial_residual_mse": 0.003958885050174591,
+      "clip_fraction": 1.9188121314073214e-06,
+      "old_native_psnr": 21.27260034514765,
+      "replay_delta": 0.0,
+      "method": "ss2d",
+      "image": "45.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1442,
+        2048
+      ],
+      "target_hw": [
+        1442,
+        2048
+      ],
+      "prediction_sha256": "e7e1ba70dd9fa9b4f9d35d66021662357a33a1dd58bffd1a181b0ae017aa6866",
+      "checkpoint_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.277843362830133,
+      "ssim_native": 0.8382296562194824,
+      "ssim_pooled_legacy": 0.8998782634735107,
+      "mse": 0.0029663040431503677,
+      "dc_mse": 0.0005333551808307945,
+      "spatial_residual_mse": 0.0024329488623195733,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.277843362830133,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "41.jpg",
+      "scale": 256,
+      "input_hw": [
+        256,
+        211
+      ],
+      "target_hw": [
+        256,
+        211
+      ],
+      "prediction_sha256": "759b48f158d9203c3fe5f37e37a98c8b0a043fa8587b50b97021a9d5b58015fc",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.339960986358705,
+      "ssim_native": 0.84923255443573,
+      "ssim_pooled_legacy": 0.9123469591140747,
+      "mse": 0.0029241786462738894,
+      "dc_mse": 0.0005177424839478407,
+      "spatial_residual_mse": 0.002406436162326049,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.339960986358705,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "41.jpg",
+      "scale": 384,
+      "input_hw": [
+        384,
+        317
+      ],
+      "target_hw": [
+        384,
+        317
+      ],
+      "prediction_sha256": "e5017fa153c9d68d7e1a3930b62dda6da74a6ac6e8e5ea1c915d9136b129e7f5",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.334267736017306,
+      "ssim_native": 0.8558708429336548,
+      "ssim_pooled_legacy": 0.9430302977561951,
+      "mse": 0.0029280145223178978,
+      "dc_mse": 0.0005318256206971836,
+      "spatial_residual_mse": 0.0023961889016207135,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.334267736017306,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "41.jpg",
+      "scale": 512,
+      "input_hw": [
+        512,
+        422
+      ],
+      "target_hw": [
+        512,
+        422
+      ],
+      "prediction_sha256": "f157aadbce38e811fa98d32865170844cf4afb93d21058f490ed03c56397e176",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "cache512"
+    },
+    {
+      "psnr": 25.995544602330604,
+      "ssim_native": 0.8660563826560974,
+      "ssim_pooled_legacy": 0.9474150538444519,
+      "mse": 0.002514464681061621,
+      "dc_mse": 0.00046512984076089325,
+      "spatial_residual_mse": 0.0020493348403007277,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.995544602330604,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "41.jpg",
+      "scale": 768,
+      "input_hw": [
+        768,
+        633
+      ],
+      "target_hw": [
+        768,
+        633
+      ],
+      "prediction_sha256": "14a355be952fb01a10133b9e0d33ae453b380bf2d1efb7cd3eb3693ac82a3e35",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.049088118861622,
+      "ssim_native": 0.868719756603241,
+      "ssim_pooled_legacy": 0.9541329145431519,
+      "mse": 0.002483654539500206,
+      "dc_mse": 0.0005710054545145232,
+      "spatial_residual_mse": 0.0019126490849856828,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.049088118861622,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "41.jpg",
+      "scale": 1024,
+      "input_hw": [
+        1024,
+        844
+      ],
+      "target_hw": [
+        1024,
+        844
+      ],
+      "prediction_sha256": "f5b2b60df526d46cd9cc2d273dd33be63aca06af276d5a42a3a7619c387dc5a1",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.22833969371043,
+      "ssim_native": 0.8672776222229004,
+      "ssim_pooled_legacy": 0.9573806524276733,
+      "mse": 0.002383230403374697,
+      "dc_mse": 0.0005535989418634261,
+      "spatial_residual_mse": 0.0018296314615112706,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.22833969371043,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "41.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1280,
+        1055
+      ],
+      "target_hw": [
+        1280,
+        1055
+      ],
+      "prediction_sha256": "a0289ce789eccddb59d8c9c8c128acf5d457b1986966b7cc8c9bdfbb358a57be",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.39863447934796,
+      "ssim_native": 0.8643161654472351,
+      "ssim_pooled_legacy": 0.9597398042678833,
+      "mse": 0.0022915880669258496,
+      "dc_mse": 0.0005152945440463052,
+      "spatial_residual_mse": 0.001776293522879545,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.39863447934796,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "41.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1536,
+        1267
+      ],
+      "target_hw": [
+        1536,
+        1267
+      ],
+      "prediction_sha256": "fe11dfaf59423692c9350fb19fad1f8d129bff0334e4db22caeef59a299f8014",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.81913027917644,
+      "ssim_native": 0.8588329553604126,
+      "ssim_pooled_legacy": 0.9631158113479614,
+      "mse": 0.0020801132101575647,
+      "dc_mse": 0.00038589209068821576,
+      "spatial_residual_mse": 0.0016942211194693488,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.81913027917644,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "41.jpg",
+      "scale": 2048,
+      "input_hw": [
+        2048,
+        1689
+      ],
+      "target_hw": [
+        2048,
+        1689
+      ],
+      "prediction_sha256": "63688f69e5eba9477a2aa74b3fa3031aaf65929af568317786cfcbf9c32f76db",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 19.209407154209824,
+      "ssim_native": 0.5470438003540039,
+      "ssim_pooled_legacy": 0.6797343492507935,
+      "mse": 0.01199663055322297,
+      "dc_mse": 0.005714507726153989,
+      "spatial_residual_mse": 0.006282122827068983,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 19.209407154209824,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "42.jpg",
+      "scale": 256,
+      "input_hw": [
+        215,
+        256
+      ],
+      "target_hw": [
+        215,
+        256
+      ],
+      "prediction_sha256": "c7936941cedd066b8a511813b88a9d6be7bb22355a5b93edd183997568a915b9",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 19.10700504001025,
+      "ssim_native": 0.5626896619796753,
+      "ssim_pooled_legacy": 0.6848589181900024,
+      "mse": 0.01228285983624659,
+      "dc_mse": 0.006724279028353621,
+      "spatial_residual_mse": 0.005558580807892965,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 19.10700504001025,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "42.jpg",
+      "scale": 384,
+      "input_hw": [
+        323,
+        384
+      ],
+      "target_hw": [
+        323,
+        384
+      ],
+      "prediction_sha256": "c9e32043ee91fcd035086833e874b48dd481a03956b20e6249210409ca3005cb",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 19.07108714140256,
+      "ssim_native": 0.5780424475669861,
+      "ssim_pooled_legacy": 0.7830640077590942,
+      "mse": 0.012384865253696859,
+      "dc_mse": 0.006898467348180841,
+      "spatial_residual_mse": 0.005486397905516017,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 19.07108714140256,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "42.jpg",
+      "scale": 512,
+      "input_hw": [
+        431,
+        512
+      ],
+      "target_hw": [
+        431,
+        512
+      ],
+      "prediction_sha256": "f07b419cdb98a3387f2831186f8a3b8ea8bd887f93865e3c9978c4f5085cb5e6",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "cache512"
+    },
+    {
+      "psnr": 19.106137670433718,
+      "ssim_native": 0.6040989756584167,
+      "ssim_pooled_legacy": 0.8166396021842957,
+      "mse": 0.012285313204486767,
+      "dc_mse": 0.006792587691783535,
+      "spatial_residual_mse": 0.0054927255127032336,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 19.106137670433718,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "42.jpg",
+      "scale": 768,
+      "input_hw": [
+        646,
+        768
+      ],
+      "target_hw": [
+        646,
+        768
+      ],
+      "prediction_sha256": "096e21c4db8ad0283cb26a99d2f8f68e345145fd8f9d72348e1487554e349e31",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 19.341554402479876,
+      "ssim_native": 0.6226502060890198,
+      "ssim_pooled_legacy": 0.8133349418640137,
+      "mse": 0.011637094464985915,
+      "dc_mse": 0.006209484105769346,
+      "spatial_residual_mse": 0.005427610359216567,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 19.341554402479876,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "42.jpg",
+      "scale": 1024,
+      "input_hw": [
+        861,
+        1024
+      ],
+      "target_hw": [
+        861,
+        1024
+      ],
+      "prediction_sha256": "3e0db8c47ec25ff956de272e5306985d5800d960321b550c6290698d38a737fe",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 19.900044252561106,
+      "ssim_native": 0.6351994872093201,
+      "ssim_pooled_legacy": 0.8285285234451294,
+      "mse": 0.010232825654605086,
+      "dc_mse": 0.0049038659110356795,
+      "spatial_residual_mse": 0.005328959743569403,
+      "clip_fraction": 2.4179820456993184e-07,
+      "old_native_psnr": 19.900044252561106,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "42.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1077,
+        1280
+      ],
+      "target_hw": [
+        1077,
+        1280
+      ],
+      "prediction_sha256": "9446aefe0bef534a008d51288c8d71b8915689753fca8645662aed23763434b6",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 20.547476730366082,
+      "ssim_native": 0.6423956751823425,
+      "ssim_pooled_legacy": 0.8374106884002686,
+      "mse": 0.008815609149305534,
+      "dc_mse": 0.0035062838007782044,
+      "spatial_residual_mse": 0.005309325348527329,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 20.547476730366082,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "42.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1292,
+        1536
+      ],
+      "target_hw": [
+        1292,
+        1536
+      ],
+      "prediction_sha256": "17dfefa211bc325bd1043271fad1c826ca5000490a97f8ad22bc6010a7e5dbe7",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 21.20826567458909,
+      "ssim_native": 0.648248553276062,
+      "ssim_pooled_legacy": 0.8463751673698425,
+      "mse": 0.007571351914348325,
+      "dc_mse": 0.002087501501144899,
+      "spatial_residual_mse": 0.005483850413203427,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 21.20826567458909,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "42.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1723,
+        2048
+      ],
+      "target_hw": [
+        1723,
+        2048
+      ],
+      "prediction_sha256": "fccdd5daf238afdabb53d1074c09e26602af089036c3f39c6aec670cb3092fe6",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.93229895126675,
+      "ssim_native": 0.8261842131614685,
+      "ssim_pooled_legacy": 0.8950393199920654,
+      "mse": 0.003211959827676743,
+      "dc_mse": 0.0003981410819508169,
+      "spatial_residual_mse": 0.002813818745725926,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.93229895126675,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "43.jpg",
+      "scale": 256,
+      "input_hw": [
+        177,
+        256
+      ],
+      "target_hw": [
+        177,
+        256
+      ],
+      "prediction_sha256": "094188d8757ae6a4379e885a276a05f2f1f4c0ca781935e2fbda9b9ab01f67ff",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.503303221165304,
+      "ssim_native": 0.8336989283561707,
+      "ssim_pooled_legacy": 0.9046515226364136,
+      "mse": 0.002816240098931769,
+      "dc_mse": 0.00022282974006437547,
+      "spatial_residual_mse": 0.0025934103588673933,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.503303221165304,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "43.jpg",
+      "scale": 384,
+      "input_hw": [
+        266,
+        384
+      ],
+      "target_hw": [
+        266,
+        384
+      ],
+      "prediction_sha256": "9892d3c9f5c78341e8d3dfcd179c9cf85edf689af728fb3fd0cc72a8bfb3a7e1",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.799943688524507,
+      "ssim_native": 0.8387352824211121,
+      "ssim_pooled_legacy": 0.9476057291030884,
+      "mse": 0.00263030209668786,
+      "dc_mse": 0.0002191091719652661,
+      "spatial_residual_mse": 0.002411192924722594,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.799943688524507,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "43.jpg",
+      "scale": 512,
+      "input_hw": [
+        354,
+        512
+      ],
+      "target_hw": [
+        354,
+        512
+      ],
+      "prediction_sha256": "fff4de6b9ab4d245419617421b58bcc0070991dbfc21b7dce811aa71dbd732c3",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "cache512"
+    },
+    {
+      "psnr": 26.146809829634996,
+      "ssim_native": 0.8468922972679138,
+      "ssim_pooled_legacy": 0.9503827095031738,
+      "mse": 0.0024283932500317085,
+      "dc_mse": 0.000196793282530677,
+      "spatial_residual_mse": 0.0022315999675010315,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.146809829634996,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "43.jpg",
+      "scale": 768,
+      "input_hw": [
+        531,
+        768
+      ],
+      "target_hw": [
+        531,
+        768
+      ],
+      "prediction_sha256": "571d972ccbc65abe584efaabafa685b63b50e69e7cfbb863d21f4fdc5415a6ff",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.105948868322454,
+      "ssim_native": 0.8513479232788086,
+      "ssim_pooled_legacy": 0.9580563306808472,
+      "mse": 0.002451348812338208,
+      "dc_mse": 0.00022122682518422912,
+      "spatial_residual_mse": 0.002230121987153979,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.105948868322454,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "43.jpg",
+      "scale": 1024,
+      "input_hw": [
+        708,
+        1024
+      ],
+      "target_hw": [
+        708,
+        1024
+      ],
+      "prediction_sha256": "a13a6c7c362d74cc9cfab1c3fc181a5ed9bd6ac2be888cd1ec89fae7160b1ba3",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.26081052947218,
+      "ssim_native": 0.853864312171936,
+      "ssim_pooled_legacy": 0.9620571136474609,
+      "mse": 0.002365478183999375,
+      "dc_mse": 0.0002101181491070584,
+      "spatial_residual_mse": 0.0021553600348923167,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.26081052947218,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "43.jpg",
+      "scale": 1280,
+      "input_hw": [
+        885,
+        1280
+      ],
+      "target_hw": [
+        885,
+        1280
+      ],
+      "prediction_sha256": "c0c2553a3def59327c6c009d90d4de3d42fb22ae61486313111215d7138c8b6e",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 26.522170448830927,
+      "ssim_native": 0.8543899059295654,
+      "ssim_pooled_legacy": 0.9611806869506836,
+      "mse": 0.0022273217351558737,
+      "dc_mse": 0.00017998950380250481,
+      "spatial_residual_mse": 0.0020473322313533694,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 26.522170448830927,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "43.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1062,
+        1536
+      ],
+      "target_hw": [
+        1062,
+        1536
+      ],
+      "prediction_sha256": "50136c7e0366184cdf36b838d1556c2b3dd8835fb1883fcbbd7fe26877e9eb05",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 27.04745277204538,
+      "ssim_native": 0.852147102355957,
+      "ssim_pooled_legacy": 0.9662771224975586,
+      "mse": 0.0019735799426259877,
+      "dc_mse": 0.0001253513078401844,
+      "spatial_residual_mse": 0.0018482286347858035,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 27.04745277204538,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "43.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1417,
+        2048
+      ],
+      "target_hw": [
+        1417,
+        2048
+      ],
+      "prediction_sha256": "2720353e02fd684250e7bc3878f5571162b3217a41643bc78d871fa1678ea112",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.351410773829052,
+      "ssim_native": 0.7981700301170349,
+      "ssim_pooled_legacy": 0.8685207366943359,
+      "mse": 0.004622308447028468,
+      "dc_mse": 0.0012855943578873224,
+      "spatial_residual_mse": 0.003336714089141147,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.351410773829052,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "44.jpg",
+      "scale": 256,
+      "input_hw": [
+        256,
+        194
+      ],
+      "target_hw": [
+        256,
+        194
+      ],
+      "prediction_sha256": "d35664edcf831f0ff4f21d89b23799f0ca683581472f695444536cf8c1435d41",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.188293915550396,
+      "ssim_native": 0.7955917119979858,
+      "ssim_pooled_legacy": 0.8702698945999146,
+      "mse": 0.006041859314429068,
+      "dc_mse": 0.002460518819219192,
+      "spatial_residual_mse": 0.003581340495209876,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.188293915550396,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "44.jpg",
+      "scale": 384,
+      "input_hw": [
+        384,
+        291
+      ],
+      "target_hw": [
+        384,
+        291
+      ],
+      "prediction_sha256": "e738461003f0527ea9102a9e90229aad78733d4e5bb2eb65f2619ae8a9e5026f",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.26722742826583,
+      "ssim_native": 0.7968999743461609,
+      "ssim_pooled_legacy": 0.9102195501327515,
+      "mse": 0.005933039738431608,
+      "dc_mse": 0.0021913182874159633,
+      "spatial_residual_mse": 0.0037417214510156458,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.26722742826583,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "44.jpg",
+      "scale": 512,
+      "input_hw": [
+        512,
+        388
+      ],
+      "target_hw": [
+        512,
+        388
+      ],
+      "prediction_sha256": "a774128825991fd5b5abd0bb62197337c2be814919654298cec6456ea449cf87",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "cache512"
+    },
+    {
+      "psnr": 22.41307206354438,
+      "ssim_native": 0.8015695810317993,
+      "ssim_pooled_legacy": 0.9113719463348389,
+      "mse": 0.005737104937519871,
+      "dc_mse": 0.0019105705745394508,
+      "spatial_residual_mse": 0.0038265343629804204,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.41307206354438,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "44.jpg",
+      "scale": 768,
+      "input_hw": [
+        768,
+        581
+      ],
+      "target_hw": [
+        768,
+        581
+      ],
+      "prediction_sha256": "a438128a01ffe605de26c159c553dfadf49555e5919fcc40947cf5c0cccf29ad",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.629274212242528,
+      "ssim_native": 0.8055543899536133,
+      "ssim_pooled_legacy": 0.9221582412719727,
+      "mse": 0.005458490751155608,
+      "dc_mse": 0.0016705720240331949,
+      "spatial_residual_mse": 0.003787918727122412,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.629274212242528,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "44.jpg",
+      "scale": 1024,
+      "input_hw": [
+        1024,
+        775
+      ],
+      "target_hw": [
+        1024,
+        775
+      ],
+      "prediction_sha256": "5bac4c731843bfdf15b263dcf24478b3232be8f6825cb37625bfb4aea9001b6b",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.93594292959133,
+      "ssim_native": 0.8076626658439636,
+      "ssim_pooled_legacy": 0.9280400276184082,
+      "mse": 0.005086343741999884,
+      "dc_mse": 0.0013790339627133958,
+      "spatial_residual_mse": 0.003707309779286488,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.93594292959133,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "44.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1280,
+        969
+      ],
+      "target_hw": [
+        1280,
+        969
+      ],
+      "prediction_sha256": "0e7301b42066892578ff3b758a74e75e9d8b372bede40b83693f86ebb8cf036c",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.125371347910043,
+      "ssim_native": 0.8076688647270203,
+      "ssim_pooled_legacy": 0.9311930537223816,
+      "mse": 0.004869258882928953,
+      "dc_mse": 0.0012719055037505977,
+      "spatial_residual_mse": 0.003597353379178355,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.125371347910043,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "44.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1536,
+        1163
+      ],
+      "target_hw": [
+        1536,
+        1163
+      ],
+      "prediction_sha256": "1b8203b0de07d0b45b0e1bc695a6138a269cb1ad01f286484cef20045b8c2c39",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.484684409923254,
+      "ssim_native": 0.8061599135398865,
+      "ssim_pooled_legacy": 0.9329779148101807,
+      "mse": 0.004482616227752171,
+      "dc_mse": 0.0010627911661009305,
+      "spatial_residual_mse": 0.0034198250616512406,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.484684409923254,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "44.jpg",
+      "scale": 2048,
+      "input_hw": [
+        2048,
+        1550
+      ],
+      "target_hw": [
+        2048,
+        1550
+      ],
+      "prediction_sha256": "3993b0cf71357ff89d237bec00d5f4dcfcd83b953010c42d14b12a58c4d4fdba",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 21.51754386946632,
+      "ssim_native": 0.6053586006164551,
+      "ssim_pooled_legacy": 0.7059551477432251,
+      "mse": 0.007050917172935068,
+      "dc_mse": 5.9412410653442186e-05,
+      "spatial_residual_mse": 0.006991504762281626,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 21.51754386946632,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "45.jpg",
+      "scale": 256,
+      "input_hw": [
+        180,
+        256
+      ],
+      "target_hw": [
+        180,
+        256
+      ],
+      "prediction_sha256": "2ae5ebb29cf6469c5be1479d3a2f9deb3983868393b3e3e105ce5297adb94db1",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.003857915395276,
+      "ssim_native": 0.6155753135681152,
+      "ssim_pooled_legacy": 0.7194122076034546,
+      "mse": 0.006303971026830503,
+      "dc_mse": 0.00013976830377096562,
+      "spatial_residual_mse": 0.006164202723059538,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.003857915395276,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "45.jpg",
+      "scale": 384,
+      "input_hw": [
+        270,
+        384
+      ],
+      "target_hw": [
+        270,
+        384
+      ],
+      "prediction_sha256": "aaf24284d91d771e23266875772614ef052ce07ec8a3dbf59826cf4cee7a0b63",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.204673266804747,
+      "ssim_native": 0.6296427249908447,
+      "ssim_pooled_legacy": 0.7934362888336182,
+      "mse": 0.006019115448667302,
+      "dc_mse": 0.0002779402556865262,
+      "spatial_residual_mse": 0.0057411751929807775,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.204673266804747,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "45.jpg",
+      "scale": 512,
+      "input_hw": [
+        360,
+        512
+      ],
+      "target_hw": [
+        360,
+        512
+      ],
+      "prediction_sha256": "4b10efa19465a435112566e49ca21e7be7af0914654f7bf79cfc5956deb1b154",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "cache512"
+    },
+    {
+      "psnr": 22.34665163260782,
+      "ssim_native": 0.6619222164154053,
+      "ssim_pooled_legacy": 0.8117443919181824,
+      "mse": 0.0058255218663284866,
+      "dc_mse": 0.0004770426830123023,
+      "spatial_residual_mse": 0.005348479183316184,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.34665163260782,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "45.jpg",
+      "scale": 768,
+      "input_hw": [
+        541,
+        768
+      ],
+      "target_hw": [
+        541,
+        768
+      ],
+      "prediction_sha256": "e31984287a53ab5436dda7718c151d00bb6c47aef55e58cfe62feac85644298a",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.365692158361803,
+      "ssim_native": 0.6914612650871277,
+      "ssim_pooled_legacy": 0.8418552279472351,
+      "mse": 0.0058000372685764945,
+      "dc_mse": 0.0007295686720051247,
+      "spatial_residual_mse": 0.00507046859657137,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.365692158361803,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "45.jpg",
+      "scale": 1024,
+      "input_hw": [
+        721,
+        1024
+      ],
+      "target_hw": [
+        721,
+        1024
+      ],
+      "prediction_sha256": "9604ab72fb27ae3a6330aa70c0e1185ac71465030abf3e82291e72551371c31f",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.194647236104217,
+      "ssim_native": 0.7075880765914917,
+      "ssim_pooled_legacy": 0.853783130645752,
+      "mse": 0.006033027103385814,
+      "dc_mse": 0.0011049974406591699,
+      "spatial_residual_mse": 0.004928029662726644,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.194647236104217,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "45.jpg",
+      "scale": 1280,
+      "input_hw": [
+        901,
+        1280
+      ],
+      "target_hw": [
+        901,
+        1280
+      ],
+      "prediction_sha256": "ee6ceb819cbf552b038eb011f5987d5026949908c39778b45cbeaaa414e71d21",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.00863325147024,
+      "ssim_native": 0.7165100574493408,
+      "ssim_pooled_legacy": 0.851036012172699,
+      "mse": 0.006297043230783099,
+      "dc_mse": 0.0014356762641681035,
+      "spatial_residual_mse": 0.004861366966614995,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.00863325147024,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "45.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1081,
+        1536
+      ],
+      "target_hw": [
+        1081,
+        1536
+      ],
+      "prediction_sha256": "5195ca18d1a6215177512af33eeb7252715d120c1c6e5c165f1126631019c81c",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 21.63527104999552,
+      "ssim_native": 0.724108099937439,
+      "ssim_pooled_legacy": 0.8566073775291443,
+      "mse": 0.006862350480696253,
+      "dc_mse": 0.0020362438173122947,
+      "spatial_residual_mse": 0.004826106663383958,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 21.63527104999552,
+      "replay_delta": 0.0,
+      "method": "mair",
+      "image": "45.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1442,
+        2048
+      ],
+      "target_hw": [
+        1442,
+        2048
+      ],
+      "prediction_sha256": "19c61f40f0b2b88a74c4afaeb67fe811e44dfa6ce62003c82d59b5b62c79205c",
+      "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "config_sha256": "effcb1ad3e24083776bc1a5ebdac950ffdc7549e3994550c9fff64feb10548b2",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.77572768947367,
+      "ssim_native": 0.876668393611908,
+      "ssim_pooled_legacy": 0.92529296875,
+      "mse": 0.002645009468551662,
+      "dc_mse": 5.2447991139213685e-05,
+      "spatial_residual_mse": 0.0025925614774124487,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.77572768947367,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "41.jpg",
+      "scale": 256,
+      "input_hw": [
+        256,
+        211
+      ],
+      "target_hw": [
+        256,
+        211
+      ],
+      "prediction_sha256": "988d34a347e61dc826ce99de6a1987c9e0a85974e6a9b0c60a9321c4c0c3d4dd",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.82710945807749,
+      "ssim_native": 0.8815147876739502,
+      "ssim_pooled_legacy": 0.9321815371513367,
+      "mse": 0.002613900514231154,
+      "dc_mse": 4.303679172624092e-05,
+      "spatial_residual_mse": 0.002570863722504913,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.82710945807749,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "41.jpg",
+      "scale": 384,
+      "input_hw": [
+        384,
+        317
+      ],
+      "target_hw": [
+        384,
+        317
+      ],
+      "prediction_sha256": "27c41ce620468ab514a068ecf6ad910f7655007f87a7aa8370d99fd7be957e35",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.481972934906242,
+      "ssim_native": 0.8807449340820312,
+      "ssim_pooled_legacy": 0.9516788721084595,
+      "mse": 0.0028301060288636,
+      "dc_mse": 3.799818067113928e-05,
+      "spatial_residual_mse": 0.002792107848192461,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.481972934906242,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "41.jpg",
+      "scale": 512,
+      "input_hw": [
+        512,
+        422
+      ],
+      "target_hw": [
+        512,
+        422
+      ],
+      "prediction_sha256": "46e83ef085b663d5360e26797275f7d6fe365fae3d18eccb07fcef061585feb2",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "cache512"
+    },
+    {
+      "psnr": 25.397691386013975,
+      "ssim_native": 0.8866071701049805,
+      "ssim_pooled_legacy": 0.9519950747489929,
+      "mse": 0.002885564998418228,
+      "dc_mse": 2.52791830293757e-05,
+      "spatial_residual_mse": 0.002860285815388853,
+      "clip_fraction": 6.85667885136354e-07,
+      "old_native_psnr": 25.397691386013975,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "41.jpg",
+      "scale": 768,
+      "input_hw": [
+        768,
+        633
+      ],
+      "target_hw": [
+        768,
+        633
+      ],
+      "prediction_sha256": "f3e7060871935794c9b5eca21682771187b2968935c8ac2da40fd9a930e3ce4f",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.935574778140253,
+      "ssim_native": 0.8848221302032471,
+      "ssim_pooled_legacy": 0.9537539482116699,
+      "mse": 0.0032095380015844926,
+      "dc_mse": 1.7278099939586574e-05,
+      "spatial_residual_mse": 0.003192259901644906,
+      "clip_fraction": 2.699817287066253e-06,
+      "old_native_psnr": 24.935574778140253,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "41.jpg",
+      "scale": 1024,
+      "input_hw": [
+        1024,
+        844
+      ],
+      "target_hw": [
+        1024,
+        844
+      ],
+      "prediction_sha256": "87e06bcc5d5ef7f20987a5c86b966a006b849f233fc6431a258971f64812b4e9",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.704850163974218,
+      "ssim_native": 0.8793184161186218,
+      "ssim_pooled_legacy": 0.9541835784912109,
+      "mse": 0.003384659490853271,
+      "dc_mse": 0.00011221744717253225,
+      "spatial_residual_mse": 0.003272442043680739,
+      "clip_fraction": 7.405213295896829e-07,
+      "old_native_psnr": 24.704850163974218,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "41.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1280,
+        1055
+      ],
+      "target_hw": [
+        1280,
+        1055
+      ],
+      "prediction_sha256": "7b89ba193b7ed0e7e90ce1a0e4d1fc310b4086697e05dfcf3a0fde8446502f62",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.651189944907127,
+      "ssim_native": 0.8737179636955261,
+      "ssim_pooled_legacy": 0.9545729160308838,
+      "mse": 0.0034267388277234964,
+      "dc_mse": 2.816869802223027e-05,
+      "spatial_residual_mse": 0.0033985701297012663,
+      "clip_fraction": 5.138450660524541e-07,
+      "old_native_psnr": 24.651189944907127,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "41.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1536,
+        1267
+      ],
+      "target_hw": [
+        1536,
+        1267
+      ],
+      "prediction_sha256": "274d1cd691f02a6f4f57502200a00ec393a6309a325fef1270cec916857fa038",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.942489795058982,
+      "ssim_native": 0.8652182817459106,
+      "ssim_pooled_legacy": 0.9549280405044556,
+      "mse": 0.0032044317083274906,
+      "dc_mse": 5.7774181549626074e-05,
+      "spatial_residual_mse": 0.0031466575267778646,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.942489795058982,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "41.jpg",
+      "scale": 2048,
+      "input_hw": [
+        2048,
+        1689
+      ],
+      "target_hw": [
+        2048,
+        1689
+      ],
+      "prediction_sha256": "07069918a249bbf3bd1a323c24227846cfa88d3cbb356deb925823770a824062",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 20.10897480318453,
+      "ssim_native": 0.6946896910667419,
+      "ssim_pooled_legacy": 0.7820927500724792,
+      "mse": 0.009752198212219945,
+      "dc_mse": 0.0012075408681535135,
+      "spatial_residual_mse": 0.00854465734406643,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 20.10897480318453,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "42.jpg",
+      "scale": 256,
+      "input_hw": [
+        215,
+        256
+      ],
+      "target_hw": [
+        215,
+        256
+      ],
+      "prediction_sha256": "f78a8dcaa14185aa0b9d2c2a3731779c7d4ce5e8ff510bc726d9b50634efe02b",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.489937144009186,
+      "ssim_native": 0.7781386375427246,
+      "ssim_pooled_legacy": 0.841930627822876,
+      "mse": 0.0044771978403465125,
+      "dc_mse": 5.995861877586001e-05,
+      "spatial_residual_mse": 0.004417239221570654,
+      "clip_fraction": 3.2249743526335806e-05,
+      "old_native_psnr": 23.489937144009186,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "42.jpg",
+      "scale": 384,
+      "input_hw": [
+        323,
+        384
+      ],
+      "target_hw": [
+        323,
+        384
+      ],
+      "prediction_sha256": "10cd46cbd6973a8ba10ef49c6e1e83ee75d27802bfa68fee01d22f37db18049d",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.351833454706263,
+      "ssim_native": 0.794237494468689,
+      "ssim_pooled_legacy": 0.8885223865509033,
+      "mse": 0.003671272781878235,
+      "dc_mse": 3.604000387996409e-05,
+      "spatial_residual_mse": 0.003635232777998271,
+      "clip_fraction": 2.2658063244307414e-05,
+      "old_native_psnr": 24.351833454706263,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "42.jpg",
+      "scale": 512,
+      "input_hw": [
+        431,
+        512
+      ],
+      "target_hw": [
+        431,
+        512
+      ],
+      "prediction_sha256": "f2cfe3c385b68303f11272f84f77416b86eca9c8c4fcf85fbd6f14ec15d394b4",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "cache512"
+    },
+    {
+      "psnr": 24.591108574152752,
+      "ssim_native": 0.7971267104148865,
+      "ssim_pooled_legacy": 0.9134075045585632,
+      "mse": 0.003474474611593519,
+      "dc_mse": 0.0002625175004624459,
+      "spatial_residual_mse": 0.003211957111131073,
+      "clip_fraction": 1.07499135992839e-05,
+      "old_native_psnr": 24.591108574152752,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "42.jpg",
+      "scale": 768,
+      "input_hw": [
+        646,
+        768
+      ],
+      "target_hw": [
+        646,
+        768
+      ],
+      "prediction_sha256": "a41e65b5a314a1a9434d69f6d217def983019ad37ac67d19f14acbf9b6144358",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.29627946364909,
+      "ssim_native": 0.7852640151977539,
+      "ssim_pooled_legacy": 0.9105851054191589,
+      "mse": 0.004681360147253664,
+      "dc_mse": 0.0011603636939769594,
+      "spatial_residual_mse": 0.003520996453276705,
+      "clip_fraction": 1.512291873950744e-06,
+      "old_native_psnr": 23.29627946364909,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "42.jpg",
+      "scale": 1024,
+      "input_hw": [
+        861,
+        1024
+      ],
+      "target_hw": [
+        861,
+        1024
+      ],
+      "prediction_sha256": "ff602662f3cdc619f9fc287fe94ce7f84fe9810563bbb8d3b18d4344a9828a41",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.28045299068495,
+      "ssim_native": 0.774009108543396,
+      "ssim_pooled_legacy": 0.9149174690246582,
+      "mse": 0.0059149993458081935,
+      "dc_mse": 0.0025866204408477107,
+      "spatial_residual_mse": 0.003328378904960484,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.28045299068495,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "42.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1077,
+        1280
+      ],
+      "target_hw": [
+        1077,
+        1280
+      ],
+      "prediction_sha256": "1635859a7af20085595f33d9cc51e4c6396ac2b70559cdd242dbc375032dcef0",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 21.633403289705257,
+      "ssim_native": 0.7627732157707214,
+      "ssim_pooled_legacy": 0.9166130423545837,
+      "mse": 0.006865302390700283,
+      "dc_mse": 0.003523075730071734,
+      "spatial_residual_mse": 0.0033422266606285486,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 21.633403289705257,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "42.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1292,
+        1536
+      ],
+      "target_hw": [
+        1292,
+        1536
+      ],
+      "prediction_sha256": "ac4f4110dace2e0d50bed4459ae95b385701f657da51e2801c9352150d85e42d",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.44123103534084,
+      "ssim_native": 0.745733916759491,
+      "ssim_pooled_legacy": 0.9208837747573853,
+      "mse": 0.005700026784935882,
+      "dc_mse": 0.002118232844724999,
+      "spatial_residual_mse": 0.0035817939402108833,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.44123103534084,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "42.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1723,
+        2048
+      ],
+      "target_hw": [
+        1723,
+        2048
+      ],
+      "prediction_sha256": "0fa9d4b6e1f44fc973adf3c4806751ac137a2cf58cd5a56ba869120595f0b17d",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.053854268009783,
+      "ssim_native": 0.8400828242301941,
+      "ssim_pooled_legacy": 0.8930403590202332,
+      "mse": 0.0062318153009361795,
+      "dc_mse": 0.004487256135346907,
+      "spatial_residual_mse": 0.0017445591655892725,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.053854268009783,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "43.jpg",
+      "scale": 256,
+      "input_hw": [
+        177,
+        256
+      ],
+      "target_hw": [
+        177,
+        256
+      ],
+      "prediction_sha256": "d99af834346061a934acc3dd564f9ae4ef3a2d00efe2163a2869060ad458edc1",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.20246110593889,
+      "ssim_native": 0.8567435145378113,
+      "ssim_pooled_legacy": 0.9100069403648376,
+      "mse": 0.004783589339944491,
+      "dc_mse": 0.002902164980141666,
+      "spatial_residual_mse": 0.001881424359802826,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.20246110593889,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "43.jpg",
+      "scale": 384,
+      "input_hw": [
+        266,
+        384
+      ],
+      "target_hw": [
+        266,
+        384
+      ],
+      "prediction_sha256": "72411cc9e9aaa2ab3d42597789a16835e289608e7567a326184aabb23ea8527e",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.46713545852763,
+      "ssim_native": 0.8613930940628052,
+      "ssim_pooled_legacy": 0.9412073493003845,
+      "mse": 0.00450076620821457,
+      "dc_mse": 0.0025584988042626363,
+      "spatial_residual_mse": 0.0019422674039519337,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.46713545852763,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "43.jpg",
+      "scale": 512,
+      "input_hw": [
+        354,
+        512
+      ],
+      "target_hw": [
+        354,
+        512
+      ],
+      "prediction_sha256": "c01ff24f11d14a2e76098e7ed405771fc29a7081cc3edeaaa6d96648c48ea2e5",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "cache512"
+    },
+    {
+      "psnr": 25.376614154096494,
+      "ssim_native": 0.8722639083862305,
+      "ssim_pooled_legacy": 0.9483048319816589,
+      "mse": 0.0028996032949597885,
+      "dc_mse": 0.0007178515538605812,
+      "spatial_residual_mse": 0.0021817517410992076,
+      "clip_fraction": 8.173781225195853e-07,
+      "old_native_psnr": 25.376614154096494,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "43.jpg",
+      "scale": 768,
+      "input_hw": [
+        531,
+        768
+      ],
+      "target_hw": [
+        531,
+        768
+      ],
+      "prediction_sha256": "7cfc6de02685a4d63ba9ba3ce8d1e7a87ff0e8db22358d55a599825ea3dc245e",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.849197971732544,
+      "ssim_native": 0.8738455772399902,
+      "ssim_pooled_legacy": 0.955528736114502,
+      "mse": 0.0026006397889401464,
+      "dc_mse": 0.0003258589065130968,
+      "spatial_residual_mse": 0.0022747808824270495,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.849197971732544,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "43.jpg",
+      "scale": 1024,
+      "input_hw": [
+        708,
+        1024
+      ],
+      "target_hw": [
+        708,
+        1024
+      ],
+      "prediction_sha256": "a39c83a4dc8e3874384424426a7ebd8e68dfa9cb9cec518950a774fcba44179c",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.654490810327093,
+      "ssim_native": 0.8686794638633728,
+      "ssim_pooled_legacy": 0.951030433177948,
+      "mse": 0.0034241353163490273,
+      "dc_mse": 0.0002361785015264151,
+      "spatial_residual_mse": 0.0031879568148226126,
+      "clip_fraction": 2.942561252439191e-07,
+      "old_native_psnr": 24.654490810327093,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "43.jpg",
+      "scale": 1280,
+      "input_hw": [
+        885,
+        1280
+      ],
+      "target_hw": [
+        885,
+        1280
+      ],
+      "prediction_sha256": "465483a63b6e4a05c8b37e40df116681ba95bf9f3ce760f7fa71e3954fac0f44",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.446856264393297,
+      "ssim_native": 0.8642334342002869,
+      "ssim_pooled_legacy": 0.9486528635025024,
+      "mse": 0.0035918184219714553,
+      "dc_mse": 0.00021123874337028467,
+      "spatial_residual_mse": 0.003380579678601171,
+      "clip_fraction": 2.0434453062989633e-07,
+      "old_native_psnr": 24.446856264393297,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "43.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1062,
+        1536
+      ],
+      "target_hw": [
+        1062,
+        1536
+      ],
+      "prediction_sha256": "cd329aad0e97c40c0c12a48e744eed56fe08f46662cf66fb7a86e0c3b08de9e0",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 25.22065192442267,
+      "ssim_native": 0.858787477016449,
+      "ssim_pooled_legacy": 0.9536430239677429,
+      "mse": 0.0030056250909370613,
+      "dc_mse": 0.00014569983500288037,
+      "spatial_residual_mse": 0.0028599252559341815,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 25.22065192442267,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "43.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1417,
+        2048
+      ],
+      "target_hw": [
+        1417,
+        2048
+      ],
+      "prediction_sha256": "b4e9feb565cf5b0b1fc57d0870e5eb2650613dfefab9263a1ac170e3765c477b",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.630701351272233,
+      "ssim_native": 0.8314265608787537,
+      "ssim_pooled_legacy": 0.8918076753616333,
+      "mse": 0.004334408754586938,
+      "dc_mse": 0.0014968308266081972,
+      "spatial_residual_mse": 0.0028375779279787403,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.630701351272233,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "44.jpg",
+      "scale": 256,
+      "input_hw": [
+        256,
+        194
+      ],
+      "target_hw": [
+        256,
+        194
+      ],
+      "prediction_sha256": "c196a4ab76961c32f5048e4761370cc3869d1881bb68b28eae17ce5892101576",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 21.94750262079724,
+      "ssim_native": 0.8245738744735718,
+      "ssim_pooled_legacy": 0.8881098628044128,
+      "mse": 0.006386306205695647,
+      "dc_mse": 0.003236802639172065,
+      "spatial_residual_mse": 0.0031495035665235816,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 21.94750262079724,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "44.jpg",
+      "scale": 384,
+      "input_hw": [
+        384,
+        291
+      ],
+      "target_hw": [
+        384,
+        291
+      ],
+      "prediction_sha256": "326fa0f2709093f7426fb09a0d7a64b96be455b568f9de507ba3d6486ef820ee",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.199551266405642,
+      "ssim_native": 0.8296976089477539,
+      "ssim_pooled_legacy": 0.9240978956222534,
+      "mse": 0.006026218485965729,
+      "dc_mse": 0.002736541192997684,
+      "spatial_residual_mse": 0.0032896772929680448,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.199551266405642,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "44.jpg",
+      "scale": 512,
+      "input_hw": [
+        512,
+        388
+      ],
+      "target_hw": [
+        512,
+        388
+      ],
+      "prediction_sha256": "c0139a4c19b6a4161e972758ac0e685aa9a5f89e8bb60bf4ca4d787a6ede6f94",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "cache512"
+    },
+    {
+      "psnr": 22.963702039610418,
+      "ssim_native": 0.830784797668457,
+      "ssim_pooled_legacy": 0.9283885955810547,
+      "mse": 0.005053936675695937,
+      "dc_mse": 0.0016679930172462428,
+      "spatial_residual_mse": 0.0033859436584496947,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.963702039610418,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "44.jpg",
+      "scale": 768,
+      "input_hw": [
+        768,
+        581
+      ],
+      "target_hw": [
+        768,
+        581
+      ],
+      "prediction_sha256": "428446e051f16dfb11a1048e6e99dadd82e1ff8b85bfd2488c2ea9281df1d1ad",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.24472024590474,
+      "ssim_native": 0.8319705724716187,
+      "ssim_pooled_legacy": 0.9369535446166992,
+      "mse": 0.004737268226655769,
+      "dc_mse": 0.0014899264628687207,
+      "spatial_residual_mse": 0.0032473417637870483,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.24472024590474,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "44.jpg",
+      "scale": 1024,
+      "input_hw": [
+        1024,
+        775
+      ],
+      "target_hw": [
+        1024,
+        775
+      ],
+      "prediction_sha256": "973a19d38318c39c5d53b1836d8d4c0165227dc70afad0447a00de848a8f74ff",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.533970111654156,
+      "ssim_native": 0.8297961950302124,
+      "ssim_pooled_legacy": 0.9402539730072021,
+      "mse": 0.0044320330350585855,
+      "dc_mse": 0.0012837423581010677,
+      "spatial_residual_mse": 0.003148290676957517,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.533970111654156,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "44.jpg",
+      "scale": 1280,
+      "input_hw": [
+        1280,
+        969
+      ],
+      "target_hw": [
+        1280,
+        969
+      ],
+      "prediction_sha256": "6300aeb8dc9f607cca7df4ebbeaf8b522dfff54820154fa9a5d52cfd4cc8969e",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.575648819025602,
+      "ssim_native": 0.8265637159347534,
+      "ssim_pooled_legacy": 0.9404873847961426,
+      "mse": 0.0043897028029335735,
+      "dc_mse": 0.0012585435187306402,
+      "spatial_residual_mse": 0.003131159284202933,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.575648819025602,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "44.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1536,
+        1163
+      ],
+      "target_hw": [
+        1536,
+        1163
+      ],
+      "prediction_sha256": "61f099086b1e7958d32dbe3f1d60858e3ece06d7a29ac2a34a4712e675d0dff5",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.265114993306117,
+      "ssim_native": 0.8222786784172058,
+      "ssim_pooled_legacy": 0.9438320994377136,
+      "mse": 0.003745316299861806,
+      "dc_mse": 0.0007630292984903623,
+      "spatial_residual_mse": 0.002982287001371444,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.265114993306117,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "44.jpg",
+      "scale": 2048,
+      "input_hw": [
+        2048,
+        1550
+      ],
+      "target_hw": [
+        2048,
+        1550
+      ],
+      "prediction_sha256": "143ff6b81a5db6f6299fbf0dd2cd54903a92472a301ca713a07379127fdf96f0",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 20.673602515127186,
+      "ssim_native": 0.6167534589767456,
+      "ssim_pooled_legacy": 0.7096320390701294,
+      "mse": 0.008563272187471148,
+      "dc_mse": 0.002406933125675799,
+      "spatial_residual_mse": 0.006156339061795349,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 20.673602515127186,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "45.jpg",
+      "scale": 256,
+      "input_hw": [
+        180,
+        256
+      ],
+      "target_hw": [
+        180,
+        256
+      ],
+      "prediction_sha256": "0b5a235e8600bd6b6efa475505133900a6507073c0794eba408bebe7628a0c93",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 20.488226942400782,
+      "ssim_native": 0.6370751857757568,
+      "ssim_pooled_legacy": 0.7315518260002136,
+      "mse": 0.008936702605162127,
+      "dc_mse": 0.003116487176210618,
+      "spatial_residual_mse": 0.00582021542895151,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 20.488226942400782,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "45.jpg",
+      "scale": 384,
+      "input_hw": [
+        270,
+        384
+      ],
+      "target_hw": [
+        270,
+        384
+      ],
+      "prediction_sha256": "fba2a769e049e7c1aa89233da625cab9c3a9b32867928f8a6f99385481a576c1",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 20.937093077327916,
+      "ssim_native": 0.6568560004234314,
+      "ssim_pooled_legacy": 0.7987266778945923,
+      "mse": 0.008059176966230677,
+      "dc_mse": 0.0028275339794680363,
+      "spatial_residual_mse": 0.005231642986762641,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 20.937093077327916,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "45.jpg",
+      "scale": 512,
+      "input_hw": [
+        360,
+        512
+      ],
+      "target_hw": [
+        360,
+        512
+      ],
+      "prediction_sha256": "23962adb27360e0f43d6fa090120a5450c5cda2e66386f04f51a2ac898b9b1ed",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "cache512"
+    },
+    {
+      "psnr": 21.927692274239856,
+      "ssim_native": 0.7156039476394653,
+      "ssim_pooled_legacy": 0.8439425826072693,
+      "mse": 0.0064155038889917035,
+      "dc_mse": 0.0018102994958434926,
+      "spatial_residual_mse": 0.004605204393148211,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 21.927692274239856,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "45.jpg",
+      "scale": 768,
+      "input_hw": [
+        541,
+        768
+      ],
+      "target_hw": [
+        541,
+        768
+      ],
+      "prediction_sha256": "b1ab4367d27b5fb56f7b0520433f5d0272357fc30e384cf69ef14e8cb372b160",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 22.625188376828007,
+      "ssim_native": 0.7558354139328003,
+      "ssim_pooled_legacy": 0.8801125288009644,
+      "mse": 0.005463628506783843,
+      "dc_mse": 0.001122762893446488,
+      "spatial_residual_mse": 0.004340865613337355,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 22.625188376828007,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "45.jpg",
+      "scale": 1024,
+      "input_hw": [
+        721,
+        1024
+      ],
+      "target_hw": [
+        721,
+        1024
+      ],
+      "prediction_sha256": "427e46365362213400fb5b588dc8f8fe8e2ff0e274aad0341e8a23793bcd6fd5",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.547627845989126,
+      "ssim_native": 0.7800118923187256,
+      "ssim_pooled_legacy": 0.8976003527641296,
+      "mse": 0.004418117028315556,
+      "dc_mse": 0.0005274602151916704,
+      "spatial_residual_mse": 0.0038906568131238865,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.547627845989126,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "45.jpg",
+      "scale": 1280,
+      "input_hw": [
+        901,
+        1280
+      ],
+      "target_hw": [
+        901,
+        1280
+      ],
+      "prediction_sha256": "fb4837a6f10983620981a14d3187244b56d859b1856d3760a16ccb59774e2274",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 23.85972606692938,
+      "ssim_native": 0.7892820835113525,
+      "ssim_pooled_legacy": 0.8996284008026123,
+      "mse": 0.0041117565536396335,
+      "dc_mse": 0.00044111791989716103,
+      "spatial_residual_mse": 0.0036706386337424725,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 23.85972606692938,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "45.jpg",
+      "scale": 1536,
+      "input_hw": [
+        1081,
+        1536
+      ],
+      "target_hw": [
+        1081,
+        1536
+      ],
+      "prediction_sha256": "f8b1a7f77fe4598a4a14b7bfc838450fd46ae99ed98546111f169cf5b31aec21",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    },
+    {
+      "psnr": 24.22069388505113,
+      "ssim_native": 0.7918957471847534,
+      "ssim_pooled_legacy": 0.9049343466758728,
+      "mse": 0.0037838212466372733,
+      "dc_mse": 0.0004616477063855587,
+      "spatial_residual_mse": 0.0033221735402517135,
+      "clip_fraction": 0.0,
+      "old_native_psnr": 24.22069388505113,
+      "replay_delta": 0.0,
+      "method": "spatial",
+      "image": "45.jpg",
+      "scale": 2048,
+      "input_hw": [
+        1442,
+        2048
+      ],
+      "target_hw": [
+        1442,
+        2048
+      ],
+      "prediction_sha256": "ee98dccf5799e81f3a943643942fcd33d31e4512978dc8bbc071523f283b6c20",
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "config_sha256": "a752588d2ae2ea21c61010591b8ce5bfa1765d3f331d4580e5ca9cf78c5996e6",
+      "source": "forward"
+    }
+  ],
+  "source_csv_sha256": "0d24822f9499365809b0ea9be6d6cc1e285e757dff451903b14f2114b5cd960b"
+}

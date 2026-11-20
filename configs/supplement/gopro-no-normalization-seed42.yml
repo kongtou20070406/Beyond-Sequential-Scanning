@@ -1,0 +1,22 @@
+name: gopro-no-normalization-seed42
+manual_seed: 42
+network_g:
+  type: VIVNetRadialProfiledAblation
+  inp_channels: 3
+  out_channels: 3
+  dim: 48
+  num_blocks:
+  - 3
+  - 3
+  - 5
+  num_refinement_blocks: 4
+  ffn_expansion_factor: 3
+  bias: false
+  K: 5
+  rho_max: 0.95
+  group_size: 4
+  linear_tilt_init: 0.2
+  curved_tilt_init: 0.01
+  ablation: no_projection
+train:
+  total_iter: 49350

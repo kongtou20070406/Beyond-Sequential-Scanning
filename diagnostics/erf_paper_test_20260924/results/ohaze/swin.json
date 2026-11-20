@@ -1,0 +1,32 @@
+{
+  "id": "ohaze-swin-seed42",
+  "label": "Swin",
+  "dataset": "ohaze",
+  "arm": "swin",
+  "checkpoint": "weights/ohaze/swin/seed42/last.pth",
+  "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0",
+  "input": {
+    "path": "external/41.jpg",
+    "sha256": "b34462547def19a5a62343cbd09bd9b35954b9bf2d2e7cd6f55a28c47658b86e"
+  },
+  "input_shape": [
+    512,
+    422
+  ],
+  "center_yx": [
+    256,
+    211
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 32",
+  "r50_px": 48.010415536631214,
+  "r90_px": 121.40016474453401,
+  "r95_px": 137.93114224133723,
+  "gradient_sum": 42.76875305175781,
+  "gradient_peak": 0.5583688616752625,
+  "seconds": 0.4491745999548584,
+  "peak_cuda_mib": 1639.17138671875
+}

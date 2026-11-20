@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "protocol": "native",
+  "boundary": "one full-image call; no extra outer padding",
+  "count": 1111,
+  "precision": "FP32_TF32_DISABLED",
+  "checkpoint_sha256": "52bb47967b7b727bccf3eea588cb7fcdd061ad08d69a79b685d9c81dc12fb764",
+  "per_image_sha256": "3c4f6fe15a3efdf93b99d0b42a925eef041cca5a59bc3a60cc180c02e455c61f",
+  "source_per_image_sha256": "0d533709f29dc93e1d5bb39a2dde15ca74cd75b8f24df7d52a92bcee9dc18e38",
+  "source_forward": "recorded reference forward; optimized default checked separately",
+  "psnr_db": 28.61482928831442,
+  "ssim": 0.8638560862073374
+}

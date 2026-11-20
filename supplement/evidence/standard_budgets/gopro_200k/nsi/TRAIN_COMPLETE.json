@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "when": "2026-11-09T17:03:30+08:00",
+  "arm": "nsi",
+  "phase": "formal",
+  "iter": 200000,
+  "endpoint": "<RUN_DIR>/gopro_200k_bs2_20261108\\runs\\nsi\\formal\\models\\net_g_200000.pth",
+  "endpoint_sha256": "9f1f953f0bc33f4efca63ad2e3ced137f67450ae7ac5edec976ed43febb923fc",
+  "protocol_sha256": "38206e79fab287cfd6565fd3645b275b9737e1b9e481265bb1cb6a5c055007d6",
+  "batch_chain_sha256": "0239d74a76705907108d9fbd0918788034388ce572bf44a82837f0775dc63765",
+  "wall_seconds": 57736.9440439,
+  "peak_allocated_gib": 6.057368278503418,
+  "quality_evaluated": false
+}

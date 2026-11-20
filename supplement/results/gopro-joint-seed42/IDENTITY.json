@@ -1,0 +1,10 @@
+{
+  "method": "ours",
+  "seed": 42,
+  "checkpoint_sha256": "00981e007389a293da45d5f0159da0cd5840ee607e841a19f8c41f90a257ad94",
+  "config_sha256": "0550016d4f387313a7e87849876ec7e7b6f26c6983c978d05f4f306222542cdf",
+  "runtime_manifest_sha256": "63069ca663ceab9b701b7f9843076cc880d28b8050fa7b35b8d4d09805297334",
+  "protocol": "native_full0",
+  "precision": "FP32_TF32_DISABLED",
+  "image_ids_sha256": "94c6e6007caebb2c82c3313029281c9bb7035cf3ae5195106b7eb80a44a84085"
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-first_step_drive-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132",
+  "paper_uses": [
+    "table5"
+  ],
+  "psnr": 26.53284896080069,
+  "ssim": 0.9117143154144287,
+  "legacy_pooled_ssim": 0.94839848279953,
+  "legacy_published": {
+    "psnr": 26.5319,
+    "ssim": 0.94839
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 26.975909809296674,
+      "ssim": 0.9437404870986938,
+      "legacy_pooled_ssim": 0.9658014178276062,
+      "checkpoint_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 26.22579638737377,
+      "ssim": 0.9112861156463623,
+      "legacy_pooled_ssim": 0.9514769315719604,
+      "checkpoint_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 27.258096979554733,
+      "ssim": 0.9433856010437012,
+      "legacy_pooled_ssim": 0.9702768325805664,
+      "checkpoint_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 26.365072602244382,
+      "ssim": 0.9164700508117676,
+      "legacy_pooled_ssim": 0.9537101984024048,
+      "checkpoint_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 25.839369025533877,
+      "ssim": 0.8436893224716187,
+      "legacy_pooled_ssim": 0.9007270336151123,
+      "checkpoint_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132"
+    }
+  ],
+  "source_record": {
+    "id": "results/affected/first_step_drive.json",
+    "sha256": "0ad0cfddade13d2ed63ccfa27556bb2778a9f626df591b4ba49a2f6d9515e23f",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0,
+  "checkpoint": "weights/ohaze/ablations/first_step_drive/seed42/last.pth"
+}

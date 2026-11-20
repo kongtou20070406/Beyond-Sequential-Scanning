@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "count_per_method": 5,
+  "ours": {
+    "psnr": 26.77522506713867,
+    "ssim": 0.9468218564987183,
+    "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+    "max_absolute_per_image_difference": {
+      "psnr": 1.9073486328125e-06,
+      "ssim": 5.960464477539063e-08
+    }
+  },
+  "context": {
+    "psnr": 23.934258651733398,
+    "ssim": 0.9004398107528686,
+    "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+    "max_absolute_per_image_difference": {
+      "psnr": 0.0,
+      "ssim": 1.1920928955078125e-07
+    }
+  }
+}

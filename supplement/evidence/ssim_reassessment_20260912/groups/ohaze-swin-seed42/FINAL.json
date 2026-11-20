@@ -1,0 +1,64 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-swin-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0",
+  "paper_uses": [
+    "main_table3"
+  ],
+  "psnr": 25.566860085421666,
+  "ssim": 0.8971801400184631,
+  "legacy_pooled_ssim": 0.9386990189552307,
+  "legacy_published": {
+    "psnr": 25.5671,
+    "ssim": 0.9387
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 27.432818601544994,
+      "ssim": 0.9437317848205566,
+      "legacy_pooled_ssim": 0.964739203453064,
+      "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 23.821153197451427,
+      "ssim": 0.8672992587089539,
+      "legacy_pooled_ssim": 0.9235975742340088,
+      "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 27.45446882195627,
+      "ssim": 0.9428521394729614,
+      "legacy_pooled_ssim": 0.9715335369110107,
+      "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 26.164473054527523,
+      "ssim": 0.9139302968978882,
+      "legacy_pooled_ssim": 0.9518783092498779,
+      "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 22.96138675162812,
+      "ssim": 0.8180872201919556,
+      "legacy_pooled_ssim": 0.8817464709281921,
+      "checkpoint_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0"
+    }
+  ],
+  "source_record": {
+    "id": "results/affected/swin.json",
+    "sha256": "3b7a9e609a62c6600cb89a696a428fff3a8338114c26170942249600d68d4d6f",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0,
+  "checkpoint": "weights/ohaze/swin/seed42/last.pth"
+}

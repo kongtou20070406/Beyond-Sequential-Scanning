@@ -1,0 +1,24 @@
+{
+  "arm": "no_gain",
+  "index": 0,
+  "module": "encoder_level1.0.attn.operator",
+  "analytic_gain": 4.920473949080258,
+  "checks": [
+    {
+      "relative_epsilon": 0.0001,
+      "fd_gain": 4.920250527494186,
+      "relative_vector_error": 4.691274526602814e-05
+    },
+    {
+      "relative_epsilon": 1e-05,
+      "fd_gain": 4.920471714710031,
+      "relative_vector_error": 4.691625656245909e-07
+    },
+    {
+      "relative_epsilon": 1e-06,
+      "fd_gain": 4.920473926736848,
+      "relative_vector_error": 4.691962775045054e-09
+    }
+  ],
+  "scope": "Selected after the all-module diagnostic solely to verify its largest measured direction; not an independent generalization sample."
+}

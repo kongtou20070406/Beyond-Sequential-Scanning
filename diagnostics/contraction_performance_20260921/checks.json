@@ -1,0 +1,45 @@
+{
+  "full": {
+    "original": "external/EVALUATION.json",
+    "n": 20,
+    "maximum_psnr_error": 0.0,
+    "formal_test_psnr": 30.11470201229876,
+    "formal_test_ssim": 0.98261161922697
+  },
+  "no_gain": {
+    "original": "external/EVALUATION.json",
+    "n": 20,
+    "maximum_psnr_error": 1.82439899703013e-05,
+    "formal_test_psnr": 26.374701228676223,
+    "formal_test_ssim": 0.9688416863734706
+  },
+  "checkpoint_hashes_unchanged": true,
+  "full_directions": {
+    "total": 110,
+    "full_direction_above_one": 0,
+    "fifth_increment_ratio_above_one": 0,
+    "median_output_rms": 1.159400999546051,
+    "median_fifth_readout_weight": 2.5394809246063232
+  },
+  "no_gain_directions": {
+    "total": 110,
+    "full_direction_above_one": 6,
+    "fifth_increment_ratio_above_one": 0,
+    "median_output_rms": 0.8192439079284668,
+    "median_fifth_readout_weight": 4.043356657028198
+  },
+  "free_gain_directions": {
+    "total": 110,
+    "full_direction_above_one": 0,
+    "fifth_increment_ratio_above_one": 0,
+    "median_output_rms": 0.8950367569923401,
+    "median_fifth_readout_weight": 2.1284217834472656
+  },
+  "state_dynamic_directions": {
+    "total": 110,
+    "full_direction_above_one": 39,
+    "fifth_increment_ratio_above_one": 27,
+    "median_output_rms": 1.1387732028961182,
+    "median_fifth_readout_weight": 2.262421727180481
+  }
+}

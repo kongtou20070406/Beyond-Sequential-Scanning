@@ -1,0 +1,2 @@
+'NSI.paperReadoutWeights_contract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.grid_readout_paper_weights' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,20 @@
+numpy>=1.26,<3
+opencv-python>=4.10,<5
+Pillow==10.1.0
+PyYAML==6.0.3
+pytorch-msssim==1.0.0
+timm==1.0.22
+fvcore==0.1.5.post20221221
+einops==0.8.0
+scipy>=1.13,<2
+scikit-image==0.25.2
+tqdm==4.67.1
+lmdb==1.7.5
+yacs==0.1.8
+addict==2.4.0
+packaging==25.0
+ninja==1.13.0
+triton-windows==3.6.0.post26; platform_system == "Windows"
+triton==3.6.0; platform_system == "Linux"
+matplotlib==3.10.7
+sympy==1.14.0

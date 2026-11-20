@@ -1,0 +1,64 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-depth_k7-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee",
+  "paper_uses": [
+    "table4"
+  ],
+  "psnr": 26.351015542007158,
+  "ssim": 0.9069149374961853,
+  "legacy_pooled_ssim": 0.9456360459327697,
+  "legacy_published": {
+    "psnr": 26.35,
+    "ssim": 0.94562
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 27.880058392232904,
+      "ssim": 0.9459072351455688,
+      "legacy_pooled_ssim": 0.9667198061943054,
+      "checkpoint_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 24.893654940759316,
+      "ssim": 0.8869754672050476,
+      "legacy_pooled_ssim": 0.9360186457633972,
+      "checkpoint_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 27.64915338849985,
+      "ssim": 0.9455248713493347,
+      "legacy_pooled_ssim": 0.9713457822799683,
+      "checkpoint_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 25.769513885250753,
+      "ssim": 0.9132308959960938,
+      "legacy_pooled_ssim": 0.9485763311386108,
+      "checkpoint_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 25.562697103292958,
+      "ssim": 0.8429362177848816,
+      "legacy_pooled_ssim": 0.9055196642875671,
+      "checkpoint_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee"
+    }
+  ],
+  "source_record": {
+    "id": "results/affected/depth_k7.json",
+    "sha256": "d6c075fdb4cc41ff6269db5b2d3ffb606ed49af0902d7397346a06c3d56a63c9",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0,
+  "checkpoint": "weights/ohaze/ablations/depth_k7/seed42/last.pth"
+}

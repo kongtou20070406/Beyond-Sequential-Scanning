@@ -1,0 +1,206 @@
+{
+  "all_pass": true,
+  "protocol": "native_full0",
+  "training_runs_added": 0,
+  "seeds": [
+    {
+      "method": "ours",
+      "seed": 42,
+      "count": 1111,
+      "psnr_db": 30.89175208638532,
+      "ssim": 0.9131994171790665
+    },
+    {
+      "method": "ss2d",
+      "seed": 42,
+      "count": 1111,
+      "psnr_db": 30.37353738807108,
+      "ssim": 0.904630001067686
+    },
+    {
+      "method": "ours",
+      "seed": 43,
+      "count": 1111,
+      "psnr_db": 30.900995525339507,
+      "ssim": 0.9134507527982298
+    },
+    {
+      "method": "ss2d",
+      "seed": 43,
+      "count": 1111,
+      "psnr_db": 30.432592777386105,
+      "ssim": 0.9058106179499176
+    },
+    {
+      "method": "ours",
+      "seed": 44,
+      "count": 1111,
+      "psnr_db": 30.81332409092159,
+      "ssim": 0.9122287759257264
+    },
+    {
+      "method": "ss2d",
+      "seed": 44,
+      "count": 1111,
+      "psnr_db": 30.296009074021416,
+      "ssim": 0.9033816097342786
+    }
+  ],
+  "methods": {
+    "ours": {
+      "psnr_db": {
+        "mean": 30.868690567548807,
+        "sample_sd": 0.04817100104325188
+      },
+      "ssim": {
+        "mean": 0.9129596486343409,
+        "sample_sd": 0.0006453089070462394
+      }
+    },
+    "ss2d": {
+      "psnr_db": {
+        "mean": 30.36737974649287,
+        "sample_sd": 0.06849974028095038
+      },
+      "ssim": {
+        "mean": 0.9046074095839607,
+        "sample_sd": 0.0012146616851053935
+      }
+    }
+  },
+  "paired_ours_minus_ss2d": [
+    {
+      "seed": 42,
+      "psnr_db": 0.5182146983142388,
+      "ssim": 0.008569416111380512
+    },
+    {
+      "seed": 43,
+      "psnr_db": 0.46840274795340164,
+      "ssim": 0.007640134848312274
+    },
+    {
+      "seed": 44,
+      "psnr_db": 0.5173150169001737,
+      "ssim": 0.008847166191447764
+    }
+  ],
+  "paired_summary": {
+    "psnr_db": {
+      "mean": 0.501310821055938,
+      "sample_sd": 0.02850277728841724
+    },
+    "ssim": {
+      "mean": 0.008352239050380184,
+      "sample_sd": 0.0006321436329636022
+    }
+  },
+  "repeat_unit": "Three independent training seeds. Sample SD uses ddof=1.",
+  "resources": [
+    {
+      "method": "ours",
+      "seed": 42,
+      "recorded_images": 1078,
+      "mean_forward_seconds": 1.625468814749649,
+      "median_forward_seconds": 1.5890948500309605,
+      "forward_peak_allocated_mib": 8800.3916015625,
+      "evaluation_peak_allocated_mib": 8800.3916015625,
+      "evaluation_peak_reserved_mib": 15998.0
+    },
+    {
+      "method": "ss2d",
+      "seed": 42,
+      "recorded_images": 1078,
+      "mean_forward_seconds": 0.3879586283860733,
+      "median_forward_seconds": 0.3865859000070486,
+      "forward_peak_allocated_mib": 7657.66845703125,
+      "evaluation_peak_allocated_mib": 7657.66845703125,
+      "evaluation_peak_reserved_mib": 12066.0
+    },
+    {
+      "method": "ours",
+      "seed": 43,
+      "recorded_images": 1111,
+      "mean_forward_seconds": 2.2447081915392944,
+      "median_forward_seconds": 2.144438999996055,
+      "forward_peak_allocated_mib": 8800.3916015625,
+      "evaluation_peak_allocated_mib": 8800.3916015625,
+      "evaluation_peak_reserved_mib": 15998.0
+    },
+    {
+      "method": "ss2d",
+      "seed": 43,
+      "recorded_images": 1111,
+      "mean_forward_seconds": 0.6029685654357964,
+      "median_forward_seconds": 0.513713100051973,
+      "forward_peak_allocated_mib": 7657.66845703125,
+      "evaluation_peak_allocated_mib": 7657.66845703125,
+      "evaluation_peak_reserved_mib": 12046.0
+    },
+    {
+      "method": "ours",
+      "seed": 44,
+      "recorded_images": 1111,
+      "mean_forward_seconds": 2.296884103149373,
+      "median_forward_seconds": 2.170088599959854,
+      "forward_peak_allocated_mib": 8800.3916015625,
+      "evaluation_peak_allocated_mib": 8800.3916015625,
+      "evaluation_peak_reserved_mib": 15998.0
+    },
+    {
+      "method": "ss2d",
+      "seed": 44,
+      "recorded_images": 1111,
+      "mean_forward_seconds": 0.4857778796573751,
+      "median_forward_seconds": 0.5131776999915019,
+      "forward_peak_allocated_mib": 7657.66845703125,
+      "evaluation_peak_allocated_mib": 7657.66845703125,
+      "evaluation_peak_reserved_mib": 12046.0
+    }
+  ],
+  "resource_limits": "Seed42 has 1078 resource records and 33 reused quality-only records. New seeds have 1111 resource records each. Native timing ends before clamp. Shared-host effects and first-call overhead remain.",
+  "sources": [
+    {
+      "method": "ours",
+      "seed": 42,
+      "final_sha256": "e4933748825d603126ce3094ed9733d14082054ddb3d72fbe1ab191a5d9cdd2f",
+      "per_image_sha256": "f4e9f20aea1ad8e07232e5948a3ea511284cc17a7ec040514ac94d86721acac0",
+      "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e"
+    },
+    {
+      "method": "ss2d",
+      "seed": 42,
+      "final_sha256": "dd491c534f9d55e34ecffcc7c5e7fef9708a8851eb6ab859758f507230b59ef1",
+      "per_image_sha256": "03055ed766e040fa7dddf6c0e262e9821a891c17f3f2a456d0094ca9e84cf97d",
+      "checkpoint_sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b"
+    },
+    {
+      "method": "ours",
+      "seed": 43,
+      "final_sha256": "0c8e0d4e0cdd454d15ce3f99c3996fe577ad01feac8ff6a4544e5bc5e14a48df",
+      "per_image_sha256": "c81b87221aa95fdf023843ee247e647d30606d9a8409face30c26228d020156b",
+      "checkpoint_sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936"
+    },
+    {
+      "method": "ss2d",
+      "seed": 43,
+      "final_sha256": "fb0d04de593466cbc22520d46e5d7ebbc4401614e18bf182d1901a8d64a1ef39",
+      "per_image_sha256": "992f2c82ad53defa52bc25076e6b44c40007184457b160414f12349d54a1cd33",
+      "checkpoint_sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc"
+    },
+    {
+      "method": "ours",
+      "seed": 44,
+      "final_sha256": "840d09cf4c4d6529989c42c091a1ef2e7dcadcebf6d5ebeaac56d82eda3c470b",
+      "per_image_sha256": "3547a0c78bcb86911da7501cdf78de58e6f1fd94ff8e9dd9c6e1d591d907a90b",
+      "checkpoint_sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501"
+    },
+    {
+      "method": "ss2d",
+      "seed": 44,
+      "final_sha256": "4978bce079c1c410d9ae551b36bdcad29d75a77826b028b8c26ff37e9a00e36f",
+      "per_image_sha256": "60ae81b1a53955f4d00cdd93d6703fb67ef76aafb047fa761a51193385363395",
+      "checkpoint_sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae"
+    }
+  ]
+}

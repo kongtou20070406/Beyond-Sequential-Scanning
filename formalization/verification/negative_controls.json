@@ -1,0 +1,14 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "case": "CustomAxiom",
+      "rejected": true
+    },
+    {
+      "case": "Placeholder",
+      "rejected": true
+    }
+  ],
+  "note": "Invalid control sources are isolated and excluded from the release."
+}

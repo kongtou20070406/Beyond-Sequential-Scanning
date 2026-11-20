@@ -1,0 +1,66 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-spatial-mamba-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+  "paper_uses": [
+    "appendix_D1_spatial_core"
+  ],
+  "psnr": 22.73177377116987,
+  "ssim": 0.7886093616485595,
+  "legacy_pooled_ssim": 0.8868594765663147,
+  "legacy_published": {
+    "psnr": 22.731775283813477,
+    "ssim": 0.8868594765663147
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 25.089804744744555,
+      "ssim": 0.8602503538131714,
+      "legacy_pooled_ssim": 0.9444375038146973,
+      "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 23.40242626901945,
+      "ssim": 0.7828654050827026,
+      "legacy_pooled_ssim": 0.8771317005157471,
+      "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 23.577740385360556,
+      "ssim": 0.8732456564903259,
+      "legacy_pooled_ssim": 0.9421126246452332,
+      "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 20.582027683241378,
+      "ssim": 0.8216251730918884,
+      "legacy_pooled_ssim": 0.8987760543823242,
+      "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 21.006869773483416,
+      "ssim": 0.6050602197647095,
+      "legacy_pooled_ssim": 0.7718394994735718,
+      "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012"
+    }
+  ],
+  "source_record": {
+    "id": "results/affected/spatial_core.json",
+    "sha256": "a6a4d495b0199e0b323036aeeb79917fef4c7a5e6acf2268f83b08cd570d1970",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0,
+  "checkpoint": "weights/supplement/ohaze-spatial-mamba-seed42/last.pth",
+  "legacy_recorded_result": "supplement/results/ohaze-spatial-mamba-seed42/FINAL.json",
+  "legacy_recorded_result_sha256": "60552a6cda549f58dcde1c6ae4b1d84ec38cfa9be3b9e76f4bdb07c9964c8ad1"
+}

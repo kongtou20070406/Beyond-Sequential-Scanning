@@ -1,0 +1,38 @@
+{
+  "author_confirmation": {
+    "K5": "The author confirmed that K=5 was selected early. Later depth sweeps were not used to select it.",
+    "evidence_type": "Author confirmation; not an independently timestamped selection record."
+  },
+  "training": {
+    "full_seed42": {
+      "start": "2026-08-25 08:18:10",
+      "end": "2026-08-25 12:55:33",
+      "reported_training_time": "4:37:22"
+    },
+    "ef_seed42": {
+      "start": "2026-09-03 09:59:33",
+      "end": "2026-09-03 13:34:52",
+      "reported_training_time": "3:35:18"
+    },
+    "time_basis": "Local training log timestamps and trainer-reported duration. Durations are not a matched hardware speed benchmark.",
+    "environment_verified": [
+      "Windows training logs",
+      "PyTorch 2.10.0",
+      "torchvision 0.25.0"
+    ],
+    "environment_not_established": [
+      "identical GPU assignment",
+      "identical driver",
+      "identical complete source environment"
+    ]
+  },
+  "metric_discrepancy": {
+    "early_log_psnr_db": 25.925175,
+    "early_log_ssim": 0.935772,
+    "formal_psnr_db": 26.258620834350587,
+    "formal_ssim": 0.94436274766922,
+    "status": "The formal archived per-image record supports the paper value 26.2586 dB. The cause of the earlier log difference is not established.",
+    "new_inference_performed": false
+  },
+  "repeat_limit": "There are no added EF seeds 43 or 44. The five images are not independent training seeds."
+}

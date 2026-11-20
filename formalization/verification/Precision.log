@@ -1,0 +1,3 @@
+'NSI.precisionBound_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.finite_precision_general_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.inexact_orbit_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

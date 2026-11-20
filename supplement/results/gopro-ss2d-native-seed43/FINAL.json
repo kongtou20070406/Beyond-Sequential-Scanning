@@ -1,0 +1,73 @@
+{
+  "method": "ss2d",
+  "seed": 43,
+  "checkpoint_sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc",
+  "config_sha256": "36e6f0a35f9c82c4c29b0b149dc297e322985448a7a16254c7484423a518fba1",
+  "runtime_manifest_sha256": "9b9caf60e8151fc456867516bd4405786f9dcde68cad535aa0e074394f6d587a",
+  "protocol": "native_full0",
+  "precision": "FP32_TF32_DISABLED",
+  "image_ids_sha256": "94c6e6007caebb2c82c3313029281c9bb7035cf3ae5195106b7eb80a44a84085",
+  "status": "COMPLETE",
+  "utc": "2026-09-09T03:13:46.580764+00:00",
+  "count": 1111,
+  "psnr_db": 30.432592777386105,
+  "ssim": 0.9058106179499176,
+  "per_image_sha256": "330b917af362ce8564ec75cd95d7f4a2ffab54e2e3ffae6799e48751ca35c12f",
+  "this_attempt_wall_seconds": 751.0908603999997,
+  "reused_prefix": 0,
+  "inference_resources": {
+    "recorded_images": 1111,
+    "total_result_images": 1111,
+    "macs_reference": {
+      "arm": "ss2d",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "macs_g": 82.285,
+      "macs": null,
+      "parameters_m": 6.301,
+      "source": "Existing verified paper table2; reuse its reported rounded MAC value, not a new measurement.",
+      "source_sha256": "ece2ff03ee4f989d576930975e43799f80e786675aab2c2f78d1ebda38677778",
+      "precision_note": "Rounded to 0.001G in original table; exact unrounded count not reconstructed.",
+      "convention": "Original paper full-model count including selective scan; reuse recorded value."
+    },
+    "forward_wall_seconds_sum": 669.8980761991697,
+    "forward_wall_seconds_mean": 0.6029685654357964,
+    "forward_wall_seconds_median": 0.513713100051973,
+    "forward_wall_seconds_p90": 0.9436666000401601,
+    "excluding_first_process_image_mean_seconds": 0.6021065659452385,
+    "first_process_image_forward_seconds": [
+      1.559787999955006
+    ],
+    "forward_peak_allocated_mib": 7657.66845703125,
+    "evaluation_peak_allocated_mib": 7657.66845703125,
+    "evaluation_peak_reserved_mib": 12046.0,
+    "model_call_shapes_and_counts": [
+      {
+        "shape": [
+          1,
+          3,
+          720,
+          1280
+        ],
+        "calls": 1111
+      }
+    ],
+    "gpu_names": [
+      "NVIDIA GeForce RTX 5090"
+    ],
+    "timing_scope": "CUDA-synchronized wall time around existing forward including tile assembly/clamp for tiled evaluation; excludes image decoding, H2D and quality metrics. Dataset evaluation wall time remains separate. No extra warmup/repeated images. Shared host contention and first-call overhead retained.",
+    "memory_scope": "PyTorch process allocated/reserved peaks in MiB; forward includes resident model and input/target tensors. Evaluation peak also includes metric workspace. Not whole-device NVML usage; reserved may include allocator cache from earlier calls.",
+    "macs_scope": "Reference batch1 RGB256x256 model MACs using recorded convention; per-image/tile call shapes also recorded. Do not treat reference MACs as a whole tiled evaluation count or measured hardware work."
+  },
+  "torch": "2.10.0",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "boundary": "Native full0. No additional outer padding. Original carrier boundaries.",
+  "limitation": "Resource records include desktop/shared-host effects and first-call overhead.",
+  "archived_per_image_sha256": "992f2c82ad53defa52bc25076e6b44c40007184457b160414f12349d54a1cd33",
+  "pair_count": 1111
+}

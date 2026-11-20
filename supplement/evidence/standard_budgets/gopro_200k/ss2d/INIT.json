@@ -1,0 +1,17 @@
+{
+  "arm": "ss2d",
+  "phase": "formal",
+  "when": "2026-11-09T17:37:26+08:00",
+  "pid": 52856,
+  "initial_state_sha256": "a37c9fd80b3a7ee3f0fba2ec794a4af3742bce16167f3825e4a3a7bd8423e40d",
+  "non_mixer_sha256": "0a9a471bf092d84ecd65d32c100fe0d608f552a1e8417aaa6ff6dcd4c364d498",
+  "protocol_sha256": "38206e79fab287cfd6565fd3645b275b9737e1b9e481265bb1cb6a5c055007d6",
+  "parameters": 6300816,
+  "device": "NVIDIA GeForce RTX 5090",
+  "torch": "2.10.0",
+  "cuda": "13.0",
+  "from_scratch": true,
+  "fast_training": false,
+  "effective_batch": 2,
+  "crop": 256
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-cspn-context-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+  "paper_uses": [
+    "appendix_C2_generator_context"
+  ],
+  "psnr": 23.934258033603747,
+  "ssim": 0.7845737934112549,
+  "legacy_pooled_ssim": 0.9004397749900818,
+  "legacy_published": {
+    "psnr": 23.934258651733398,
+    "ssim": 0.9004397869110108
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 26.95122027115402,
+      "ssim": 0.8733434677124023,
+      "legacy_pooled_ssim": 0.9530437588691711,
+      "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 21.31238022833685,
+      "ssim": 0.748907744884491,
+      "legacy_pooled_ssim": 0.8903792500495911,
+      "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 25.715444126630366,
+      "ssim": 0.861011803150177,
+      "legacy_pooled_ssim": 0.9495925903320312,
+      "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 24.224830503525936,
+      "ssim": 0.8278710842132568,
+      "legacy_pooled_ssim": 0.9317491054534912,
+      "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 21.467415038371563,
+      "ssim": 0.6117348670959473,
+      "legacy_pooled_ssim": 0.7774341702461243,
+      "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08"
+    }
+  ],
+  "source_record": {
+    "id": "results/cached/ohaze-cspn-context-seed42.json",
+    "sha256": "8fd7a006c6e8e567a8390b960826213653f5c025abe334636b6e8169fda57739",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0,
+  "checkpoint": "weights/ohaze/cspn_context/seed42/last.pth",
+  "legacy_recorded_result": "supplement/results/ohaze-cspn-context-seed42/FINAL.json",
+  "legacy_recorded_result_sha256": "360d921fff5ed55da826de526e69df1ec7a5e2d09e767f690a279155f0d577bc"
+}

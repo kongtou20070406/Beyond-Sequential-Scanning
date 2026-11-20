@@ -1,0 +1,36 @@
+{
+  "id": "gopro-ours-seed42",
+  "label": "NSI",
+  "dataset": "gopro",
+  "arm": "ours",
+  "checkpoint": "weights/gopro/ours/seed42/last.pth",
+  "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+  "input": {
+    "path": "external/GOPR0384_11_00__000001.png",
+    "sha256": "1f516e38eea7a16fd48fddc34953cb227d86d22fbcd31de0c1334bb14b96dba8"
+  },
+  "input_shape": [
+    720,
+    1280
+  ],
+  "center_yx": [
+    360,
+    640
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "spatial_fusion_autograd": null,
+  "spatial_fusion_forward_max_relative_error": null,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "none",
+  "r50_px": 37.8549864614954,
+  "r90_px": 91.44397191723465,
+  "r95_px": 102.55242561733974,
+  "gradient_sum": 315.4304504394531,
+  "gradient_peak": 0.7320306301116943,
+  "eval_forward_max_abs": 1.0132789611816406e-06,
+  "eval_forward_relative_max": 9.667826009613913e-07,
+  "seconds": 44.777415700023994,
+  "peak_cuda_mib": 15313.12060546875
+}

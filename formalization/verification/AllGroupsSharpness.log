@@ -1,0 +1,6 @@
+'NSI.padBlocks_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.padBlocks_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.actual_deriv_all_first_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.actual_all_groups_deriv_expands' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.actualRsupAll_hasFDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.actualRsupAll_not_one_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]

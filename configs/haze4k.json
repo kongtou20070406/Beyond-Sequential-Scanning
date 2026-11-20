@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "updates": 100000,
+  "batch_size": 2,
+  "crop": 256,
+  "K": 5,
+  "precision": "FP32",
+  "tf32": false,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.9
+    ],
+    "weight_decay": 0.001,
+    "clip_grad_norm": 0.01,
+    "fused": "true for full, false for other configurations"
+  },
+  "schedule": {
+    "name": "CosineAnnealingLR",
+    "T_max": 100000,
+    "eta_min": 1e-07
+  },
+  "loss": "pixel L1 + 0.1 * mean absolute real/imag FFT error",
+  "data_order": "Per-epoch permutation seed 42+epoch; per-sample crop/augmentation seed [42,epoch,slot]",
+  "evaluation": "Final endpoint only; all 1000 native test images; pad to multiple of four and crop before metrics; no test-time augmentation"
+}

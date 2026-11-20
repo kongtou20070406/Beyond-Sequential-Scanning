@@ -1,0 +1,32 @@
+{
+  "id": "gopro-native-seed42",
+  "label": "VIVNet",
+  "dataset": "gopro",
+  "arm": "native",
+  "checkpoint": "weights/gopro/native/seed42/last.pth",
+  "checkpoint_sha256": "f167d66c6c1e1953409bf070755cf28c75e3f98291facc0ce4c12cfc4bddacf6",
+  "input": {
+    "path": "external/GOPR0384_11_00__000001.png",
+    "sha256": "1f516e38eea7a16fd48fddc34953cb227d86d22fbcd31de0c1334bb14b96dba8"
+  },
+  "input_shape": [
+    720,
+    1280
+  ],
+  "center_yx": [
+    360,
+    640
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "none",
+  "r50_px": 271.5879231482873,
+  "r90_px": 582.2173133804937,
+  "r95_px": 627.739595692354,
+  "gradient_sum": 517.2589111328125,
+  "gradient_peak": 0.8350154757499695,
+  "seconds": 1.990525700035505,
+  "peak_cuda_mib": 11709.50146484375
+}

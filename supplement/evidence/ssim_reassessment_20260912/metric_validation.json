@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "count": 5,
+  "device": "cuda:0; metric computation only",
+  "model_forward_calls": 0,
+  "training_updates": 0,
+  "formal_psnr_ast_unchanged": true,
+  "nonmetric_ast_unchanged_except_protocol_text": true,
+  "formal_ssim_equal_metrics_direct": true,
+  "formal_ssim_equal_stored_cache_results": true,
+  "formal_psnr_before_after_equal": true,
+  "max_abs_ssim_delta": 0.0,
+  "max_abs_psnr_delta": 0.0,
+  "rows": [
+    {
+      "image": "41.jpg",
+      "prediction_sha256": "409769d122346185bd3b553f4385aa90efeaae7358d809ea2b3cb959da060798",
+      "gt_sha256": "38f132824c5f451bf81a03f3b5231c2700d2fcc2fc0a6153a260c7509e1d33a2",
+      "formal_psnr_before": 25.089805603027344,
+      "formal_psnr_after": 25.089805603027344,
+      "formal_direct_ssim": 0.8602503538131714,
+      "metrics_direct_ssim": 0.8602503538131714,
+      "stored_direct_ssim": 0.8602503538131714,
+      "ssim_delta": 0.0,
+      "psnr_delta": 0.0
+    },
+    {
+      "image": "42.jpg",
+      "prediction_sha256": "6e855799359ca1308a18e3ba553448ee8c0a23658b833a0585b493ebcdac847b",
+      "gt_sha256": "1c671465665b9a80078cdcecb46f9f85f21699270a637d2851aff819fdfa09a9",
+      "formal_psnr_before": 23.402427673339844,
+      "formal_psnr_after": 23.402427673339844,
+      "formal_direct_ssim": 0.7828654050827026,
+      "metrics_direct_ssim": 0.7828654050827026,
+      "stored_direct_ssim": 0.7828654050827026,
+      "ssim_delta": 0.0,
+      "psnr_delta": 0.0
+    },
+    {
+      "image": "43.jpg",
+      "prediction_sha256": "3139b07b10af8ee54cb4d09bd9aa3c3f74a23fb26004a2514ef0bc518d39875d",
+      "gt_sha256": "369468793daf2286e13883591727740e8bf45864b760053161c59dde8f41ebe6",
+      "formal_psnr_before": 23.577743530273438,
+      "formal_psnr_after": 23.577743530273438,
+      "formal_direct_ssim": 0.8732456564903259,
+      "metrics_direct_ssim": 0.8732456564903259,
+      "stored_direct_ssim": 0.8732456564903259,
+      "ssim_delta": 0.0,
+      "psnr_delta": 0.0
+    },
+    {
+      "image": "44.jpg",
+      "prediction_sha256": "c0349073e7c97056f46358731c084ae04a47bf829e7879affd712ef28fdea734",
+      "gt_sha256": "2ca672e24edb4a38b5dd6b65fee418f11a36002250037d196e13aa3a4f16b74d",
+      "formal_psnr_before": 20.582029342651367,
+      "formal_psnr_after": 20.582029342651367,
+      "formal_direct_ssim": 0.8216251730918884,
+      "metrics_direct_ssim": 0.8216251730918884,
+      "stored_direct_ssim": 0.8216251730918884,
+      "ssim_delta": 0.0,
+      "psnr_delta": 0.0
+    },
+    {
+      "image": "45.jpg",
+      "prediction_sha256": "e3970216f76c5f1f950ecae5d3fe9ac8c0bf6488b98c652b2dfbf46493351d27",
+      "gt_sha256": "f75e66806f5bbbc8fb3f2aa2932a159adfa2c708867c1bbd5d03c247c7421304",
+      "formal_psnr_before": 21.00687026977539,
+      "formal_psnr_after": 21.00687026977539,
+      "formal_direct_ssim": 0.6050602197647095,
+      "metrics_direct_ssim": 0.6050602197647095,
+      "stored_direct_ssim": 0.6050602197647095,
+      "ssim_delta": 0.0,
+      "psnr_delta": 0.0
+    }
+  ],
+  "source_sha256": {
+    "evaluate_ohaze_before.py": "b714435dd9b7b83002dc5e763b545a72f8f53c111c109f2a3fa24d8addb16548",
+    "evaluate_ohaze_after.py": "01559cbaff2d5e364f7762f626f216177a1121ad7d759f2ce84b6c8a7af873f2",
+    "metrics_direct.py": "93b24c60b6a34fb1ab3ae2bb4940c60cd36c05316c05329737d34f1a04a6d991"
+  },
+  "torch_version": "2.10.0"
+}

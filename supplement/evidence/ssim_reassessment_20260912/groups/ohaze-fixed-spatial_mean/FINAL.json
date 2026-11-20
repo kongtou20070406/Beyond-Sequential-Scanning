@@ -1,0 +1,63 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-fixed-spatial_mean",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+  "paper_uses": [
+    "appendix_C3"
+  ],
+  "psnr": 26.533639132239248,
+  "ssim": 0.904595422744751,
+  "legacy_pooled_ssim": 0.945187258720398,
+  "legacy_published": {
+    "psnr": 26.53363952636719,
+    "ssim": 0.9451872944831848
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 27.811253562985275,
+      "ssim": 0.9442494511604309,
+      "legacy_pooled_ssim": 0.9639793038368225,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 25.752251913123885,
+      "ssim": 0.887091338634491,
+      "legacy_pooled_ssim": 0.9400051236152649,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 27.579293040002003,
+      "ssim": 0.9427205920219421,
+      "legacy_pooled_ssim": 0.9704241752624512,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 25.793204154652294,
+      "ssim": 0.9097016453742981,
+      "legacy_pooled_ssim": 0.9485556483268738,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 25.732192990432786,
+      "ssim": 0.8392140865325928,
+      "legacy_pooled_ssim": 0.9029720425605774,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    }
+  ],
+  "source_record": {
+    "id": "results/cached/ohaze-fixed-spatial_mean.json",
+    "sha256": "7b54b36ed8294c2a1dbc3489a6ec32a00199e7f439241c99832d57b07538622e",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0
+}

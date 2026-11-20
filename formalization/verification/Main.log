@@ -1,0 +1,7 @@
+'NSI.gridRetention_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.gridUpdate_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.grid_trajectories_contract' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.grid_unique_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.grid_readout_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.grid_readout_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.normalized_gridUpdate_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]

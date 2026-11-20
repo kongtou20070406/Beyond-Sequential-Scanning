@@ -1,0 +1,405 @@
+{
+  "schema": "nsi.full_vs_no_gain_state_trajectory.v1",
+  "evidence_type": "STATIC_CHECKPOINT_DIAGNOSTIC",
+  "protocol": "Same fixed input and spatial preprocessing within each task; no parameter updates; aggregate over every NSI block; exact RMS and maxima plus uniformly subsampled P95/P99.",
+  "samples": [
+    {
+      "task": "O-HAZE",
+      "condition": "full",
+      "input": "external/42.jpg",
+      "input_shape": [
+        1,
+        3,
+        448,
+        512
+      ],
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_RadialProfiled_K5_P256.yml",
+      "checkpoint": "weights/ohaze/ours/seed42/last.pth",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "operator_calls": 22,
+      "forward_max_abs_error": 0.0,
+      "trajectory": [
+        {
+          "step": 1,
+          "state_rms": 0.4572689139441602,
+          "state_p95": 1.2513008117675781,
+          "state_p99": 2.0318663120269775,
+          "state_max": 8.122462272644043,
+          "increment_rms": 0.4572689139441602,
+          "increment_p95": 1.2513008117675781,
+          "increment_p99": 2.0318663120269775,
+          "increment_max": 8.122462272644043
+        },
+        {
+          "step": 2,
+          "state_rms": 0.6533491037786693,
+          "state_p95": 1.7743524312973022,
+          "state_p99": 2.965514898300171,
+          "state_max": 11.900572776794434,
+          "increment_rms": 0.2654512056611191,
+          "increment_p95": 0.7096988558769226,
+          "increment_p99": 1.284455418586731,
+          "increment_max": 5.24307918548584
+        },
+        {
+          "step": 3,
+          "state_rms": 0.7511733170816199,
+          "state_p95": 2.008962392807007,
+          "state_p99": 3.5466372966766357,
+          "state_max": 12.769146919250488,
+          "increment_rms": 0.1617231794615054,
+          "increment_p95": 0.4158976376056671,
+          "increment_p99": 0.8370949029922485,
+          "increment_max": 3.271637201309204
+        },
+        {
+          "step": 4,
+          "state_rms": 0.8003085908786484,
+          "state_p95": 2.1093764305114746,
+          "state_p99": 3.7632973194122314,
+          "state_max": 13.140664100646973,
+          "increment_rms": 0.10115591002426615,
+          "increment_p95": 0.25039851665496826,
+          "increment_p99": 0.5431360006332397,
+          "increment_max": 2.2750627994537354
+        },
+        {
+          "step": 5,
+          "state_rms": 0.8267326821102011,
+          "state_p95": 2.1697351932525635,
+          "state_p99": 3.922208309173584,
+          "state_max": 13.11226749420166,
+          "increment_rms": 0.06497737208427079,
+          "increment_p95": 0.1516813039779663,
+          "increment_p99": 0.35829415917396545,
+          "increment_max": 1.8124521970748901
+        }
+      ]
+    },
+    {
+      "task": "O-HAZE",
+      "condition": "no_gain",
+      "input": "external/42.jpg",
+      "input_shape": [
+        1,
+        3,
+        448,
+        512
+      ],
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_RadialProfiled_K5_P256.yml",
+      "checkpoint": "weights/ohaze/ablations/no_row_mass_projection/seed42/last.pth",
+      "checkpoint_sha256": "4fcf76ab7eb1cf323f291b4ed06ecfd69dad4166d7ffb1e744a97dd020b1d8e7",
+      "operator_calls": 22,
+      "forward_max_abs_error": 0.0,
+      "trajectory": [
+        {
+          "step": 1,
+          "state_rms": 20.13104827772609,
+          "state_p95": 42.02263259887695,
+          "state_p99": 106.38375091552734,
+          "state_max": 795.1785888671875,
+          "increment_rms": 20.13104827772609,
+          "increment_p95": 42.02263259887695,
+          "increment_p99": 106.38375091552734,
+          "increment_max": 795.1785888671875
+        },
+        {
+          "step": 2,
+          "state_rms": 22.395423582835686,
+          "state_p95": 48.18678283691406,
+          "state_p99": 106.84000396728516,
+          "state_max": 777.2005615234375,
+          "increment_rms": 5.383251247200453,
+          "increment_p95": 13.55742073059082,
+          "increment_p99": 21.07712745666504,
+          "increment_max": 63.18471908569336
+        },
+        {
+          "step": 3,
+          "state_rms": 22.437115259803214,
+          "state_p95": 48.28583908081055,
+          "state_p99": 106.69437408447266,
+          "state_max": 777.1644897460938,
+          "increment_rms": 0.5613810334343385,
+          "increment_p95": 1.0172845125198364,
+          "increment_p99": 2.1761109828948975,
+          "increment_max": 11.026470184326172
+        },
+        {
+          "step": 4,
+          "state_rms": 22.438505427468687,
+          "state_p95": 48.28587341308594,
+          "state_p99": 106.69720458984375,
+          "state_max": 777.1657104492188,
+          "increment_rms": 0.1489770619569735,
+          "increment_p95": 0.3188440501689911,
+          "increment_p99": 0.6083645224571228,
+          "increment_max": 6.786087989807129
+        },
+        {
+          "step": 5,
+          "state_rms": 22.438511073186472,
+          "state_p95": 48.289573669433594,
+          "state_p99": 106.69699096679688,
+          "state_max": 777.1657104492188,
+          "increment_rms": 0.0700131746118608,
+          "increment_p95": 0.1413327306509018,
+          "increment_p99": 0.3021615445613861,
+          "increment_max": 5.2714948654174805
+        }
+      ]
+    },
+    {
+      "task": "GoPro",
+      "condition": "full",
+      "input": "external/GOPR0854_11_00__000050.png",
+      "input_shape": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "config": "configs/restoration/gopro/ours.yml",
+      "checkpoint": "weights/gopro/ours/seed42/last.pth",
+      "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+      "operator_calls": 26,
+      "forward_max_abs_error": 0.0,
+      "trajectory": [
+        {
+          "step": 1,
+          "state_rms": 0.21825650769533855,
+          "state_p95": 0.4997056722640991,
+          "state_p99": 0.926335334777832,
+          "state_max": 4.404506683349609,
+          "increment_rms": 0.21825650769533855,
+          "increment_p95": 0.4997056722640991,
+          "increment_p99": 0.926335334777832,
+          "increment_max": 4.404506683349609
+        },
+        {
+          "step": 2,
+          "state_rms": 0.34083775418310863,
+          "state_p95": 0.7616518139839172,
+          "state_p99": 1.4314980506896973,
+          "state_max": 5.836183071136475,
+          "increment_rms": 0.13775813393766817,
+          "increment_p95": 0.29895520210266113,
+          "increment_p99": 0.5912653207778931,
+          "increment_max": 3.094008207321167
+        },
+        {
+          "step": 3,
+          "state_rms": 0.4208329059104486,
+          "state_p95": 0.9249503016471863,
+          "state_p99": 1.7754418849945068,
+          "state_max": 6.735813140869141,
+          "increment_rms": 0.09243520720185787,
+          "increment_p95": 0.1921130269765854,
+          "increment_p99": 0.4037255346775055,
+          "increment_max": 2.1998462677001953
+        },
+        {
+          "step": 4,
+          "state_rms": 0.4741287029756569,
+          "state_p95": 1.0239043235778809,
+          "state_p99": 1.9981403350830078,
+          "state_max": 7.743015766143799,
+          "increment_rms": 0.06353706740092692,
+          "increment_p95": 0.12864229083061218,
+          "increment_p99": 0.27572986483573914,
+          "increment_max": 1.6649165153503418
+        },
+        {
+          "step": 5,
+          "state_rms": 0.5101482574214188,
+          "state_p95": 1.0881366729736328,
+          "state_p99": 2.1528406143188477,
+          "state_max": 8.304181098937988,
+          "increment_rms": 0.044244291838054624,
+          "increment_p95": 0.08639984577894211,
+          "increment_p99": 0.18741503357887268,
+          "increment_max": 1.2416428327560425
+        }
+      ]
+    },
+    {
+      "task": "GoPro",
+      "condition": "no_gain",
+      "input": "external/GOPR0854_11_00__000050.png",
+      "input_shape": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "config": "configs/supplement/gopro-no-normalization-seed42.yml",
+      "checkpoint": "weights/supplement/gopro-no-normalization-seed42/last.pth",
+      "checkpoint_sha256": "52bb47967b7b727bccf3eea588cb7fcdd061ad08d69a79b685d9c81dc12fb764",
+      "operator_calls": 26,
+      "forward_max_abs_error": 0.0,
+      "trajectory": [
+        {
+          "step": 1,
+          "state_rms": 4.168063542828603,
+          "state_p95": 7.540620803833008,
+          "state_p99": 11.701114654541016,
+          "state_max": 38.70138168334961,
+          "increment_rms": 4.168063542828603,
+          "increment_p95": 7.540620803833008,
+          "increment_p99": 11.701114654541016,
+          "increment_max": 38.70138168334961
+        },
+        {
+          "step": 2,
+          "state_rms": 16.30485431241017,
+          "state_p95": 28.316932678222656,
+          "state_p99": 42.08383560180664,
+          "state_max": 59.73200225830078,
+          "increment_rms": 12.580739989027174,
+          "increment_p95": 21.64287757873535,
+          "increment_p99": 31.923404693603516,
+          "increment_max": 45.096866607666016
+        },
+        {
+          "step": 3,
+          "state_rms": 24.745451325339292,
+          "state_p95": 43.984901428222656,
+          "state_p99": 57.58988571166992,
+          "state_max": 79.74732208251953,
+          "increment_rms": 9.189661309345155,
+          "increment_p95": 16.378032684326172,
+          "increment_p99": 21.589860916137695,
+          "increment_max": 36.59082794189453
+        },
+        {
+          "step": 4,
+          "state_rms": 25.52087693961367,
+          "state_p95": 45.71010971069336,
+          "state_p99": 59.08443069458008,
+          "state_max": 85.82781982421875,
+          "increment_rms": 1.919875388533586,
+          "increment_p95": 3.669046640396118,
+          "increment_p99": 7.129134654998779,
+          "increment_max": 34.85331726074219
+        },
+        {
+          "step": 5,
+          "state_rms": 25.56072723706642,
+          "state_p95": 45.905860900878906,
+          "state_p99": 59.36106872558594,
+          "state_max": 86.94380187988281,
+          "increment_rms": 1.446901083721989,
+          "increment_p95": 2.4320461750030518,
+          "increment_p99": 6.457976818084717,
+          "increment_max": 32.86320114135742
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "task": "O-HAZE",
+      "ratios": [
+        {
+          "step": 1,
+          "state_rms_ratio_no_gain_over_full": 44.02452837671885,
+          "state_p95_ratio_no_gain_over_full": 33.58315778562958,
+          "state_p99_ratio_no_gain_over_full": 52.35765280708826,
+          "increment_rms_ratio_no_gain_over_full": 44.02452837671885,
+          "increment_p95_ratio_no_gain_over_full": 33.58315778562958,
+          "increment_p99_ratio_no_gain_over_full": 52.35765280708826
+        },
+        {
+          "step": 2,
+          "state_rms_ratio_no_gain_over_full": 34.277882151074984,
+          "state_p95_ratio_no_gain_over_full": 27.157391049805543,
+          "state_p99_ratio_no_gain_over_full": 36.02747166386711,
+          "increment_rms_ratio_no_gain_over_full": 20.2796262830798,
+          "increment_p95_ratio_no_gain_over_full": 19.10306127496699,
+          "increment_p99_ratio_no_gain_over_full": 16.409388096829332
+        },
+        {
+          "step": 3,
+          "state_rms_ratio_no_gain_over_full": 29.86942527055347,
+          "state_p95_ratio_no_gain_over_full": 24.035213030216827,
+          "state_p99_ratio_no_gain_over_full": 30.083249331542937,
+          "increment_rms_ratio_no_gain_over_full": 3.4712465788984983,
+          "increment_p95_ratio_no_gain_over_full": 2.445997333325499,
+          "increment_p99_ratio_no_gain_over_full": 2.5995988926897673
+        },
+        {
+          "step": 4,
+          "state_rms_ratio_no_gain_over_full": 28.03731670908811,
+          "state_p95_ratio_no_gain_over_full": 22.89106520516954,
+          "state_p99_ratio_no_gain_over_full": 28.352052876467436,
+          "increment_rms_ratio_no_gain_over_full": 1.4727469894861862,
+          "increment_p95_ratio_no_gain_over_full": 1.2733464016815084,
+          "increment_p99_ratio_no_gain_over_full": 1.120096111743345
+        },
+        {
+          "step": 5,
+          "state_rms_ratio_no_gain_over_full": 27.14119274432589,
+          "state_p95_ratio_no_gain_over_full": 22.255975669106707,
+          "state_p99_ratio_no_gain_over_full": 27.20329532657538,
+          "increment_rms_ratio_no_gain_over_full": 1.0775008647788795,
+          "increment_p95_ratio_no_gain_over_full": 0.9317742328443605,
+          "increment_p99_ratio_no_gain_over_full": 0.8433337156765516
+        }
+      ]
+    },
+    {
+      "task": "GoPro",
+      "ratios": [
+        {
+          "step": 1,
+          "state_rms_ratio_no_gain_over_full": 19.0970871239576,
+          "state_p95_ratio_no_gain_over_full": 15.090124492018411,
+          "state_p99_ratio_no_gain_over_full": 12.63161861071332,
+          "increment_rms_ratio_no_gain_over_full": 19.0970871239576,
+          "increment_p95_ratio_no_gain_over_full": 15.090124492018411,
+          "increment_p99_ratio_no_gain_over_full": 12.63161861071332
+        },
+        {
+          "step": 2,
+          "state_rms_ratio_no_gain_over_full": 47.83758287425722,
+          "state_p95_ratio_no_gain_over_full": 37.178317123814516,
+          "state_p99_ratio_no_gain_over_full": 29.3984581966637,
+          "increment_rms_ratio_no_gain_over_full": 91.32484325549603,
+          "increment_p95_ratio_no_gain_over_full": 72.39505259153574,
+          "increment_p99_ratio_no_gain_over_full": 53.99167441716989
+        },
+        {
+          "step": 3,
+          "state_rms_ratio_no_gain_over_full": 58.801132178112084,
+          "state_p95_ratio_no_gain_over_full": 47.55379975539517,
+          "state_p99_ratio_no_gain_over_full": 32.4369308837434,
+          "increment_rms_ratio_no_gain_over_full": 99.41732795899927,
+          "increment_p95_ratio_no_gain_over_full": 85.2520671923113,
+          "increment_p99_ratio_no_gain_over_full": 53.476580155831854
+        },
+        {
+          "step": 4,
+          "state_rms_ratio_no_gain_over_full": 53.826897168307454,
+          "state_p95_ratio_no_gain_over_full": 44.64295018402325,
+          "state_p99_ratio_no_gain_over_full": 29.569710223644307,
+          "increment_rms_ratio_no_gain_over_full": 30.216619480073415,
+          "increment_p95_ratio_no_gain_over_full": 28.521309879558043,
+          "increment_p99_ratio_no_gain_over_full": 25.855504115398695
+        },
+        {
+          "step": 5,
+          "state_rms_ratio_no_gain_over_full": 50.10450759209678,
+          "state_p95_ratio_no_gain_over_full": 42.18758731421901,
+          "state_p99_ratio_no_gain_over_full": 27.57336903195112,
+          "increment_rms_ratio_no_gain_over_full": 32.70254813927219,
+          "increment_p95_ratio_no_gain_over_full": 28.14873282558341,
+          "increment_p99_ratio_no_gain_over_full": 34.45815789034293
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Fixed-checkpoint internal behavior is descriptive and does not replace independently trained quality comparisons.",
+    "One preselected input per task; no dataset-level uncertainty claim."
+  ]
+}

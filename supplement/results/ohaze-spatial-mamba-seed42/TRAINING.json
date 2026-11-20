@@ -1,0 +1,12 @@
+{
+  "status": "TRAIN_COMPLETE",
+  "iter": 55800,
+  "seed": 42,
+  "endpoint": "net_g_55800.pth",
+  "endpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+  "config_sha256": "cb5bd18d9f7da66719dbcde4b2e2276b8bcfbaf8164fe8011da7e8a1cc4381b7",
+  "execution_manifest_sha256": "ae7003af7137b550ed20e79cfd059a9cbdb48f949aec42f2d28b623cc48e3837",
+  "wall_seconds": 10175.95286140003,
+  "peak_allocated_mib": 16639.2802734375,
+  "utc": "2026-09-08T19:36:15.898357+00:00"
+}

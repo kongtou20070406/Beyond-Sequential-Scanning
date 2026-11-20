@@ -1,0 +1,15 @@
+{
+  "when": "2026-11-09T17:03:36+08:00",
+  "pid": 76972,
+  "create_time": 1794215016.7620957,
+  "command": [
+    "<ENV_DIR>/envs\\ai2025\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "<RUN_DIR>/gopro_200k_bs2_20261108\\evaluate.py",
+    "--arm",
+    "nsi"
+  ],
+  "controller_pid": 46708
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "id": "gopro-ours-native-seed42",
+  "image_id": "GOPR0384_11_00/000001.png",
+  "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+  "psnr_db": 30.925612449645996,
+  "ssim": 0.9039496183395386,
+  "psnr_difference": 0.0,
+  "ssim_difference": 0.0,
+  "inference": {
+    "backend": "joint_heads_direct_rollout_fp32",
+    "fused_blocks": 26
+  },
+  "scope": "one-image native entry smoke"
+}

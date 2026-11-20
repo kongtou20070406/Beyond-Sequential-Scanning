@@ -1,0 +1,20 @@
+{
+  "id": "gopro-identity-retention-seed42",
+  "strict_load": {
+    "status": "passed",
+    "state_keys": 557
+  },
+  "parameters": 5807236,
+  "checkpoint_sha256": "d503cb0eadd00a9588df3d22a99b95d0d807d6a18e01798ba8d64c06b1762fc8",
+  "forward": {
+    "status": "passed",
+    "shape": [
+      1,
+      3,
+      16,
+      16
+    ],
+    "device": "cpu"
+  },
+  "index": 0
+}

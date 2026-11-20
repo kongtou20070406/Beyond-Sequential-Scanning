@@ -1,0 +1,337 @@
+{
+  "method": "ours",
+  "seed": 44,
+  "checkpoint_sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501",
+  "config_sha256": "9f0d6727b9a465821525dd6113445357ae1db2d0975546f8c554f9654f9715c7",
+  "runtime_manifest_sha256": "9b9caf60e8151fc456867516bd4405786f9dcde68cad535aa0e074394f6d587a",
+  "protocol": "native_full0",
+  "precision": "FP32_TF32_DISABLED",
+  "image_ids_sha256": "94c6e6007caebb2c82c3313029281c9bb7035cf3ae5195106b7eb80a44a84085",
+  "status": "COMPLETE",
+  "utc": "2026-09-09T03:58:04.600168+00:00",
+  "count": 1111,
+  "psnr_db": 30.81332409092159,
+  "ssim": 0.9122287759257264,
+  "per_image_sha256": "10a891419c242f8de1b8979809dea3973495c7f1e3953e4e36347ee211ffad74",
+  "this_attempt_wall_seconds": 2641.8067212000024,
+  "reused_prefix": 0,
+  "inference_resources": {
+    "recorded_images": 1111,
+    "total_result_images": 1111,
+    "macs_reference": {
+      "arm": "full",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 5807236,
+      "macs": 61473816576,
+      "macs_g": 61.473816576,
+      "fvcore_macs": 57085526016,
+      "propagation_macs": 4388290560,
+      "propagation_records": [
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        }
+      ],
+      "unsupported_ops": {
+        "aten::mul": 5902,
+        "aten::mul_": 52,
+        "aten::mean": 312,
+        "aten::var": 52,
+        "aten::sub": 1482,
+        "aten::add": 9283,
+        "aten::sqrt": 78,
+        "aten::div": 52,
+        "aten::gelu": 78,
+        "aten::square": 390,
+        "aten::ones_like": 26,
+        "aten::where": 52,
+        "aten::sum": 26,
+        "aten::reciprocal": 26,
+        "aten::softplus": 26,
+        "aten::tanh": 52,
+        "aten::linspace": 26,
+        "aten::softmax": 26,
+        "aten::rsqrt": 130,
+        "aten::reshape_as": 260,
+        "aten::pad": 260
+      },
+      "extra_interpolation_scalar_multiplications": 0,
+      "extra_interpolation_additions": 0,
+      "config_sha256": "d5e843351bfad1d27108708d7fb87660d9ecf732b17ee4631a09a3b298d460af",
+      "source_manifest_sha256": "b0c9067dc5278bbe41b672431601d6b6df8d3fc09d708724bb8fb533ce7ea976",
+      "counting_device": "cpu",
+      "convention": "Same published profiling implementation: one multiply-accumulate=one MAC; fvcore supported operations plus explicit complex 3x3 propagation. Uncounted operators listed. Extra half-delay scalar interpolation reported separately; not hardware instruction counts. MACs do not measure latency or memory.",
+      "profile_seconds": 21.110000000015134
+    },
+    "forward_wall_seconds_sum": 2551.8382385989535,
+    "forward_wall_seconds_mean": 2.296884103149373,
+    "forward_wall_seconds_median": 2.170088599959854,
+    "forward_wall_seconds_p90": 2.5600287999841385,
+    "excluding_first_process_image_mean_seconds": 2.2967470780170736,
+    "first_process_image_forward_seconds": [
+      2.448982000001706
+    ],
+    "forward_peak_allocated_mib": 8800.3916015625,
+    "evaluation_peak_allocated_mib": 8800.3916015625,
+    "evaluation_peak_reserved_mib": 15998.0,
+    "model_call_shapes_and_counts": [
+      {
+        "shape": [
+          1,
+          3,
+          720,
+          1280
+        ],
+        "calls": 1111
+      }
+    ],
+    "gpu_names": [
+      "NVIDIA GeForce RTX 5090"
+    ],
+    "timing_scope": "CUDA-synchronized wall time around existing forward including tile assembly/clamp for tiled evaluation; excludes image decoding, H2D and quality metrics. Dataset evaluation wall time remains separate. No extra warmup/repeated images. Shared host contention and first-call overhead retained.",
+    "memory_scope": "PyTorch process allocated/reserved peaks in MiB; forward includes resident model and input/target tensors. Evaluation peak also includes metric workspace. Not whole-device NVML usage; reserved may include allocator cache from earlier calls.",
+    "macs_scope": "Reference batch1 RGB256x256 model MACs using recorded convention; per-image/tile call shapes also recorded. Do not treat reference MACs as a whole tiled evaluation count or measured hardware work."
+  },
+  "torch": "2.10.0",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "boundary": "Native full0. No additional outer padding. Original carrier boundaries.",
+  "limitation": "Resource records include desktop/shared-host effects and first-call overhead.",
+  "archived_per_image_sha256": "3547a0c78bcb86911da7501cdf78de58e6f1fd94ff8e9dd9c6e1d591d907a90b",
+  "pair_count": 1111
+}

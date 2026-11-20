@@ -1,0 +1,32 @@
+{
+  "id": "gopro-cspn_style-seed42",
+  "label": "CSPN-style",
+  "dataset": "gopro",
+  "arm": "cspn_style",
+  "checkpoint": "weights/gopro/cspn_style/seed42/last.pth",
+  "checkpoint_sha256": "3eb5ec8153fe17c4976d5405524222fc58e6561b2c3849e90ca093b1f79f0e29",
+  "input": {
+    "path": "external/GOPR0384_11_00__000001.png",
+    "sha256": "1f516e38eea7a16fd48fddc34953cb227d86d22fbcd31de0c1334bb14b96dba8"
+  },
+  "input_shape": [
+    720,
+    1280
+  ],
+  "center_yx": [
+    360,
+    640
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "none",
+  "r50_px": 38.07886552931954,
+  "r90_px": 73.68174807915459,
+  "r95_px": 82.68010643437755,
+  "gradient_sum": 285.8250427246094,
+  "gradient_peak": 0.5860543847084045,
+  "seconds": 7.746023399988189,
+  "peak_cuda_mib": 13037.1357421875
+}

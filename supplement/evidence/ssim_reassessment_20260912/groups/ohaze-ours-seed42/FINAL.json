@@ -1,0 +1,68 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-ours-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+  "paper_uses": [
+    "main_table3",
+    "table4_K5",
+    "table5_full",
+    "appendix_C2_generator_full",
+    "scale512"
+  ],
+  "psnr": 26.775223579571325,
+  "ssim": 0.9065494656562805,
+  "legacy_pooled_ssim": 0.9468218445777893,
+  "legacy_published": {
+    "psnr": 26.7755,
+    "ssim": 0.94682
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 27.91819859900659,
+      "ssim": 0.9444552063941956,
+      "legacy_pooled_ssim": 0.9643030762672424,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 26.090776380993166,
+      "ssim": 0.8923213481903076,
+      "legacy_pooled_ssim": 0.9439680576324463,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 27.942504281384117,
+      "ssim": 0.9432829022407532,
+      "legacy_pooled_ssim": 0.9705470204353333,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 26.071252013353178,
+      "ssim": 0.9114813804626465,
+      "legacy_pooled_ssim": 0.9497894644737244,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 25.85338662311958,
+      "ssim": 0.8412064909934998,
+      "legacy_pooled_ssim": 0.9055016040802002,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    }
+  ],
+  "source_record": {
+    "id": "results/cached/ohaze-ours-seed42.json",
+    "sha256": "4390422dfa631f329c04e07194eb63a0e877305ded90718e327df6dbfc2cdfdb",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0,
+  "checkpoint": "weights/ohaze/ours/seed42/last.pth"
+}

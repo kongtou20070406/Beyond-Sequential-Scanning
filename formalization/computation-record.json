@@ -1,0 +1,332 @@
+{
+  "schema_version": "1.0",
+  "created_at_utc": "2026-09-25T10:34:55.229752+00:00",
+  "task": {
+    "file": "task.md",
+    "sha256": "8252f69f53bc6d7f174918ace13bf9bea9b73d7b2e0000ad8e78b5c43eedded9",
+    "object": "Fixed-input NSI nonlinear state propagation and readout over finite grids of real channel pairs",
+    "deliverables": [
+      "Pinned Lean source project",
+      "Full local declaration audit",
+      "Compiler logs and proof-to-paper map"
+    ]
+  },
+  "mathematical_context": {
+    "assumptions": [
+      "Fixed input, kernels, decay, and repeated input across all steps",
+      "Zero boundary reads",
+      "Nonnegative decay and 0 <= q < 1",
+      "1 <= g <= 4 for contraction and the stated readout bound",
+      "Zero initial state and nonnegative nondecreasing readout weights with sum K",
+      "The conclusions apply before output scaling and projection"
+    ],
+    "domain": "Finite products of real two-dimensional Euclidean channel pairs with a maximum-of-pair-norms norm",
+    "precision": {
+      "mode": "exact",
+      "working_digits": null,
+      "target_tolerance": ""
+    }
+  },
+  "implementation_discovery": {
+    "mathematica": {
+      "candidate_implementations": [],
+      "existence_evidence": "A CAS does not replay a Lean proof term.",
+      "local_availability": "unavailable",
+      "availability_evidence": "The local backend inventory found no Mathematica installation."
+    },
+    "sagemath": {
+      "candidate_implementations": [],
+      "existence_evidence": "SageMath does not replay Lean proof terms.",
+      "local_availability": "unavailable",
+      "availability_evidence": "The local inventory found no native SageMath; no WSL route was required."
+    },
+    "python": {
+      "candidate_implementations": [
+        "Python subprocess, hashlib, and json for build orchestration"
+      ],
+      "existence_evidence": "The supplied check_all.py uses the Python standard library.",
+      "local_availability": "available",
+      "availability_evidence": "Python 3.13.5 executed the compiler checks and hash validation."
+    }
+  },
+  "decision": {
+    "selected_backend": "other",
+    "backend_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+    "selection_reason": "Replay the existing Lean formalization with its exact compiler and mathlib commit; inspect the proof dependency closure.",
+    "fallback_reason": "not-required"
+  },
+  "execution": {
+    "status": "complete",
+    "interface": "Local Lean compiler and Python build driver",
+    "command_or_input": "python check_all.py; each source is checked with lean -DwarningAsError=true -R . -o <fresh build output> <source>. After one linter repair, the run resumed in the same fresh build after validating all successful source hashes. lake env lean --version also passed.",
+    "code_artifact": "check_all.py"
+  },
+  "artifacts": [
+    {
+      "role": "code",
+      "path": ".gitignore",
+      "sha256": "b34af236d1df9e39ed4f98fca51702530ce76bdee4e1a69512f6caed933c3374"
+    },
+    {
+      "role": "code",
+      "path": "Audit.lean",
+      "sha256": "4c258690c36b498c5dbcf168e731c990db0ed9ebfb3fc3b00b4dd0f78a63813c"
+    },
+    {
+      "role": "code",
+      "path": "check_all.py",
+      "sha256": "6b49e6755ef03eeda53fabe1893e49fabda87778ec92c81cfed91be1c379bf6e"
+    },
+    {
+      "role": "code",
+      "path": "lake-manifest.json",
+      "sha256": "4062103cb034d8985bd79270f5b47325f58be00bd7c9f79bb0e24d4a39913fc0"
+    },
+    {
+      "role": "code",
+      "path": "lakefile.toml",
+      "sha256": "3c14aa6a9e7329bd60416797bf8c2c71e942838d831c1f087d734ef60e64eaeb"
+    },
+    {
+      "role": "code",
+      "path": "lean-toolchain",
+      "sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273"
+    },
+    {
+      "role": "code",
+      "path": "NSI/AllGroupsSharpness.lean",
+      "sha256": "2778ce8babded99bf71f39afb93c4628d87ba1b7d2681b66cfe988e2467f1bc1"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Basic.lean",
+      "sha256": "99ba9dafcf0dd23dd632d61a71b8c0a120a8561da5dbfab32c7a62ed0aa827f8"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Envelope.lean",
+      "sha256": "aae51bcc50eef169e865b1ab6989e016586eb6eb264532a1de5ce8beff957f2d"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Extensions.lean",
+      "sha256": "fc6644b4b32f5e297dfdb1bf8328fc01ea6780c47152cac483f3fc59896fbe0b"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Grid.lean",
+      "sha256": "f752e29093f3b7c5e6458fc1ee4c2f1e9869dc3db3ec93e5cb4a42ee89d6dfd0"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Kernel.lean",
+      "sha256": "c59fba5a28f082d555fdc9d62fe75952e5e33c7f13a62c4e383c9a7412f52b61"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Main.lean",
+      "sha256": "3c3d20ab1a76603d91a014a78eeb273a95c70de159c15b5b497c0509a09bd0aa"
+    },
+    {
+      "role": "code",
+      "path": "NSI/MixedNorm.lean",
+      "sha256": "f13220774e3c68d59093445336332dd939da46474a1e1e6023b0010890fa8b82"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Precision.lean",
+      "sha256": "326859936cebca2326a907400b24c70b1aefada455eebef6c7a14a689adf0205"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Radial.lean",
+      "sha256": "9f11b123a5ec0c0831436e1b1c89fde0f8cb317db6e269b99e60141020b97553"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Readout.lean",
+      "sha256": "d776ffe2dbb920b2db4171f32b4afe60b2a769d44f18f10a82c4191c77088f95"
+    },
+    {
+      "role": "code",
+      "path": "NSI/ReadoutIdentity.lean",
+      "sha256": "5964dd7d9c0ca495884099b3c4f104fc77d9c9f52fd8c625dadb35ecf1348fb2"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Reflection.lean",
+      "sha256": "c870cb033ef5d4f09f637bedbb4d74813a06172498fd58d42e698bdf58973db2"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Retention.lean",
+      "sha256": "afba56f5b95fd6c479d3a3ddc2357d90d25689228354f67b71edd84d06b097e9"
+    },
+    {
+      "role": "code",
+      "path": "NSI/RetentionLipschitz.lean",
+      "sha256": "20bb18df8f7703e2f0a90223039378999eed5d13279d6270a15b289f93b47ad3"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Saturation.lean",
+      "sha256": "b6a7704186b444ca206def60b16680da36a12a5b79f70bdea7f6f7f41273ae30"
+    },
+    {
+      "role": "code",
+      "path": "NSI/Sharpness.lean",
+      "sha256": "9e0bb6f54a8f68527cece769add8ccc0eea4d51c355e2833a806eb256265bca1"
+    },
+    {
+      "role": "code",
+      "path": "NSI.lean",
+      "sha256": "645324aaad28d01ee80bb3f4d5a6ed1f0eba61263f6b98501de146b6f557107d"
+    },
+    {
+      "role": "code",
+      "path": "README.md",
+      "sha256": "dcddafa8ec2318e004831487db49fa8e20dd3e755345f153c10ddd4204171ca3"
+    },
+    {
+      "role": "code",
+      "path": "task.md",
+      "sha256": "8252f69f53bc6d7f174918ace13bf9bea9b73d7b2e0000ad8e78b5c43eedded9"
+    },
+    {
+      "role": "result",
+      "path": "verification/AllGroupsSharpness.log",
+      "sha256": "f6b69f9f6b3b130774755dc6429f3e4aa940c6b8c596a7923f78ec89d524ce3d"
+    },
+    {
+      "role": "result",
+      "path": "verification/Audit.log",
+      "sha256": "bfdf1b48dae1f3e0ed1f40fb6913f9d6300a93dd05480bad51d85b72b38c9678"
+    },
+    {
+      "role": "result",
+      "path": "verification/Basic.log",
+      "sha256": "60b2d6c10bb0c62fb2786bed68f478588714d38b7ca914291b5736e6cbbe8070"
+    },
+    {
+      "role": "result",
+      "path": "verification/Envelope.log",
+      "sha256": "9223b2fd8e4e94899c4a1eed72718128a345e935bfe695179079dd676e615aea"
+    },
+    {
+      "role": "result",
+      "path": "verification/Extensions.log",
+      "sha256": "8bfa0a9bc26e2474261bb03683f57ee3f40cace47321d04faf6d4a8074545df8"
+    },
+    {
+      "role": "result",
+      "path": "verification/Grid.log",
+      "sha256": "bef006835fdf28c2f8b92ec531d1108840c9966f637969218015389d3cb7d5d9"
+    },
+    {
+      "role": "result",
+      "path": "verification/Kernel.log",
+      "sha256": "c2cf9064aebf439b0207f2d0493f6134f93aa40aeb035c8b65d950724d867622"
+    },
+    {
+      "role": "result",
+      "path": "verification/Main.log",
+      "sha256": "8142c214baa89a108eb094e19d1e20bd2009a74c927ec59c73445ad8587a0703"
+    },
+    {
+      "role": "result",
+      "path": "verification/MixedNorm.log",
+      "sha256": "41cee3b626c7e551a63b5456b4abde93035f86391f39fa5e010b456daed92e92"
+    },
+    {
+      "role": "result",
+      "path": "verification/negative_controls.json",
+      "sha256": "25b55cdafe63d37fda7dbccb91cdc1d070867b9a3500c1d827dffc4540b2c8c5"
+    },
+    {
+      "role": "result",
+      "path": "verification/NSI.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "role": "result",
+      "path": "verification/paper_sources.json",
+      "sha256": "092ae576b566a24984bc2ea580f035e3bdd759e9562cd078fe97fafe5f7a48b9"
+    },
+    {
+      "role": "result",
+      "path": "verification/Precision.log",
+      "sha256": "5a94c5cd9c96c110c655dcb18cd5aa61f6e1dd7bffd9dfb03e2cbaa93e644bde"
+    },
+    {
+      "role": "result",
+      "path": "verification/Radial.log",
+      "sha256": "7dd25372f54b3840dc6d308e7ca779924dad711e16879cd1c71b5f9f31f03780"
+    },
+    {
+      "role": "result",
+      "path": "verification/Readout.log",
+      "sha256": "fad10f19970789b563e2a6fdc0ade5a1de590a53ec61ce16f10aef0e5c68a12a"
+    },
+    {
+      "role": "result",
+      "path": "verification/ReadoutIdentity.log",
+      "sha256": "4823bbfe793a922c72a14e9af1288a2edaaeec91d07374766ab04ba4a1f50524"
+    },
+    {
+      "role": "result",
+      "path": "verification/Reflection.log",
+      "sha256": "dc84244f9b7f1194263df128d8a24deb7a41a9ad7c047644896ec9acb262937d"
+    },
+    {
+      "role": "result",
+      "path": "verification/report.json",
+      "sha256": "237463743cb8af4df7ee0ec31e066b024b6319375cbec720ec1ec8f71f45fd7a"
+    },
+    {
+      "role": "result",
+      "path": "verification/Retention.log",
+      "sha256": "7ae5d43b724f39ebdd426edc328833278d54d077ef11043ef97881eb38cb623d"
+    },
+    {
+      "role": "result",
+      "path": "verification/RetentionLipschitz.log",
+      "sha256": "bbd7f4a5b07c5d1bf193be5c2410abdbabea03eb5caaef8e98febe51b523ab20"
+    },
+    {
+      "role": "result",
+      "path": "verification/Saturation.log",
+      "sha256": "5ca620ed364b5b1c7f3c48ef27d2d75ea01cdc4d55dc29ae481b1a65cc6befc0"
+    },
+    {
+      "role": "result",
+      "path": "verification/Sharpness.log",
+      "sha256": "505cf44e70712b33b2931f2d67e1a4ce359b68f9b5c9b3850683aa0e9caa4de1"
+    },
+    {
+      "role": "result",
+      "path": "verification/source_changes.json",
+      "sha256": "dfe71c3aea79d22bb2e6e87bdfb5c5cb238840c7b36cd5932f239dec1c751c98"
+    }
+  ],
+  "result": {
+    "status": "complete",
+    "summary": "All 19 Lean files compile with zero warnings. All 254 local declarations, including 203 theorems, use only propext, Classical.choice, and Quot.sound.",
+    "result_artifact": "verification/report.json"
+  },
+  "verification": {
+    "methods": [
+      "Fresh compilation of every local Lean proof source",
+      "Transitive axiom collection for every local declaration, including private helpers",
+      "Review of definitions, theorem assumptions, and the current paper equations",
+      "Pinned Lake configuration environment check",
+      "The declaration auditor rejects isolated custom-axiom and placeholder controls."
+    ],
+    "evidence_level": "formal-verification",
+    "residual_or_error": "Not applicable: exact proof terms, not sampled numerical residuals.",
+    "limitations": [
+      "Readout weight properties are formal theorem hypotheses; the softmax generation code is not separately formalized.",
+      "Lean sharpness counterexamples cover every g >= 5 at alpha = 1; the appendix gives the analytic argument for every positive alpha.",
+      "The PyTorch implementation, GPU arithmetic, and experimental metrics are not formally verified."
+    ]
+  }
+}

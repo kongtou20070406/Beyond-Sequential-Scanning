@@ -1,0 +1,2 @@
+'NSI.radialRetentionSup_nonexpansive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.radialRetention_blockSup_nonexpansive' depends on axioms: [propext, Classical.choice, Quot.sound]

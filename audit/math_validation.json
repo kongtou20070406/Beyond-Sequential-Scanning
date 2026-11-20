@@ -1,0 +1,9 @@
+{
+  "torch": "2.10.0",
+  "sympy": "1.14.0",
+  "max_derivative_error": 1.3877787807814457e-17,
+  "exact_dynamic_derivative_at_zero": "19/10",
+  "group4_bound_gap": "t**3/4 + 3*t**2/4",
+  "input_sensitivity_K5": "q*(q*(q*(q + 1) + 1) + 1) + 1",
+  "scope": "Algebra and small derivative checks; no formal theorem verification."
+}

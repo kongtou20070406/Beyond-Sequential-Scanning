@@ -1,0 +1,19 @@
+test_bundled_reassessment_covers_all_current_ohaze_rows (test_direct_ssim.DirectSsimTests.test_bundled_reassessment_covers_all_current_ohaze_rows) ... ok
+test_contract_rejects_pooled_result_and_ssim_alias (test_direct_ssim.DirectSsimTests.test_contract_rejects_pooled_result_and_ssim_alias) ... ok
+test_historical_rows_are_excluded_without_fallback (test_direct_ssim.DirectSsimTests.test_historical_rows_are_excluded_without_fallback) ... ok
+test_recorded_ohaze_collection_uses_direct_evidence (test_direct_ssim.DirectSsimTests.test_recorded_ohaze_collection_uses_direct_evidence) ... ok
+test_torch_backends_agree_without_pre_pooling (test_direct_ssim.DirectSsimTests.test_torch_backends_agree_without_pre_pooling) ... ok
+test_gopro_uses_sample_standard_deviation (test_reproduction.CollectionTests.test_gopro_uses_sample_standard_deviation) ... ok
+test_missing_result_fails (test_reproduction.CollectionTests.test_missing_result_fails) ... ok
+test_ohaze_split_preserves_pairs (test_reproduction.DataTests.test_ohaze_split_preserves_pairs) ... ok
+test_same_size_corrupt_target_is_rejected (test_reproduction.DataTests.test_same_size_corrupt_target_is_rejected) ... ok
+test_corrupt_image_file_is_rejected (test_supplement.EvidenceTests.test_corrupt_image_file_is_rejected) ... ok
+test_native_registry_reuses_main_weights (test_supplement.EvidenceTests.test_native_registry_reuses_main_weights) ... ok
+test_replaced_checkpoint_is_rejected (test_supplement.EvidenceTests.test_replaced_checkpoint_is_rejected) ... ok
+test_resume_rejects_unidentified_or_mixed_prefix (test_supplement.EvidenceTests.test_resume_rejects_unidentified_or_mixed_prefix) ... ok
+test_self_consistent_hash_cannot_hide_duplicate_ids (test_supplement.EvidenceTests.test_self_consistent_hash_cannot_hide_duplicate_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.652s
+
+OK

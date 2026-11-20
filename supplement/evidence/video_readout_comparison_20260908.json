@@ -1,0 +1,223 @@
+{
+  "rows": [
+    {
+      "video": "GOPR0384_11_00",
+      "frames": 100,
+      "old_full_psnr_db": 32.61868500709534,
+      "old_full_ssim": 0.9344012171030045,
+      "new_full_psnr_db": 32.65207145214081,
+      "new_full_ssim": 0.9344046998023987,
+      "terminal_psnr_db": 32.65379383563995,
+      "terminal_ssim": 0.934617977142334,
+      "old_full_minus_terminal_psnr_db": -0.03510882854461528,
+      "old_full_minus_terminal_ssim": -0.00021676003932946664,
+      "old_full_wins_frames": 43,
+      "new_full_minus_terminal_psnr_db": -0.0017223834991426656,
+      "new_full_minus_terminal_ssim": -0.00021327733993525833,
+      "new_full_wins_frames": 49
+    },
+    {
+      "video": "GOPR0384_11_05",
+      "frames": 100,
+      "old_full_psnr_db": 32.14898011684418,
+      "old_full_ssim": 0.941129520535469,
+      "new_full_psnr_db": 32.15079817771912,
+      "new_full_ssim": 0.9408507096767426,
+      "terminal_psnr_db": 32.166550517082214,
+      "terminal_ssim": 0.9411119437217712,
+      "old_full_minus_terminal_psnr_db": -0.01757040023803569,
+      "old_full_minus_terminal_ssim": 1.757681369785047e-05,
+      "old_full_wins_frames": 41,
+      "new_full_minus_terminal_psnr_db": -0.015752339363096723,
+      "new_full_minus_terminal_ssim": -0.00026123404502864656,
+      "new_full_wins_frames": 41
+    },
+    {
+      "video": "GOPR0385_11_01",
+      "frames": 100,
+      "old_full_psnr_db": 31.886222004890442,
+      "old_full_ssim": 0.9306317090988159,
+      "new_full_psnr_db": 31.775321555137634,
+      "new_full_ssim": 0.9298468071222306,
+      "terminal_psnr_db": 31.983027958869933,
+      "terminal_ssim": 0.9312732154130936,
+      "old_full_minus_terminal_psnr_db": -0.09680595397949077,
+      "old_full_minus_terminal_ssim": -0.0006415063142777289,
+      "old_full_wins_frames": 30,
+      "new_full_minus_terminal_psnr_db": -0.2077064037322991,
+      "new_full_minus_terminal_ssim": -0.001426408290863046,
+      "new_full_wins_frames": 19
+    },
+    {
+      "video": "GOPR0396_11_00",
+      "frames": 100,
+      "old_full_psnr_db": 32.358925867080686,
+      "old_full_ssim": 0.9530221384763717,
+      "new_full_psnr_db": 32.41554553508759,
+      "new_full_ssim": 0.953483020067215,
+      "terminal_psnr_db": 32.35612144470215,
+      "terminal_ssim": 0.9530582231283188,
+      "old_full_minus_terminal_psnr_db": 0.002804422378538618,
+      "old_full_minus_terminal_ssim": -3.608465194704369e-05,
+      "old_full_wins_frames": 46,
+      "new_full_minus_terminal_psnr_db": 0.059424090385441275,
+      "new_full_minus_terminal_ssim": 0.0004247969388961881,
+      "new_full_wins_frames": 64
+    },
+    {
+      "video": "GOPR0410_11_00",
+      "frames": 134,
+      "old_full_psnr_db": 30.22223154110695,
+      "old_full_ssim": 0.901598874757539,
+      "new_full_psnr_db": 30.30505628728155,
+      "new_full_ssim": 0.9017190346077307,
+      "terminal_psnr_db": 30.468884742082054,
+      "terminal_ssim": 0.9037017742199684,
+      "old_full_minus_terminal_psnr_db": -0.24665320097510346,
+      "old_full_minus_terminal_ssim": -0.002102899462429475,
+      "old_full_wins_frames": 21,
+      "new_full_minus_terminal_psnr_db": -0.16382845480050534,
+      "new_full_minus_terminal_ssim": -0.001982739612237716,
+      "new_full_wins_frames": 21
+    },
+    {
+      "video": "GOPR0854_11_00",
+      "frames": 100,
+      "old_full_psnr_db": 28.551359558105467,
+      "old_full_ssim": 0.867590566277504,
+      "new_full_psnr_db": 28.560771656036376,
+      "new_full_ssim": 0.8677038758993149,
+      "terminal_psnr_db": 28.60825045108795,
+      "terminal_ssim": 0.867903356552124,
+      "old_full_minus_terminal_psnr_db": -0.05689089298248362,
+      "old_full_minus_terminal_ssim": -0.00031279027462005615,
+      "old_full_wins_frames": 41,
+      "new_full_minus_terminal_psnr_db": -0.04747879505157471,
+      "new_full_minus_terminal_ssim": -0.0001994806528091697,
+      "new_full_wins_frames": 40
+    },
+    {
+      "video": "GOPR0862_11_00",
+      "frames": 77,
+      "old_full_psnr_db": 28.041152489649786,
+      "old_full_ssim": 0.8725155228144162,
+      "new_full_psnr_db": 28.05987921628085,
+      "new_full_ssim": 0.872512614572203,
+      "terminal_psnr_db": 28.037518278344884,
+      "terminal_ssim": 0.8716398198883255,
+      "old_full_minus_terminal_psnr_db": 0.0036342113049023794,
+      "old_full_minus_terminal_ssim": 0.0008757029260907379,
+      "old_full_wins_frames": 36,
+      "new_full_minus_terminal_psnr_db": 0.02236093793596794,
+      "new_full_minus_terminal_ssim": 0.0008727946838774647,
+      "new_full_wins_frames": 47
+    },
+    {
+      "video": "GOPR0868_11_00",
+      "frames": 100,
+      "old_full_psnr_db": 28.53791389465332,
+      "old_full_ssim": 0.8901916635036469,
+      "new_full_psnr_db": 28.566074419021607,
+      "new_full_ssim": 0.89049307346344,
+      "terminal_psnr_db": 28.60630111694336,
+      "terminal_ssim": 0.8909353482723236,
+      "old_full_minus_terminal_psnr_db": -0.06838722229003835,
+      "old_full_minus_terminal_ssim": -0.0007436847686767001,
+      "old_full_wins_frames": 36,
+      "new_full_minus_terminal_psnr_db": -0.04022669792175293,
+      "new_full_minus_terminal_ssim": -0.0004422748088835915,
+      "new_full_wins_frames": 45
+    },
+    {
+      "video": "GOPR0869_11_00",
+      "frames": 100,
+      "old_full_psnr_db": 29.86237301826477,
+      "old_full_ssim": 0.8822329360246658,
+      "new_full_psnr_db": 29.880891132354737,
+      "new_full_ssim": 0.8826119315624237,
+      "terminal_psnr_db": 29.90651774406433,
+      "terminal_ssim": 0.8822093445062638,
+      "old_full_minus_terminal_psnr_db": -0.04414472579956197,
+      "old_full_minus_terminal_ssim": 2.3591518402032996e-05,
+      "old_full_wins_frames": 36,
+      "new_full_minus_terminal_psnr_db": -0.025626611709594016,
+      "new_full_minus_terminal_ssim": 0.00040258705615991985,
+      "new_full_wins_frames": 44
+    },
+    {
+      "video": "GOPR0871_11_00",
+      "frames": 100,
+      "old_full_psnr_db": 28.7093252658844,
+      "old_full_ssim": 0.8777839481830597,
+      "new_full_psnr_db": 28.693892312049865,
+      "new_full_ssim": 0.8772936546802521,
+      "terminal_psnr_db": 28.78188226222992,
+      "terminal_ssim": 0.8788455897569656,
+      "old_full_minus_terminal_psnr_db": -0.07255699634552215,
+      "old_full_minus_terminal_ssim": -0.0010616415739058693,
+      "old_full_wins_frames": 23,
+      "new_full_minus_terminal_psnr_db": -0.08798995018005584,
+      "new_full_minus_terminal_ssim": -0.0015519350767134732,
+      "new_full_wins_frames": 32
+    },
+    {
+      "video": "GOPR0881_11_01",
+      "frames": 100,
+      "old_full_psnr_db": 32.99520840644836,
+      "old_full_ssim": 0.9520359987020492,
+      "new_full_psnr_db": 32.99834733009338,
+      "new_full_ssim": 0.9520346862077713,
+      "terminal_psnr_db": 33.008595609664916,
+      "terminal_ssim": 0.9521904510259628,
+      "old_full_minus_terminal_psnr_db": -0.013387203216552734,
+      "old_full_minus_terminal_ssim": -0.00015445232391353425,
+      "old_full_wins_frames": 43,
+      "new_full_minus_terminal_psnr_db": -0.010248279571534624,
+      "new_full_minus_terminal_ssim": -0.0001557648181914617,
+      "new_full_wins_frames": 44
+    }
+  ],
+  "frame_weighted_means": {
+    "old_full": {
+      "psnr_db": 30.58132050597485,
+      "ssim": 0.909900912929504
+    },
+    "new_full": {
+      "psnr_db": 30.59483312251437,
+      "ssim": 0.9098884498718942
+    },
+    "terminal": {
+      "psnr_db": 30.647005901800203,
+      "ssim": 0.9103752014660599
+    }
+  },
+  "video_equal_weight_mean_delta": {
+    "old_full": -0.058642435517087546,
+    "new_full": -0.047163171591649705
+  },
+  "full_wins_video": {
+    "old_full": 2,
+    "new_full": 2
+  },
+  "source_files": {
+    "old_full": "per_image.jsonl",
+    "new_full": "per_image.jsonl",
+    "terminal": "per_image.jsonl"
+  },
+  "user_requested_descriptive_comparison": {
+    "psnr_tolerance_db": 0.1,
+    "interpretation": "Approximate parity for this comparison; descriptive convention adopted after observing results, not a pre-registered equivalence test. Raw PSNR/SSIM remain unchanged.",
+    "counts": {
+      "old_full": {
+        "approximately_tied_videos": 10,
+        "higher_by_more_than_point1_videos": 0,
+        "lower_by_more_than_point1_videos": 1
+      },
+      "new_full": {
+        "approximately_tied_videos": 9,
+        "higher_by_more_than_point1_videos": 0,
+        "lower_by_more_than_point1_videos": 2
+      }
+    }
+  }
+}

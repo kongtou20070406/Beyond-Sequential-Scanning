@@ -1,0 +1,25 @@
+{
+  "updates": 300000,
+  "checkpoint": "<RUN_DIR>/experiments/haze4k_s_3arms_fp32_strict_20261016/runs/nsi/experiments/haze4k-S-nsi-b8-mb2-fp32-300k-seed42/models/net_g_latest.pth",
+  "sha256": "2548012afc584b170984d89c1fdc4b395011f2aa811e8e28649a2978069c88f8",
+  "config_sha256": "992d60144486e46956c806af579149b6c5aa8ef67931c614b50514b321bc0ade",
+  "protocol": {
+    "status": "verified_training_recipe",
+    "dataset": "haze4k",
+    "capacity": "S",
+    "method": "nsi",
+    "stage": 1,
+    "recipe_id": "haze4k_s_b8_fp32_strictkernels_v1",
+    "official_reproduction": false,
+    "metric_protocol": "direct_rgb_ssim_v1",
+    "training_precision": "FP32",
+    "require_optimized_kernels": true,
+    "tf32": false,
+    "reference_native_reported_psnr": 33.8,
+    "selection": "fixed_300000_endpoint_no_test_selection"
+  },
+  "started_at": 1792124726.193865,
+  "finished_at": 1792376657.9218822,
+  "training_wall_seconds": 251931.72801709175,
+  "resumed": false
+}

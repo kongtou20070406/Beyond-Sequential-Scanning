@@ -1,0 +1,34 @@
+{
+  "id": "ohaze-mair-full-block-seed42",
+  "label": "MaIR full block",
+  "dataset": "ohaze",
+  "arm": "mair_native_blocks",
+  "checkpoint": "weights/supplement/ohaze-mair-full-block-seed42/last.pth",
+  "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+  "input": {
+    "path": "external/41.jpg",
+    "sha256": "b34462547def19a5a62343cbd09bd9b35954b9bf2d2e7cd6f55a28c47658b86e"
+  },
+  "input_shape": [
+    512,
+    422
+  ],
+  "center_yx": [
+    256,
+    211
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "spatial_fusion_autograd": null,
+  "spatial_fusion_forward_max_relative_error": null,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 32",
+  "r50_px": 139.01438774457844,
+  "r90_px": 217.51321798916038,
+  "r95_px": 245.00204080782675,
+  "gradient_sum": 21.445842742919922,
+  "gradient_peak": 0.6171261668205261,
+  "seconds": 1.1687953000073321,
+  "peak_cuda_mib": 1789.99560546875
+}

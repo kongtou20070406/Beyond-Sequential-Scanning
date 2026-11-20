@@ -1,0 +1,33 @@
+{
+  "id": "haze4k-swin-seed42",
+  "label": "Swin",
+  "dataset": "haze4k",
+  "arm": "swin",
+  "checkpoint": "weights/haze4k/swin/seed42/last.pth",
+  "checkpoint_sha256": "0801dee681d70ec619635827da0628c38d596c49848b02cc350035e747f94651",
+  "input": {
+    "path": "external/test.bin",
+    "image_id": "1000_0.73_1.8",
+    "pixel_sha256": "17e4df4862f20f62cb52d03ca1d54722df154e44e7a90f9f77d63eab974b6932"
+  },
+  "input_shape": [
+    480,
+    640
+  ],
+  "center_yx": [
+    240,
+    320
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 4",
+  "r50_px": 55.80322571321482,
+  "r90_px": 110.5350623105628,
+  "r95_px": 127.534309109353,
+  "gradient_sum": 30.856613159179688,
+  "gradient_peak": 0.27992117404937744,
+  "seconds": 0.537761399988085,
+  "peak_cuda_mib": 2191.1826171875
+}

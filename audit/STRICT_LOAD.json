@@ -1,0 +1,2657 @@
+{
+  "status": "PASS",
+  "summary": {
+    "missing_checkpoints": 0,
+    "missing_expected_hashes": 0,
+    "checksum_failures": 0,
+    "strict_load_failures": 0,
+    "forward_failures": 0,
+    "registry_failures": 0
+  },
+  "experiments": [
+    {
+      "id": "ohaze-native-seed42",
+      "label": "VIVNet native",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/native/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "9ce69648186bbfca87d5c180ac9289b089baf10468274ebaae4abf8d10d8eb36",
+      "expected_bytes": 11594978,
+      "bytes": 11594978,
+      "bytes_matches": true,
+      "sha256": "9ce69648186bbfca87d5c180ac9289b089baf10468274ebaae4abf8d10d8eb36",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-native-seed42",
+        "index": 0,
+        "strict_load": {
+          "parameters": 2859858,
+          "state_keys": 407,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-dwconv-seed42",
+      "label": "DWConv",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "dwconv",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/dwconv/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "f71f2ba0bab9530864d48d95a507597ac1b6dc49ae244c45468e2598c777d9c7",
+      "expected_bytes": 11504088,
+      "bytes": 11504088,
+      "bytes_matches": true,
+      "sha256": "f71f2ba0bab9530864d48d95a507597ac1b6dc49ae244c45468e2598c777d9c7",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-dwconv-seed42",
+        "index": 1,
+        "strict_load": {
+          "parameters": 2848544,
+          "state_keys": 297,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-mdta-seed42",
+      "label": "MDTA",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "mdta",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/mdta/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2",
+      "expected_bytes": 10000340,
+      "bytes": 10000340,
+      "bytes_matches": true,
+      "sha256": "e6fdff325444adb81fa54a4663b64b02c417f008183e70454375a65e24074ac2",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-mdta-seed42",
+        "index": 2,
+        "strict_load": {
+          "parameters": 2475988,
+          "state_keys": 253,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-swin-seed42",
+      "label": "Swin",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "swin",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/swin/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0",
+      "expected_bytes": 12297176,
+      "bytes": 12297176,
+      "bytes_matches": true,
+      "sha256": "6fe0018e3a6288905623adbc62533b84b5d2a9c5916b064cd35cbbc5b5c3c4e0",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-swin-seed42",
+        "index": 3,
+        "strict_load": {
+          "parameters": 2941716,
+          "state_keys": 297,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-ss2d-seed42",
+      "label": "SS2D",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/ss2d/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "expected_bytes": 10028834,
+      "bytes": 10028834,
+      "bytes_matches": true,
+      "sha256": "c74fe8af4192dcd187e85ee750c754ae3135a9ad58488a299c45ef8282cd7a14",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "extensions": {
+            "checked": true,
+            "missing": [
+              "selective_scan_cuda"
+            ],
+            "required": [
+              "selective_scan_cuda",
+              "selective_scan_cuda_oflex"
+            ]
+          },
+          "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+          "status": "skipped"
+        },
+        "id": "ohaze-ss2d-seed42",
+        "index": 4,
+        "strict_load": {
+          "parameters": 2470304,
+          "state_keys": 407,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-cspn_style-seed42",
+      "label": "CSPN-style",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/cspn_style/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "0a6dcb9ebeb1cb781c1ab9d5a12c5629c892b74095819cda6bf37fd47e8dd3c4",
+      "expected_bytes": 9069720,
+      "bytes": 9069720,
+      "bytes_matches": true,
+      "sha256": "0a6dcb9ebeb1cb781c1ab9d5a12c5629c892b74095819cda6bf37fd47e8dd3c4",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-cspn_style-seed42",
+        "index": 5,
+        "strict_load": {
+          "parameters": 2239776,
+          "state_keys": 297,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-ours-seed42",
+      "label": "Ours",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/ours/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-ours-seed42",
+        "index": 6,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-mair-seed42",
+      "label": "MaIR-VMM (matched slot)",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "mair",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/mair/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "f1523606b44c1515f1aeef78857e4bc77da5a731120a7798c3628087e3542f1f",
+      "expected_bytes": 14359142,
+      "bytes": 14359142,
+      "bytes_matches": true,
+      "sha256": "f1523606b44c1515f1aeef78857e4bc77da5a731120a7798c3628087e3542f1f",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "extensions": {
+            "checked": true,
+            "missing": [
+              "selective_scan_cuda_oflex"
+            ],
+            "required": [
+              "selective_scan_cuda_oflex"
+            ]
+          },
+          "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda_oflex",
+          "status": "skipped"
+        },
+        "id": "ohaze-mair-seed42",
+        "index": 7,
+        "strict_load": {
+          "parameters": 3547168,
+          "state_keys": 451,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-matched_feedforward-seed42",
+      "label": "matched_feedforward",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "matched_feedforward",
+      "checkpoint": "weights/ohaze/ablations/matched_feedforward/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "08e3d6cff2af73ee52c9401052b28eb2ce8f9cacf838b4f8fadfe2715012d268",
+      "expected_bytes": 9192490,
+      "bytes": 9192490,
+      "bytes_matches": true,
+      "sha256": "08e3d6cff2af73ee52c9401052b28eb2ce8f9cacf838b4f8fadfe2715012d268",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-matched_feedforward-seed42",
+        "index": 8,
+        "strict_load": {
+          "parameters": 2252300,
+          "state_keys": 495,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-step_conditioned_rules-seed42",
+      "label": "step_conditioned_rules",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "step_conditioned_rules",
+      "checkpoint": "weights/ohaze/ablations/step_conditioned_rules/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "d3fde656eb30526345f6fe49fc86f1099f85fde0b6964696266ee96e2dccfb3a",
+      "expected_bytes": 9192490,
+      "bytes": 9192490,
+      "bytes_matches": true,
+      "sha256": "d3fde656eb30526345f6fe49fc86f1099f85fde0b6964696266ee96e2dccfb3a",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-step_conditioned_rules-seed42",
+        "index": 9,
+        "strict_load": {
+          "parameters": 2252300,
+          "state_keys": 495,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-first_step_drive-seed42",
+      "label": "first_step_drive",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "first_step_drive",
+      "checkpoint": "weights/ohaze/ablations/first_step_drive/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "32100edb1ee62a326fc757d9fbebc06cf3bb6ecf660dd3e6e9b8ffd26a9d6132",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-first_step_drive-seed42",
+        "index": 10,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-identity_retention-seed42",
+      "label": "identity_retention",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "identity_retention",
+      "checkpoint": "weights/ohaze/ablations/identity_retention/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "6152c1d22fdcb6212f0254711f531aa41a4ca626a67390522b14e64e109944a9",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "6152c1d22fdcb6212f0254711f531aa41a4ca626a67390522b14e64e109944a9",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-identity_retention-seed42",
+        "index": 11,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-terminal_readout-seed42",
+      "label": "terminal_readout",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "terminal_readout",
+      "checkpoint": "weights/ohaze/ablations/terminal_readout/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "4a598b18aa8354e5503c20dfb7dc5b7459d48ae619317a9d5f580d659f252665",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "4a598b18aa8354e5503c20dfb7dc5b7459d48ae619317a9d5f580d659f252665",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-terminal_readout-seed42",
+        "index": 12,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-identity_retention_terminal_readout-seed42",
+      "label": "identity_retention_terminal_readout",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "identity_retention_terminal_readout",
+      "checkpoint": "weights/ohaze/ablations/identity_retention_terminal_readout/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-identity_retention_terminal_readout-seed42",
+        "index": 13,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-static_rules-seed42",
+      "label": "static_rules",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "static_rules",
+      "checkpoint": "weights/ohaze/ablations/static_rules/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "1abfe6fad6f2b8d7ffe810724d26820e824d145ef335b899833b03c64e5950e5",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "1abfe6fad6f2b8d7ffe810724d26820e824d145ef335b899833b03c64e5950e5",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-static_rules-seed42",
+        "index": 14,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-equal_parameter_real-seed42",
+      "label": "equal_parameter_real",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "equal_parameter_real",
+      "checkpoint": "weights/ohaze/ablations/equal_parameter_real/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "e9265e66c803a2f5e635856a650fa9ba8e653c130a666c0f695089be93a13f51",
+      "expected_bytes": 9168744,
+      "bytes": 9168744,
+      "bytes_matches": true,
+      "sha256": "e9265e66c803a2f5e635856a650fa9ba8e653c130a666c0f695089be93a13f51",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-equal_parameter_real-seed42",
+        "index": 15,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-no_row_mass_projection-seed42",
+      "label": "no_row_mass_projection",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "no_row_mass_projection",
+      "checkpoint": "weights/ohaze/ablations/no_row_mass_projection/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "4fcf76ab7eb1cf323f291b4ed06ecfd69dad4166d7ffb1e744a97dd020b1d8e7",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "4fcf76ab7eb1cf323f291b4ed06ecfd69dad4166d7ffb1e744a97dd020b1d8e7",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-no_row_mass_projection-seed42",
+        "index": 16,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-alternative_generator-seed42",
+      "label": "alternative_generator",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "alternative_generator",
+      "checkpoint": "weights/ohaze/ablations/alternative_generator/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "d23565afe5c1ed9ee0b0ccdb861b2071a3c55b8abfe289b1b1d996479c9db91c",
+      "expected_bytes": 9035304,
+      "bytes": 9035304,
+      "bytes_matches": true,
+      "sha256": "d23565afe5c1ed9ee0b0ccdb861b2071a3c55b8abfe289b1b1d996479c9db91c",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-alternative_generator-seed42",
+        "index": 17,
+        "strict_load": {
+          "parameters": 2214860,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-conjugate_symmetric-seed42",
+      "label": "conjugate_symmetric",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "conjugate_symmetric",
+      "checkpoint": "weights/ohaze/ablations/conjugate_symmetric/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "c5eb5d954d651108c6bc95e7b94470fe749a8aa34355fa9f79da5370ea014a53",
+      "expected_bytes": 9018664,
+      "bytes": 9018664,
+      "bytes_matches": true,
+      "sha256": "c5eb5d954d651108c6bc95e7b94470fe749a8aa34355fa9f79da5370ea014a53",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-conjugate_symmetric-seed42",
+        "index": 18,
+        "strict_load": {
+          "parameters": 2210700,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-depth_k1-seed42",
+      "label": "depth_k1",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "depth_k1",
+      "checkpoint": "weights/ohaze/ablations/depth_k1/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "2ad969496a43fd63cf8dd9f58899445db488d07e3829b199c8756c5586d5f1fb",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "2ad969496a43fd63cf8dd9f58899445db488d07e3829b199c8756c5586d5f1fb",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-depth_k1-seed42",
+        "index": 19,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-depth_k3-seed42",
+      "label": "depth_k3",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "depth_k3",
+      "checkpoint": "weights/ohaze/ablations/depth_k3/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "66fc1bdc54038e6bab73c4a40e957bb588a4f96198412509d4ef625e62e05a9d",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "66fc1bdc54038e6bab73c4a40e957bb588a4f96198412509d4ef625e62e05a9d",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-depth_k3-seed42",
+        "index": 20,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-depth_k7-seed42",
+      "label": "depth_k7",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "depth_k7",
+      "checkpoint": "weights/ohaze/ablations/depth_k7/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "aee7092f4b54dcf93ec67596d917ca277eec3fd29f6b65ab8ef3f1a9e97606ee",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-depth_k7-seed42",
+        "index": 21,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-p0t_diagonal_delay-seed42",
+      "label": "p0t_diagonal_delay",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "p0t_diagonal_delay",
+      "checkpoint": "weights/ohaze/ablations/p0t_diagonal_delay/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "3f5a4b9e7c6ca384ea5732c604ca8cf39677a0ade89126e6fbe425206fcb6a76",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "3f5a4b9e7c6ca384ea5732c604ca8cf39677a0ade89126e6fbe425206fcb6a76",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-p0t_diagonal_delay-seed42",
+        "index": 22,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-p0s_state_dynamic-seed42",
+      "label": "p0s_state_dynamic",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "p0s_state_dynamic",
+      "checkpoint": "weights/ohaze/ablations/p0s_state_dynamic/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "ccfbbf3eb81f6756452d6dafa1f7d487993f550472d7a05731d31e6003944665",
+      "expected_bytes": 9168488,
+      "bytes": 9168488,
+      "bytes_matches": true,
+      "sha256": "ccfbbf3eb81f6756452d6dafa1f7d487993f550472d7a05731d31e6003944665",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-p0s_state_dynamic-seed42",
+        "index": 23,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-native-seed42",
+      "label": "VIVNet native",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/gopro/native/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "f167d66c6c1e1953409bf070755cf28c75e3f98291facc0ce4c12cfc4bddacf6",
+      "expected_bytes": 29871061,
+      "bytes": 29871061,
+      "bytes_matches": true,
+      "sha256": "f167d66c6c1e1953409bf070755cf28c75e3f98291facc0ce4c12cfc4bddacf6",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-native-seed42",
+        "index": 24,
+        "strict_load": {
+          "parameters": 7421966,
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-native-seed43",
+      "label": "VIVNet native",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 43,
+      "ablation": null,
+      "checkpoint": "weights/gopro/native/seed43/last.pth",
+      "exists": true,
+      "expected_sha256": "6654f0a4c46790d9c405ff806d2f6a830fb76a7d12b2b7d0f72bed050df37246",
+      "expected_bytes": 29871061,
+      "bytes": 29871061,
+      "bytes_matches": true,
+      "sha256": "6654f0a4c46790d9c405ff806d2f6a830fb76a7d12b2b7d0f72bed050df37246",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-native-seed43",
+        "index": 25,
+        "strict_load": {
+          "parameters": 7421966,
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-native-seed44",
+      "label": "VIVNet native",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 44,
+      "ablation": null,
+      "checkpoint": "weights/gopro/native/seed44/last.pth",
+      "exists": true,
+      "expected_sha256": "47dca232982ceaf269275588a6c88fc83b828a9e8d701202bf0c5a0230f94dd2",
+      "expected_bytes": 29871061,
+      "bytes": 29871061,
+      "bytes_matches": true,
+      "sha256": "47dca232982ceaf269275588a6c88fc83b828a9e8d701202bf0c5a0230f94dd2",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-native-seed44",
+        "index": 26,
+        "strict_load": {
+          "parameters": 7421966,
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-cspn_style-seed42",
+      "label": "CSPN-style",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/gopro/cspn_style/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "3eb5ec8153fe17c4976d5405524222fc58e6561b2c3849e90ca093b1f79f0e29",
+      "expected_bytes": 23298833,
+      "bytes": 23298833,
+      "bytes_matches": true,
+      "sha256": "3eb5ec8153fe17c4976d5405524222fc58e6561b2c3849e90ca093b1f79f0e29",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-cspn_style-seed42",
+        "index": 27,
+        "strict_load": {
+          "parameters": 5792304,
+          "state_keys": 349,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-cspn_style-seed43",
+      "label": "CSPN-style",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 43,
+      "ablation": null,
+      "checkpoint": "weights/gopro/cspn_style/seed43/last.pth",
+      "exists": true,
+      "expected_sha256": "b15bb7b89af341f30a65fb93c99f3497ce9c962369e3d3549d7c9d1a7432028a",
+      "expected_bytes": 23298833,
+      "bytes": 23298833,
+      "bytes_matches": true,
+      "sha256": "b15bb7b89af341f30a65fb93c99f3497ce9c962369e3d3549d7c9d1a7432028a",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-cspn_style-seed43",
+        "index": 28,
+        "strict_load": {
+          "parameters": 5792304,
+          "state_keys": 349,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-cspn_style-seed44",
+      "label": "CSPN-style",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 44,
+      "ablation": null,
+      "checkpoint": "weights/gopro/cspn_style/seed44/last.pth",
+      "exists": true,
+      "expected_sha256": "31367a67ef41dbe3c3342c15b61a4955c55270a614f9804139191a41e1c90624",
+      "expected_bytes": 23298833,
+      "bytes": 23298833,
+      "bytes_matches": true,
+      "sha256": "31367a67ef41dbe3c3342c15b61a4955c55270a614f9804139191a41e1c90624",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-cspn_style-seed44",
+        "index": 29,
+        "strict_load": {
+          "parameters": 5792304,
+          "state_keys": 349,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ss2d-seed42",
+      "label": "SS2D",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b",
+      "expected_bytes": 25376341,
+      "bytes": 25376341,
+      "bytes_matches": true,
+      "sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "extensions": {
+            "checked": true,
+            "missing": [
+              "selective_scan_cuda"
+            ],
+            "required": [
+              "selective_scan_cuda",
+              "selective_scan_cuda_oflex"
+            ]
+          },
+          "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+          "status": "skipped"
+        },
+        "id": "gopro-ss2d-seed42",
+        "index": 30,
+        "strict_load": {
+          "parameters": 6300816,
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ss2d-seed43",
+      "label": "SS2D",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 43,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed43/last.pth",
+      "exists": true,
+      "expected_sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc",
+      "expected_bytes": 25376341,
+      "bytes": 25376341,
+      "bytes_matches": true,
+      "sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "extensions": {
+            "checked": true,
+            "missing": [
+              "selective_scan_cuda"
+            ],
+            "required": [
+              "selective_scan_cuda",
+              "selective_scan_cuda_oflex"
+            ]
+          },
+          "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+          "status": "skipped"
+        },
+        "id": "gopro-ss2d-seed43",
+        "index": 31,
+        "strict_load": {
+          "parameters": 6300816,
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ss2d-seed44",
+      "label": "SS2D",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 44,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed44/last.pth",
+      "exists": true,
+      "expected_sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae",
+      "expected_bytes": 25376341,
+      "bytes": 25376341,
+      "bytes_matches": true,
+      "sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "extensions": {
+            "checked": true,
+            "missing": [
+              "selective_scan_cuda"
+            ],
+            "required": [
+              "selective_scan_cuda",
+              "selective_scan_cuda_oflex"
+            ]
+          },
+          "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+          "status": "skipped"
+        },
+        "id": "gopro-ss2d-seed44",
+        "index": 32,
+        "strict_load": {
+          "parameters": 6300816,
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ours-seed42",
+      "label": "Ours",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+      "expected_bytes": 23433649,
+      "bytes": 23433649,
+      "bytes_matches": true,
+      "sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-ours-seed42",
+        "index": 33,
+        "strict_load": {
+          "parameters": 5807236,
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ours-seed43",
+      "label": "Ours",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 43,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed43/last.pth",
+      "exists": true,
+      "expected_sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936",
+      "expected_bytes": 23433649,
+      "bytes": 23433649,
+      "bytes_matches": true,
+      "sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-ours-seed43",
+        "index": 34,
+        "strict_load": {
+          "parameters": 5807236,
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ours-seed44",
+      "label": "Ours",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 44,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed44/last.pth",
+      "exists": true,
+      "expected_sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501",
+      "expected_bytes": 23433649,
+      "bytes": 23433649,
+      "bytes_matches": true,
+      "sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-ours-seed44",
+        "index": 35,
+        "strict_load": {
+          "parameters": 5807236,
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-identity-retention-seed42",
+      "label": "Identity retention",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/gopro-identity-retention-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "860b91fdd28aef91c43d45f8a6887ee06222a2484f69ab08cd6319bfe33c3100",
+      "expected_bytes": 23409533,
+      "bytes": 23409533,
+      "bytes_matches": true,
+      "sha256": "860b91fdd28aef91c43d45f8a6887ee06222a2484f69ab08cd6319bfe33c3100",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "860b91fdd28aef91c43d45f8a6887ee06222a2484f69ab08cd6319bfe33c3100",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-identity-retention-seed42",
+        "index": 36,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-terminal-readout-seed42",
+      "label": "Terminal readout",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/gopro-terminal-readout-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "66f0a13bb55d31167f8af51bbe9fd265d3e634d9e35cf13bf08861c4e4cacadd",
+      "expected_bytes": 23409533,
+      "bytes": 23409533,
+      "bytes_matches": true,
+      "sha256": "66f0a13bb55d31167f8af51bbe9fd265d3e634d9e35cf13bf08861c4e4cacadd",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "66f0a13bb55d31167f8af51bbe9fd265d3e634d9e35cf13bf08861c4e4cacadd",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-terminal-readout-seed42",
+        "index": 37,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-state-dynamic-seed42",
+      "label": "State dynamic",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/gopro-state-dynamic-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "7252dfaba9e2a804dfb4847f683c8fef2c58f0c6647bbee6bb219673437e4c21",
+      "expected_bytes": 23409533,
+      "bytes": 23409533,
+      "bytes_matches": true,
+      "sha256": "7252dfaba9e2a804dfb4847f683c8fef2c58f0c6647bbee6bb219673437e4c21",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "7252dfaba9e2a804dfb4847f683c8fef2c58f0c6647bbee6bb219673437e4c21",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-state-dynamic-seed42",
+        "index": 38,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-half-delay-seed42",
+      "label": "Half delay",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/gopro-half-delay-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "b7643dcc5af22d905cc99006505e11d58a6268eea0a2dba7ea938dc8517ccbdd",
+      "expected_bytes": 23409533,
+      "bytes": 23409533,
+      "bytes_matches": true,
+      "sha256": "b7643dcc5af22d905cc99006505e11d58a6268eea0a2dba7ea938dc8517ccbdd",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "b7643dcc5af22d905cc99006505e11d58a6268eea0a2dba7ea938dc8517ccbdd",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-half-delay-seed42",
+        "index": 39,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-spatial-mamba-seed42",
+      "label": "Spatial-Mamba matched slot",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "spatial_mamba",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/ohaze-spatial-mamba-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+      "expected_bytes": 11972233,
+      "bytes": 11972233,
+      "bytes_matches": true,
+      "sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "5c790ff94b284e5ccc6c1d63a314e92cd839bd8b9740a20a21e3abd8d4e59012",
+        "forward": {
+          "reason": "The official scan requires CUDA.",
+          "status": "skipped"
+        },
+        "id": "ohaze-spatial-mamba-seed42",
+        "index": 40,
+        "parameters": 2946146,
+        "strict_load": {
+          "state_keys": 495,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ours-native-seed42",
+      "label": "ours native protocol",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+      "expected_bytes": 23433649,
+      "bytes": 23433649,
+      "bytes_matches": true,
+      "sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-ours-native-seed42",
+        "index": 41,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ss2d-native-seed42",
+      "label": "ss2d native protocol",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b",
+      "expected_bytes": 25376341,
+      "bytes": 25376341,
+      "bytes_matches": true,
+      "sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b",
+        "forward": {
+          "reason": "The official scan requires CUDA.",
+          "status": "skipped"
+        },
+        "id": "gopro-ss2d-native-seed42",
+        "index": 42,
+        "parameters": 6300816,
+        "strict_load": {
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ours-native-seed43",
+      "label": "ours native protocol",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 43,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed43/last.pth",
+      "exists": true,
+      "expected_sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936",
+      "expected_bytes": 23433649,
+      "bytes": 23433649,
+      "bytes_matches": true,
+      "sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-ours-native-seed43",
+        "index": 43,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ss2d-native-seed43",
+      "label": "ss2d native protocol",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 43,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed43/last.pth",
+      "exists": true,
+      "expected_sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc",
+      "expected_bytes": 25376341,
+      "bytes": 25376341,
+      "bytes_matches": true,
+      "sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc",
+        "forward": {
+          "reason": "The official scan requires CUDA.",
+          "status": "skipped"
+        },
+        "id": "gopro-ss2d-native-seed43",
+        "index": 44,
+        "parameters": 6300816,
+        "strict_load": {
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ours-native-seed44",
+      "label": "ours native protocol",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 44,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ours/seed44/last.pth",
+      "exists": true,
+      "expected_sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501",
+      "expected_bytes": 23433649,
+      "bytes": 23433649,
+      "bytes_matches": true,
+      "sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-ours-native-seed44",
+        "index": 45,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-ss2d-native-seed44",
+      "label": "ss2d native protocol",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 44,
+      "ablation": null,
+      "checkpoint": "weights/gopro/ss2d/seed44/last.pth",
+      "exists": true,
+      "expected_sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae",
+      "expected_bytes": 25376341,
+      "bytes": 25376341,
+      "bytes_matches": true,
+      "sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae",
+        "forward": {
+          "reason": "The official scan requires CUDA.",
+          "status": "skipped"
+        },
+        "id": "gopro-ss2d-native-seed44",
+        "index": 46,
+        "parameters": 6300816,
+        "strict_load": {
+          "state_keys": 479,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-cspn-context-seed42",
+      "label": "CSPN-style context generator",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "cspn_context",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/ohaze/cspn_context/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+      "expected_bytes": 9063613,
+      "bytes": 9063613,
+      "bytes_matches": true,
+      "sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "ohaze-cspn-context-seed42",
+        "index": 47,
+        "parameters": 2230624,
+        "strict_load": {
+          "state_keys": 429,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-no-normalization-seed42",
+      "label": "No normalization",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/gopro-no-normalization-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "52bb47967b7b727bccf3eea588cb7fcdd061ad08d69a79b685d9c81dc12fb764",
+      "expected_bytes": 23409533,
+      "bytes": 23409533,
+      "bytes_matches": true,
+      "sha256": "52bb47967b7b727bccf3eea588cb7fcdd061ad08d69a79b685d9c81dc12fb764",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "52bb47967b7b727bccf3eea588cb7fcdd061ad08d69a79b685d9c81dc12fb764",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-no-normalization-seed42",
+        "index": 48,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-full-seed42",
+      "label": "NSI",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "full",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/full/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "371f29fa525aa85cf4ff77b573b97a552ad61ccf4e9b8a3c0e37f49f253b3f47",
+      "expected_bytes": 9121602,
+      "bytes": 9121602,
+      "bytes_matches": true,
+      "sha256": "371f29fa525aa85cf4ff77b573b97a552ad61ccf4e9b8a3c0e37f49f253b3f47",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-full-seed42",
+        "index": 49,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 495,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-ss2d-seed42",
+      "label": "SS2D",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "ss2d",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/ss2d/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "c927bf2e84c24d157183795f92e1b055203f8c3aea241ca03d90b169f68bdecd",
+      "expected_bytes": 9982010,
+      "bytes": 9982010,
+      "bytes_matches": true,
+      "sha256": "c927bf2e84c24d157183795f92e1b055203f8c3aea241ca03d90b169f68bdecd",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "extensions": {
+            "checked": true,
+            "missing": [
+              "selective_scan_cuda"
+            ],
+            "required": [
+              "selective_scan_cuda",
+              "selective_scan_cuda_oflex"
+            ]
+          },
+          "reason": "strict-load-only by policy; forward requires compiled extension(s): selective_scan_cuda",
+          "status": "skipped"
+        },
+        "id": "haze4k-ss2d-seed42",
+        "index": 50,
+        "strict_load": {
+          "parameters": 2470304,
+          "state_keys": 407,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-simple-seed42",
+      "label": "Identity retention + final-state readout",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "simple",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/simple/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "d7e831e023fa2a0957a2c708aea8aefeae5da109ee8868ebc0acabc7c29b6a62",
+      "expected_bytes": 9121602,
+      "bytes": 9121602,
+      "bytes_matches": true,
+      "sha256": "d7e831e023fa2a0957a2c708aea8aefeae5da109ee8868ebc0acabc7c29b6a62",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-simple-seed42",
+        "index": 51,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 495,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-gate_only-seed42",
+      "label": "Final-state readout",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "gate_only",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/gate_only/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "4f41942d2b2e7084e29f6f55e272754b5b1e75e35e0d1267cb5139533cf23a62",
+      "expected_bytes": 9121602,
+      "bytes": 9121602,
+      "bytes_matches": true,
+      "sha256": "4f41942d2b2e7084e29f6f55e272754b5b1e75e35e0d1267cb5139533cf23a62",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-gate_only-seed42",
+        "index": 52,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 495,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-readout_only-seed42",
+      "label": "Identity retention",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "readout_only",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/readout_only/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "2ec81ac5de66a1e511d648decdf5caf1ba08eb9fdd04c83140a872e8228b4fc9",
+      "expected_bytes": 9121602,
+      "bytes": 9121602,
+      "bytes_matches": true,
+      "sha256": "2ec81ac5de66a1e511d648decdf5caf1ba08eb9fdd04c83140a872e8228b4fc9",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-readout_only-seed42",
+        "index": 53,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 495,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-convex_readout-seed42",
+      "label": "Weighted-state readout",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "convex_readout",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/convex_readout/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "7ba02a7dfa7c0923d1fb1c574ddbd338d2ee3214956787dfd7c3985b136295e4",
+      "expected_bytes": 9121602,
+      "bytes": 9121602,
+      "bytes_matches": true,
+      "sha256": "7ba02a7dfa7c0923d1fb1c574ddbd338d2ee3214956787dfd7c3985b136295e4",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-convex_readout-seed42",
+        "index": 54,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 495,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-free_gain-seed42",
+      "label": "Learnable propagation scaling",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "free_gain",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/free_gain/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "3c421ceed742af102226aeecf2a19f62c071bde0f5115bc2c04d0e46dad483ba",
+      "expected_bytes": 9128020,
+      "bytes": 9128020,
+      "bytes_matches": true,
+      "sha256": "3c421ceed742af102226aeecf2a19f62c071bde0f5115bc2c04d0e46dad483ba",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-free_gain-seed42",
+        "index": 55,
+        "strict_load": {
+          "parameters": 2248162,
+          "state_keys": 517,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-cspn-seed42",
+      "label": "CSPN-style: replaced generator",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "cspn",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/cspn/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "3685e078a5f9565e6a7d72b92f1f093999b223f0c80d9b81ab1ab4062b0fde7b",
+      "expected_bytes": 9031436,
+      "bytes": 9031436,
+      "bytes_matches": true,
+      "sha256": "3685e078a5f9565e6a7d72b92f1f093999b223f0c80d9b81ab1ab4062b0fde7b",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-cspn-seed42",
+        "index": 56,
+        "strict_load": {
+          "parameters": 2230624,
+          "state_keys": 429,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-native-seed42",
+      "label": "VIVNet native",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "native",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/native/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "4ab035d4b4977b95ff791ac24a8c78b281dc4afd77c3e82cb9ba46dc1900049c",
+      "expected_bytes": 11544058,
+      "bytes": 11544058,
+      "bytes_matches": true,
+      "sha256": "4ab035d4b4977b95ff791ac24a8c78b281dc4afd77c3e82cb9ba46dc1900049c",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-native-seed42",
+        "index": 57,
+        "strict_load": {
+          "parameters": 2859858,
+          "state_keys": 407,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-cspn_style-seed42",
+      "label": "CSPN-style",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "cspn_style",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/cspn_style/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "dc473b3125103c983f62023a20091fe383ed7da1fceba7512d0d697a11384021",
+      "expected_bytes": 9033120,
+      "bytes": 9033120,
+      "bytes_matches": true,
+      "sha256": "dc473b3125103c983f62023a20091fe383ed7da1fceba7512d0d697a11384021",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-cspn_style-seed42",
+        "index": 58,
+        "strict_load": {
+          "parameters": 2239776,
+          "state_keys": 297,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-dwconv-seed42",
+      "label": "DWConv",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "dwconv",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/dwconv/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "74750821d1f77d1e0b76422130708fefeaec53c4913f91b54aed30b0a3b90943",
+      "expected_bytes": 11467680,
+      "bytes": 11467680,
+      "bytes_matches": true,
+      "sha256": "74750821d1f77d1e0b76422130708fefeaec53c4913f91b54aed30b0a3b90943",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-dwconv-seed42",
+        "index": 59,
+        "strict_load": {
+          "parameters": 2848544,
+          "state_keys": 297,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-swin-seed42",
+      "label": "Swin",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "swin",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/swin/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "0801dee681d70ec619635827da0628c38d596c49848b02cc350035e747f94651",
+      "expected_bytes": 12265312,
+      "bytes": 12265312,
+      "bytes_matches": true,
+      "sha256": "0801dee681d70ec619635827da0628c38d596c49848b02cc350035e747f94651",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-swin-seed42",
+        "index": 60,
+        "strict_load": {
+          "parameters": 2941716,
+          "state_keys": 297,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-no_gain-seed42",
+      "label": "Without propagation gain control",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "no_gain",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/haze4k/no_gain/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "0e9b411cf02c43d80c2c712208b65717905b7326545f0b3bfedad4d3cef546e9",
+      "expected_bytes": 9114864,
+      "bytes": 9114864,
+      "bytes_matches": true,
+      "sha256": "0e9b411cf02c43d80c2c712208b65717905b7326545f0b3bfedad4d3cef546e9",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-no_gain-seed42",
+        "index": 61,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "gopro-joint-seed42",
+      "label": "Identity retention + final-state readout",
+      "dataset": "gopro",
+      "task": "restoration",
+      "mixer": "ours",
+      "seed": 42,
+      "ablation": "identity_memory_uniform_readout",
+      "checkpoint": "weights/supplement/gopro-joint-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "00981e007389a293da45d5f0159da0cd5840ee607e841a19f8c41f90a257ad94",
+      "expected_bytes": 23409533,
+      "bytes": 23409533,
+      "bytes_matches": true,
+      "sha256": "00981e007389a293da45d5f0159da0cd5840ee607e841a19f8c41f90a257ad94",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "00981e007389a293da45d5f0159da0cd5840ee607e841a19f8c41f90a257ad94",
+        "forward": {
+          "device": "cpu",
+          "shape": [
+            1,
+            3,
+            16,
+            16
+          ],
+          "status": "passed"
+        },
+        "id": "gopro-joint-seed42",
+        "index": 62,
+        "parameters": 5807236,
+        "strict_load": {
+          "state_keys": 557,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-mair-full-block-seed42",
+      "label": "MaIR full block",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "mair_native_blocks",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/ohaze-mair-full-block-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "expected_bytes": 7929293,
+      "bytes": 7929293,
+      "bytes_matches": true,
+      "sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "0f178a935ad4920efe24f2d9b3a733de421f271bfcf49124d01007cf792368a2",
+        "forward": {
+          "reason": "The official scan requires CUDA.",
+          "status": "skipped"
+        },
+        "id": "ohaze-mair-full-block-seed42",
+        "index": 63,
+        "parameters": 1932192,
+        "strict_load": {
+          "state_keys": 517,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "ohaze-spatial-full-block-seed42",
+      "label": "Spatial-Mamba full block",
+      "dataset": "ohaze",
+      "task": "restoration",
+      "mixer": "spatial_native_blocks",
+      "seed": 42,
+      "ablation": null,
+      "checkpoint": "weights/supplement/ohaze-spatial-full-block-seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "expected_bytes": 11168285,
+      "bytes": 11168285,
+      "bytes_matches": true,
+      "sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+      "sha256_matches": true,
+      "load": {
+        "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+        "forward": {
+          "reason": "The official scan requires CUDA.",
+          "status": "skipped"
+        },
+        "id": "ohaze-spatial-full-block-seed42",
+        "index": 64,
+        "parameters": 2734050,
+        "strict_load": {
+          "state_keys": 605,
+          "status": "passed"
+        }
+      }
+    },
+    {
+      "id": "haze4k-state_dynamic-seed42",
+      "label": "Per-step kernel regeneration",
+      "dataset": "haze4k",
+      "task": "restoration",
+      "mixer": "state_dynamic",
+      "seed": 42,
+      "ablation": "state_dynamic_transition",
+      "checkpoint": "weights/haze4k/state_dynamic/seed42/last.pth",
+      "exists": true,
+      "expected_sha256": "12c9321cd1d9b202f56dfa1bb3a599eab60a89c30dff284dc4557289fd4ce761",
+      "expected_bytes": 9114864,
+      "bytes": 9114864,
+      "bytes_matches": true,
+      "sha256": "12c9321cd1d9b202f56dfa1bb3a599eab60a89c30dff284dc4557289fd4ce761",
+      "sha256_matches": true,
+      "load": {
+        "forward": {
+          "finite": true,
+          "input_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "output_shape": [
+            1,
+            3,
+            64,
+            64
+          ],
+          "status": "passed"
+        },
+        "id": "haze4k-state_dynamic-seed42",
+        "index": 65,
+        "strict_load": {
+          "parameters": 2248140,
+          "state_keys": 473,
+          "status": "passed"
+        }
+      }
+    }
+  ],
+  "note": "Strict CPU state loading. Small CPU forwards where supported; CUDA-extension forwards are skipped."
+}

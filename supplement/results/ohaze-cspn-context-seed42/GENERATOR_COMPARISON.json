@@ -1,0 +1,126 @@
+{
+  "status": "COMPLETE",
+  "results": {
+    "cspn_style": {
+      "model": "cspn_style",
+      "checkpoint_sha256": "0a6dcb9ebeb1cb781c1ab9d5a12c5629c892b74095819cda6bf37fd47e8dd3c4",
+      "parameters": 2239776,
+      "count": 5,
+      "psnr": 26.20136947631836,
+      "ssim": 0.9435406804084778,
+      "images": [
+        {
+          "image": "41.jpg",
+          "psnr": 26.748010635375977,
+          "ssim": 0.9600996375083923
+        },
+        {
+          "image": "42.jpg",
+          "psnr": 25.396961212158203,
+          "ssim": 0.9470958709716797
+        },
+        {
+          "image": "43.jpg",
+          "psnr": 29.112512588500977,
+          "ssim": 0.9714512825012207
+        },
+        {
+          "image": "44.jpg",
+          "psnr": 26.195409774780273,
+          "ssim": 0.9513026475906372
+        },
+        {
+          "image": "45.jpg",
+          "psnr": 23.553953170776367,
+          "ssim": 0.887753963470459
+        }
+      ],
+      "released_rounded": {
+        "psnr": 26.2017,
+        "ssim": 0.94355
+      },
+      "release_metric_replay_pass": true
+    },
+    "ours": {
+      "model": "ours",
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+      "parameters": 2248140,
+      "count": 5,
+      "psnr": 26.775224685668945,
+      "ssim": 0.9468218684196472,
+      "images": [
+        {
+          "image": "41.jpg",
+          "psnr": 27.918201446533203,
+          "ssim": 0.9643031358718872
+        },
+        {
+          "image": "42.jpg",
+          "psnr": 26.090776443481445,
+          "ssim": 0.9439681768417358
+        },
+        {
+          "image": "43.jpg",
+          "psnr": 27.9425048828125,
+          "ssim": 0.9705469608306885
+        },
+        {
+          "image": "44.jpg",
+          "psnr": 26.071252822875977,
+          "ssim": 0.9497894644737244
+        },
+        {
+          "image": "45.jpg",
+          "psnr": 25.8533878326416,
+          "ssim": 0.9055016040802002
+        }
+      ],
+      "released_rounded": {
+        "psnr": 26.7755,
+        "ssim": 0.94682
+      },
+      "release_metric_replay_pass": true
+    },
+    "context": {
+      "model": "context",
+      "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+      "parameters": 2230624,
+      "count": 5,
+      "psnr": 23.934258651733398,
+      "ssim": 0.9004397869110108,
+      "images": [
+        {
+          "image": "41.jpg",
+          "psnr": 26.95121955871582,
+          "ssim": 0.9530436992645264
+        },
+        {
+          "image": "42.jpg",
+          "psnr": 21.312379837036133,
+          "ssim": 0.8903793096542358
+        },
+        {
+          "image": "43.jpg",
+          "psnr": 25.715444564819336,
+          "ssim": 0.9495925307273865
+        },
+        {
+          "image": "44.jpg",
+          "psnr": 24.22483253479004,
+          "ssim": 0.9317491054534912
+        },
+        {
+          "image": "45.jpg",
+          "psnr": 21.467416763305664,
+          "ssim": 0.7774342894554138
+        }
+      ]
+    }
+  },
+  "new_training_conditions": [
+    "context"
+  ],
+  "context_minus_original_cspn_psnr": -2.267110824584961,
+  "evidence_scope": "One newly trained seed on the fixed O-HAZE split; released reference random streams retained",
+  "source_results_sha256": "e856c355575d03fec07dd3d38a1c8e34eab9cd61ecf06d2a2a11c5087549e268"
+}

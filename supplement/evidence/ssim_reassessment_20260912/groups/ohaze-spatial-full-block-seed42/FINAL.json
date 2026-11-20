@@ -1,0 +1,64 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-spatial-full-block-seed42",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+  "paper_uses": [
+    "appendix_D1_spatial_full",
+    "scale512"
+  ],
+  "psnr": 23.28751723837474,
+  "ssim": 0.8045858144760132,
+  "legacy_pooled_ssim": 0.9008466243743897,
+  "legacy_published": {
+    "psnr": 23.287517929077147,
+    "ssim": 0.9008466362953186
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 25.481972934906242,
+      "ssim": 0.8807449340820312,
+      "legacy_pooled_ssim": 0.9516788125038147,
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 24.351833454706263,
+      "ssim": 0.7942375540733337,
+      "legacy_pooled_ssim": 0.8885223269462585,
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 23.46713545852763,
+      "ssim": 0.8613930344581604,
+      "legacy_pooled_ssim": 0.9412074089050293,
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 22.199551266405642,
+      "ssim": 0.8296976089477539,
+      "legacy_pooled_ssim": 0.9240978360176086,
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 20.937093077327916,
+      "ssim": 0.6568559408187866,
+      "legacy_pooled_ssim": 0.7987267374992371,
+      "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb"
+    }
+  ],
+  "source_record": {
+    "id": "results/cached/ohaze-spatial-full-block-seed42.json",
+    "sha256": "6cf9ed5aed82d7d4c6388b07231ce81d0b9a4fe35a7e2fab5327c13b2ae8e5d3",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0
+}

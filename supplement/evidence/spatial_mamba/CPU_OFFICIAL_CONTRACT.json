@@ -1,0 +1,14 @@
+{
+  "all_pass": true,
+  "utc": "2026-09-08T11:47:02.178177+00:00",
+  "official_module_imported": true,
+  "official_python_sha_unchanged": true,
+  "rejected_adapter_absent": true,
+  "same_carrier_non_mixer_weights_at_seed42": true,
+  "same_training_and_data_protocol": true,
+  "queue_gates_checked": true,
+  "parameters": 2946146,
+  "slots": 22,
+  "gpu_forward_backward": "PENDING",
+  "cuda_initialized": false
+}

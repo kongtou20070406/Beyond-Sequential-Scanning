@@ -1,0 +1,110 @@
+[
+  {
+    "source": "NSI/Basic.lean",
+    "original_sha256": "aeee400409602a598b383f4885a8aa060ee77a0e3837d06263783c4f11de4df3",
+    "release_sha256": "99ba9dafcf0dd23dd632d61a71b8c0a120a8561da5dbfab32c7a62ed0aa827f8",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Radial.lean",
+    "original_sha256": "d8f2880421b8104a2f7524773a968523d2c986df57d267bd47275c27412540ad",
+    "release_sha256": "9f11b123a5ec0c0831436e1b1c89fde0f8cb317db6e269b99e60141020b97553",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/MixedNorm.lean",
+    "original_sha256": "4b7e7e299a2dffcce6a29a4d41bb07dbbc4f06581b271e72d7e6da9bf9c44861",
+    "release_sha256": "f13220774e3c68d59093445336332dd939da46474a1e1e6023b0010890fa8b82",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Reflection.lean",
+    "original_sha256": "7fdb6daeb0107c069e4b88c864fe262808cf951ab315454ecfe833d6e806b099",
+    "release_sha256": "c870cb033ef5d4f09f637bedbb4d74813a06172498fd58d42e698bdf58973db2",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Retention.lean",
+    "original_sha256": "4caa1cd1777ef081281419d73b60638255375dadb58c494cd8cfda57e9a82b7c",
+    "release_sha256": "afba56f5b95fd6c479d3a3ddc2357d90d25689228354f67b71edd84d06b097e9",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/RetentionLipschitz.lean",
+    "original_sha256": "f28d83ffac69f8431655d949bb53b744c2672ae9c6f1718fda0c795d78ed1767",
+    "release_sha256": "20bb18df8f7703e2f0a90223039378999eed5d13279d6270a15b289f93b47ad3",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Kernel.lean",
+    "original_sha256": "a585897adfbbf6bf0c4d3e12e8cccfb8fe9cb23069dd1980c7b1710d035f4ff1",
+    "release_sha256": "c59fba5a28f082d555fdc9d62fe75952e5e33c7f13a62c4e383c9a7412f52b61",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Readout.lean",
+    "original_sha256": "31899003d4ff6c125a0366f086f22f8b6c4bcb5322073c5756d86b8299c9b510",
+    "release_sha256": "d776ffe2dbb920b2db4171f32b4afe60b2a769d44f18f10a82c4191c77088f95",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Grid.lean",
+    "original_sha256": "2249dd4c86a29e6fd96fff769ce50abe63908a103791053cd3b8f9a6bd5ff40f",
+    "release_sha256": "f752e29093f3b7c5e6458fc1ee4c2f1e9869dc3db3ec93e5cb4a42ee89d6dfd0",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Main.lean",
+    "original_sha256": "f9678f96c7aed51da711701c844e9420dd9fee1e1670273367c2f7aac24ec8e9",
+    "release_sha256": "3c3d20ab1a76603d91a014a78eeb273a95c70de159c15b5b497c0509a09bd0aa",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/ReadoutIdentity.lean",
+    "original_sha256": "2ccd583728364340429881a7866c13110c71887c26512279ec9c875b083bafcb",
+    "release_sha256": "5964dd7d9c0ca495884099b3c4f104fc77d9c9f52fd8c625dadb35ecf1348fb2",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Extensions.lean",
+    "original_sha256": "39dbb66a29a3053852d50c30573c978401574e19da9c94f743819b161603f49d",
+    "release_sha256": "fc6644b4b32f5e297dfdb1bf8328fc01ea6780c47152cac483f3fc59896fbe0b",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Precision.lean",
+    "original_sha256": "8ed4b4dd6b77f18a1c86ab5487033abcaff00c7f25b40b000a2f28adb7bf6255",
+    "release_sha256": "326859936cebca2326a907400b24c70b1aefada455eebef6c7a14a689adf0205",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Saturation.lean",
+    "original_sha256": "ffe28950a93875dfac62047717b0c05c5f74a81507403db48ee7f2df0b94aed5",
+    "release_sha256": "b6a7704186b444ca206def60b16680da36a12a5b79f70bdea7f6f7f41273ae30",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Envelope.lean",
+    "original_sha256": "69142047929ca6b122dc730629011e69196d2f046c29d688de78c430be5b7985",
+    "release_sha256": "aae51bcc50eef169e865b1ab6989e016586eb6eb264532a1de5ce8beff957f2d",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/Sharpness.lean",
+    "original_sha256": "88c4b340aad50bf9190b70f338452a3773db1ac6d08e9ea84edc01092846cd98",
+    "release_sha256": "9e0bb6f54a8f68527cece769add8ccc0eea4d51c355e2833a806eb256265bca1",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI/AllGroupsSharpness.lean",
+    "original_sha256": "dabbf5fa9b64c7d1a69d9a68c47be3659ece8b92204dc91b8e4fc8934291329b",
+    "release_sha256": "2778ce8babded99bf71f39afb93c4628d87ba1b7d2681b66cfe988e2467f1bc1",
+    "change": "Remove obsolete tactic names, unused proof arguments, and unused section assumptions; mathematical definitions and conclusions are unchanged."
+  },
+  {
+    "source": "NSI.lean",
+    "original_sha256": "645324aaad28d01ee80bb3f4d5a6ed1f0eba61263f6b98501de146b6f557107d",
+    "release_sha256": "645324aaad28d01ee80bb3f4d5a6ed1f0eba61263f6b98501de146b6f557107d",
+    "change": "None"
+  }
+]

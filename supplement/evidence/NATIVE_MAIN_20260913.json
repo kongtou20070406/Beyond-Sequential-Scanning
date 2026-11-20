@@ -1,0 +1,223 @@
+{
+  "protocol": "native",
+  "summary": {
+    "ours": {
+      "psnr_db": {
+        "mean": 30.868690567548807,
+        "sd": 0.04817100104325188
+      },
+      "ssim": {
+        "mean": 0.9129596486343409,
+        "sd": 0.0006453089070462394
+      }
+    },
+    "ss2d": {
+      "psnr_db": {
+        "mean": 30.36737974649287,
+        "sd": 0.06849974028095038
+      },
+      "ssim": {
+        "mean": 0.9046074095839607,
+        "sd": 0.0012146616851053935
+      }
+    },
+    "native": {
+      "psnr_db": {
+        "mean": 29.902357486429565,
+        "sd": 0.12053944567633129
+      },
+      "ssim": {
+        "mean": 0.8960646667388906,
+        "sd": 0.002583684847278449
+      }
+    },
+    "cspn_style": {
+      "psnr_db": {
+        "mean": 30.202278264678352,
+        "sd": 0.09103677832246937
+      },
+      "ssim": {
+        "mean": 0.901085818722339,
+        "sd": 0.0017024746239808345
+      }
+    }
+  },
+  "metrics": {
+    "gopro-native-seed42": {
+      "psnr_db": 29.99250238162778,
+      "ssim": 0.8977481198675669
+    },
+    "gopro-native-seed43": {
+      "psnr_db": 29.949128282274028,
+      "ssim": 0.8973559935172327
+    },
+    "gopro-native-seed44": {
+      "psnr_db": 29.76544179538689,
+      "ssim": 0.8930898868318724
+    },
+    "gopro-cspn_style-seed42": {
+      "psnr_db": 30.287298917984984,
+      "ssim": 0.9028120528031426
+    },
+    "gopro-cspn_style-seed43": {
+      "psnr_db": 30.106229994556692,
+      "ssim": 0.89940814243363
+    },
+    "gopro-cspn_style-seed44": {
+      "psnr_db": 30.213305881493376,
+      "ssim": 0.9010372609302442
+    },
+    "gopro-identity-retention-seed42": {
+      "psnr_db": 30.90250656263556,
+      "ssim": 0.9132820268024956
+    },
+    "gopro-terminal-readout-seed42": {
+      "psnr_db": 30.91264428156759,
+      "ssim": 0.9131685156311461
+    },
+    "gopro-state-dynamic-seed42": {
+      "psnr_db": 30.948048105763487,
+      "ssim": 0.9141235667021826
+    },
+    "gopro-half-delay-seed42": {
+      "psnr_db": 30.896984181030714,
+      "ssim": 0.9131930908246904
+    },
+    "gopro-no-normalization-seed42": {
+      "psnr_db": 28.61482928831442,
+      "ssim": 0.8638560862073374
+    },
+    "gopro-ours-seed42": {
+      "psnr_db": 30.89175208638532,
+      "ssim": 0.9131994171790665
+    },
+    "gopro-ss2d-seed42": {
+      "psnr_db": 30.37353738807108,
+      "ssim": 0.904630001067686
+    },
+    "gopro-ours-seed43": {
+      "psnr_db": 30.900995525339507,
+      "ssim": 0.9134507527982298
+    },
+    "gopro-ss2d-seed43": {
+      "psnr_db": 30.432592777386105,
+      "ssim": 0.9058106179499176
+    },
+    "gopro-ours-seed44": {
+      "psnr_db": 30.81332409092159,
+      "ssim": 0.9122287759257264
+    },
+    "gopro-ss2d-seed44": {
+      "psnr_db": 30.296009074021416,
+      "ssim": 0.9033816097342786
+    }
+  },
+  "sources": [
+    {
+      "id": "gopro-native-seed42",
+      "source_per_image_sha256": "9cf6daf37799998059648efb6b97edf9189866ea2220e8a31d9da8d5035e82af",
+      "published_per_image_sha256": "6529d3257a9fcce6d3b13bcc0e6b8e280bbddc1ac6f20f678fcfafe988364ac4",
+      "checkpoint_sha256": "f167d66c6c1e1953409bf070755cf28c75e3f98291facc0ce4c12cfc4bddacf6"
+    },
+    {
+      "id": "gopro-native-seed43",
+      "source_per_image_sha256": "6d53829e8c15364a1a32d910846cb4d530d81d4fd15f1df07f321e28c6e4779d",
+      "published_per_image_sha256": "c15afe13e61a8e645a9b8f5499dbcef2943c15d85f5a72afc06bbaa6047cf094",
+      "checkpoint_sha256": "6654f0a4c46790d9c405ff806d2f6a830fb76a7d12b2b7d0f72bed050df37246"
+    },
+    {
+      "id": "gopro-native-seed44",
+      "source_per_image_sha256": "ce41edcf67a10189a1bd1cc195d42f3a60dab4c9f559299b843665a770ab3b75",
+      "published_per_image_sha256": "369cefd85d3dd3e0c9e606e56b566bca54fd76c3a391dd097dd563073b0873ee",
+      "checkpoint_sha256": "47dca232982ceaf269275588a6c88fc83b828a9e8d701202bf0c5a0230f94dd2"
+    },
+    {
+      "id": "gopro-cspn_style-seed42",
+      "source_per_image_sha256": "8f55ff0d447ad569e58e4685884ced88e379630967331b6d10edac8eaa0fa671",
+      "published_per_image_sha256": "c19450ca67302cebd679f164dd40e8e944bfd3282fb2db3263015af7583370ba",
+      "checkpoint_sha256": "3eb5ec8153fe17c4976d5405524222fc58e6561b2c3849e90ca093b1f79f0e29"
+    },
+    {
+      "id": "gopro-cspn_style-seed43",
+      "source_per_image_sha256": "3cc757e728ea5d022ce2e5286157444d7ea76c0483ce15c8e49a311a699f1107",
+      "published_per_image_sha256": "28d56c9c25e6609f7b7cf4f7bfae5533059a53cf51e4037479dd121825f3e2dc",
+      "checkpoint_sha256": "b15bb7b89af341f30a65fb93c99f3497ce9c962369e3d3549d7c9d1a7432028a"
+    },
+    {
+      "id": "gopro-cspn_style-seed44",
+      "source_per_image_sha256": "e2c6b4ecc9a9200f10426fadcd47485d3c343ab32e53e82c2fab64fefc83f9c5",
+      "published_per_image_sha256": "ddcde47455b487c40e9be5f0585f8ad50b3bf5c868aa88a5849f703fe8424e37",
+      "checkpoint_sha256": "31367a67ef41dbe3c3342c15b61a4955c55270a614f9804139191a41e1c90624"
+    },
+    {
+      "id": "gopro-identity-retention-seed42",
+      "source_per_image_sha256": "b21520314e4e591991f29c024d35c51371af427d24c342f3acf39dd4520aab4f",
+      "published_per_image_sha256": "359abcb978459e9a670229e29e48fc8c6f77a9a1970b5e870547f7d69f82cb0c",
+      "checkpoint_sha256": "860b91fdd28aef91c43d45f8a6887ee06222a2484f69ab08cd6319bfe33c3100"
+    },
+    {
+      "id": "gopro-terminal-readout-seed42",
+      "source_per_image_sha256": "2f20a2b1647808f776a6d5e24d29d3e34c5d069821a83588b641163200c48f58",
+      "published_per_image_sha256": "44ceada0dcd031342c6e4b1cc14c091cff7c1a77eb1d021be276de9e4a34a9f3",
+      "checkpoint_sha256": "66f0a13bb55d31167f8af51bbe9fd265d3e634d9e35cf13bf08861c4e4cacadd"
+    },
+    {
+      "id": "gopro-state-dynamic-seed42",
+      "source_per_image_sha256": "f7f25d0c26a9fb3e6fc92e1daa0ec198d9ab5a8c7586dcbf5125fd500a629667",
+      "published_per_image_sha256": "993469cbaf513f5b023927bc9987911ccb74dfd8a89bd0d2acca902e954729eb",
+      "checkpoint_sha256": "7252dfaba9e2a804dfb4847f683c8fef2c58f0c6647bbee6bb219673437e4c21"
+    },
+    {
+      "id": "gopro-half-delay-seed42",
+      "source_per_image_sha256": "84d41936afbd7df245adb29169666ae041b6cbb126f3f2ee0bf65b9f9bef9f38",
+      "published_per_image_sha256": "8e2bb3e1a2bec68c188b275d9b7e0d61fb9792829cd1606f561622f00dc5308d",
+      "checkpoint_sha256": "b7643dcc5af22d905cc99006505e11d58a6268eea0a2dba7ea938dc8517ccbdd"
+    },
+    {
+      "id": "gopro-no-normalization-seed42",
+      "source_per_image_sha256": "0d533709f29dc93e1d5bb39a2dde15ca74cd75b8f24df7d52a92bcee9dc18e38",
+      "published_per_image_sha256": "3c4f6fe15a3efdf93b99d0b42a925eef041cca5a59bc3a60cc180c02e455c61f",
+      "checkpoint_sha256": "52bb47967b7b727bccf3eea588cb7fcdd061ad08d69a79b685d9c81dc12fb764"
+    },
+    {
+      "id": "gopro-ours-seed42",
+      "source_per_image_sha256": "f4e9f20aea1ad8e07232e5948a3ea511284cc17a7ec040514ac94d86721acac0",
+      "published_per_image_sha256": "2113246ab7aee7e72283460fbd8af573c6a560132d835f485a8bc17b157f165f",
+      "checkpoint_sha256": "780f48f7d7fef8a4c7b2fa51cd5b495de544905d3c5896af40e4e5d7a864686e"
+    },
+    {
+      "id": "gopro-ss2d-seed42",
+      "source_per_image_sha256": "03055ed766e040fa7dddf6c0e262e9821a891c17f3f2a456d0094ca9e84cf97d",
+      "published_per_image_sha256": "fa49f6e7ee9836aa2badc41b1e8f56d8227dd1a6ca0a2d8afbaf725098941d62",
+      "checkpoint_sha256": "3e21b64e3b4a786236ab65b42d7afa15441df88d5e7238d834b0c516574b030b"
+    },
+    {
+      "id": "gopro-ours-seed43",
+      "source_per_image_sha256": "c81b87221aa95fdf023843ee247e647d30606d9a8409face30c26228d020156b",
+      "published_per_image_sha256": "c1822877064b30cefbe5e4d372e4979f38d27aa9f4f2c2d3ba996f033153d7eb",
+      "checkpoint_sha256": "a4380309db68acd51177497116a9ab669ac5483e6d822ef6405f18c71207d936"
+    },
+    {
+      "id": "gopro-ss2d-seed43",
+      "source_per_image_sha256": "992f2c82ad53defa52bc25076e6b44c40007184457b160414f12349d54a1cd33",
+      "published_per_image_sha256": "01ded57d88bbe723a494c28c306366c42dfca451cf74a45d8dee51e885fe7323",
+      "checkpoint_sha256": "600800907800fb4b21b666257329c70155ecbf9563c9584362f9acef14d4badc"
+    },
+    {
+      "id": "gopro-ours-seed44",
+      "source_per_image_sha256": "3547a0c78bcb86911da7501cdf78de58e6f1fd94ff8e9dd9c6e1d591d907a90b",
+      "published_per_image_sha256": "d5940632c7ea208bdabb083a7841c731282cc2db7438bb3b83c46695e25fedf5",
+      "checkpoint_sha256": "de69e582c7fea3f19c0a421d23a3a933ada9c22459da1025be9245a7c4fd2501"
+    },
+    {
+      "id": "gopro-ss2d-seed44",
+      "source_per_image_sha256": "60ae81b1a53955f4d00cdd93d6703fb67ef76aafb047fa761a51193385363395",
+      "published_per_image_sha256": "cca3ad1eb35979bf94d3743f228fcfe9d7e4d1e084f354ab1492b18e405f0941",
+      "checkpoint_sha256": "da2accda27c9960ad95043ebea6e067abfdb4701a7749edcd8d157ee33bb65ae"
+    }
+  ],
+  "no_norm_lower_image_counts": {
+    "psnr_db": 1106,
+    "ssim": 1109
+  }
+}

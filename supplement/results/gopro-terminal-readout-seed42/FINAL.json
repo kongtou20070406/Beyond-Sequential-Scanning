@@ -1,0 +1,24 @@
+{
+  "arm": "terminal_readout",
+  "checkpoint_sha256": "66f0a13bb55d31167f8af51bbe9fd265d3e634d9e35cf13bf08861c4e4cacadd",
+  "config_sha256": "5aff9c06ff2f95454f52bf5e9d6926d95a5f65430c0bd1093fffcdce9bf3769a",
+  "precision": "FP32_TF32_DISABLED",
+  "tiling": {
+    "core": 384,
+    "halo": 64,
+    "overlap": 64
+  },
+  "torch": "2.7.0+cu128",
+  "status": "COMPLETE",
+  "pair_count": 1111,
+  "psnr_db": 30.647005901800203,
+  "ssim": 0.9103752014660599,
+  "per_image_sha256": "f1359578d03cbb37bb73b34eb13feaa20e75037ce42bce5e24975f8cf1945c0e",
+  "peak_allocated_mib": 2252.98583984375,
+  "this_attempt_wall_seconds": 4352.844358274713,
+  "resumed_prefix": 0,
+  "completed_utc": "2026-09-08T00:10:35.491245+00:00",
+  "timing_note": "Remote single-GPU end-to-end evaluation, including I/O, transfers, tiling and metrics. Controller records total attempt times.",
+  "archived_per_image_sha256": "42fa9a7d011cce0b60623aac8ab98e7d2865e1c53d610e8807728d4afb23e5c2",
+  "checkpoint": "weights/supplement/gopro-terminal-readout-seed42/last.pth"
+}

@@ -1,0 +1,1988 @@
+{
+  "status": "PASS",
+  "utc_started": "2026-09-10T09:51:39Z",
+  "device": "cpu",
+  "cpu_threads": 1,
+  "optimizer_updates": 0,
+  "test_images_read": 0,
+  "purpose": "Static MAC accounting only; count-only SS2D does not validate numerical outputs.",
+  "convention": "Conv/linear/matrix/einsum MACs, official VMamba scan estimate, and explicit 9-tap propagation; exclude normalization, pooling, interpolation, activation, gating, padding, and rearrangement.",
+  "source_sha256": {
+    "tools/profile_model.py": "850116b06e0b761c97698d84d0bdb976f11de6239ab80a3062e76d00794fc896",
+    "tasks/restoration/runtime/basicsr/models/archs/VIVNet_arch.py": "168fca36c1cf89326c2f05e7def1d362f761bfbd56fce34c9719aaf7bb76b546",
+    "tasks/restoration/runtime/basicsr/models/archs/VIVNet_MatchedMixers_arch.py": "10d8b78d3794f92b9624cb241840b00e34820db22371122174d63d0ee8cc9d4f",
+    "tasks/restoration/runtime/basicsr/models/archs/VIVNet_ProfiledCLPO_arch.py": "9259e184e908913de5811f838a1e481f94ef55ca18ee8fcb0239d0c87adf75f4",
+    "tasks/restoration/runtime/basicsr/models/archs/VIVNet_SelectiveCLPO_arch.py": "ca0b1bce39b60e45e02e2ad2d4db3b73a7efbe7829ead4d5ed1ac54bc4a88350",
+    "tasks/restoration/runtime/clpo2027/model.py": "fa669bf986e87860d40200838e003a5a6abc48942f0b595426c3d28ea7e1dab2",
+    "tasks/restoration/runtime/clpo2027/mixers.py": "5a6b8d689f98f2a6d7109d5ae87bb9ca7ff27d11bcccc8abd8372af48cae8a9a",
+    "tasks/restoration/runtime/clpo2027/vmamba_ss2d_adapter.py": "5b7d13c384407ca12a338b7e8b62ff75a7eca8e33c1e26bb7c2531c64470fed5",
+    "tasks/restoration/runtime/third_party/VMamba/classification/models/vmamba.py": "1385e7b704c62937ebaea02da0d6578c82518dbf205fcf3698a56808c3bd823a",
+    "tasks/restoration/runtime/third_party/VMamba/classification/models/csms6s.py": "7671a74f07e98742fc743d933bcb6025906f1a73f940afd1f55262a17104a4a7"
+  },
+  "records": [
+    {
+      "task": "ohaze",
+      "mixer": "ss2d",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_Matched_SS2D_P256.yml",
+      "config_sha256": "5bf4c7c7a66c5bc81733bbfeded5a6a6889b108e53da2c8e219f7a0c4b26d131",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 2470304,
+      "historical_rounded_macs_g": 36.828,
+      "raw_fvcore_plus_custom_macs": 36827962448,
+      "by_operator": {
+        "conv": 21667250176,
+        "einsum": 3170770000,
+        "layer_norm": 102236160,
+        "upsample_bilinear2d": 28311552
+      },
+      "removed_operators": {
+        "layer_norm": 102236160,
+        "upsample_bilinear2d": 28311552
+      },
+      "explicit_propagation_macs": 0,
+      "propagation_records": [],
+      "explicit_scan_macs": 11859394560,
+      "scan_records": {
+        "encoder_level1.0.attn": {
+          "input": [
+            1,
+            24,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 2,
+          "directions": 4,
+          "official_scan_macs": 912261120,
+          "default_layer_norm_estimate": 7864320
+        },
+        "encoder_level1.1.attn": {
+          "input": [
+            1,
+            24,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 2,
+          "directions": 4,
+          "official_scan_macs": 912261120,
+          "default_layer_norm_estimate": 7864320
+        },
+        "encoder_level2.0.attn": {
+          "input": [
+            1,
+            48,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 4,
+          "directions": 4,
+          "official_scan_macs": 456130560,
+          "default_layer_norm_estimate": 3932160
+        },
+        "encoder_level2.1.attn": {
+          "input": [
+            1,
+            48,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 4,
+          "directions": 4,
+          "official_scan_macs": 456130560,
+          "default_layer_norm_estimate": 3932160
+        },
+        "encoder_level2.2.attn": {
+          "input": [
+            1,
+            48,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 4,
+          "directions": 4,
+          "official_scan_macs": 456130560,
+          "default_layer_norm_estimate": 3932160
+        },
+        "encoder_level3.0.attn": {
+          "input": [
+            1,
+            96,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 8,
+          "directions": 4,
+          "official_scan_macs": 228065280,
+          "default_layer_norm_estimate": 1966080
+        },
+        "encoder_level3.1.attn": {
+          "input": [
+            1,
+            96,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 8,
+          "directions": 4,
+          "official_scan_macs": 228065280,
+          "default_layer_norm_estimate": 1966080
+        },
+        "encoder_level3.2.attn": {
+          "input": [
+            1,
+            96,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 8,
+          "directions": 4,
+          "official_scan_macs": 228065280,
+          "default_layer_norm_estimate": 1966080
+        },
+        "encoder_level3.3.attn": {
+          "input": [
+            1,
+            96,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 8,
+          "directions": 4,
+          "official_scan_macs": 228065280,
+          "default_layer_norm_estimate": 1966080
+        },
+        "decoder_level3.0.attn": {
+          "input": [
+            1,
+            96,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 8,
+          "directions": 4,
+          "official_scan_macs": 228065280,
+          "default_layer_norm_estimate": 1966080
+        },
+        "decoder_level3.1.attn": {
+          "input": [
+            1,
+            96,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 8,
+          "directions": 4,
+          "official_scan_macs": 228065280,
+          "default_layer_norm_estimate": 1966080
+        },
+        "decoder_level3.2.attn": {
+          "input": [
+            1,
+            96,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 8,
+          "directions": 4,
+          "official_scan_macs": 228065280,
+          "default_layer_norm_estimate": 1966080
+        },
+        "decoder_level3.3.attn": {
+          "input": [
+            1,
+            96,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 8,
+          "directions": 4,
+          "official_scan_macs": 228065280,
+          "default_layer_norm_estimate": 1966080
+        },
+        "decoder_level2.0.attn": {
+          "input": [
+            1,
+            48,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 4,
+          "directions": 4,
+          "official_scan_macs": 456130560,
+          "default_layer_norm_estimate": 3932160
+        },
+        "decoder_level2.1.attn": {
+          "input": [
+            1,
+            48,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 4,
+          "directions": 4,
+          "official_scan_macs": 456130560,
+          "default_layer_norm_estimate": 3932160
+        },
+        "decoder_level2.2.attn": {
+          "input": [
+            1,
+            48,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 4,
+          "directions": 4,
+          "official_scan_macs": 456130560,
+          "default_layer_norm_estimate": 3932160
+        },
+        "decoder_level1.0.attn": {
+          "input": [
+            1,
+            24,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 2,
+          "directions": 4,
+          "official_scan_macs": 912261120,
+          "default_layer_norm_estimate": 7864320
+        },
+        "decoder_level1.1.attn": {
+          "input": [
+            1,
+            24,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 2,
+          "directions": 4,
+          "official_scan_macs": 912261120,
+          "default_layer_norm_estimate": 7864320
+        },
+        "refinement.0.attn": {
+          "input": [
+            1,
+            24,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 2,
+          "directions": 4,
+          "official_scan_macs": 912261120,
+          "default_layer_norm_estimate": 7864320
+        },
+        "refinement.1.attn": {
+          "input": [
+            1,
+            24,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 2,
+          "directions": 4,
+          "official_scan_macs": 912261120,
+          "default_layer_norm_estimate": 7864320
+        },
+        "refinement.2.attn": {
+          "input": [
+            1,
+            24,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 2,
+          "directions": 4,
+          "official_scan_macs": 912261120,
+          "default_layer_norm_estimate": 7864320
+        },
+        "refinement.3.attn": {
+          "input": [
+            1,
+            24,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 2,
+          "directions": 4,
+          "official_scan_macs": 912261120,
+          "default_layer_norm_estimate": 7864320
+        }
+      },
+      "unified_macs": 36697414736,
+      "unified_macs_g": 36.697414736,
+      "unsupported_ops": {
+        "aten::mul": 220,
+        "aten::mul_": 44,
+        "aten::mean": 44,
+        "aten::var": 44,
+        "aten::sub": 44,
+        "aten::add": 133,
+        "aten::sqrt": 44,
+        "aten::div": 44,
+        "aten::silu": 44,
+        "aten::sum": 22,
+        "aten::gelu": 22
+      },
+      "count_only_scan": true,
+      "audit_wall_seconds": 10.69197859999258
+    },
+    {
+      "task": "gopro",
+      "mixer": "ss2d",
+      "config": "configs/restoration/gopro/ss2d.yml",
+      "config_sha256": "36e6f0a35f9c82c4c29b0b149dc297e322985448a7a16254c7484423a518fba1",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 6300816,
+      "historical_rounded_macs_g": 82.285,
+      "raw_fvcore_plus_custom_macs": 82284982624,
+      "by_operator": {
+        "conv": 54696738816,
+        "einsum": 6152860000,
+        "layer_norm": 182845440,
+        "upsample_bilinear2d": 42467328
+      },
+      "removed_operators": {
+        "layer_norm": 182845440,
+        "upsample_bilinear2d": 42467328
+      },
+      "explicit_propagation_macs": 0,
+      "propagation_records": [],
+      "explicit_scan_macs": 21210071040,
+      "scan_records": {
+        "encoder_level1.0.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "encoder_level1.1.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "encoder_level1.2.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "encoder_level2.0.attn": {
+          "input": [
+            1,
+            72,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 6,
+          "directions": 4,
+          "official_scan_macs": 684195840,
+          "default_layer_norm_estimate": 5898240
+        },
+        "encoder_level2.1.attn": {
+          "input": [
+            1,
+            72,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 6,
+          "directions": 4,
+          "official_scan_macs": 684195840,
+          "default_layer_norm_estimate": 5898240
+        },
+        "encoder_level2.2.attn": {
+          "input": [
+            1,
+            72,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 6,
+          "directions": 4,
+          "official_scan_macs": 684195840,
+          "default_layer_norm_estimate": 5898240
+        },
+        "encoder_level3.0.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "encoder_level3.1.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "encoder_level3.2.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "encoder_level3.3.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "encoder_level3.4.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "decoder_level3.0.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "decoder_level3.1.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "decoder_level3.2.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "decoder_level3.3.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "decoder_level3.4.attn": {
+          "input": [
+            1,
+            144,
+            64,
+            64
+          ],
+          "d_state": 16,
+          "dt_rank": 12,
+          "directions": 4,
+          "official_scan_macs": 342097920,
+          "default_layer_norm_estimate": 2949120
+        },
+        "decoder_level2.0.attn": {
+          "input": [
+            1,
+            72,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 6,
+          "directions": 4,
+          "official_scan_macs": 684195840,
+          "default_layer_norm_estimate": 5898240
+        },
+        "decoder_level2.1.attn": {
+          "input": [
+            1,
+            72,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 6,
+          "directions": 4,
+          "official_scan_macs": 684195840,
+          "default_layer_norm_estimate": 5898240
+        },
+        "decoder_level2.2.attn": {
+          "input": [
+            1,
+            72,
+            128,
+            128
+          ],
+          "d_state": 16,
+          "dt_rank": 6,
+          "directions": 4,
+          "official_scan_macs": 684195840,
+          "default_layer_norm_estimate": 5898240
+        },
+        "decoder_level1.0.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "decoder_level1.1.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "decoder_level1.2.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "refinement.0.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "refinement.1.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "refinement.2.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        },
+        "refinement.3.attn": {
+          "input": [
+            1,
+            36,
+            256,
+            256
+          ],
+          "d_state": 16,
+          "dt_rank": 3,
+          "directions": 4,
+          "official_scan_macs": 1368391680,
+          "default_layer_norm_estimate": 11796480
+        }
+      },
+      "unified_macs": 82059669856,
+      "unified_macs_g": 82.059669856,
+      "unsupported_ops": {
+        "aten::mul": 260,
+        "aten::mul_": 52,
+        "aten::mean": 52,
+        "aten::var": 52,
+        "aten::sub": 52,
+        "aten::add": 157,
+        "aten::sqrt": 52,
+        "aten::div": 52,
+        "aten::silu": 52,
+        "aten::sum": 26,
+        "aten::gelu": 26
+      },
+      "count_only_scan": true,
+      "audit_wall_seconds": 5.6414306000224315
+    },
+    {
+      "task": "ohaze",
+      "mixer": "native",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_Baseline.yml",
+      "config_sha256": "e04ba7eb1d819826632768bbee4ca2a41b1896a9f9ebdb08c0b156b38ee63327",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 2859858,
+      "historical_rounded_macs_g": 31.804,
+      "raw_fvcore_plus_custom_macs": 31804130048,
+      "by_operator": {
+        "conv": 25780289536,
+        "matmul": 5905580032,
+        "linear": 89948928,
+        "upsample_bilinear2d": 28311552
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 28311552
+      },
+      "explicit_propagation_macs": 0,
+      "propagation_records": [],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 31775818496,
+      "unified_macs_g": 31.775818496,
+      "unsupported_ops": {
+        "aten::mul": 374,
+        "aten::mul_": 66,
+        "aten::mean": 44,
+        "aten::var": 44,
+        "aten::sub": 44,
+        "aten::add": 155,
+        "aten::sqrt": 44,
+        "aten::div": 66,
+        "aten::clone": 22,
+        "aten::linalg_vector_norm": 22,
+        "aten::clamp_min": 22,
+        "aten::expand_as": 22,
+        "aten::leaky_relu_": 22,
+        "aten::gelu": 22
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 3.645234600000549
+    },
+    {
+      "task": "ohaze",
+      "mixer": "dwconv",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_Matched_DWConv_P256.yml",
+      "config_sha256": "c7cef2faed8ef1ce95505edecc1362e7e668ddc9f177211c6adc64da94e4c23d",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 2848544,
+      "historical_rounded_macs_g": 28.384,
+      "raw_fvcore_plus_custom_macs": 28383903744,
+      "by_operator": {
+        "conv": 28355592192,
+        "upsample_bilinear2d": 28311552
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 28311552
+      },
+      "explicit_propagation_macs": 0,
+      "propagation_records": [],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 28355592192,
+      "unified_macs_g": 28.355592192,
+      "unsupported_ops": {
+        "aten::mul": 198,
+        "aten::mul_": 44,
+        "aten::mean": 44,
+        "aten::var": 44,
+        "aten::sub": 44,
+        "aten::add": 133,
+        "aten::sqrt": 44,
+        "aten::div": 44,
+        "aten::gelu": 44
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 2.8863815999939106
+    },
+    {
+      "task": "ohaze",
+      "mixer": "mdta",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_Matched_MDTA_P256.yml",
+      "config_sha256": "47663f78d85008f0a1dc396beec2664ebb2055a361a0af4be3275cb66b1611fa",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 2475988,
+      "historical_rounded_macs_g": 26.576,
+      "raw_fvcore_plus_custom_macs": 26576158720,
+      "by_operator": {
+        "conv": 24803016704,
+        "matmul": 1744830464,
+        "upsample_bilinear2d": 28311552
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 28311552
+      },
+      "explicit_propagation_macs": 0,
+      "propagation_records": [],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 26547847168,
+      "unified_macs_g": 26.547847168,
+      "unsupported_ops": {
+        "aten::mul": 286,
+        "aten::mul_": 44,
+        "aten::mean": 44,
+        "aten::var": 44,
+        "aten::sub": 44,
+        "aten::add": 133,
+        "aten::sqrt": 44,
+        "aten::div": 88,
+        "aten::linalg_vector_norm": 44,
+        "aten::clamp_min": 44,
+        "aten::expand_as": 44,
+        "aten::softmax": 22,
+        "aten::gelu": 22
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 3.070959499978926
+    },
+    {
+      "task": "ohaze",
+      "mixer": "swin",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_Matched_Swin_P256.yml",
+      "config_sha256": "db2f8c0a7ed4917e4d96f08a228c77d80752d21ddb96f2094bd5545654e960b7",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 2941716,
+      "historical_rounded_macs_g": 34.546,
+      "raw_fvcore_plus_custom_macs": 34545753792,
+      "by_operator": {
+        "conv": 18161336320,
+        "linear": 11385536512,
+        "matmul": 4970569408,
+        "upsample_bilinear2d": 28311552
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 28311552
+      },
+      "explicit_propagation_macs": 0,
+      "propagation_records": [],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 34517442240,
+      "unified_macs_g": 34.51744224,
+      "unsupported_ops": {
+        "aten::mul": 220,
+        "aten::mul_": 44,
+        "aten::mean": 44,
+        "aten::var": 44,
+        "aten::sub": 54,
+        "aten::add": 165,
+        "aten::sqrt": 44,
+        "aten::div": 44,
+        "aten::neg": 44,
+        "aten::pad": 22,
+        "aten::softmax": 22,
+        "aten::gelu": 22,
+        "aten::fill_": 90,
+        "aten::ne": 10
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 3.940658900013659
+    },
+    {
+      "task": "ohaze",
+      "mixer": "cspn_style",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_Matched_CSPN_STYLE_P256.yml",
+      "config_sha256": "62430982debecd21cf8ddd8bb0b3521cfae077129a02ac9dd9d4a17d89056695",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 2239776,
+      "historical_rounded_macs_g": 24.332,
+      "raw_fvcore_plus_custom_macs": 24332206080,
+      "by_operator": {
+        "conv": 23077060608,
+        "upsample_bilinear2d": 28311552
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 28311552
+      },
+      "explicit_propagation_macs": 1226833920,
+      "propagation_records": [
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 32,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 32,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 64,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 64,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 64,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 128,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 128,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 128,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 128,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 128,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 128,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 128,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 128,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 64,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 64,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 64,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 32,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 32,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 32,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 32,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 32,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 32,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        }
+      ],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 24303894528,
+      "unified_macs_g": 24.303894528,
+      "unsupported_ops": {
+        "aten::mul": 1188,
+        "aten::mul_": 44,
+        "aten::mean": 44,
+        "aten::var": 44,
+        "aten::sub": 44,
+        "aten::add": 2795,
+        "aten::sqrt": 44,
+        "aten::div": 66,
+        "aten::abs": 22,
+        "aten::sum": 44,
+        "aten::rsub": 22,
+        "aten::pad": 110,
+        "aten::gelu": 22
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 11.340542100020684
+    },
+    {
+      "task": "ohaze",
+      "mixer": "ours",
+      "config": "configs/restoration/ohaze/O-HAZE_VIVNet_RadialProfiled_K5_P256.yml",
+      "config_sha256": "7f8cf108ddbd949781a25837f60eb853588a606a07bfeeb057ef627f02ada21c",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 2248140,
+      "historical_rounded_macs_g": 25.641,
+      "raw_fvcore_plus_custom_macs": 25640828928,
+      "by_operator": {
+        "conv": 23158849536,
+        "upsample_bilinear2d": 28311552
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 28311552
+      },
+      "explicit_propagation_macs": 2453667840,
+      "propagation_records": [
+        {
+          "kind": "complex_3x3",
+          "channels": 16,
+          "groups": 4,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 16,
+          "groups": 4,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 32,
+          "groups": 8,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 32,
+          "groups": 8,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 32,
+          "groups": 8,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 64,
+          "groups": 16,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 64,
+          "groups": 16,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 64,
+          "groups": 16,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 64,
+          "groups": 16,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 64,
+          "groups": 16,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 64,
+          "groups": 16,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 64,
+          "groups": 16,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 64,
+          "groups": 16,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 32,
+          "groups": 8,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 32,
+          "groups": 8,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 32,
+          "groups": 8,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 16,
+          "groups": 4,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 16,
+          "groups": 4,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 16,
+          "groups": 4,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 16,
+          "groups": 4,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 16,
+          "groups": 4,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 16,
+          "groups": 4,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        }
+      ],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 25612517376,
+      "unified_macs_g": 25.612517376,
+      "unsupported_ops": {
+        "aten::mul": 4994,
+        "aten::mul_": 44,
+        "aten::mean": 264,
+        "aten::var": 44,
+        "aten::sub": 1254,
+        "aten::add": 7855,
+        "aten::sqrt": 66,
+        "aten::div": 44,
+        "aten::gelu": 66,
+        "aten::square": 330,
+        "aten::sum": 22,
+        "aten::reciprocal": 22,
+        "aten::softplus": 22,
+        "aten::tanh": 44,
+        "aten::linspace": 22,
+        "aten::softmax": 22,
+        "aten::rsqrt": 110,
+        "aten::reshape_as": 220,
+        "aten::pad": 220
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 21.135381800006144
+    },
+    {
+      "task": "gopro",
+      "mixer": "native",
+      "config": "configs/restoration/gopro/original.yml",
+      "config_sha256": "213b9652d1f2560d7d5e80479b6f5c3ffe7cb8d7c1fbe79a366c5fd7b14f969a",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 7421966,
+      "historical_rounded_macs_g": 79.134,
+      "raw_fvcore_plus_custom_macs": 79133739264,
+      "by_operator": {
+        "conv": 63016796160,
+        "matmul": 15703474176,
+        "linear": 371001600,
+        "upsample_bilinear2d": 42467328
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 42467328
+      },
+      "explicit_propagation_macs": 0,
+      "propagation_records": [],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 79091271936,
+      "unified_macs_g": 79.091271936,
+      "unsupported_ops": {
+        "aten::mul": 442,
+        "aten::mul_": 78,
+        "aten::mean": 52,
+        "aten::var": 52,
+        "aten::sub": 52,
+        "aten::add": 183,
+        "aten::sqrt": 52,
+        "aten::div": 78,
+        "aten::clone": 26,
+        "aten::linalg_vector_norm": 26,
+        "aten::clamp_min": 26,
+        "aten::expand_as": 26,
+        "aten::leaky_relu_": 26,
+        "aten::gelu": 26
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 6.009123700030614
+    },
+    {
+      "task": "gopro",
+      "mixer": "cspn_style",
+      "config": "configs/restoration/gopro/cspn_style.yml",
+      "config_sha256": "56a7933bcc1688e1a72ec084e6be0169097a73f5b99a6b05cfe8c55a9c64eaa5",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 5792304,
+      "historical_rounded_macs_g": 59.133,
+      "raw_fvcore_plus_custom_macs": 59133394944,
+      "by_operator": {
+        "conv": 56896782336,
+        "upsample_bilinear2d": 42467328
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 42467328
+      },
+      "explicit_propagation_macs": 2194145280,
+      "propagation_records": [
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 96,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 96,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 96,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 192,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 96,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 96,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 96,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        },
+        {
+          "kind": "real_cspn_3x3",
+          "channels": 48,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 9
+        }
+      ],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 59090927616,
+      "unified_macs_g": 59.090927616,
+      "unsupported_ops": {
+        "aten::mul": 1404,
+        "aten::mul_": 52,
+        "aten::mean": 52,
+        "aten::var": 52,
+        "aten::sub": 52,
+        "aten::add": 3303,
+        "aten::sqrt": 52,
+        "aten::div": 78,
+        "aten::abs": 26,
+        "aten::sum": 52,
+        "aten::rsub": 26,
+        "aten::pad": 130,
+        "aten::gelu": 26
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 18.940850899962243
+    },
+    {
+      "task": "gopro",
+      "mixer": "ours",
+      "config": "configs/restoration/gopro/ours.yml",
+      "config_sha256": "9f0d6727b9a465821525dd6113445357ae1db2d0975546f8c554f9654f9715c7",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 5807236,
+      "historical_rounded_macs_g": 61.474,
+      "raw_fvcore_plus_custom_macs": 61473816576,
+      "by_operator": {
+        "conv": 57043058688,
+        "upsample_bilinear2d": 42467328
+      },
+      "removed_operators": {
+        "upsample_bilinear2d": 42467328
+      },
+      "explicit_propagation_macs": 4388290560,
+      "propagation_records": [
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        }
+      ],
+      "explicit_scan_macs": 0,
+      "scan_records": {},
+      "unified_macs": 61431349248,
+      "unified_macs_g": 61.431349248,
+      "unsupported_ops": {
+        "aten::mul": 5902,
+        "aten::mul_": 52,
+        "aten::mean": 312,
+        "aten::var": 52,
+        "aten::sub": 1482,
+        "aten::add": 9283,
+        "aten::sqrt": 78,
+        "aten::div": 52,
+        "aten::gelu": 78,
+        "aten::square": 390,
+        "aten::sum": 26,
+        "aten::reciprocal": 26,
+        "aten::softplus": 26,
+        "aten::tanh": 52,
+        "aten::linspace": 26,
+        "aten::softmax": 26,
+        "aten::rsqrt": 130,
+        "aten::reshape_as": 260,
+        "aten::pad": 260
+      },
+      "count_only_scan": false,
+      "audit_wall_seconds": 32.748190800019074
+    }
+  ],
+  "cuda_initialized": false,
+  "utc_finished": "2026-09-10T09:53:39Z",
+  "script_sha256": "2db48cd26291875fc363c4296da35d3990f2bbbba563012f88db2d8138543d38"
+}

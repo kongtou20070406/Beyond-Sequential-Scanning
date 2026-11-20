@@ -1,0 +1,91 @@
+name: haze4k-S-nsi-b8-mb2-fp32-300k-seed42
+model_type: ImageRestorationModel
+scale: 1
+num_gpu: 1
+manual_seed: 42
+datasets:
+  train:
+    name: TrainSet
+    type: PairedImageDataset
+    dataroot_gt: ./Dehazing/Datasets/Haze4k/train/gt
+    dataroot_lq: ./Dehazing/Datasets/Haze4k/train/hazy
+    filename_tmpl: '{}'
+    io_backend:
+      type: disk
+    gt_size: 256
+    use_flip: true
+    use_rot: true
+    use_shuffle: true
+    num_worker_per_gpu: 2
+    batch_size_per_gpu: 8
+    dataset_enlarge_ratio: 1
+    prefetch_mode: null
+    pin_memory: true
+network_g:
+  type: VIVNetRadialStateDepthProfiledCLPO
+  inp_channels: 3
+  out_channels: 3
+  dim: 32
+  num_blocks:
+  - 2
+  - 3
+  - 4
+  num_refinement_blocks: 4
+  ffn_expansion_factor: 3
+  bias: false
+  K: 5
+path:
+  pretrain_network_g: null
+  strict_load_g: true
+  resume_state: null
+train:
+  optim_g:
+    type: AdamW
+    lr: 0.001
+    weight_decay: 0.001
+    betas:
+    - 0.9
+    - 0.9
+    fused: true
+  scheduler:
+    type: TrueCosineAnnealingLR
+    T_max: 300000
+    eta_min: 1.0e-07
+  total_iter: 300000
+  warmup_iter: -1
+  pixel_opt:
+    type: L1Loss
+    loss_weight: 1.0
+    reduction: mean
+  fft_loss_opt:
+    type: FFTLoss
+    loss_weight: 0.1
+    reduction: mean
+  use_amp: false
+  amp_dtype: float16
+  microbatch_size: 2
+  use_grad_clip: true
+logger:
+  print_freq: 100
+  save_checkpoint_freq: 500
+  use_tb_logger: false
+  wandb:
+    project: null
+    resume_id: null
+dist_params:
+  backend: gloo
+  port: 29500
+strong_protocol:
+  status: verified_training_recipe
+  dataset: haze4k
+  capacity: S
+  method: nsi
+  stage: 1
+  recipe_id: haze4k_s_b8_fp32_strictkernels_v1
+  official_reproduction: false
+  metric_protocol: direct_rgb_ssim_v1
+  training_precision: FP32
+  require_optimized_kernels: true
+  tf32: false
+  reference_native_reported_psnr: 33.8
+  selection: fixed_300000_endpoint_no_test_selection

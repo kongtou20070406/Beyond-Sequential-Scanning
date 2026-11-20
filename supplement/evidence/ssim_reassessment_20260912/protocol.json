@@ -1,0 +1,56 @@
+{
+  "schema": "ohaze-direct-ssim-v1",
+  "date": "2026-09-12",
+  "data": "O-HAZE test images 41-45; five equally weighted RGB images.",
+  "resize": "Resize each original image with bicubic interpolation and antialiasing. Preserve aspect ratio. Round each target dimension.",
+  "prediction": "Remove model padding, then clamp the FP32 output to [0, 1] for metrics.",
+  "target": "Use the corresponding resized FP32 target without clamp.",
+  "ssim": {
+    "implementation": "pytorch_msssim.ssim",
+    "data_range": 1,
+    "size_average": false,
+    "win_size": 11,
+    "win_sigma": 1.5,
+    "K": [
+      0.01,
+      0.03
+    ],
+    "nonnegative_ssim": false,
+    "image_pre_pooling": false,
+    "border_crop": 0
+  },
+  "formal_psnr": "Unchanged: 10 * torch.log10(1 / F.mse_loss(prediction, target)), after the original prediction clamp and FP32 cast.",
+  "replay_psnr": "The evidence stores CPU float64 MSE/PSNR. It does not replace historical long-side-512 table PSNR values.",
+  "scale_rule": "At each input scale, resize input and target from the originals to the same size. Compare the output at that size. Do not map the output to long side 512.",
+  "legacy_pooled_ssim": "Historical or replayed SSIM with the former image pre-pooling step. Keep it separate from direct SSIM.",
+  "conditions": {
+    "direct_ssim_groups": 38,
+    "group_image_records": 190,
+    "registered_conditions_updated": 21,
+    "registered_historical_conditions_not_reassessed": [
+      "ohaze-alternative_generator-seed42",
+      "ohaze-conjugate_symmetric-seed42",
+      "ohaze-equal_parameter_real-seed42",
+      "ohaze-p0t_diagonal_delay-seed42",
+      "ohaze-step_conditioned_rules-seed42"
+    ],
+    "scale_cells": 160,
+    "scales": [
+      256,
+      384,
+      512,
+      768,
+      1024,
+      1280,
+      1536,
+      2048
+    ]
+  },
+  "source_hashes": {
+    "metrics_direct.py": "93b24c60b6a34fb1ab3ae2bb4940c60cd36c05316c05329737d34f1a04a6d991",
+    "evaluate_ohaze_before.py": "b714435dd9b7b83002dc5e763b545a72f8f53c111c109f2a3fa24d8addb16548",
+    "evaluate_ohaze_after.py": "01559cbaff2d5e364f7762f626f216177a1121ad7d759f2ce84b6c8a7af873f2"
+  },
+  "export_model_forward_calls": 0,
+  "training_updates": 0
+}

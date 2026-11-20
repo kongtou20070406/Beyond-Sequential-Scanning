@@ -1,0 +1,54 @@
+{
+  "checkpoint": "<RUN_DIR>/package/runs/ohaze_eamamba_seed42/experiments/ohaze-eamamba-seed42/models/net_g_latest.pth",
+  "config": "<RUN_DIR>/package/runs/ohaze_eamamba_seed42/CONFIG_USED.yml",
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB PSNR; direct RGB SSIM; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03)",
+  "metric_protocol": {
+    "id": "direct_rgb_ssim_v1",
+    "color_space": "RGB",
+    "image_pre_pooling": false,
+    "window_size": 11,
+    "window_sigma": 1.5,
+    "k1": 0.01,
+    "k2": 0.03,
+    "backend": "pytorch_msssim.ssim",
+    "data_range": 1,
+    "numeric_precision": "FP32"
+  },
+  "inference": {
+    "backend": "model_defined",
+    "fused_blocks": 0
+  },
+  "count": 5,
+  "psnr": 26.935828018188477,
+  "ssim": 0.9100200772285462,
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 29.316720962524414,
+      "ssim": 0.9464064836502075
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 24.95217514038086,
+      "ssim": 0.8918806314468384
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 28.932111740112305,
+      "ssim": 0.9475910067558289
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 26.470434188842773,
+      "ssim": 0.9159966707229614
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 25.00769805908203,
+      "ssim": 0.8482255935668945
+    }
+  ],
+  "method": "eamamba",
+  "seed": 42,
+  "updates": 55800
+}

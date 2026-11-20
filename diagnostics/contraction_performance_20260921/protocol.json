@@ -1,0 +1,54 @@
+{
+  "arms": [
+    "full",
+    "no_gain",
+    "free_gain",
+    "state_dynamic"
+  ],
+  "profile_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "intervention_indices": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950
+  ],
+  "scales": [
+    0.5,
+    0.8,
+    1.0,
+    1.05,
+    1.1,
+    1.2,
+    1.4
+  ],
+  "native_size": true,
+  "tf32": false,
+  "precision": "float32",
+  "training": false,
+  "extended_steps": 15,
+  "extension": "Local module on its native K=5 network input; actual network output uses only original five steps.",
+  "jacobian": "Random direction at h4, two central-difference scales; not an induced norm certificate.",
+  "manifest_sha256": "3757535e913e5c429b3273a768c2a8d62f53e2c6468137bffdaacbc341816cbd"
+}

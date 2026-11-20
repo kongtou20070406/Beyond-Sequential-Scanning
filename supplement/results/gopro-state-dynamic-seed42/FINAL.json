@@ -1,0 +1,337 @@
+{
+  "arm": "state_dynamic",
+  "checkpoint_sha256": "7252dfaba9e2a804dfb4847f683c8fef2c58f0c6647bbee6bb219673437e4c21",
+  "config_sha256": "66b0c9236c4bac2768a9d84ef03bdbb391f25e9f72f5fe143a1cc57c7f2dec43",
+  "precision": "FP32_TF32_DISABLED",
+  "tiling": {
+    "core": 384,
+    "halo": 64,
+    "overlap": 64
+  },
+  "torch": "2.10.0",
+  "status": "COMPLETE",
+  "pair_count": 1111,
+  "psnr_db": 30.663880701004977,
+  "ssim": 0.9111066736368099,
+  "per_image_sha256": "e3633246a0bb9a292e2b1dd648ca29d2e472cf063b39da1e2a87b0360cdcb336",
+  "peak_allocated_mib": 2420.98583984375,
+  "this_attempt_wall_seconds": 11376.527376400016,
+  "resumed_prefix": 0,
+  "completed_utc": "2026-09-08T15:39:15.090547+00:00",
+  "timing_note": "Windows relay single-GPU end-to-end evaluation, including I/O, transfers, tiling and metrics. Controller records total attempt times.",
+  "inference_resources": {
+    "recorded_images": 1111,
+    "total_result_images": 1111,
+    "macs_reference": {
+      "arm": "state_dynamic",
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "parameters": 5807236,
+      "macs": 76540280832,
+      "macs_g": 76.540280832,
+      "fvcore_macs": 72151990272,
+      "propagation_macs": 4388290560,
+      "propagation_records": [
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 96,
+          "groups": 24,
+          "steps": 5,
+          "height": 64,
+          "width": 64,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 48,
+          "groups": 12,
+          "steps": 5,
+          "height": 128,
+          "width": 128,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        },
+        {
+          "kind": "complex_3x3",
+          "channels": 24,
+          "groups": 6,
+          "steps": 5,
+          "height": 256,
+          "width": 256,
+          "macs_per_channel_step": 36
+        }
+      ],
+      "unsupported_ops": {
+        "aten::mul": 6344,
+        "aten::mul_": 52,
+        "aten::mean": 312,
+        "aten::var": 52,
+        "aten::sub": 1482,
+        "aten::add": 9751,
+        "aten::sqrt": 182,
+        "aten::div": 52,
+        "aten::gelu": 338,
+        "aten::softplus": 26,
+        "aten::tanh": 52,
+        "aten::linspace": 26,
+        "aten::square": 598,
+        "aten::softmax": 26,
+        "aten::ones_like": 130,
+        "aten::where": 260,
+        "aten::sum": 130,
+        "aten::reciprocal": 130,
+        "aten::rsqrt": 130,
+        "aten::reshape_as": 260,
+        "aten::pad": 260
+      },
+      "extra_interpolation_scalar_multiplications": 0,
+      "extra_interpolation_additions": 0,
+      "config_sha256": "66b0c9236c4bac2768a9d84ef03bdbb391f25e9f72f5fe143a1cc57c7f2dec43",
+      "source_manifest_sha256": "b0c9067dc5278bbe41b672431601d6b6df8d3fc09d708724bb8fb533ce7ea976",
+      "counting_device": "cpu",
+      "convention": "Same published profiling implementation: one multiply-accumulate=one MAC; fvcore supported operations plus explicit complex 3x3 propagation. Uncounted operators listed. Extra half-delay scalar interpolation reported separately; not hardware instruction counts. MACs do not measure latency or memory.",
+      "profile_seconds": 93.23500000001513
+    },
+    "forward_wall_seconds_sum": 11321.614736698684,
+    "forward_wall_seconds_mean": 10.190472310259842,
+    "forward_wall_seconds_median": 9.569851999985985,
+    "forward_wall_seconds_p90": 11.483106600004248,
+    "excluding_first_process_image_mean_seconds": 10.189011617115938,
+    "first_process_image_forward_seconds": [
+      11.811841699993238
+    ],
+    "forward_peak_allocated_mib": 2420.98583984375,
+    "evaluation_peak_allocated_mib": 2420.98583984375,
+    "evaluation_peak_reserved_mib": 4744.0,
+    "model_call_shapes_and_counts": [
+      {
+        "shape": [
+          1,
+          3,
+          512,
+          512
+        ],
+        "calls": 13332
+      }
+    ],
+    "gpu_names": [
+      "NVIDIA GeForce RTX 5090"
+    ],
+    "timing_scope": "CUDA-synchronized wall time around existing forward including tile assembly/clamp for tiled evaluation; excludes image decoding, H2D and quality metrics. Dataset evaluation wall time remains separate. No extra warmup/repeated images. Shared host contention and first-call overhead retained.",
+    "memory_scope": "PyTorch process allocated/reserved peaks in MiB; forward includes resident model and input/target tensors. Evaluation peak also includes metric workspace. Not whole-device NVML usage; reserved may include allocator cache from earlier calls.",
+    "macs_scope": "Reference batch1 RGB256x256 model MACs using recorded convention; per-image/tile call shapes also recorded. Do not treat reference MACs as a whole tiled evaluation count or measured hardware work."
+  },
+  "peak_reserved_mib": 4744.0,
+  "archived_per_image_sha256": "e56d4a3a246b4a49928a8616388fc7552dd04a49804e63a449ff744d902d6ba4",
+  "checkpoint": "weights/supplement/gopro-state-dynamic-seed42/last.pth"
+}

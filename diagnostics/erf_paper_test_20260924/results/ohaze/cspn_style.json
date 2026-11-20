@@ -1,0 +1,32 @@
+{
+  "id": "ohaze-cspn_style-seed42",
+  "label": "CSPN-style",
+  "dataset": "ohaze",
+  "arm": "cspn_style",
+  "checkpoint": "weights/ohaze/cspn_style/seed42/last.pth",
+  "checkpoint_sha256": "0a6dcb9ebeb1cb781c1ab9d5a12c5629c892b74095819cda6bf37fd47e8dd3c4",
+  "input": {
+    "path": "external/41.jpg",
+    "sha256": "b34462547def19a5a62343cbd09bd9b35954b9bf2d2e7cd6f55a28c47658b86e"
+  },
+  "input_shape": [
+    512,
+    422
+  ],
+  "center_yx": [
+    256,
+    211
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 32",
+  "r50_px": 58.180752831155424,
+  "r90_px": 119.5198728245642,
+  "r95_px": 137.41178988718545,
+  "gradient_sum": 74.52798461914062,
+  "gradient_peak": 0.5310131907463074,
+  "seconds": 1.1751656999695115,
+  "peak_cuda_mib": 2104.34619140625
+}

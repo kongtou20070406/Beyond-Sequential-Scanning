@@ -1,0 +1,6 @@
+'NSI.positiveRetention_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.positiveRetention_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.scalarEnvelope_unique_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.scalarEnvelope_positive_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.gridRetention_scalar_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.gridState_scalar_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]

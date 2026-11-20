@@ -1,0 +1,5 @@
+{
+  "basicsr/models/archs/__init__.py": "5db21203521ff54c669a5cb78a61ba3c0c8f4110e370b05e5351f10ac81c29ff",
+  "basicsr/models/archs/VIVNativeBlocks_arch.py": "cc13c9d7dbc09395f72ae640884f2bc876807157ac3bf25fe2f78ac2d2990646",
+  "clpo2027/spatial_native_adapter.py": "7c704f3dddfd837e9ac6b9ce2766783c0b247a3496f8e292c76871d135cac00b"
+}

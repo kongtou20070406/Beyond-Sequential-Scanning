@@ -1,0 +1,37 @@
+{
+  "id": "ohaze-spatial-full-block-seed42",
+  "label": "Spatial-Mamba full block",
+  "dataset": "ohaze",
+  "arm": "spatial_native_blocks",
+  "checkpoint": "weights/supplement/ohaze-spatial-full-block-seed42/last.pth",
+  "checkpoint_sha256": "052e09fbc061bc5e5caed809bd08ee531b377174f5c42dfb5b814cdc055f05cb",
+  "input": {
+    "path": "external/41.jpg",
+    "sha256": "b34462547def19a5a62343cbd09bd9b35954b9bf2d2e7cd6f55a28c47658b86e"
+  },
+  "input_shape": [
+    512,
+    422
+  ],
+  "center_yx": [
+    256,
+    211
+  ],
+  "precision": "FP32; TF32 disabled; eval mode; grad-enabled model forward",
+  "activation_checkpoint_blocks": true,
+  "spatial_fusion_autograd": "replicate-pad torch.conv2d with official merged kernel",
+  "spatial_fusion_forward_max_relative_error": 0.0,
+  "spatial_full_forward_max_abs": 0.0,
+  "target": "mean RGB of one central output residual pixel (prediction - input)",
+  "gradient_map": "sum of absolute input-channel derivatives",
+  "padding": "right/bottom reflect to multiple of 32",
+  "r50_px": 151.00331122197287,
+  "r90_px": 265.3073689138694,
+  "r95_px": 276.739950133695,
+  "gradient_sum": 59.633697509765625,
+  "gradient_peak": 0.6740742921829224,
+  "eval_forward_max_abs": 0.0,
+  "eval_forward_relative_max": 0.0,
+  "seconds": 0.2321677000145428,
+  "peak_cuda_mib": 1748.43505859375
+}

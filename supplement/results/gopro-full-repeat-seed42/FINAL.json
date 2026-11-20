@@ -1,0 +1,24 @@
+{
+  "arm": "full",
+  "checkpoint_sha256": "4c995924bdae26bcc24cead47dc4ab2dfe6b0cd54a2620f163323ae703e2a3fc",
+  "config_sha256": "d5e843351bfad1d27108708d7fb87660d9ecf732b17ee4631a09a3b298d460af",
+  "precision": "FP32_TF32_DISABLED",
+  "tiling": {
+    "core": 384,
+    "halo": 64,
+    "overlap": 64
+  },
+  "torch": "2.10.0",
+  "status": "COMPLETE",
+  "pair_count": 1111,
+  "psnr_db": 30.59483312251437,
+  "ssim": 0.9098884498718942,
+  "per_image_sha256": "146e583e68ae3e4911055c1ba1c22ebecffbe7af34c41db21bf959cdeca669b6",
+  "peak_allocated_mib": 2564.9853515625,
+  "this_attempt_wall_seconds": 4832.525843899988,
+  "resumed_prefix": 0,
+  "completed_utc": "2026-09-07T21:21:54.117299+00:00",
+  "timing_note": "Local end-to-end evaluation with user-preserved desktop/streaming load. Controller records total attempt times.",
+  "archived_per_image_sha256": "146e583e68ae3e4911055c1ba1c22ebecffbe7af34c41db21bf959cdeca669b6",
+  "checkpoint": "weights/supplement/gopro-full-repeat-seed42/last.pth"
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "ohaze-direct-ssim-reassessment-v1",
+  "status": "COMPLETE",
+  "id": "ohaze-cpu-timing-direct",
+  "count": 5,
+  "protocol": "O-HAZE IDs 41-45; FP32; long side 512; RGB SSIM on the full output; no image pre-pooling; Gaussian window 11, sigma 1.5, K (0.01, 0.03).",
+  "psnr_protocol": "Clamped prediction; unclamped target; CPU float64 MSE for this recorded replay. The formal evaluator keeps its original FP32 PSNR operation.",
+  "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2",
+  "paper_uses": [
+    "appendix_C2_half_delay"
+  ],
+  "psnr": 26.77522295209806,
+  "ssim": 0.9065494656562805,
+  "legacy_pooled_ssim": 0.9468218803405761,
+  "legacy_published": {
+    "psnr": 26.775223541259766,
+    "ssim": 0.9468218803405761,
+    "seconds": 19.672085259997402
+  },
+  "images": [
+    {
+      "image": "41.jpg",
+      "psnr": 27.918199285465832,
+      "ssim": 0.9444551467895508,
+      "legacy_pooled_ssim": 0.9643030166625977,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "42.jpg",
+      "psnr": 26.090771729772783,
+      "ssim": 0.8923213481903076,
+      "legacy_pooled_ssim": 0.9439680576324463,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "43.jpg",
+      "psnr": 27.942504651444867,
+      "ssim": 0.9432829022407532,
+      "legacy_pooled_ssim": 0.9705469608306885,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "44.jpg",
+      "psnr": 26.071252129572912,
+      "ssim": 0.9114813804626465,
+      "legacy_pooled_ssim": 0.9497897028923035,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    },
+    {
+      "image": "45.jpg",
+      "psnr": 25.853386964233906,
+      "ssim": 0.8412065505981445,
+      "legacy_pooled_ssim": 0.905501663684845,
+      "checkpoint_sha256": "dfec51321e1d0a5a5182adba0737d008d7315832a9d66d322227b209dcc028f2"
+    }
+  ],
+  "source_record": {
+    "id": "results/timing/result.json",
+    "sha256": "3e69a82a7e8f076b8f86ef7899257df21bc2b39da0f8c5a598b019d6ae72fe2f",
+    "included": false
+  },
+  "training_updates": 0,
+  "export_model_forward_calls": 0
+}

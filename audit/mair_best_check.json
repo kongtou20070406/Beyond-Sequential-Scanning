@@ -1,0 +1,20 @@
+{
+  "id": "ohaze-mair-seed42",
+  "index": 0,
+  "strict_load": {
+    "status": "passed",
+    "state_keys": 451,
+    "parameters": 3547168
+  },
+  "forward": {
+    "status": "skipped",
+    "reason": "strict-load-only by policy; forward requires compiled extension(s): available extensions",
+    "extensions": {
+      "checked": true,
+      "required": [
+        "selective_scan_cuda_oflex"
+      ],
+      "missing": []
+    }
+  }
+}

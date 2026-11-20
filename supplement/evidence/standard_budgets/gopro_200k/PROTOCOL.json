@@ -1,0 +1,87 @@
+{
+  "id": "gopro-vivnetb-200k-bs2-seed42-v1",
+  "frozen_at": "2026-11-08T22:28:34+08:00",
+  "backbone": "VIVNet-B",
+  "arms": [
+    "nsi",
+    "ss2d"
+  ],
+  "execution_order": [
+    "nsi",
+    "ss2d"
+  ],
+  "seed": 42,
+  "total_updates": 200000,
+  "effective_batch": 2,
+  "microbatch": 2,
+  "crop": 256,
+  "train_samples": 400000,
+  "initialization": "from scratch; identical non-mixer initialization, verified by SHA-256",
+  "train_precision": "BF16 autocast; FP32 optimizer/master weights; TF32 disabled",
+  "optimizer": {
+    "type": "AdamW",
+    "lr": 0.0002,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08
+  },
+  "lr_schedule": {
+    "type": "linear_warmup_then_cosine",
+    "warmup_updates": 20000,
+    "total_updates": 200000,
+    "eta_min": 1e-07
+  },
+  "losses": {
+    "L1Loss": 1.0,
+    "FFTLoss": 0.1
+  },
+  "augmentation": "Archived GoPro paired crop/flip/rotation and paired saturation, with stateless per-slot seeds",
+  "dataset_options": {
+    "name": "GoProTrainOnly",
+    "type": "PairedImageDataset",
+    "phase": "train",
+    "scale": 1,
+    "dataroot_gt": "<DATA_ROOT>/GOPRO_VIVNET_FLAT\\train\\sharp",
+    "dataroot_lq": "<DATA_ROOT>/GOPRO_VIVNET_FLAT\\train\\blur",
+    "io_backend": {
+      "type": "disk"
+    },
+    "filename_tmpl": "{}",
+    "gt_size": 256,
+    "use_flip": true,
+    "use_rot": true
+  },
+  "workers": 6,
+  "checkpoint_every": 1000,
+  "retained_weight_steps": [
+    50000,
+    100000,
+    150000,
+    200000
+  ],
+  "checkpoint_selection": "fixed 200000 endpoint; no test-based checkpoint or hyperparameter selection",
+  "evaluation": {
+    "pairs": 1111,
+    "split": "test",
+    "mode": "native_full0",
+    "precision": "FP32",
+    "tf32": false,
+    "clamp": [
+      0,
+      1
+    ],
+    "metrics": "archived clpo2027.gopro_eval RGB PSNR/SSIM",
+    "test_time_augmentation": false
+  },
+  "qualification": "200K updates and 256-square crops at user-selected effective batch2; this is not a claim to match any original network full training recipe.",
+  "sample_budget_note": "400000 crops; compared with old 49350*32*128^2, processed crop pixels are about 1.013x, not a large increase in total pixels.",
+  "runtime": "isolated snapshot of archived paper GoPro runtime; fused NSI training graph strict-loads reference parameters",
+  "scheduler_task": "PROJECT-GoPro-200K-BS2-NSI-SS2D-20261108",
+  "predecessor_directory": "<RUN_DIR>/nsi_rtts_300k_20261108",
+  "resume": "atomic optimizer/RNG/checkpoint and stateless crop schedule; resume last saved update",
+  "smoke_updates": 32,
+  "quality_dependent_stopping": false
+}

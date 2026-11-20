@@ -1,0 +1,71 @@
+{
+  "when": "2026-11-09T17:37:10+08:00",
+  "status": "COMPLETE",
+  "arm": "nsi",
+  "pairs": 1111,
+  "checkpoint_sha256": "9f1f953f0bc33f4efca63ad2e3ced137f67450ae7ac5edec976ed43febb923fc",
+  "checkpoint_iter": 200000,
+  "protocol_sha256": "38206e79fab287cfd6565fd3645b275b9737e1b9e481265bb1cb6a5c055007d6",
+  "psnr_db": 31.344386999077027,
+  "ssim": 0.9189436188911555,
+  "videos": {
+    "GOPR0384_11_00": {
+      "images": 100,
+      "psnr_db": 33.19364471435547,
+      "ssim": 0.9395049268007278
+    },
+    "GOPR0384_11_05": {
+      "images": 100,
+      "psnr_db": 32.51187219619751,
+      "ssim": 0.9440734446048736
+    },
+    "GOPR0385_11_01": {
+      "images": 100,
+      "psnr_db": 32.647451114654544,
+      "ssim": 0.9361264717578888
+    },
+    "GOPR0396_11_00": {
+      "images": 100,
+      "psnr_db": 32.980099129676816,
+      "ssim": 0.9580878680944442
+    },
+    "GOPR0410_11_00": {
+      "images": 134,
+      "psnr_db": 31.212587925925185,
+      "ssim": 0.914040887088918
+    },
+    "GOPR0854_11_00": {
+      "images": 100,
+      "psnr_db": 29.44272518157959,
+      "ssim": 0.8818365675210953
+    },
+    "GOPR0862_11_00": {
+      "images": 77,
+      "psnr_db": 28.815360595653583,
+      "ssim": 0.886112727128066
+    },
+    "GOPR0868_11_00": {
+      "images": 100,
+      "psnr_db": 29.392356181144713,
+      "ssim": 0.9018226891756058
+    },
+    "GOPR0869_11_00": {
+      "images": 100,
+      "psnr_db": 30.71229491233826,
+      "ssim": 0.895716826915741
+    },
+    "GOPR0871_11_00": {
+      "images": 100,
+      "psnr_db": 29.50065908432007,
+      "ssim": 0.8888314461708069
+    },
+    "GOPR0881_11_01": {
+      "images": 100,
+      "psnr_db": 33.842341566085814,
+      "ssim": 0.956341776251793
+    }
+  },
+  "protocol": "Native full image; RGB [0,1]; clamp; FP32; TF32 off; no TTA or tiling; archived metrics",
+  "this_attempt_seconds": 2009.9901983000018,
+  "training_split": "train_only"
+}

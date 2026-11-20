@@ -1,0 +1,40 @@
+{
+  "method": "ours",
+  "arm": "joint",
+  "seed": 42,
+  "checkpoint_sha256": "00981e007389a293da45d5f0159da0cd5840ee607e841a19f8c41f90a257ad94",
+  "config_sha256": "0550016d4f387313a7e87849876ec7e7b6f26c6983c978d05f4f306222542cdf",
+  "published_config_sha256": "93ab80aadd530e37b1763367bdddc2e646871349f732b769b0c5ef4f45ba22ea",
+  "runtime_manifest_sha256": "63069ca663ceab9b701b7f9843076cc880d28b8050fa7b35b8d4d09805297334",
+  "protocol": "native_full0",
+  "precision": "FP32_TF32_DISABLED",
+  "metric_protocol": {
+    "id": "direct_rgb_ssim_v1",
+    "color_space": "RGB",
+    "image_pre_pooling": false,
+    "window_size": 11,
+    "window_sigma": 1.5,
+    "data_range": 1,
+    "k1": 0.01,
+    "k2": 0.03,
+    "backend": "torch.conv2d.valid",
+    "numeric_precision": "FP32"
+  },
+  "status": "COMPLETE",
+  "utc": "2026-09-18T08:35:57.681251+00:00",
+  "count": 1111,
+  "pair_count": 1111,
+  "psnr_db": 30.87720270525969,
+  "ssim": 0.9125754498448273,
+  "per_image_sha256": "e11f357e697752a969f78c1495e630c89de915bb448435dcad32f5a64c762c45",
+  "source_evaluation_sha256": "8abe610d7a5ab03b968c75f15319ce9a9d8ea8130e949e093a6217753fcf3836",
+  "source_identity_sha256": "208aefa96d802993269d28342148840e15f1a5ddc4adee1a2fafe9ac9375251f",
+  "source_per_video_sha256": "15f83ec2cfeb8e50535088c49966763ebbc044408201dffba28ec4c78b794855",
+  "initialization_file_sha256": "d503cb0eadd00a9588df3d22a99b95d0d807d6a18e01798ba8d64c06b1762fc8",
+  "checkpoint": "weights/supplement/gopro-joint-seed42/last.pth",
+  "comparison": {
+    "full_seed42_psnr_db": 30.89175208638532,
+    "delta_psnr_db": -0.014549381125629424,
+    "scope": "same task protocol; historical full endpoint; no new full-model training"
+  }
+}

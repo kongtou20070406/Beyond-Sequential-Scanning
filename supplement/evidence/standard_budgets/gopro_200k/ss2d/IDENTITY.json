@@ -1,0 +1,7 @@
+{
+  "when": "2026-11-10T06:08:06+08:00",
+  "checkpoint_sha256": "0a94d4b94a7e7b651f2f5e2e34d4deeecd0f1e825f1613165222660eb8636ea4",
+  "protocol_sha256": "38206e79fab287cfd6565fd3645b275b9737e1b9e481265bb1cb6a5c055007d6",
+  "mode": "native_full0",
+  "fp32": true
+}

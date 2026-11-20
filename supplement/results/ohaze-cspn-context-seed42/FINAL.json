@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "pair_count": 5,
+  "psnr_db": 23.934258651733398,
+  "ssim": 0.9004397869110108,
+  "checkpoint_sha256": "95c71380eef372fa6597561b3af22fd6f4fa3d65d589119dd3a323a5c574dc08",
+  "per_image_sha256": "2e249d819ca3cddafbb35ca1c7f25cfd4eae37e6031a05ebbc094de7757bc68e",
+  "seed": 42,
+  "update": 55800,
+  "protocol": "O-HAZE train 1-40; test 41-45; long side 512; FP32; TF32 off; RGB PSNR; release pooled SSIM",
+  "parameters": 2230624,
+  "initial_checkpoint_sha256": "9052bab2095d0a5bd24bf18c0508767618916e0d94fe984211a7830550061d78",
+  "source_results_sha256": "e856c355575d03fec07dd3d38a1c8e34eab9cd61ecf06d2a2a11c5087549e268"
+}

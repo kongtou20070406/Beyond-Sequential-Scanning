@@ -1,0 +1,17 @@
+{
+  "arm": "nsi",
+  "phase": "formal",
+  "when": "2026-11-09T01:01:13+08:00",
+  "pid": 69656,
+  "initial_state_sha256": "562e67c6102becded690ceebd1314863b422ea297defc6e31b6c09387573c920",
+  "non_mixer_sha256": "0a9a471bf092d84ecd65d32c100fe0d608f552a1e8417aaa6ff6dcd4c364d498",
+  "protocol_sha256": "38206e79fab287cfd6565fd3645b275b9737e1b9e481265bb1cb6a5c055007d6",
+  "parameters": 5807236,
+  "device": "NVIDIA GeForce RTX 5090",
+  "torch": "2.10.0",
+  "cuda": "13.0",
+  "from_scratch": true,
+  "fast_training": true,
+  "effective_batch": 2,
+  "crop": 256
+}

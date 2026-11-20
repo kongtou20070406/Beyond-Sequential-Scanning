@@ -1,0 +1,38 @@
+{
+  "review_date": "2026-09-25",
+  "scope": "Image restoration submission",
+  "current_experiments": 55,
+  "registry_entries_including_audit_controls": 66,
+  "unique_weight_files": 63,
+  "strict_loads_passed": 69,
+  "small_cpu_forwards_passed": 56,
+  "cuda_extension_forwards_not_run": 13,
+  "unit_tests_passed": 14,
+  "formula_check": {
+    "formula_vs_code_max_abs": 1.1175870895385742e-08,
+    "q_f": 0.5644893646240234,
+    "rho": 0.95,
+    "group_size": 4,
+    "sum_weights": 5.0,
+    "weights_nondecreasing": true,
+    "N_hK": 0.08640136569738388,
+    "N_z": 0.07763552665710449,
+    "uniform_bound": 0.6848677729415683
+  },
+  "erf_maps_and_checkpoint_identities_verified": 20,
+  "fresh_module_counts_match_saved_results": true,
+  "runtime_config_and_tensor_changes": [],
+  "full_dataset_inference_rerun": false,
+  "training_rerun": false,
+  "changes": [
+    "Exclude historical classification and segmentation tasks.",
+    "Update stale weight counts and release-scope instructions.",
+    "Include portable copies of current fixed-checkpoint diagnostics and their records.",
+    "Include the GoPro training initialization stored outside weights/.",
+    "Add review evidence and refresh file manifests."
+  ],
+  "remaining_limits": [
+    "Full CUDA evaluation and training were not rerun in this packaging review.",
+    "MaIR and BPNet license coverage remains unresolved as recorded in supplement/THIRD_PARTY.md."
+  ]
+}

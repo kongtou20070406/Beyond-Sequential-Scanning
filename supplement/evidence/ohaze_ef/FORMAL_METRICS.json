@@ -1,0 +1,90 @@
+{
+  "method": "VIVNet",
+  "dataset": "O-HAZE",
+  "protocol": {
+    "input": "long-side=512, torch bicubic, antialias=True",
+    "psnr": "full resized output, RGB, [0,1], per-image mean",
+    "ssim": "pytorch_msssim after ICDehaze adaptive_avg_pool2d rule",
+    "precision": "fp32"
+  },
+  "checkpoint": "weights/ohaze/ablations/identity_retention_terminal_readout/seed42/last.pth",
+  "strict_load": true,
+  "state_keys": 473,
+  "num_images": 5,
+  "average_psnr": 26.258620834350587,
+  "average_ssim": 0.94436274766922,
+  "images": [
+    {
+      "name": "41_outdoor_hazy.jpg",
+      "size": [
+        512,
+        422
+      ],
+      "ssim_pool_size": [
+        272,
+        224
+      ],
+      "psnr": 28.37246322631836,
+      "ssim": 0.9681998491287231,
+      "time_seconds": 0.5166435241699219
+    },
+    {
+      "name": "42_outdoor_hazy.jpg",
+      "size": [
+        431,
+        512
+      ],
+      "ssim_pool_size": [
+        224,
+        272
+      ],
+      "psnr": 25.27652359008789,
+      "ssim": 0.9458440542221069,
+      "time_seconds": 0.23402976989746094
+    },
+    {
+      "name": "43_outdoor_hazy.jpg",
+      "size": [
+        354,
+        512
+      ],
+      "ssim_pool_size": [
+        192,
+        272
+      ],
+      "psnr": 28.124183654785156,
+      "ssim": 0.9707698822021484,
+      "time_seconds": 0.22071433067321777
+    },
+    {
+      "name": "44_outdoor_hazy.jpg",
+      "size": [
+        512,
+        388
+      ],
+      "ssim_pool_size": [
+        272,
+        208
+      ],
+      "psnr": 25.836393356323242,
+      "ssim": 0.9485076665878296,
+      "time_seconds": 0.22442340850830078
+    },
+    {
+      "name": "45_outdoor_hazy.jpg",
+      "size": [
+        360,
+        512
+      ],
+      "ssim_pool_size": [
+        192,
+        272
+      ],
+      "psnr": 23.68354034423828,
+      "ssim": 0.8884922862052917,
+      "time_seconds": 0.1938464641571045
+    }
+  ],
+  "checkpoint_sha256": "32be4057f255ce9542719ce9a84242d6878bec9819c57dba368bb82b625df773",
+  "archived_record_sha256": "c37bb39e81bd2eff8bbfa5def71cbc3b9d11abd96026c54dd11c7d2ea8aa0eda"
+}

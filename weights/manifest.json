@@ -1,0 +1,19 @@
+{
+  "selection": {
+    "ohaze": "Fixed update 55800. MaIR best.pth is a separate update-30000 result.",
+    "gopro": "Fixed update 49350, seeds 42, 43, 44.",
+    "supplement": "Independent component endpoints remain separate from the original main seeds. Native evaluations reuse the original GoPro endpoints.",
+    "haze4k": "Fixed update 100000; seed 42; 14 endpoints."
+  },
+  "experiment_list": "../experiments.json",
+  "hash_list": "checksums.json",
+  "file_count": 63,
+  "total_bytes": 904165524,
+  "sources": {
+    "mair": "mair_ohaze_matched_20260904 / O-HAZE-VIVNet-Matched-MaIR-P256-seed42-v1",
+    "p0t_diagonal_delay": "p0t_p0s_ohaze_20260904 / O-HAZE-VIVNet-P0T-DiagonalLag1-seed42-v1",
+    "p0s_state_dynamic": "p0t_p0s_ohaze_20260904 / O-HAZE-VIVNet-P0S-StateDynamicKernel-seed42-v1",
+    "other_weights": "Existing paper release, retained without tensor changes."
+  },
+  "scope": "Restoration endpoints, fixed initialization, and recorded checkpoint controls."
+}

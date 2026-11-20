@@ -1,0 +1,4 @@
+'NSI.completeUpdate_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.increment_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.inexact_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NSI.state_step' depends on axioms: [propext, Classical.choice, Quot.sound]
